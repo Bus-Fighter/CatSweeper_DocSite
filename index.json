@@ -1,0 +1,22 @@
+{
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | CatSweeper Documentation",
+    "summary": "Getting Started"
+  },
+  "docs/how-to-create-map.html": {
+    "href": "docs/how-to-create-map.html",
+    "title": "How To Create Stage Map | CatSweeper Documentation",
+    "summary": "How To Create Stage Map Practical Steps Creating Map Resource File Navigate to Engine File System, there is a StageMapInfo. Right click the folder and select \"Create New/Resource\", then select StageMap Select Info/StageMapInfo/StageMapInfo.tres, In the inspector Create a new item in the array, assign the newly created StageMap into the array item. Editing Map Project has include a simple StageMapCreator for custom map creation in editor Open the StageMapCreator scene at Scene/Editor/StageMapCreator.tscn, you will see Select the StageMapCreator node, Assign the StageMap created in Create Map Resource File into Config Data/Stage Map Data Select TileMapLayer Node, Godot TileMap Editor will show up in the bottom of the editor, draw the tile in scene in the Godot way Select StageMapCreator Node, click \"Save Stage Map\" Button, you will check the array elements in Floor Grids to validate, assign the Map Id and you are good to go! After entering the play mode once, you can check _Export/Info/StageMapInfo/data.json to validate the StageMapResourceInfo is parsed correctly into json file. Will provide a demo video soon"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | CatSweeper Documentation",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | CatSweeper Documentation",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

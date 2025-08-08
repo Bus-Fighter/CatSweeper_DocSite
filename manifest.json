@@ -1,0 +1,165 @@
+{
+  "source_base_path": "D:/Projects/CatSweeper/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/how-to-create-map.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/how-to-create-map.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/assign-map-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/assign-map-data.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/create-new-resource.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/create-new-resource.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/file-system.import",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/file-system.import"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/file-system.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/file-system.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/register-info-item.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/register-info-item.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/save-stage-map.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/save-stage-map.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/stagemapcreator-hierachy.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/stagemapcreator-hierachy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/image/how-to-create-map/tilemap-editor.png",
+      "output": {
+        "resource": {
+          "relative_path": "image/how-to-create-map/tilemap-editor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
