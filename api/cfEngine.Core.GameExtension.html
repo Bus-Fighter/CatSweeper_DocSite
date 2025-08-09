@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GameExtension | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GameExtension | CatSweeper Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfEngine_Core_GameExtension.md&amp;value=---%0Auid%3A%20cfEngine.Core.GameExtension%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="CatSweeper">
+            CatSweeper
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="cfEngine.Core.GameExtension">
+
+
+
+  <h1 id="cfEngine_Core_GameExtension" data-uid="cfEngine.Core.GameExtension" class="text-break">
+Class GameExtension  <a class="header-action link-secondary" title="View source" href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Core/GameState/GameStateMachine.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="cfEngine.html">cfEngine</a>.<a class="xref" href="cfEngine.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CatSweeper.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class GameExtension</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GameExtension</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="cfEngine_Core_GameExtension_GetAsset_" data-uid="cfEngine.Core.GameExtension.GetAsset*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetAsset_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetAsset(cfEngine.Core.Game)">
+  GetAsset(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AssetManager&lt;Resource&gt; GetAsset(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Asset.AssetManager-1.html">AssetManager</a>&lt;<span class="xref">Resource</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetAuth_" data-uid="cfEngine.Core.GameExtension.GetAuth*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetAuth_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetAuth(cfEngine.Core.Game)">
+  GetAuth(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IAuthService GetAuth(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Service.Auth.IAuthService.html">IAuthService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetGameStateMachine_" data-uid="cfEngine.Core.GameExtension.GetGameStateMachine*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetGameStateMachine_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetGameStateMachine(cfEngine.Core.Game)">
+  GetGameStateMachine(Game)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Core/GameState/GameStateMachine.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameStateMachine GetGameStateMachine(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CatSweeper.Core.GameStateMachine.html">GameStateMachine</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetInfo_" data-uid="cfEngine.Core.GameExtension.GetInfo*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetInfo_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetInfo(cfEngine.Core.Game)">
+  GetInfo(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InfoLayer GetInfo(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Info.InfoLayer.html">InfoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetInventory_" data-uid="cfEngine.Core.GameExtension.GetInventory*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetInventory_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetInventory(cfEngine.Core.Game)">
+  GetInventory(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InventoryService GetInventory(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Service.Inventory.InventoryService.html">InventoryService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetPoolManager_" data-uid="cfEngine.Core.GameExtension.GetPoolManager*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetPoolManager_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetPoolManager(cfEngine.Core.Game)">
+  GetPoolManager(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PoolManager GetPoolManager(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Pooling.PoolManager.html">PoolManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetPool_" data-uid="cfEngine.Core.GameExtension.GetPool*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetPool__1_cfEngine_Core_Game_System_String_" data-uid="cfEngine.Core.GameExtension.GetPool``1(cfEngine.Core.Game,System.String)">
+  GetPool&lt;T&gt;(Game, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Res&lt;T, Exception&gt; GetPool&lt;T&gt;(this Game game, string poolKey) where T : IObjectPool</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>poolKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Res-2.html">Res</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetSceneManager_" data-uid="cfEngine.Core.GameExtension.GetSceneManager*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetSceneManager__1_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetSceneManager``1(cfEngine.Core.Game)">
+  GetSceneManager&lt;TScene&gt;(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ISceneManager&lt;TScene&gt; GetSceneManager&lt;TScene&gt;(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfGodotEngine.SceneManagement.ISceneManager-1.html">ISceneManager</a>&lt;TScene&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TScene</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_GetUserData_" data-uid="cfEngine.Core.GameExtension.GetUserData*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_GetUserData_cfEngine_Core_Game_" data-uid="cfEngine.Core.GameExtension.GetUserData(cfEngine.Core.Game)">
+  GetUserData(Game)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UserDataManager GetUserData(this Game game)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.UserDataManager.html">UserDataManager</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithAsset_" data-uid="cfEngine.Core.GameExtension.WithAsset*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithAsset_cfEngine_Core_Game_cfGodotEngine_Asset_ResourceAssetManager_" data-uid="cfEngine.Core.GameExtension.WithAsset(cfEngine.Core.Game,cfGodotEngine.Asset.ResourceAssetManager)">
+  WithAsset(Game, ResourceAssetManager)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithAsset(this Game game, ResourceAssetManager assetManager)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>assetManager</code> <a class="xref" href="cfGodotEngine.Asset.ResourceAssetManager.html">ResourceAssetManager</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithAuthService_" data-uid="cfEngine.Core.GameExtension.WithAuthService*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithAuthService_cfEngine_Core_Game_cfEngine_Service_Auth_IAuthService_" data-uid="cfEngine.Core.GameExtension.WithAuthService(cfEngine.Core.Game,cfEngine.Service.Auth.IAuthService)">
+  WithAuthService(Game, IAuthService)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithAuthService(this Game game, IAuthService service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>service</code> <a class="xref" href="cfEngine.Service.Auth.IAuthService.html">IAuthService</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithGameStateMachine_" data-uid="cfEngine.Core.GameExtension.WithGameStateMachine*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithGameStateMachine_cfEngine_Core_Game_CatSweeper_Core_GameStateMachine_" data-uid="cfEngine.Core.GameExtension.WithGameStateMachine(cfEngine.Core.Game,CatSweeper.Core.GameStateMachine)">
+  WithGameStateMachine(Game, GameStateMachine)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Core/GameState/GameStateMachine.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithGameStateMachine(this Game game, GameStateMachine service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>service</code> <a class="xref" href="CatSweeper.Core.GameStateMachine.html">GameStateMachine</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithInfo_" data-uid="cfEngine.Core.GameExtension.WithInfo*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithInfo_cfEngine_Core_Game_cfEngine_Info_InfoLayer_" data-uid="cfEngine.Core.GameExtension.WithInfo(cfEngine.Core.Game,cfEngine.Info.InfoLayer)">
+  WithInfo(Game, InfoLayer)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithInfo(this Game game, InfoLayer service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>service</code> <a class="xref" href="cfEngine.Info.InfoLayer.html">InfoLayer</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithInventory_" data-uid="cfEngine.Core.GameExtension.WithInventory*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithInventory_cfEngine_Core_Game_cfEngine_Service_Inventory_IInventoryService_" data-uid="cfEngine.Core.GameExtension.WithInventory(cfEngine.Core.Game,cfEngine.Service.Inventory.IInventoryService)">
+  WithInventory(Game, IInventoryService)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithInventory(this Game game, IInventoryService service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>service</code> <a class="xref" href="cfEngine.Service.Inventory.IInventoryService.html">IInventoryService</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithPoolManager_" data-uid="cfEngine.Core.GameExtension.WithPoolManager*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithPoolManager_cfEngine_Core_Game_cfEngine_Pooling_PoolManager_" data-uid="cfEngine.Core.GameExtension.WithPoolManager(cfEngine.Core.Game,cfEngine.Pooling.PoolManager)">
+  WithPoolManager(Game, PoolManager)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithPoolManager(this Game game, PoolManager service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>service</code> <a class="xref" href="cfEngine.Pooling.PoolManager.html">PoolManager</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithSceneManager_" data-uid="cfEngine.Core.GameExtension.WithSceneManager*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithSceneManager__1_cfEngine_Core_Game_cfGodotEngine_SceneManagement_ISceneManager___0__" data-uid="cfEngine.Core.GameExtension.WithSceneManager``1(cfEngine.Core.Game,cfGodotEngine.SceneManagement.ISceneManager{``0})">
+  WithSceneManager&lt;TScene&gt;(Game, ISceneManager&lt;TScene&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithSceneManager&lt;TScene&gt;(this Game game, ISceneManager&lt;TScene&gt; sceneManager)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>sceneManager</code> <a class="xref" href="cfGodotEngine.SceneManagement.ISceneManager-1.html">ISceneManager</a>&lt;TScene&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TScene</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="cfEngine_Core_GameExtension_WithUserData_" data-uid="cfEngine.Core.GameExtension.WithUserData*"></a>
+
+  <h3 id="cfEngine_Core_GameExtension_WithUserData_cfEngine_Core_Game_cfEngine_Core_UserDataManager_" data-uid="cfEngine.Core.GameExtension.WithUserData(cfEngine.Core.Game,cfEngine.Core.UserDataManager)">
+  WithUserData(Game, UserDataManager)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Game WithUserData(this Game game, UserDataManager service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>game</code> <a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+    <dt><code>service</code> <a class="xref" href="cfEngine.Core.UserDataManager.html">UserDataManager</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="cfEngine.Core.Game.html">Game</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Core/GameState/GameStateMachine.cs/#L7" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
