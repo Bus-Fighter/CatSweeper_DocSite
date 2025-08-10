@@ -102,7 +102,7 @@
   "api/CatSweeper.Info.StageInfo.html": {
     "href": "api/CatSweeper.Info.StageInfo.html",
     "title": "Class StageInfo | CatSweeper Documentation",
-    "summary": "Class StageInfo Namespace CatSweeper.Info Assembly CatSweeper.dll public class StageInfo Inheritance object StageInfo Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties map public string map { get; set; } Property Value string scenePath public string scenePath { get; set; } Property Value string stageId public string stageId { get; set; } Property Value string Methods GetMap() public Res<StageMapInfo, Exception> GetMap() Returns Res<StageMapInfo, Exception>"
+    "summary": "Class StageInfo Namespace CatSweeper.Info Assembly CatSweeper.dll public class StageInfo Inheritance object StageInfo Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties map Support Direct Size, or StageMapInfo Id reference Size(10, 10) - Creates a map of size 10x10 StageMapInfo(map_1) - References a StageMapInfo with ID 'map_1' public string map { get; set; } Property Value string scenePath public string scenePath { get; set; } Property Value string stageId public string stageId { get; set; } Property Value string Methods GetMap() public Res<StageMapInfo, Exception> GetMap() Returns Res<StageMapInfo, Exception>"
   },
   "api/CatSweeper.Info.StageInfoManager.html": {
     "href": "api/CatSweeper.Info.StageInfoManager.html",
