@@ -1,144 +1,121 @@
 <!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
-  <head>
-    <meta charset="utf-8">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; | CatSweeper Documentation </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; | CatSweeper Documentation ">
-      
-      
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
-
-      <script type="module" src="./../public/docfx.min.js"></script>
-
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
-
-  </head>
-
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="CatSweeper">
-            CatSweeper
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
-        </div>
-
-        <article data-uid="cfGodotEngine.Util.StateMachineNode`3">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
 
 
+            <a class="brand" href="../index.html">
+              <img src="../logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
 
-  <h1 id="cfGodotEngine_Util_StateMachineNode_3" data-uid="cfGodotEngine.Util.StateMachineNode`3" class="text-break">
-Class StateMachineNode&lt;TStateId, TState, TStateMachine&gt;  
-  </h1>
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
 
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="cfGodotEngine.html">cfGodotEngine</a>.<a class="xref" href="cfGodotEngine.Util.html">Util</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>CatSweeper.dll</dd></dl>
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="cfGodotEngine.Util.StateMachineNode`3">
+
+
+
+  <h1 id="cfGodotEngine_Util_StateMachineNode_3" data-uid="cfGodotEngine.Util.StateMachineNode`3" class="text-break">Class StateMachineNode&lt;TStateId, TState, TStateMachine&gt;</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">GodotObject</span></div>
+    <div class="level2"><span class="xref">Node</span></div>
+    <div class="level3"><span class="xref">StateMachineNode&lt;TStateId, TState, TStateMachine&gt;</span></div>
   </div>
-
-  <div class="markdown summary"></div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ScriptPath(&quot;res://Modules/cfGodotEngine/util/StateMachineNode/StateMachineNode.cs&quot;)]
-public abstract class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; : Node, IDisposable, IStateMachine&lt;TStateId&gt; where TState : StateNode&lt;TStateId, TState, TStateMachine&gt; where TStateMachine : StateMachineNode&lt;TStateId, TState, TStateMachine&gt;</code></pre>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="cfEngine.Util.IStateMachine-1.html">IStateMachine</a>&lt;TStateId&gt;</div>
   </div>
-
-
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>TStateId</code></dt>
-    <dd></dd>
-    <dt><code>TState</code></dt>
-    <dd></dd>
-    <dt><code>TStateMachine</code></dt>
-    <dd></dd>
-  </dl>
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">GodotObject</span></div>
-      <div><span class="xref">Node</span></div>
-      <div><span class="xref">StateMachineNode&lt;TStateId, TState, TStateMachine&gt;</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-      <div><a class="xref" href="cfEngine.Util.IStateMachine-1.html">IStateMachine</a>&lt;TStateId&gt;</div>
-    </dd>
-  </dl>
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <span class="xref">Node.NotificationEnterTree</span>
     </div>
@@ -970,560 +947,695 @@ public abstract class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; : 
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-  </dd></dl>
-
-  <dl class="typelist extensionMethods">
-    <dt>Extension Methods</dt>
-    <dd>
-  <div>
-      <a class="xref" href="cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad_Godot_Node_">NodeUtil.DontDestroyOnLoad(Node)</a>
   </div>
-  </dd></dl>
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
+  <h6><strong>Namespace</strong>: <a class="xref" href="cfGodotEngine.html">cfGodotEngine</a>.<a class="xref" href="cfGodotEngine.Util.html">Util</a></h6>
+  <h6><strong>Assembly</strong>: CatSweeper.dll</h6>
+  <h5 id="cfGodotEngine_Util_StateMachineNode_3_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ScriptPath(&quot;res://Modules/cfGodotEngine/util/StateMachineNode/StateMachineNode.cs&quot;)]
+public abstract class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; : Node, IDisposable, IStateMachine&lt;TStateId&gt; where TState : StateNode&lt;TStateId, TState, TStateMachine&gt; where TStateMachine : StateMachineNode&lt;TStateId, TState, TStateMachine&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TStateId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TState</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TStateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_allState.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.allState%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L21">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_allState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.allState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_allState" data-uid="cfGodotEngine.Util.StateMachineNode`3.allState">
-  allState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_allState" data-uid="cfGodotEngine.Util.StateMachineNode`3.allState">allState</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected IEnumerable&lt;TState&gt; allState { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TState&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TState&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_currentState.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.currentState%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L16">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_currentState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.currentState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_currentState" data-uid="cfGodotEngine.Util.StateMachineNode`3.currentState">
-  currentState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L16"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_currentState" data-uid="cfGodotEngine.Util.StateMachineNode`3.currentState">currentState</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected TState currentState { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">TState</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_currentStateId.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.currentStateId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L18">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_currentStateId_" data-uid="cfGodotEngine.Util.StateMachineNode`3.currentStateId*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_currentStateId" data-uid="cfGodotEngine.Util.StateMachineNode`3.currentStateId">
-  currentStateId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L18"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_currentStateId" data-uid="cfGodotEngine.Util.StateMachineNode`3.currentStateId">currentStateId</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TStateId currentStateId { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">TStateId</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_lastState.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.lastState%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L15">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_lastState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.lastState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_lastState" data-uid="cfGodotEngine.Util.StateMachineNode`3.lastState">
-  lastState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_lastState" data-uid="cfGodotEngine.Util.StateMachineNode`3.lastState">lastState</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected TState lastState { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">TState</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_lastStateId.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.lastStateId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L17">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_lastStateId_" data-uid="cfGodotEngine.Util.StateMachineNode`3.lastStateId*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_lastStateId" data-uid="cfGodotEngine.Util.StateMachineNode`3.lastStateId">
-  lastStateId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L17"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_lastStateId" data-uid="cfGodotEngine.Util.StateMachineNode`3.lastStateId">lastStateId</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TStateId lastStateId { get; }</code></pre>
   </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">TStateId</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_CanGoToState__0_cfEngine_Util_StateParam_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.CanGoToState(%600%2CcfEngine.Util.StateParam)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L92">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_CanGoToState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.CanGoToState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_CanGoToState__0_cfEngine_Util_StateParam_" data-uid="cfGodotEngine.Util.StateMachineNode`3.CanGoToState(`0,cfEngine.Util.StateParam)">
-  CanGoToState(TStateId, StateParam)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L92"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_CanGoToState__0_cfEngine_Util_StateParam_" data-uid="cfGodotEngine.Util.StateMachineNode`3.CanGoToState(`0,cfEngine.Util.StateParam)">CanGoToState(TStateId, StateParam)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool CanGoToState(TStateId id, StateParam param)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-    <dt><code>param</code> <a class="xref" href="cfEngine.Util.StateParam.html">StateParam</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="cfEngine.Util.StateParam.html">StateParam</a></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_ForceGoToState__0_cfEngine_Util_StateParam_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.ForceGoToState(%600%2CcfEngine.Util.StateParam)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L141">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_ForceGoToState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.ForceGoToState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_ForceGoToState__0_cfEngine_Util_StateParam_" data-uid="cfGodotEngine.Util.StateMachineNode`3.ForceGoToState(`0,cfEngine.Util.StateParam)">
-  ForceGoToState(TStateId, StateParam)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L141"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_ForceGoToState__0_cfEngine_Util_StateParam_" data-uid="cfGodotEngine.Util.StateMachineNode`3.ForceGoToState(`0,cfEngine.Util.StateParam)">ForceGoToState(TStateId, StateParam)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ForceGoToState(TStateId nextStateId, StateParam param = null)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>nextStateId</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-    <dt><code>param</code> <a class="xref" href="cfEngine.Util.StateParam.html">StateParam</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">nextStateId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="cfEngine.Util.StateParam.html">StateParam</a></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe__0_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.GetStateUnsafe(%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L176">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe_" data-uid="cfGodotEngine.Util.StateMachineNode`3.GetStateUnsafe*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe__0_" data-uid="cfGodotEngine.Util.StateMachineNode`3.GetStateUnsafe(`0)">
-  GetStateUnsafe(TStateId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L176"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe__0_" data-uid="cfGodotEngine.Util.StateMachineNode`3.GetStateUnsafe(`0)">GetStateUnsafe(TStateId)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public TState GetStateUnsafe(TStateId id)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">TState</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe__1__0_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.GetStateUnsafe%60%601(%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L187">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe_" data-uid="cfGodotEngine.Util.StateMachineNode`3.GetStateUnsafe*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe__1__0_" data-uid="cfGodotEngine.Util.StateMachineNode`3.GetStateUnsafe``1(`0)">
-  GetStateUnsafe&lt;T&gt;(TStateId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L187"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_GetStateUnsafe__1__0_" data-uid="cfGodotEngine.Util.StateMachineNode`3.GetStateUnsafe``1(`0)">GetStateUnsafe&lt;T&gt;(TStateId)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public T GetStateUnsafe&lt;T&gt;(TStateId id) where T : TState</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">T</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_RegisterState__1_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.RegisterState(%601)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L60">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_RegisterState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.RegisterState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_RegisterState__1_" data-uid="cfGodotEngine.Util.StateMachineNode`3.RegisterState(`1)">
-  RegisterState(TState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L60"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_RegisterState__1_" data-uid="cfGodotEngine.Util.StateMachineNode`3.RegisterState(`1)">RegisterState(TState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RegisterState(TState state)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>state</code> <span class="xref">TState</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TState</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_SubscribeAfterStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.SubscribeAfterStateChange(System.Action%7BcfEngine.Util.StateChangeRecord%7B%600%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L35">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_SubscribeAfterStateChange_" data-uid="cfGodotEngine.Util.StateMachineNode`3.SubscribeAfterStateChange*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_SubscribeAfterStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___" data-uid="cfGodotEngine.Util.StateMachineNode`3.SubscribeAfterStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})">
-  SubscribeAfterStateChange(Action&lt;StateChangeRecord&lt;TStateId&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L35"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_SubscribeAfterStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___" data-uid="cfGodotEngine.Util.StateMachineNode`3.SubscribeAfterStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})">SubscribeAfterStateChange(Action&lt;StateChangeRecord&lt;TStateId&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Subscription SubscribeAfterStateChange(Action&lt;StateChangeRecord&lt;TStateId&gt;&gt; listener)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>listener</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="cfEngine.Util.StateChangeRecord-1.html">StateChangeRecord</a>&lt;TStateId&gt;&gt;</dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="cfEngine.Rx.Subscription.html">Subscription</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="cfEngine.Util.StateChangeRecord-1.html">StateChangeRecord</a>&lt;TStateId&gt;&gt;</td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="cfEngine.Rx.Subscription.html">Subscription</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_SubscribeBeforeStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.SubscribeBeforeStateChange(System.Action%7BcfEngine.Util.StateChangeRecord%7B%600%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L29">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_SubscribeBeforeStateChange_" data-uid="cfGodotEngine.Util.StateMachineNode`3.SubscribeBeforeStateChange*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_SubscribeBeforeStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___" data-uid="cfGodotEngine.Util.StateMachineNode`3.SubscribeBeforeStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})">
-  SubscribeBeforeStateChange(Action&lt;StateChangeRecord&lt;TStateId&gt;&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L29"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_SubscribeBeforeStateChange_System_Action_cfEngine_Util_StateChangeRecord__0___" data-uid="cfGodotEngine.Util.StateMachineNode`3.SubscribeBeforeStateChange(System.Action{cfEngine.Util.StateChangeRecord{`0}})">SubscribeBeforeStateChange(Action&lt;StateChangeRecord&lt;TStateId&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Subscription SubscribeBeforeStateChange(Action&lt;StateChangeRecord&lt;TStateId&gt;&gt; listener)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>listener</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="cfEngine.Util.StateChangeRecord-1.html">StateChangeRecord</a>&lt;TStateId&gt;&gt;</dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="cfEngine.Rx.Subscription.html">Subscription</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="cfEngine.Util.StateChangeRecord-1.html">StateChangeRecord</a>&lt;TStateId&gt;&gt;</td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="cfEngine.Rx.Subscription.html">Subscription</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_TryGetState__0__1__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.TryGetState(%600%2C%601%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L192">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_TryGetState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGetState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_TryGetState__0__1__" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGetState(`0,`1@)">
-  TryGetState(TStateId, out TState)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L192"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_TryGetState__0__1__" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGetState(`0,`1@)">TryGetState(TStateId, out TState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool TryGetState(TStateId id, out TState monoState)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-    <dt><code>monoState</code> <span class="xref">TState</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TState</span></td>
+        <td><span class="parametername">monoState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_TryGetState__1__0___0__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.TryGetState%60%601(%600%2C%60%600%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L203">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_TryGetState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGetState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_TryGetState__1__0___0__" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGetState``1(`0,``0@)">
-  TryGetState&lt;T&gt;(TStateId, out T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L203"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_TryGetState__1__0___0__" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGetState``1(`0,``0@)">TryGetState&lt;T&gt;(TStateId, out T)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool TryGetState&lt;T&gt;(TStateId id, out T state) where T : TState</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>id</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-    <dt><code>state</code> <span class="xref">T</span></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>T</code></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3_TryGoToState__0_cfEngine_Util_StateParam_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.TryGoToState(%600%2CcfEngine.Util.StateParam)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L97">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3_TryGoToState_" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGoToState*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3_TryGoToState__0_cfEngine_Util_StateParam_" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGoToState(`0,cfEngine.Util.StateParam)">
-  TryGoToState(TStateId, StateParam)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L97"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3_TryGoToState__0_cfEngine_Util_StateParam_" data-uid="cfGodotEngine.Util.StateMachineNode`3.TryGoToState(`0,cfEngine.Util.StateParam)">TryGoToState(TStateId, StateParam)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool TryGoToState(TStateId nextStateId, StateParam param = null)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>nextStateId</code> <span class="xref">TStateId</span></dt>
-    <dd></dd>
-    <dt><code>param</code> <a class="xref" href="cfEngine.Util.StateParam.html">StateParam</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TStateId</span></td>
+        <td><span class="parametername">nextStateId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="cfEngine.Util.StateParam.html">StateParam</a></td>
+        <td><span class="parametername">param</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3__Process_System_Double_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603._Process(System.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L76">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3__Process_" data-uid="cfGodotEngine.Util.StateMachineNode`3._Process*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3__Process_System_Double_" data-uid="cfGodotEngine.Util.StateMachineNode`3._Process(System.Double)">
-  _Process(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L76"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3__Process_System_Double_" data-uid="cfGodotEngine.Util.StateMachineNode`3._Process(System.Double)">_Process(double)</h4>
   <div class="markdown level1 summary"><p>Called during the processing step of the main loop. Processing happens at every frame and as fast as possible, so the <code class="paramref">delta</code> time since the previous frame is not constant. <code class="paramref">delta</code> is in seconds.</p>
 <p>It is only called if processing is enabled, which is done automatically if this method is overridden, and can be toggled with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">SetProcess(bool)</a>.</p>
 <p>Processing happens in order of <span class="xref">Godot.Node.ProcessPriority</span>, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).</p>
@@ -1532,137 +1644,128 @@ public abstract class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; : 
 <p><b>Note:</b> <code class="paramref">delta</code> will be larger than expected if running at a framerate lower than <span class="xref">Godot.Engine.PhysicsTicksPerSecond</span> / <span class="xref">Godot.Engine.MaxPhysicsStepsPerFrame</span> FPS. This is done to avoid "spiral of death" scenarios where performance would plummet due to an ever-increasing number of physics steps per frame. This behavior affects both <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">_Process(double)</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">_PhysicsProcess(double)</a>. As a result, avoid using <code class="paramref">delta</code> for time measurements in real-world seconds. Use the <span class="xref">Godot.Time</span> singleton's methods for this purpose instead, such as <span class="xref">Godot.Time.GetTicksUsec()</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void _Process(double delta)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Node._Process(double)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3__Ready.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603._Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L43">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3__Ready_" data-uid="cfGodotEngine.Util.StateMachineNode`3._Ready*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3__Ready" data-uid="cfGodotEngine.Util.StateMachineNode`3._Ready">
-  _Ready()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L43"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3__Ready" data-uid="cfGodotEngine.Util.StateMachineNode`3._Ready">_Ready()</h4>
   <div class="markdown level1 summary"><p>Called when the node is "ready", i.e. when both the node and its children have entered the scene tree. If the node has children, their <span class="xref">Godot.Node._Ready()</span> callbacks get triggered first, and the parent node will receive the ready notification afterwards.</p>
 <p>Corresponds to the <span class="xref">Godot.Node.NotificationReady</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>. See also the <code>@onready</code> annotation for variables.</p>
 <p>Usually used for initialization. For even earlier initialization, <span class="xref">Godot.GodotObject.GodotObject()</span> may be used. See also <span class="xref">Godot.Node._EnterTree()</span>.</p>
 <p><b>Note:</b> This method may be called only once for each node. After removing a node from the scene tree and adding it again, <span class="xref">Godot.Node._Ready()</span> will <b>not</b> be called a second time. This can be bypassed by requesting another call with <span class="xref">Godot.Node.RequestReady()</span>, which may be called anywhere before adding the node again.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public override void _Ready()</code></pre>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Godot.Node._Ready()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3___Process_System_Double_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.__Process(System.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L87">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3___Process_" data-uid="cfGodotEngine.Util.StateMachineNode`3.__Process*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3___Process_System_Double_" data-uid="cfGodotEngine.Util.StateMachineNode`3.__Process(System.Double)">
-  __Process(double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L87"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3___Process_System_Double_" data-uid="cfGodotEngine.Util.StateMachineNode`3.__Process(System.Double)">__Process(double)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void __Process(double delta)</code></pre>
   </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>delta</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">delta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Util_StateMachineNode_3___Ready.md&amp;value=---%0Auid%3A%20cfGodotEngine.Util.StateMachineNode%603.__Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L72">View Source</a>
+  </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3___Ready_" data-uid="cfGodotEngine.Util.StateMachineNode`3.__Ready*"></a>
-
-  <h3 id="cfGodotEngine_Util_StateMachineNode_3___Ready" data-uid="cfGodotEngine.Util.StateMachineNode`3.__Ready">
-  __Ready()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfGodotEngine/blob/main/util/StateMachineNode/StateMachineNode.cs/#L72"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
+  <h4 id="cfGodotEngine_Util_StateMachineNode_3___Ready" data-uid="cfGodotEngine.Util.StateMachineNode`3.__Ready">__Ready()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
-
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void __Ready()</code></pre>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="cfEngine.Util.IStateMachine-1.html">IStateMachine&lt;TStateId&gt;</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad_Godot_Node_">NodeUtil.DontDestroyOnLoad(Node)</a>
+  </div>
 
 </article>
+                </div>
 
-        <div class="contribution d-print-none">
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
         </div>
 
 
-      </div>
-
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
-        </div>
-      </div>
-    </footer>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
 </html>

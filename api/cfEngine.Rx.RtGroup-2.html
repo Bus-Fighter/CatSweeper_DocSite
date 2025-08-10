@@ -1,144 +1,125 @@
 <!DOCTYPE html>
+<!--[if IE]><![endif]-->
 <html>
-  <head>
-    <meta charset="utf-8">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Class RtGroup&lt;TKey, TValue&gt; | CatSweeper Documentation </title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class RtGroup&lt;TKey, TValue&gt; | CatSweeper Documentation ">
-      
-      
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
-      
-      
-      <meta name="docfx:docurl" content="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-      <meta name="loc:inThisArticle" content="In this article">
-      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
-      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
-      <meta name="loc:tocFilter" content="Filter by title">
-      <meta name="loc:nextArticle" content="Next">
-      <meta name="loc:prevArticle" content="Previous">
-      <meta name="loc:themeLight" content="Light">
-      <meta name="loc:themeDark" content="Dark">
-      <meta name="loc:themeAuto" content="Auto">
-      <meta name="loc:changeTheme" content="Change theme">
-      <meta name="loc:copy" content="Copy">
-      <meta name="loc:downloadPdf" content="Download PDF">
-
-      <script type="module" src="./../public/docfx.min.js"></script>
-
-      <script>
-        const theme = localStorage.getItem('theme') || 'auto'
-        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-      </script>
-
-  </head>
-
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
-    <header class="bg-body border-bottom">
-      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
-        <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="CatSweeper">
-            CatSweeper
-          </a>
-          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-three-dots"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navpanel">
-            <div id="navbar">
-              <form class="search" role="search" id="search">
-                <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
-
-          <nav id="breadcrumb"></nav>
-        </div>
-
-        <article data-uid="cfEngine.Rx.RtGroup`2">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
 
 
+            <a class="brand" href="../index.html">
+              <img src="../logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
 
-  <h1 id="cfEngine_Rx_RtGroup_2" data-uid="cfEngine.Rx.RtGroup`2" class="text-break">
-Class RtGroup&lt;TKey, TValue&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h1>
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
 
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="cfEngine.html">cfEngine</a>.<a class="xref" href="cfEngine.Rx.html">Rx</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>CatSweeper.dll</dd></dl>
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="cfEngine.Rx.RtGroup`2">
+
+
+
+  <h1 id="cfEngine_Rx_RtGroup_2" data-uid="cfEngine.Rx.RtGroup`2" class="text-break">Class RtGroup&lt;TKey, TValue&gt;</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="cfEngine.Rx.RtCollection-1.html">RtCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</div>
+    <div class="level2"><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html">RtReadOnlyDictionary</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;</div>
+    <div class="level3"><span class="xref">RtGroup&lt;TKey, TValue&gt;</span></div>
   </div>
-
-  <div class="markdown summary"></div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RtGroup&lt;TKey, TValue&gt; : RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;, IDisposable, IReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt;, IEnumerable</code></pre>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
   </div>
-
-
-
-  <h4 class="section">Type Parameters</h4>
-  <dl class="parameters">
-    <dt><code>TKey</code></dt>
-    <dd></dd>
-    <dt><code>TValue</code></dt>
-    <dd></dd>
-  </dl>
-
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><a class="xref" href="cfEngine.Rx.RtCollection-1.html">RtCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</div>
-      <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html">RtReadOnlyDictionary</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;</div>
-      <div><span class="xref">RtGroup&lt;TKey, TValue&gt;</span></div>
-    </dd>
-  </dl>
-
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</div>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
-    </dd>
-  </dl>
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Count">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.Count</a>
     </div>
@@ -199,11 +180,461 @@ Class RtGroup&lt;TKey, TValue&gt;  <a class="header-action link-secondary" title
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
     </div>
-  </dd></dl>
-
-  <dl class="typelist extensionMethods">
-    <dt>Extension Methods</dt>
-    <dd>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="cfEngine.html">cfEngine</a>.<a class="xref" href="cfEngine.Rx.html">Rx</a></h6>
+  <h6><strong>Assembly</strong>: CatSweeper.dll</h6>
+  <h5 id="cfEngine_Rx_RtGroup_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RtGroup&lt;TKey, TValue&gt; : RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;, IDisposable, IReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt;, IEnumerable</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2__ctor_cfEngine_Rx_RtReadOnlyList__1__System_Func__1__0__.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.%23ctor(cfEngine.Rx.RtReadOnlyList%7B%601%7D%2CSystem.Func%7B%601%2C%600%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L15">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2__ctor_" data-uid="cfEngine.Rx.RtGroup`2.#ctor*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2__ctor_cfEngine_Rx_RtReadOnlyList__1__System_Func__1__0__" data-uid="cfEngine.Rx.RtGroup`2.#ctor(cfEngine.Rx.RtReadOnlyList{`1},System.Func{`1,`0})">RtGroup(RtReadOnlyList&lt;TValue&gt;, Func&lt;TValue, TKey&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RtGroup(RtReadOnlyList&lt;TValue&gt; source, Func&lt;TValue, TKey&gt; keyFn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TValue, TKey&gt;</td>
+        <td><span class="parametername">keyFn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_Count.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.Count%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L105">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_Count_" data-uid="cfEngine.Rx.RtGroup`2.Count*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_Count" data-uid="cfEngine.Rx.RtGroup`2.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Gets the number of elements in the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The number of elements in the collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Count">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.Count</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_Item__0_.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.Item(%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L121">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_Item_" data-uid="cfEngine.Rx.RtGroup`2.Item*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_Item__0_" data-uid="cfEngine.Rx.RtGroup`2.Item(`0)">this[TKey]</h4>
+  <div class="markdown level1 summary"><p>Gets the element that has the specified key in the read-only dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override RtReadOnlyList&lt;TValue&gt; this[TKey key] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to locate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;</td>
+        <td><p>The element that has the specified key in the read-only dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Item__0_">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.this[TKey]</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception">KeyNotFoundException</a></td>
+        <td><p>The property is retrieved and <code class="paramref">key</code> is not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_Keys.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.Keys%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L123">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_Keys_" data-uid="cfEngine.Rx.RtGroup`2.Keys*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_Keys" data-uid="cfEngine.Rx.RtGroup`2.Keys">Keys</h4>
+  <div class="markdown level1 summary"><p>Gets an enumerable collection that contains the keys in the read-only dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;TKey&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TKey&gt;</td>
+        <td><p>An enumerable collection that contains the keys in the read-only dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Keys">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.Keys</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_Values.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.Values%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L125">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_Values_" data-uid="cfEngine.Rx.RtGroup`2.Values*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_Values" data-uid="cfEngine.Rx.RtGroup`2.Values">Values</h4>
+  <div class="markdown level1 summary"><p>Gets an enumerable collection that contains the values in the read-only dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;RtReadOnlyList&lt;TValue&gt;&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;</td>
+        <td><p>An enumerable collection that contains the values in the read-only dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_Values">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.Values</a></div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_ContainsKey__0_.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.ContainsKey(%600)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L107">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_ContainsKey_" data-uid="cfEngine.Rx.RtGroup`2.ContainsKey*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_ContainsKey__0_" data-uid="cfEngine.Rx.RtGroup`2.ContainsKey(`0)">ContainsKey(TKey)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the read-only dictionary contains an element that has the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ContainsKey(TKey key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to locate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the read-only dictionary contains an element that has the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_ContainsKey__0_">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.ContainsKey(TKey)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_Dispose.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L38">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_Dispose_" data-uid="cfEngine.Rx.RtGroup`2.Dispose*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_Dispose" data-uid="cfEngine.Rx.RtGroup`2.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Dispose()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtCollection-1.html#cfEngine_Rx_RtCollection_1_Dispose">RtCollection&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt;.Dispose()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_GetEnumerator.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.GetEnumerator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L97">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_GetEnumerator_" data-uid="cfEngine.Rx.RtGroup`2.GetEnumerator*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_GetEnumerator" data-uid="cfEngine.Rx.RtGroup`2.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerator&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</td>
+        <td><p>An enumerator that can be used to iterate through the collection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_GetEnumerator">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.GetEnumerator()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfEngine/new/main/apiSpec/new?filename=cfEngine_Rx_RtGroup_2_TryGetValue__0_cfEngine_Rx_RtReadOnlyList__1___.md&amp;value=---%0Auid%3A%20cfEngine.Rx.RtGroup%602.TryGetValue(%600%2CcfEngine.Rx.RtReadOnlyList%7B%601%7D%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L109">View Source</a>
+  </span>
+  <a id="cfEngine_Rx_RtGroup_2_TryGetValue_" data-uid="cfEngine.Rx.RtGroup`2.TryGetValue*"></a>
+  <h4 id="cfEngine_Rx_RtGroup_2_TryGetValue__0_cfEngine_Rx_RtReadOnlyList__1___" data-uid="cfEngine.Rx.RtGroup`2.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)">TryGetValue(TKey, out RtReadOnlyList&lt;TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets the value that is associated with the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool TryGetValue(TKey key, out RtReadOnlyList&lt;TValue&gt; value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key to locate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <code class="paramref">value</code> parameter. This parameter is passed uninitialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the object that implements the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary&lt;TKey, TValue&gt;</a> interface contains an element that has the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfEngine.Rx.RtReadOnlyDictionary-2.html#cfEngine_Rx_RtReadOnlyDictionary_2_TryGetValue__0__1__">RtReadOnlyDictionary&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;.TryGetValue(TKey, out RtReadOnlyList&lt;TValue&gt;)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary&lt;TKey, TValue&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_selectKey__3_cfEngine_Rx_RtReadOnlyDictionary___0___2__System_Func___0___1__">Linq.selectKey&lt;TOrigKey, TSelectedKey, TValue&gt;(RtReadOnlyDictionary&lt;TOrigKey, TValue&gt;, Func&lt;TOrigKey, TSelectedKey&gt;)</a>
   </div>
@@ -213,380 +644,26 @@ Class RtGroup&lt;TKey, TValue&gt;  <a class="header-action link-secondary" title
   <div>
       <a class="xref" href="cfEngine.Rx.Linq.html#cfEngine_Rx_Linq_where__2_cfEngine_Rx_RtReadOnlyDictionary___0___1__System_Func_System_Collections_Generic_KeyValuePair___0___1__System_Boolean__">Linq.where&lt;TKey, TValue&gt;(RtReadOnlyDictionary&lt;TKey, TValue&gt;, Func&lt;KeyValuePair&lt;TKey, TValue&gt;, bool&gt;)</a>
   </div>
-  </dd></dl>
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="cfEngine_Rx_RtGroup_2__ctor_" data-uid="cfEngine.Rx.RtGroup`2.#ctor*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2__ctor_cfEngine_Rx_RtReadOnlyList__1__System_Func__1__0__" data-uid="cfEngine.Rx.RtGroup`2.#ctor(cfEngine.Rx.RtReadOnlyList{`1},System.Func{`1,`0})">
-  RtGroup(RtReadOnlyList&lt;TValue&gt;, Func&lt;TValue, TKey&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L15"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RtGroup(RtReadOnlyList&lt;TValue&gt; source, Func&lt;TValue, TKey&gt; keyFn)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>source</code> <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;</dt>
-    <dd></dd>
-    <dt><code>keyFn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TValue, TKey&gt;</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="cfEngine_Rx_RtGroup_2_Count_" data-uid="cfEngine.Rx.RtGroup`2.Count*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_Count" data-uid="cfEngine.Rx.RtGroup`2.Count">
-  Count
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L105"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets the number of elements in the collection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int Count { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The number of elements in the collection.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="cfEngine_Rx_RtGroup_2_Item_" data-uid="cfEngine.Rx.RtGroup`2.Item*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_Item__0_" data-uid="cfEngine.Rx.RtGroup`2.Item(`0)">
-  this[TKey]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L121"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets the element that has the specified key in the read-only dictionary.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override RtReadOnlyList&lt;TValue&gt; this[TKey key] { get; }</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>key</code> <span class="xref">TKey</span></dt>
-    <dd><p>The key to locate.</p>
-</dd>
-  </dl>
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;</dt>
-    <dd><p>The element that has the specified key in the read-only dictionary.</p>
-</dd>
-  </dl>
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
-    <dd><p><code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
-</dd>
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keynotfoundexception">KeyNotFoundException</a></dt>
-    <dd><p>The property is retrieved and <code class="paramref">key</code> is not found.</p>
-</dd>
-  </dl>
-
-
-
-  <a id="cfEngine_Rx_RtGroup_2_Keys_" data-uid="cfEngine.Rx.RtGroup`2.Keys*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_Keys" data-uid="cfEngine.Rx.RtGroup`2.Keys">
-  Keys
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L123"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets an enumerable collection that contains the keys in the read-only dictionary.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;TKey&gt; Keys { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TKey&gt;</dt>
-    <dd><p>An enumerable collection that contains the keys in the read-only dictionary.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="cfEngine_Rx_RtGroup_2_Values_" data-uid="cfEngine.Rx.RtGroup`2.Values*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_Values" data-uid="cfEngine.Rx.RtGroup`2.Values">
-  Values
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L125"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets an enumerable collection that contains the values in the read-only dictionary.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;RtReadOnlyList&lt;TValue&gt;&gt; Values { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;</dt>
-    <dd><p>An enumerable collection that contains the values in the read-only dictionary.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="cfEngine_Rx_RtGroup_2_ContainsKey_" data-uid="cfEngine.Rx.RtGroup`2.ContainsKey*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_ContainsKey__0_" data-uid="cfEngine.Rx.RtGroup`2.ContainsKey(`0)">
-  ContainsKey(TKey)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L107"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Determines whether the read-only dictionary contains an element that has the specified key.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool ContainsKey(TKey key)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>key</code> <span class="xref">TKey</span></dt>
-    <dd><p>The key to locate.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the read-only dictionary contains an element that has the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
-    <dd><p><code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
-</dd>
-  </dl>
-
-
-
-  <a id="cfEngine_Rx_RtGroup_2_Dispose_" data-uid="cfEngine.Rx.RtGroup`2.Dispose*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_Dispose" data-uid="cfEngine.Rx.RtGroup`2.Dispose">
-  Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L38"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Dispose()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="cfEngine_Rx_RtGroup_2_GetEnumerator_" data-uid="cfEngine.Rx.RtGroup`2.GetEnumerator*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_GetEnumerator" data-uid="cfEngine.Rx.RtGroup`2.GetEnumerator">
-  GetEnumerator()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L97"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the collection.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override IEnumerator&lt;KeyValuePair&lt;TKey, RtReadOnlyList&lt;TValue&gt;&gt;&gt; GetEnumerator()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;TKey, <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;&gt;&gt;</dt>
-    <dd><p>An enumerator that can be used to iterate through the collection.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="cfEngine_Rx_RtGroup_2_TryGetValue_" data-uid="cfEngine.Rx.RtGroup`2.TryGetValue*"></a>
-
-  <h3 id="cfEngine_Rx_RtGroup_2_TryGetValue__0_cfEngine_Rx_RtReadOnlyList__1___" data-uid="cfEngine.Rx.RtGroup`2.TryGetValue(`0,cfEngine.Rx.RtReadOnlyList{`1}@)">
-  TryGetValue(TKey, out RtReadOnlyList&lt;TValue&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L109"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Gets the value that is associated with the specified key.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool TryGetValue(TKey key, out RtReadOnlyList&lt;TValue&gt; value)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>key</code> <span class="xref">TKey</span></dt>
-    <dd><p>The key to locate.</p>
-</dd>
-    <dt><code>value</code> <a class="xref" href="cfEngine.Rx.RtReadOnlyList-1.html">RtReadOnlyList</a>&lt;TValue&gt;</dt>
-    <dd><p>When this method returns, the value associated with the specified key, if the key is found; otherwise, the default value for the type of the <code class="paramref">value</code> parameter. This parameter is passed uninitialized.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the object that implements the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary&lt;TKey, TValue&gt;</a> interface contains an element that has the specified key; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
-    <dd><p><code class="paramref">key</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.</p>
-</dd>
-  </dl>
-
-
-
 
 </article>
+                </div>
 
-        <div class="contribution d-print-none">
-          <a href="https://github.com/felixwongong/cfEngine/blob/main/reactive/RtGroup/RtGroup.cs/#L8" class="edit-link">Edit this page</a>
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
         </div>
 
 
-      </div>
-
-      <div class="affix">
-        <nav id="affix"></nav>
-      </div>
-    </main>
-
-    <div class="container-xxl search-results" id="search-results"></div>
-
-    <footer class="border-top text-secondary">
-      <div class="container-xxl">
-        <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
-        </div>
-      </div>
-    </footer>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
 </html>
