@@ -362,58 +362,268 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Service.StageData.yml",
+      "source_relative_path": "api/CatSweeper.Stage.GameExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatSweeper.Service.StageData.html"
+          "relative_path": "api/CatSweeper.Stage.GameExtension.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "CatSweeper.Service.StageData",
+      "Title": "CatSweeper.Stage.GameExtension",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Service.StageService.yml",
+      "source_relative_path": "api/CatSweeper.Stage.StageCamera.MethodName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatSweeper.Service.StageService.html"
+          "relative_path": "api/CatSweeper.Stage.StageCamera.MethodName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "CatSweeper.Service.StageService",
+      "Title": "CatSweeper.Stage.StageCamera.MethodName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageCamera.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageCamera.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageCamera.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageCamera.PropertyName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageCamera.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageCamera.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageCamera.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageCamera.SignalName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageCamera.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageCamera.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageCamera",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Service.StageServiceModel.yml",
+      "source_relative_path": "api/CatSweeper.Stage.StageController.MethodName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatSweeper.Service.StageServiceModel.html"
+          "relative_path": "api/CatSweeper.Stage.StageController.MethodName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "CatSweeper.Service.StageServiceModel",
+      "Title": "CatSweeper.Stage.StageController.MethodName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageController.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageController.OnStageInitializedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageController.OnStageInitializedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageController.OnStageInitializedEventHandler",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Service.yml",
+      "source_relative_path": "api/CatSweeper.Stage.StageController.PropertyName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CatSweeper.Service.html"
+          "relative_path": "api/CatSweeper.Stage.StageController.PropertyName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "CatSweeper.Service",
+      "Title": "CatSweeper.Stage.StageController.PropertyName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageController.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageController.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageController.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageController.SignalName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageController.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageMap.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageMap.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageMap.MethodName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageMap.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageMap.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageMap.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageMap.PropertyName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageMap.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageMap.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageMap.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageMap.SignalName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageMap.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageParam.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageParam.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageParam",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageServiceModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageServiceModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageServiceModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage",
       "Summary": null
     },
     {

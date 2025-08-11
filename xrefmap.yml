@@ -768,144 +768,502 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Info.StageMapInfoManager.keyFn
   nameWithType: StageMapInfoManager.keyFn
-- uid: CatSweeper.Service
-  name: CatSweeper.Service
-  href: api/CatSweeper.Service.html
-  commentId: N:CatSweeper.Service
-  fullName: CatSweeper.Service
-  nameWithType: CatSweeper.Service
-- uid: CatSweeper.Service.StageData
+- uid: CatSweeper.Stage
+  name: CatSweeper.Stage
+  href: api/CatSweeper.Stage.html
+  commentId: N:CatSweeper.Stage
+  fullName: CatSweeper.Stage
+  nameWithType: CatSweeper.Stage
+- uid: CatSweeper.Stage.GameExtension
+  name: GameExtension
+  href: api/CatSweeper.Stage.GameExtension.html
+  commentId: T:CatSweeper.Stage.GameExtension
+  fullName: CatSweeper.Stage.GameExtension
+  nameWithType: GameExtension
+- uid: CatSweeper.Stage.GameExtension.GetStageService(cfEngine.Core.Game)
+  name: GetStageService(Game)
+  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_GetStageService_cfEngine_Core_Game_
+  commentId: M:CatSweeper.Stage.GameExtension.GetStageService(cfEngine.Core.Game)
+  fullName: CatSweeper.Stage.GameExtension.GetStageService(cfEngine.Core.Game)
+  nameWithType: GameExtension.GetStageService(Game)
+- uid: CatSweeper.Stage.GameExtension.GetStageService*
+  name: GetStageService
+  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_GetStageService_
+  commentId: Overload:CatSweeper.Stage.GameExtension.GetStageService
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GameExtension.GetStageService
+  nameWithType: GameExtension.GetStageService
+- uid: CatSweeper.Stage.GameExtension.WithStage(cfEngine.Core.Game,CatSweeper.Stage.StageService)
+  name: WithStage(Game, StageService)
+  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_WithStage_cfEngine_Core_Game_CatSweeper_Stage_StageService_
+  commentId: M:CatSweeper.Stage.GameExtension.WithStage(cfEngine.Core.Game,CatSweeper.Stage.StageService)
+  fullName: CatSweeper.Stage.GameExtension.WithStage(cfEngine.Core.Game, CatSweeper.Stage.StageService)
+  nameWithType: GameExtension.WithStage(Game, StageService)
+- uid: CatSweeper.Stage.GameExtension.WithStage*
+  name: WithStage
+  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_WithStage_
+  commentId: Overload:CatSweeper.Stage.GameExtension.WithStage
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GameExtension.WithStage
+  nameWithType: GameExtension.WithStage
+- uid: CatSweeper.Stage.StageCamera
+  name: StageCamera
+  href: api/CatSweeper.Stage.StageCamera.html
+  commentId: T:CatSweeper.Stage.StageCamera
+  fullName: CatSweeper.Stage.StageCamera
+  nameWithType: StageCamera
+- uid: CatSweeper.Stage.StageCamera.MethodName
+  name: StageCamera.MethodName
+  href: api/CatSweeper.Stage.StageCamera.MethodName.html
+  commentId: T:CatSweeper.Stage.StageCamera.MethodName
+  fullName: CatSweeper.Stage.StageCamera.MethodName
+  nameWithType: StageCamera.MethodName
+- uid: CatSweeper.Stage.StageCamera.MethodName._Ready
+  name: _Ready
+  href: api/CatSweeper.Stage.StageCamera.MethodName.html#CatSweeper_Stage_StageCamera_MethodName__Ready
+  commentId: F:CatSweeper.Stage.StageCamera.MethodName._Ready
+  fullName: CatSweeper.Stage.StageCamera.MethodName._Ready
+  nameWithType: StageCamera.MethodName._Ready
+- uid: CatSweeper.Stage.StageCamera.PropertyName
+  name: StageCamera.PropertyName
+  href: api/CatSweeper.Stage.StageCamera.PropertyName.html
+  commentId: T:CatSweeper.Stage.StageCamera.PropertyName
+  fullName: CatSweeper.Stage.StageCamera.PropertyName
+  nameWithType: StageCamera.PropertyName
+- uid: CatSweeper.Stage.StageCamera.PropertyName.stage
+  name: stage
+  href: api/CatSweeper.Stage.StageCamera.PropertyName.html#CatSweeper_Stage_StageCamera_PropertyName_stage
+  commentId: F:CatSweeper.Stage.StageCamera.PropertyName.stage
+  fullName: CatSweeper.Stage.StageCamera.PropertyName.stage
+  nameWithType: StageCamera.PropertyName.stage
+- uid: CatSweeper.Stage.StageCamera.SignalName
+  name: StageCamera.SignalName
+  href: api/CatSweeper.Stage.StageCamera.SignalName.html
+  commentId: T:CatSweeper.Stage.StageCamera.SignalName
+  fullName: CatSweeper.Stage.StageCamera.SignalName
+  nameWithType: StageCamera.SignalName
+- uid: CatSweeper.Stage.StageCamera._Ready
+  name: _Ready()
+  href: api/CatSweeper.Stage.StageCamera.html#CatSweeper_Stage_StageCamera__Ready
+  commentId: M:CatSweeper.Stage.StageCamera._Ready
+  fullName: CatSweeper.Stage.StageCamera._Ready()
+  nameWithType: StageCamera._Ready()
+- uid: CatSweeper.Stage.StageCamera._Ready*
+  name: _Ready
+  href: api/CatSweeper.Stage.StageCamera.html#CatSweeper_Stage_StageCamera__Ready_
+  commentId: Overload:CatSweeper.Stage.StageCamera._Ready
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCamera._Ready
+  nameWithType: StageCamera._Ready
+- uid: CatSweeper.Stage.StageController
+  name: StageController
+  href: api/CatSweeper.Stage.StageController.html
+  commentId: T:CatSweeper.Stage.StageController
+  fullName: CatSweeper.Stage.StageController
+  nameWithType: StageController
+- uid: CatSweeper.Stage.StageController.EmitSignalOnStageInitialized
+  name: EmitSignalOnStageInitialized()
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_EmitSignalOnStageInitialized
+  commentId: M:CatSweeper.Stage.StageController.EmitSignalOnStageInitialized
+  fullName: CatSweeper.Stage.StageController.EmitSignalOnStageInitialized()
+  nameWithType: StageController.EmitSignalOnStageInitialized()
+- uid: CatSweeper.Stage.StageController.EmitSignalOnStageInitialized*
+  name: EmitSignalOnStageInitialized
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_EmitSignalOnStageInitialized_
+  commentId: Overload:CatSweeper.Stage.StageController.EmitSignalOnStageInitialized
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController.EmitSignalOnStageInitialized
+  nameWithType: StageController.EmitSignalOnStageInitialized
+- uid: CatSweeper.Stage.StageController.GetStageMap
+  name: GetStageMap
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_GetStageMap
+  commentId: P:CatSweeper.Stage.StageController.GetStageMap
+  fullName: CatSweeper.Stage.StageController.GetStageMap
+  nameWithType: StageController.GetStageMap
+- uid: CatSweeper.Stage.StageController.GetStageMap*
+  name: GetStageMap
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_GetStageMap_
+  commentId: Overload:CatSweeper.Stage.StageController.GetStageMap
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController.GetStageMap
+  nameWithType: StageController.GetStageMap
+- uid: CatSweeper.Stage.StageController.Initialize(CatSweeper.Stage.StageService,CatSweeper.Stage.StageParam@)
+  name: Initialize(StageService, in StageParam)
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_Initialize_CatSweeper_Stage_StageService_CatSweeper_Stage_StageParam__
+  commentId: M:CatSweeper.Stage.StageController.Initialize(CatSweeper.Stage.StageService,CatSweeper.Stage.StageParam@)
+  name.vb: Initialize(StageService, StageParam)
+  fullName: CatSweeper.Stage.StageController.Initialize(CatSweeper.Stage.StageService, in CatSweeper.Stage.StageParam)
+  fullName.vb: CatSweeper.Stage.StageController.Initialize(CatSweeper.Stage.StageService, CatSweeper.Stage.StageParam)
+  nameWithType: StageController.Initialize(StageService, in StageParam)
+  nameWithType.vb: StageController.Initialize(StageService, StageParam)
+- uid: CatSweeper.Stage.StageController.Initialize*
+  name: Initialize
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_Initialize_
+  commentId: Overload:CatSweeper.Stage.StageController.Initialize
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController.Initialize
+  nameWithType: StageController.Initialize
+- uid: CatSweeper.Stage.StageController.MethodName
+  name: StageController.MethodName
+  href: api/CatSweeper.Stage.StageController.MethodName.html
+  commentId: T:CatSweeper.Stage.StageController.MethodName
+  fullName: CatSweeper.Stage.StageController.MethodName
+  nameWithType: StageController.MethodName
+- uid: CatSweeper.Stage.StageController.MethodName._Process
+  name: _Process
+  href: api/CatSweeper.Stage.StageController.MethodName.html#CatSweeper_Stage_StageController_MethodName__Process
+  commentId: F:CatSweeper.Stage.StageController.MethodName._Process
+  fullName: CatSweeper.Stage.StageController.MethodName._Process
+  nameWithType: StageController.MethodName._Process
+- uid: CatSweeper.Stage.StageController.MethodName._Ready
+  name: _Ready
+  href: api/CatSweeper.Stage.StageController.MethodName.html#CatSweeper_Stage_StageController_MethodName__Ready
+  commentId: F:CatSweeper.Stage.StageController.MethodName._Ready
+  fullName: CatSweeper.Stage.StageController.MethodName._Ready
+  nameWithType: StageController.MethodName._Ready
+- uid: CatSweeper.Stage.StageController.OnStageInitialized
+  name: OnStageInitialized
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_OnStageInitialized
+  commentId: E:CatSweeper.Stage.StageController.OnStageInitialized
+  fullName: CatSweeper.Stage.StageController.OnStageInitialized
+  nameWithType: StageController.OnStageInitialized
+- uid: CatSweeper.Stage.StageController.OnStageInitializedEventHandler
+  name: StageController.OnStageInitializedEventHandler
+  href: api/CatSweeper.Stage.StageController.OnStageInitializedEventHandler.html
+  commentId: T:CatSweeper.Stage.StageController.OnStageInitializedEventHandler
+  fullName: CatSweeper.Stage.StageController.OnStageInitializedEventHandler
+  nameWithType: StageController.OnStageInitializedEventHandler
+- uid: CatSweeper.Stage.StageController.PropertyName
+  name: StageController.PropertyName
+  href: api/CatSweeper.Stage.StageController.PropertyName.html
+  commentId: T:CatSweeper.Stage.StageController.PropertyName
+  fullName: CatSweeper.Stage.StageController.PropertyName
+  nameWithType: StageController.PropertyName
+- uid: CatSweeper.Stage.StageController.PropertyName.GetStageMap
+  name: GetStageMap
+  href: api/CatSweeper.Stage.StageController.PropertyName.html#CatSweeper_Stage_StageController_PropertyName_GetStageMap
+  commentId: F:CatSweeper.Stage.StageController.PropertyName.GetStageMap
+  fullName: CatSweeper.Stage.StageController.PropertyName.GetStageMap
+  nameWithType: StageController.PropertyName.GetStageMap
+- uid: CatSweeper.Stage.StageController.PropertyName._stageMap
+  name: _stageMap
+  href: api/CatSweeper.Stage.StageController.PropertyName.html#CatSweeper_Stage_StageController_PropertyName__stageMap
+  commentId: F:CatSweeper.Stage.StageController.PropertyName._stageMap
+  fullName: CatSweeper.Stage.StageController.PropertyName._stageMap
+  nameWithType: StageController.PropertyName._stageMap
+- uid: CatSweeper.Stage.StageController.PropertyName._tileSet
+  name: _tileSet
+  href: api/CatSweeper.Stage.StageController.PropertyName.html#CatSweeper_Stage_StageController_PropertyName__tileSet
+  commentId: F:CatSweeper.Stage.StageController.PropertyName._tileSet
+  fullName: CatSweeper.Stage.StageController.PropertyName._tileSet
+  nameWithType: StageController.PropertyName._tileSet
+- uid: CatSweeper.Stage.StageController.SignalName
+  name: StageController.SignalName
+  href: api/CatSweeper.Stage.StageController.SignalName.html
+  commentId: T:CatSweeper.Stage.StageController.SignalName
+  fullName: CatSweeper.Stage.StageController.SignalName
+  nameWithType: StageController.SignalName
+- uid: CatSweeper.Stage.StageController.SignalName.OnStageInitialized
+  name: OnStageInitialized
+  href: api/CatSweeper.Stage.StageController.SignalName.html#CatSweeper_Stage_StageController_SignalName_OnStageInitialized
+  commentId: F:CatSweeper.Stage.StageController.SignalName.OnStageInitialized
+  fullName: CatSweeper.Stage.StageController.SignalName.OnStageInitialized
+  nameWithType: StageController.SignalName.OnStageInitialized
+- uid: CatSweeper.Stage.StageController._Process(System.Double)
+  name: _Process(double)
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Process_System_Double_
+  commentId: M:CatSweeper.Stage.StageController._Process(System.Double)
+  name.vb: _Process(Double)
+  fullName: CatSweeper.Stage.StageController._Process(double)
+  fullName.vb: CatSweeper.Stage.StageController._Process(Double)
+  nameWithType: StageController._Process(double)
+  nameWithType.vb: StageController._Process(Double)
+- uid: CatSweeper.Stage.StageController._Process*
+  name: _Process
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Process_
+  commentId: Overload:CatSweeper.Stage.StageController._Process
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController._Process
+  nameWithType: StageController._Process
+- uid: CatSweeper.Stage.StageController._Ready
+  name: _Ready()
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Ready
+  commentId: M:CatSweeper.Stage.StageController._Ready
+  fullName: CatSweeper.Stage.StageController._Ready()
+  nameWithType: StageController._Ready()
+- uid: CatSweeper.Stage.StageController._Ready*
+  name: _Ready
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Ready_
+  commentId: Overload:CatSweeper.Stage.StageController._Ready
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController._Ready
+  nameWithType: StageController._Ready
+- uid: CatSweeper.Stage.StageData
   name: StageData
-  href: api/CatSweeper.Service.StageData.html
-  commentId: T:CatSweeper.Service.StageData
-  fullName: CatSweeper.Service.StageData
+  href: api/CatSweeper.Stage.StageData.html
+  commentId: T:CatSweeper.Stage.StageData
+  fullName: CatSweeper.Stage.StageData
   nameWithType: StageData
-- uid: CatSweeper.Service.StageData.mapInfo
+- uid: CatSweeper.Stage.StageData.mapInfo
   name: mapInfo
-  href: api/CatSweeper.Service.StageData.html#CatSweeper_Service_StageData_mapInfo
-  commentId: F:CatSweeper.Service.StageData.mapInfo
-  fullName: CatSweeper.Service.StageData.mapInfo
+  href: api/CatSweeper.Stage.StageData.html#CatSweeper_Stage_StageData_mapInfo
+  commentId: F:CatSweeper.Stage.StageData.mapInfo
+  fullName: CatSweeper.Stage.StageData.mapInfo
   nameWithType: StageData.mapInfo
-- uid: CatSweeper.Service.StageData.stageInfo
+- uid: CatSweeper.Stage.StageData.stageInfo
   name: stageInfo
-  href: api/CatSweeper.Service.StageData.html#CatSweeper_Service_StageData_stageInfo
-  commentId: F:CatSweeper.Service.StageData.stageInfo
-  fullName: CatSweeper.Service.StageData.stageInfo
+  href: api/CatSweeper.Stage.StageData.html#CatSweeper_Stage_StageData_stageInfo
+  commentId: F:CatSweeper.Stage.StageData.stageInfo
+  fullName: CatSweeper.Stage.StageData.stageInfo
   nameWithType: StageData.stageInfo
-- uid: CatSweeper.Service.StageService
+- uid: CatSweeper.Stage.StageMap
+  name: StageMap
+  href: api/CatSweeper.Stage.StageMap.html
+  commentId: T:CatSweeper.Stage.StageMap
+  fullName: CatSweeper.Stage.StageMap
+  nameWithType: StageMap
+- uid: CatSweeper.Stage.StageMap.GetGridPositions
+  name: GetGridPositions()
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGridPositions
+  commentId: M:CatSweeper.Stage.StageMap.GetGridPositions
+  fullName: CatSweeper.Stage.StageMap.GetGridPositions()
+  nameWithType: StageMap.GetGridPositions()
+- uid: CatSweeper.Stage.StageMap.GetGridPositions*
+  name: GetGridPositions
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGridPositions_
+  commentId: Overload:CatSweeper.Stage.StageMap.GetGridPositions
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap.GetGridPositions
+  nameWithType: StageMap.GetGridPositions
+- uid: CatSweeper.Stage.StageMap.GetGridTiles
+  name: GetGridTiles()
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGridTiles
+  commentId: M:CatSweeper.Stage.StageMap.GetGridTiles
+  fullName: CatSweeper.Stage.StageMap.GetGridTiles()
+  nameWithType: StageMap.GetGridTiles()
+- uid: CatSweeper.Stage.StageMap.GetGridTiles*
+  name: GetGridTiles
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGridTiles_
+  commentId: Overload:CatSweeper.Stage.StageMap.GetGridTiles
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap.GetGridTiles
+  nameWithType: StageMap.GetGridTiles
+- uid: CatSweeper.Stage.StageMap.MethodName
+  name: StageMap.MethodName
+  href: api/CatSweeper.Stage.StageMap.MethodName.html
+  commentId: T:CatSweeper.Stage.StageMap.MethodName
+  fullName: CatSweeper.Stage.StageMap.MethodName
+  nameWithType: StageMap.MethodName
+- uid: CatSweeper.Stage.StageMap.MethodName.SetClosed
+  name: SetClosed
+  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_SetClosed
+  commentId: F:CatSweeper.Stage.StageMap.MethodName.SetClosed
+  fullName: CatSweeper.Stage.StageMap.MethodName.SetClosed
+  nameWithType: StageMap.MethodName.SetClosed
+- uid: CatSweeper.Stage.StageMap.MethodName._ValidateProperty
+  name: _ValidateProperty
+  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName__ValidateProperty
+  commentId: F:CatSweeper.Stage.StageMap.MethodName._ValidateProperty
+  fullName: CatSweeper.Stage.StageMap.MethodName._ValidateProperty
+  nameWithType: StageMap.MethodName._ValidateProperty
+- uid: CatSweeper.Stage.StageMap.PropertyName
+  name: StageMap.PropertyName
+  href: api/CatSweeper.Stage.StageMap.PropertyName.html
+  commentId: T:CatSweeper.Stage.StageMap.PropertyName
+  fullName: CatSweeper.Stage.StageMap.PropertyName
+  nameWithType: StageMap.PropertyName
+- uid: CatSweeper.Stage.StageMap.PropertyName.closedGridId
+  name: closedGridId
+  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_closedGridId
+  commentId: F:CatSweeper.Stage.StageMap.PropertyName.closedGridId
+  fullName: CatSweeper.Stage.StageMap.PropertyName.closedGridId
+  nameWithType: StageMap.PropertyName.closedGridId
+- uid: CatSweeper.Stage.StageMap.PropertyName.openedGridId
+  name: openedGridId
+  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_openedGridId
+  commentId: F:CatSweeper.Stage.StageMap.PropertyName.openedGridId
+  fullName: CatSweeper.Stage.StageMap.PropertyName.openedGridId
+  nameWithType: StageMap.PropertyName.openedGridId
+- uid: CatSweeper.Stage.StageMap.PropertyName.tileSourceId
+  name: tileSourceId
+  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_tileSourceId
+  commentId: F:CatSweeper.Stage.StageMap.PropertyName.tileSourceId
+  fullName: CatSweeper.Stage.StageMap.PropertyName.tileSourceId
+  nameWithType: StageMap.PropertyName.tileSourceId
+- uid: CatSweeper.Stage.StageMap.SetClosed(Godot.Vector2I)
+  name: SetClosed(Vector2I)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetClosed_Godot_Vector2I_
+  commentId: M:CatSweeper.Stage.StageMap.SetClosed(Godot.Vector2I)
+  fullName: CatSweeper.Stage.StageMap.SetClosed(Godot.Vector2I)
+  nameWithType: StageMap.SetClosed(Vector2I)
+- uid: CatSweeper.Stage.StageMap.SetClosed*
+  name: SetClosed
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetClosed_
+  commentId: Overload:CatSweeper.Stage.StageMap.SetClosed
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap.SetClosed
+  nameWithType: StageMap.SetClosed
+- uid: CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable{Godot.Vector2I})
+  name: SetMap(IEnumerable<Vector2I>)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetMap_System_Collections_Generic_IEnumerable_Godot_Vector2I__
+  commentId: M:CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable{Godot.Vector2I})
+  name.vb: SetMap(IEnumerable(Of Vector2I))
+  fullName: CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable<Godot.Vector2I>)
+  fullName.vb: CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable(Of Godot.Vector2I))
+  nameWithType: StageMap.SetMap(IEnumerable<Vector2I>)
+  nameWithType.vb: StageMap.SetMap(IEnumerable(Of Vector2I))
+- uid: CatSweeper.Stage.StageMap.SetMap*
+  name: SetMap
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetMap_
+  commentId: Overload:CatSweeper.Stage.StageMap.SetMap
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap.SetMap
+  nameWithType: StageMap.SetMap
+- uid: CatSweeper.Stage.StageMap.SignalName
+  name: StageMap.SignalName
+  href: api/CatSweeper.Stage.StageMap.SignalName.html
+  commentId: T:CatSweeper.Stage.StageMap.SignalName
+  fullName: CatSweeper.Stage.StageMap.SignalName
+  nameWithType: StageMap.SignalName
+- uid: CatSweeper.Stage.StageMap._ValidateProperty(Godot.Collections.Dictionary)
+  name: _ValidateProperty(Dictionary)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap__ValidateProperty_Godot_Collections_Dictionary_
+  commentId: M:CatSweeper.Stage.StageMap._ValidateProperty(Godot.Collections.Dictionary)
+  fullName: CatSweeper.Stage.StageMap._ValidateProperty(Godot.Collections.Dictionary)
+  nameWithType: StageMap._ValidateProperty(Dictionary)
+- uid: CatSweeper.Stage.StageMap._ValidateProperty*
+  name: _ValidateProperty
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap__ValidateProperty_
+  commentId: Overload:CatSweeper.Stage.StageMap._ValidateProperty
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap._ValidateProperty
+  nameWithType: StageMap._ValidateProperty
+- uid: CatSweeper.Stage.StageParam
+  name: StageParam
+  href: api/CatSweeper.Stage.StageParam.html
+  commentId: T:CatSweeper.Stage.StageParam
+  fullName: CatSweeper.Stage.StageParam
+  nameWithType: StageParam
+- uid: CatSweeper.Stage.StageParam.stageId
+  name: stageId
+  href: api/CatSweeper.Stage.StageParam.html#CatSweeper_Stage_StageParam_stageId
+  commentId: F:CatSweeper.Stage.StageParam.stageId
+  fullName: CatSweeper.Stage.StageParam.stageId
+  nameWithType: StageParam.stageId
+- uid: CatSweeper.Stage.StageService
   name: StageService
-  href: api/CatSweeper.Service.StageService.html
-  commentId: T:CatSweeper.Service.StageService
-  fullName: CatSweeper.Service.StageService
+  href: api/CatSweeper.Stage.StageService.html
+  commentId: T:CatSweeper.Stage.StageService
+  fullName: CatSweeper.Stage.StageService
   nameWithType: StageService
-- uid: CatSweeper.Service.StageService.#ctor(CatSweeper.Service.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)
+- uid: CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)
   name: StageService(StageServiceModel, StageInfoManager, StageMapInfoManager)
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService__ctor_CatSweeper_Service_StageServiceModel_CatSweeper_Info_StageInfoManager_CatSweeper_Info_StageMapInfoManager_
-  commentId: M:CatSweeper.Service.StageService.#ctor(CatSweeper.Service.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService__ctor_CatSweeper_Stage_StageServiceModel_CatSweeper_Info_StageInfoManager_CatSweeper_Info_StageMapInfoManager_
+  commentId: M:CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)
   name.vb: New(StageServiceModel, StageInfoManager, StageMapInfoManager)
-  fullName: CatSweeper.Service.StageService.StageService(CatSweeper.Service.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager)
-  fullName.vb: CatSweeper.Service.StageService.New(CatSweeper.Service.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager)
+  fullName: CatSweeper.Stage.StageService.StageService(CatSweeper.Stage.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager)
+  fullName.vb: CatSweeper.Stage.StageService.New(CatSweeper.Stage.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager)
   nameWithType: StageService.StageService(StageServiceModel, StageInfoManager, StageMapInfoManager)
   nameWithType.vb: StageService.New(StageServiceModel, StageInfoManager, StageMapInfoManager)
-- uid: CatSweeper.Service.StageService.#ctor*
+- uid: CatSweeper.Stage.StageService.#ctor*
   name: StageService
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService__ctor_
-  commentId: Overload:CatSweeper.Service.StageService.#ctor
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService__ctor_
+  commentId: Overload:CatSweeper.Stage.StageService.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: CatSweeper.Service.StageService.StageService
-  fullName.vb: CatSweeper.Service.StageService.New
+  fullName: CatSweeper.Stage.StageService.StageService
+  fullName.vb: CatSweeper.Stage.StageService.New
   nameWithType: StageService.StageService
   nameWithType.vb: StageService.New
-- uid: CatSweeper.Service.StageService.Dispose
+- uid: CatSweeper.Stage.StageService.Dispose
   name: Dispose()
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService_Dispose
-  commentId: M:CatSweeper.Service.StageService.Dispose
-  fullName: CatSweeper.Service.StageService.Dispose()
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_Dispose
+  commentId: M:CatSweeper.Stage.StageService.Dispose
+  fullName: CatSweeper.Stage.StageService.Dispose()
   nameWithType: StageService.Dispose()
-- uid: CatSweeper.Service.StageService.Dispose*
+- uid: CatSweeper.Stage.StageService.Dispose*
   name: Dispose
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService_Dispose_
-  commentId: Overload:CatSweeper.Service.StageService.Dispose
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_Dispose_
+  commentId: Overload:CatSweeper.Stage.StageService.Dispose
   isSpec: "True"
-  fullName: CatSweeper.Service.StageService.Dispose
+  fullName: CatSweeper.Stage.StageService.Dispose
   nameWithType: StageService.Dispose
-- uid: CatSweeper.Service.StageService.GetModel
+- uid: CatSweeper.Stage.StageService.GetModel
   name: GetModel
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService_GetModel
-  commentId: P:CatSweeper.Service.StageService.GetModel
-  fullName: CatSweeper.Service.StageService.GetModel
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetModel
+  commentId: P:CatSweeper.Stage.StageService.GetModel
+  fullName: CatSweeper.Stage.StageService.GetModel
   nameWithType: StageService.GetModel
-- uid: CatSweeper.Service.StageService.GetModel*
+- uid: CatSweeper.Stage.StageService.GetModel*
   name: GetModel
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService_GetModel_
-  commentId: Overload:CatSweeper.Service.StageService.GetModel
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetModel_
+  commentId: Overload:CatSweeper.Stage.StageService.GetModel
   isSpec: "True"
-  fullName: CatSweeper.Service.StageService.GetModel
+  fullName: CatSweeper.Stage.StageService.GetModel
   nameWithType: StageService.GetModel
-- uid: CatSweeper.Service.StageService.GetStageData(System.String)
+- uid: CatSweeper.Stage.StageService.GetStageData(System.String)
   name: GetStageData(string)
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService_GetStageData_System_String_
-  commentId: M:CatSweeper.Service.StageService.GetStageData(System.String)
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetStageData_System_String_
+  commentId: M:CatSweeper.Stage.StageService.GetStageData(System.String)
   name.vb: GetStageData(String)
-  fullName: CatSweeper.Service.StageService.GetStageData(string)
-  fullName.vb: CatSweeper.Service.StageService.GetStageData(String)
+  fullName: CatSweeper.Stage.StageService.GetStageData(string)
+  fullName.vb: CatSweeper.Stage.StageService.GetStageData(String)
   nameWithType: StageService.GetStageData(string)
   nameWithType.vb: StageService.GetStageData(String)
-- uid: CatSweeper.Service.StageService.GetStageData*
+- uid: CatSweeper.Stage.StageService.GetStageData*
   name: GetStageData
-  href: api/CatSweeper.Service.StageService.html#CatSweeper_Service_StageService_GetStageData_
-  commentId: Overload:CatSweeper.Service.StageService.GetStageData
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetStageData_
+  commentId: Overload:CatSweeper.Stage.StageService.GetStageData
   isSpec: "True"
-  fullName: CatSweeper.Service.StageService.GetStageData
+  fullName: CatSweeper.Stage.StageService.GetStageData
   nameWithType: StageService.GetStageData
-- uid: CatSweeper.Service.StageServiceModel
+- uid: CatSweeper.Stage.StageServiceModel
   name: StageServiceModel
-  href: api/CatSweeper.Service.StageServiceModel.html
-  commentId: T:CatSweeper.Service.StageServiceModel
-  fullName: CatSweeper.Service.StageServiceModel
+  href: api/CatSweeper.Stage.StageServiceModel.html
+  commentId: T:CatSweeper.Stage.StageServiceModel
+  fullName: CatSweeper.Stage.StageServiceModel
   nameWithType: StageServiceModel
-- uid: CatSweeper.Service.StageServiceModel.Dispose
+- uid: CatSweeper.Stage.StageServiceModel.Dispose
   name: Dispose()
-  href: api/CatSweeper.Service.StageServiceModel.html#CatSweeper_Service_StageServiceModel_Dispose
-  commentId: M:CatSweeper.Service.StageServiceModel.Dispose
-  fullName: CatSweeper.Service.StageServiceModel.Dispose()
+  href: api/CatSweeper.Stage.StageServiceModel.html#CatSweeper_Stage_StageServiceModel_Dispose
+  commentId: M:CatSweeper.Stage.StageServiceModel.Dispose
+  fullName: CatSweeper.Stage.StageServiceModel.Dispose()
   nameWithType: StageServiceModel.Dispose()
-- uid: CatSweeper.Service.StageServiceModel.Dispose*
+- uid: CatSweeper.Stage.StageServiceModel.Dispose*
   name: Dispose
-  href: api/CatSweeper.Service.StageServiceModel.html#CatSweeper_Service_StageServiceModel_Dispose_
-  commentId: Overload:CatSweeper.Service.StageServiceModel.Dispose
+  href: api/CatSweeper.Stage.StageServiceModel.html#CatSweeper_Stage_StageServiceModel_Dispose_
+  commentId: Overload:CatSweeper.Stage.StageServiceModel.Dispose
   isSpec: "True"
-  fullName: CatSweeper.Service.StageServiceModel.Dispose
+  fullName: CatSweeper.Stage.StageServiceModel.Dispose
   nameWithType: StageServiceModel.Dispose
-- uid: CatSweeper.Service.StageServiceModel.Initialize(cfEngine.Core.IUserData)
+- uid: CatSweeper.Stage.StageServiceModel.Initialize(cfEngine.Core.IUserData)
   name: Initialize(IUserData)
-  href: api/CatSweeper.Service.StageServiceModel.html#CatSweeper_Service_StageServiceModel_Initialize_cfEngine_Core_IUserData_
-  commentId: M:CatSweeper.Service.StageServiceModel.Initialize(cfEngine.Core.IUserData)
-  fullName: CatSweeper.Service.StageServiceModel.Initialize(cfEngine.Core.IUserData)
+  href: api/CatSweeper.Stage.StageServiceModel.html#CatSweeper_Stage_StageServiceModel_Initialize_cfEngine_Core_IUserData_
+  commentId: M:CatSweeper.Stage.StageServiceModel.Initialize(cfEngine.Core.IUserData)
+  fullName: CatSweeper.Stage.StageServiceModel.Initialize(cfEngine.Core.IUserData)
   nameWithType: StageServiceModel.Initialize(IUserData)
-- uid: CatSweeper.Service.StageServiceModel.Initialize*
+- uid: CatSweeper.Stage.StageServiceModel.Initialize*
   name: Initialize
-  href: api/CatSweeper.Service.StageServiceModel.html#CatSweeper_Service_StageServiceModel_Initialize_
-  commentId: Overload:CatSweeper.Service.StageServiceModel.Initialize
+  href: api/CatSweeper.Stage.StageServiceModel.html#CatSweeper_Stage_StageServiceModel_Initialize_
+  commentId: Overload:CatSweeper.Stage.StageServiceModel.Initialize
   isSpec: "True"
-  fullName: CatSweeper.Service.StageServiceModel.Initialize
+  fullName: CatSweeper.Stage.StageServiceModel.Initialize
   nameWithType: StageServiceModel.Initialize
-- uid: CatSweeper.Service.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: CatSweeper.Stage.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary{System.String,System.Object})
   name: SetSaveData(Dictionary<string, object>)
-  href: api/CatSweeper.Service.StageServiceModel.html#CatSweeper_Service_StageServiceModel_SetSaveData_System_Collections_Generic_Dictionary_System_String_System_Object__
-  commentId: M:CatSweeper.Service.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary{System.String,System.Object})
+  href: api/CatSweeper.Stage.StageServiceModel.html#CatSweeper_Stage_StageServiceModel_SetSaveData_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:CatSweeper.Stage.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary{System.String,System.Object})
   name.vb: SetSaveData(Dictionary(Of String, Object))
-  fullName: CatSweeper.Service.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary<string, object>)
-  fullName.vb: CatSweeper.Service.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary(Of String, Object))
+  fullName: CatSweeper.Stage.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary<string, object>)
+  fullName.vb: CatSweeper.Stage.StageServiceModel.SetSaveData(System.Collections.Generic.Dictionary(Of String, Object))
   nameWithType: StageServiceModel.SetSaveData(Dictionary<string, object>)
   nameWithType.vb: StageServiceModel.SetSaveData(Dictionary(Of String, Object))
-- uid: CatSweeper.Service.StageServiceModel.SetSaveData*
+- uid: CatSweeper.Stage.StageServiceModel.SetSaveData*
   name: SetSaveData
-  href: api/CatSweeper.Service.StageServiceModel.html#CatSweeper_Service_StageServiceModel_SetSaveData_
-  commentId: Overload:CatSweeper.Service.StageServiceModel.SetSaveData
+  href: api/CatSweeper.Stage.StageServiceModel.html#CatSweeper_Stage_StageServiceModel_SetSaveData_
+  commentId: Overload:CatSweeper.Stage.StageServiceModel.SetSaveData
   isSpec: "True"
-  fullName: CatSweeper.Service.StageServiceModel.SetSaveData
+  fullName: CatSweeper.Stage.StageServiceModel.SetSaveData
   nameWithType: StageServiceModel.SetSaveData
 - uid: CatSweeper.Util
   name: CatSweeper.Util
