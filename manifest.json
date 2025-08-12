@@ -264,6 +264,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.GameExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.GameExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.GameExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.IInputMotionListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.IInputMotionListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.IInputMotionListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Gameplay.IInputSystem.yml",
       "output": {
         ".html": {
@@ -278,6 +306,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.IInputTouchListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.IInputTouchListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.IInputTouchListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Gameplay.InputMotionData.yml",
       "output": {
         ".html": {
@@ -288,6 +330,48 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Gameplay.InputMotionData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.InputService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.InputService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.InputService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.InputTouchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.InputTouchData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.InputTouchData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.InputTouchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.InputTouchType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.InputTouchType",
       "Summary": null
     },
     {
@@ -530,6 +614,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageCellData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageCellData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageCellData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageCellMineData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageCellMineData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageCellMineData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageCellState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageCellState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageCellState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageConfigData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageConfigData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageConfigData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.StageController.MethodName.yml",
       "output": {
         ".html": {
@@ -596,20 +736,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageController",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageData",
       "Summary": null
     },
     {
@@ -712,6 +838,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageSession.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageSession",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.yml",
       "output": {
         ".html": {
@@ -750,6 +890,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Util.InfoUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Util.Node2DUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Util.Node2DUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Util.Node2DUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Util.TileMapLayerExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Util.TileMapLayerExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Util.TileMapLayerExtension",
       "Summary": null
     },
     {

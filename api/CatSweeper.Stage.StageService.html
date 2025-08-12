@@ -151,7 +151,7 @@
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService__ctor_CatSweeper_Stage_StageServiceModel_CatSweeper_Info_StageInfoManager_CatSweeper_Info_StageMapInfoManager_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.%23ctor(CatSweeper.Stage.StageServiceModel%2CCatSweeper.Info.StageInfoManager%2CCatSweeper.Info.StageMapInfoManager)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L23">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L27">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageService__ctor_" data-uid="CatSweeper.Stage.StageService.#ctor*"></a>
   <h4 id="CatSweeper_Stage_StageService__ctor_CatSweeper_Stage_StageServiceModel_CatSweeper_Info_StageInfoManager_CatSweeper_Info_StageMapInfoManager_" data-uid="CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)">StageService(StageServiceModel, StageInfoManager, StageMapInfoManager)</h4>
@@ -195,7 +195,7 @@
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_GetModel.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.GetModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L21">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L23">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageService_GetModel_" data-uid="CatSweeper.Stage.StageService.GetModel*"></a>
   <h4 id="CatSweeper_Stage_StageService_GetModel" data-uid="CatSweeper.Stage.StageService.GetModel">GetModel</h4>
@@ -224,34 +224,49 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_Dispose.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_CanRestoreSession.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.CanRestoreSession%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L46">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L54">View Source</a>
   </span>
-  <a id="CatSweeper_Stage_StageService_Dispose_" data-uid="CatSweeper.Stage.StageService.Dispose*"></a>
-  <h4 id="CatSweeper_Stage_StageService_Dispose" data-uid="CatSweeper.Stage.StageService.Dispose">Dispose()</h4>
-  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+  <a id="CatSweeper_Stage_StageService_CanRestoreSession_" data-uid="CatSweeper.Stage.StageService.CanRestoreSession*"></a>
+  <h4 id="CatSweeper_Stage_StageService_CanRestoreSession" data-uid="CatSweeper.Stage.StageService.CanRestoreSession">CanRestoreSession()</h4>
+  <div class="markdown level1 summary"><p>Check if any cached session, and can be restored.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool CanRestoreSession()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_GetStageData_System_String_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.GetStageData(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_CreateSession_System_String_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.CreateSession(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L30">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L72">View Source</a>
   </span>
-  <a id="CatSweeper_Stage_StageService_GetStageData_" data-uid="CatSweeper.Stage.StageService.GetStageData*"></a>
-  <h4 id="CatSweeper_Stage_StageService_GetStageData_System_String_" data-uid="CatSweeper.Stage.StageService.GetStageData(System.String)">GetStageData(string)</h4>
+  <a id="CatSweeper_Stage_StageService_CreateSession_" data-uid="CatSweeper.Stage.StageService.CreateSession*"></a>
+  <h4 id="CatSweeper_Stage_StageService_CreateSession_System_String_" data-uid="CatSweeper.Stage.StageService.CreateSession(System.String)">CreateSession(string)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Res&lt;StageData, Exception&gt; GetStageData(string stageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public StageSession CreateSession(string stageId)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -280,7 +295,101 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Res</span>&lt;<a class="xref" href="CatSweeper.Stage.StageData.html">StageData</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</td>
+        <td><a class="xref" href="CatSweeper.Stage.StageSession.html">StageSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_Dispose.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.Dispose%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L77">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageService_Dispose_" data-uid="CatSweeper.Stage.StageService.Dispose*"></a>
+  <h4 id="CatSweeper_Stage_StageService_Dispose" data-uid="CatSweeper.Stage.StageService.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_GetStageConfig_System_String_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.GetStageConfig(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L34">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageService_GetStageConfig_" data-uid="CatSweeper.Stage.StageService.GetStageConfig*"></a>
+  <h4 id="CatSweeper_Stage_StageService_GetStageConfig_System_String_" data-uid="CatSweeper.Stage.StageService.GetStageConfig(System.String)">GetStageConfig(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Res&lt;StageConfigData, Exception&gt; GetStageConfig(string stageId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">stageId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Res</span>&lt;<a class="xref" href="CatSweeper.Stage.StageConfigData.html">StageConfigData</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageService_RestoreSession.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageService.RestoreSession%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/Service/StageService.cs/#L63">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageService_RestoreSession_" data-uid="CatSweeper.Stage.StageService.RestoreSession*"></a>
+  <h4 id="CatSweeper_Stage_StageService_RestoreSession" data-uid="CatSweeper.Stage.StageService.RestoreSession">RestoreSession()</h4>
+  <div class="markdown level1 summary"><p>Return true if the session is restored successfully, otherwise false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; RestoreSession()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

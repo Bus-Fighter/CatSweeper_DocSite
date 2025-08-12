@@ -75,19 +75,32 @@ references:
   commentId: F:CatSweeper.Core.GameEntry.PropertyName._logLevel
   fullName: CatSweeper.Core.GameEntry.PropertyName._logLevel
   nameWithType: GameEntry.PropertyName._logLevel
-- uid: CatSweeper.Core.GameEntry.RegisterGenericService(cfEngine.Core.Game)
-  name: RegisterGenericService(Game)
-  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterGenericService_cfEngine_Core_Game_
-  commentId: M:CatSweeper.Core.GameEntry.RegisterGenericService(cfEngine.Core.Game)
-  fullName: CatSweeper.Core.GameEntry.RegisterGenericService(cfEngine.Core.Game)
-  nameWithType: GameEntry.RegisterGenericService(Game)
-- uid: CatSweeper.Core.GameEntry.RegisterGenericService*
-  name: RegisterGenericService
-  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterGenericService_
-  commentId: Overload:CatSweeper.Core.GameEntry.RegisterGenericService
+- uid: CatSweeper.Core.GameEntry.RegisterCoreService(cfEngine.Core.Game)
+  name: RegisterCoreService(Game)
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterCoreService_cfEngine_Core_Game_
+  commentId: M:CatSweeper.Core.GameEntry.RegisterCoreService(cfEngine.Core.Game)
+  fullName: CatSweeper.Core.GameEntry.RegisterCoreService(cfEngine.Core.Game)
+  nameWithType: GameEntry.RegisterCoreService(Game)
+- uid: CatSweeper.Core.GameEntry.RegisterCoreService*
+  name: RegisterCoreService
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterCoreService_
+  commentId: Overload:CatSweeper.Core.GameEntry.RegisterCoreService
   isSpec: "True"
-  fullName: CatSweeper.Core.GameEntry.RegisterGenericService
-  nameWithType: GameEntry.RegisterGenericService
+  fullName: CatSweeper.Core.GameEntry.RegisterCoreService
+  nameWithType: GameEntry.RegisterCoreService
+- uid: CatSweeper.Core.GameEntry.RegisterGameplayService(cfEngine.Core.Game)
+  name: RegisterGameplayService(Game)
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterGameplayService_cfEngine_Core_Game_
+  commentId: M:CatSweeper.Core.GameEntry.RegisterGameplayService(cfEngine.Core.Game)
+  fullName: CatSweeper.Core.GameEntry.RegisterGameplayService(cfEngine.Core.Game)
+  nameWithType: GameEntry.RegisterGameplayService(Game)
+- uid: CatSweeper.Core.GameEntry.RegisterGameplayService*
+  name: RegisterGameplayService
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterGameplayService_
+  commentId: Overload:CatSweeper.Core.GameEntry.RegisterGameplayService
+  isSpec: "True"
+  fullName: CatSweeper.Core.GameEntry.RegisterGameplayService
+  nameWithType: GameEntry.RegisterGameplayService
 - uid: CatSweeper.Core.GameEntry.SignalName
   name: GameEntry.SignalName
   href: api/CatSweeper.Core.GameEntry.SignalName.html
@@ -452,37 +465,344 @@ references:
   commentId: N:CatSweeper.Gameplay
   fullName: CatSweeper.Gameplay
   nameWithType: CatSweeper.Gameplay
+- uid: CatSweeper.Gameplay.GameExtension
+  name: GameExtension
+  href: api/CatSweeper.Gameplay.GameExtension.html
+  commentId: T:CatSweeper.Gameplay.GameExtension
+  fullName: CatSweeper.Gameplay.GameExtension
+  nameWithType: GameExtension
+- uid: CatSweeper.Gameplay.GameExtension.GetActiveInput(cfEngine.Core.Game)
+  name: GetActiveInput(Game)
+  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_GetActiveInput_cfEngine_Core_Game_
+  commentId: M:CatSweeper.Gameplay.GameExtension.GetActiveInput(cfEngine.Core.Game)
+  fullName: CatSweeper.Gameplay.GameExtension.GetActiveInput(cfEngine.Core.Game)
+  nameWithType: GameExtension.GetActiveInput(Game)
+- uid: CatSweeper.Gameplay.GameExtension.GetActiveInput*
+  name: GetActiveInput
+  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_GetActiveInput_
+  commentId: Overload:CatSweeper.Gameplay.GameExtension.GetActiveInput
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.GameExtension.GetActiveInput
+  nameWithType: GameExtension.GetActiveInput
+- uid: CatSweeper.Gameplay.GameExtension.SetActiveInput(cfEngine.Core.Game,CatSweeper.Gameplay.IInputSystem)
+  name: SetActiveInput(Game, IInputSystem)
+  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_SetActiveInput_cfEngine_Core_Game_CatSweeper_Gameplay_IInputSystem_
+  commentId: M:CatSweeper.Gameplay.GameExtension.SetActiveInput(cfEngine.Core.Game,CatSweeper.Gameplay.IInputSystem)
+  fullName: CatSweeper.Gameplay.GameExtension.SetActiveInput(cfEngine.Core.Game, CatSweeper.Gameplay.IInputSystem)
+  nameWithType: GameExtension.SetActiveInput(Game, IInputSystem)
+- uid: CatSweeper.Gameplay.GameExtension.SetActiveInput*
+  name: SetActiveInput
+  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_SetActiveInput_
+  commentId: Overload:CatSweeper.Gameplay.GameExtension.SetActiveInput
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.GameExtension.SetActiveInput
+  nameWithType: GameExtension.SetActiveInput
+- uid: CatSweeper.Gameplay.IInputMotionListener
+  name: IInputMotionListener
+  href: api/CatSweeper.Gameplay.IInputMotionListener.html
+  commentId: T:CatSweeper.Gameplay.IInputMotionListener
+  fullName: CatSweeper.Gameplay.IInputMotionListener
+  nameWithType: IInputMotionListener
+- uid: CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate(CatSweeper.Gameplay.InputMotionData@)
+  name: OnMotionUpdate(in InputMotionData)
+  href: api/CatSweeper.Gameplay.IInputMotionListener.html#CatSweeper_Gameplay_IInputMotionListener_OnMotionUpdate_CatSweeper_Gameplay_InputMotionData__
+  commentId: M:CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate(CatSweeper.Gameplay.InputMotionData@)
+  name.vb: OnMotionUpdate(InputMotionData)
+  fullName: CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate(in CatSweeper.Gameplay.InputMotionData)
+  fullName.vb: CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate(CatSweeper.Gameplay.InputMotionData)
+  nameWithType: IInputMotionListener.OnMotionUpdate(in InputMotionData)
+  nameWithType.vb: IInputMotionListener.OnMotionUpdate(InputMotionData)
+- uid: CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate*
+  name: OnMotionUpdate
+  href: api/CatSweeper.Gameplay.IInputMotionListener.html#CatSweeper_Gameplay_IInputMotionListener_OnMotionUpdate_
+  commentId: Overload:CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.IInputMotionListener.OnMotionUpdate
+  nameWithType: IInputMotionListener.OnMotionUpdate
 - uid: CatSweeper.Gameplay.IInputSystem
   name: IInputSystem
   href: api/CatSweeper.Gameplay.IInputSystem.html
   commentId: T:CatSweeper.Gameplay.IInputSystem
   fullName: CatSweeper.Gameplay.IInputSystem
   nameWithType: IInputSystem
-- uid: CatSweeper.Gameplay.IInputSystem.RegisterMotionCallback(CatSweeper.Gameplay.InputMotionData)
-  name: RegisterMotionCallback(InputMotionData)
-  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_RegisterMotionCallback_CatSweeper_Gameplay_InputMotionData_
-  commentId: M:CatSweeper.Gameplay.IInputSystem.RegisterMotionCallback(CatSweeper.Gameplay.InputMotionData)
-  fullName: CatSweeper.Gameplay.IInputSystem.RegisterMotionCallback(CatSweeper.Gameplay.InputMotionData)
-  nameWithType: IInputSystem.RegisterMotionCallback(InputMotionData)
-- uid: CatSweeper.Gameplay.IInputSystem.RegisterMotionCallback*
-  name: RegisterMotionCallback
-  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_RegisterMotionCallback_
-  commentId: Overload:CatSweeper.Gameplay.IInputSystem.RegisterMotionCallback
+- uid: CatSweeper.Gameplay.IInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  name: RegisterMotion(IInputMotionListener)
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_RegisterMotion_CatSweeper_Gameplay_IInputMotionListener_
+  commentId: M:CatSweeper.Gameplay.IInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  fullName: CatSweeper.Gameplay.IInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  nameWithType: IInputSystem.RegisterMotion(IInputMotionListener)
+- uid: CatSweeper.Gameplay.IInputSystem.RegisterMotion*
+  name: RegisterMotion
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_RegisterMotion_
+  commentId: Overload:CatSweeper.Gameplay.IInputSystem.RegisterMotion
   isSpec: "True"
-  fullName: CatSweeper.Gameplay.IInputSystem.RegisterMotionCallback
-  nameWithType: IInputSystem.RegisterMotionCallback
+  fullName: CatSweeper.Gameplay.IInputSystem.RegisterMotion
+  nameWithType: IInputSystem.RegisterMotion
+- uid: CatSweeper.Gameplay.IInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  name: RegisterTouch(IInputTouchListener)
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_RegisterTouch_CatSweeper_Gameplay_IInputTouchListener_
+  commentId: M:CatSweeper.Gameplay.IInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  fullName: CatSweeper.Gameplay.IInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  nameWithType: IInputSystem.RegisterTouch(IInputTouchListener)
+- uid: CatSweeper.Gameplay.IInputSystem.RegisterTouch*
+  name: RegisterTouch
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_RegisterTouch_
+  commentId: Overload:CatSweeper.Gameplay.IInputSystem.RegisterTouch
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.IInputSystem.RegisterTouch
+  nameWithType: IInputSystem.RegisterTouch
+- uid: CatSweeper.Gameplay.IInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  name: UnregisterMotion(IInputMotionListener)
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_UnregisterMotion_CatSweeper_Gameplay_IInputMotionListener_
+  commentId: M:CatSweeper.Gameplay.IInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  fullName: CatSweeper.Gameplay.IInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  nameWithType: IInputSystem.UnregisterMotion(IInputMotionListener)
+- uid: CatSweeper.Gameplay.IInputSystem.UnregisterMotion*
+  name: UnregisterMotion
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_UnregisterMotion_
+  commentId: Overload:CatSweeper.Gameplay.IInputSystem.UnregisterMotion
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.IInputSystem.UnregisterMotion
+  nameWithType: IInputSystem.UnregisterMotion
+- uid: CatSweeper.Gameplay.IInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  name: UnregisterTouch(IInputTouchListener)
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_UnregisterTouch_CatSweeper_Gameplay_IInputTouchListener_
+  commentId: M:CatSweeper.Gameplay.IInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  fullName: CatSweeper.Gameplay.IInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  nameWithType: IInputSystem.UnregisterTouch(IInputTouchListener)
+- uid: CatSweeper.Gameplay.IInputSystem.UnregisterTouch*
+  name: UnregisterTouch
+  href: api/CatSweeper.Gameplay.IInputSystem.html#CatSweeper_Gameplay_IInputSystem_UnregisterTouch_
+  commentId: Overload:CatSweeper.Gameplay.IInputSystem.UnregisterTouch
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.IInputSystem.UnregisterTouch
+  nameWithType: IInputSystem.UnregisterTouch
+- uid: CatSweeper.Gameplay.IInputTouchListener
+  name: IInputTouchListener
+  href: api/CatSweeper.Gameplay.IInputTouchListener.html
+  commentId: T:CatSweeper.Gameplay.IInputTouchListener
+  fullName: CatSweeper.Gameplay.IInputTouchListener
+  nameWithType: IInputTouchListener
+- uid: CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData@)
+  name: OnTouchUpdate(in InputTouchData)
+  href: api/CatSweeper.Gameplay.IInputTouchListener.html#CatSweeper_Gameplay_IInputTouchListener_OnTouchUpdate_CatSweeper_Gameplay_InputTouchData__
+  commentId: M:CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData@)
+  name.vb: OnTouchUpdate(InputTouchData)
+  fullName: CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate(in CatSweeper.Gameplay.InputTouchData)
+  fullName.vb: CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData)
+  nameWithType: IInputTouchListener.OnTouchUpdate(in InputTouchData)
+  nameWithType.vb: IInputTouchListener.OnTouchUpdate(InputTouchData)
+- uid: CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate*
+  name: OnTouchUpdate
+  href: api/CatSweeper.Gameplay.IInputTouchListener.html#CatSweeper_Gameplay_IInputTouchListener_OnTouchUpdate_
+  commentId: Overload:CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.IInputTouchListener.OnTouchUpdate
+  nameWithType: IInputTouchListener.OnTouchUpdate
 - uid: CatSweeper.Gameplay.InputMotionData
   name: InputMotionData
   href: api/CatSweeper.Gameplay.InputMotionData.html
   commentId: T:CatSweeper.Gameplay.InputMotionData
   fullName: CatSweeper.Gameplay.InputMotionData
   nameWithType: InputMotionData
+- uid: CatSweeper.Gameplay.InputMotionData.#ctor(System.Int32,Godot.Vector2,Godot.Vector2,Godot.Vector2)
+  name: InputMotionData(int, Vector2, Vector2, Vector2)
+  href: api/CatSweeper.Gameplay.InputMotionData.html#CatSweeper_Gameplay_InputMotionData__ctor_System_Int32_Godot_Vector2_Godot_Vector2_Godot_Vector2_
+  commentId: M:CatSweeper.Gameplay.InputMotionData.#ctor(System.Int32,Godot.Vector2,Godot.Vector2,Godot.Vector2)
+  name.vb: New(Integer, Vector2, Vector2, Vector2)
+  fullName: CatSweeper.Gameplay.InputMotionData.InputMotionData(int, Godot.Vector2, Godot.Vector2, Godot.Vector2)
+  fullName.vb: CatSweeper.Gameplay.InputMotionData.New(Integer, Godot.Vector2, Godot.Vector2, Godot.Vector2)
+  nameWithType: InputMotionData.InputMotionData(int, Vector2, Vector2, Vector2)
+  nameWithType.vb: InputMotionData.New(Integer, Vector2, Vector2, Vector2)
+- uid: CatSweeper.Gameplay.InputMotionData.#ctor*
+  name: InputMotionData
+  href: api/CatSweeper.Gameplay.InputMotionData.html#CatSweeper_Gameplay_InputMotionData__ctor_
+  commentId: Overload:CatSweeper.Gameplay.InputMotionData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Gameplay.InputMotionData.InputMotionData
+  fullName.vb: CatSweeper.Gameplay.InputMotionData.New
+  nameWithType: InputMotionData.InputMotionData
+  nameWithType.vb: InputMotionData.New
+- uid: CatSweeper.Gameplay.InputMotionData.delta
+  name: delta
+  href: api/CatSweeper.Gameplay.InputMotionData.html#CatSweeper_Gameplay_InputMotionData_delta
+  commentId: F:CatSweeper.Gameplay.InputMotionData.delta
+  fullName: CatSweeper.Gameplay.InputMotionData.delta
+  nameWithType: InputMotionData.delta
+- uid: CatSweeper.Gameplay.InputMotionData.pointerIndex
+  name: pointerIndex
+  href: api/CatSweeper.Gameplay.InputMotionData.html#CatSweeper_Gameplay_InputMotionData_pointerIndex
+  commentId: F:CatSweeper.Gameplay.InputMotionData.pointerIndex
+  fullName: CatSweeper.Gameplay.InputMotionData.pointerIndex
+  nameWithType: InputMotionData.pointerIndex
+- uid: CatSweeper.Gameplay.InputMotionData.position
+  name: position
+  href: api/CatSweeper.Gameplay.InputMotionData.html#CatSweeper_Gameplay_InputMotionData_position
+  commentId: F:CatSweeper.Gameplay.InputMotionData.position
+  fullName: CatSweeper.Gameplay.InputMotionData.position
+  nameWithType: InputMotionData.position
+- uid: CatSweeper.Gameplay.InputMotionData.velocity
+  name: velocity
+  href: api/CatSweeper.Gameplay.InputMotionData.html#CatSweeper_Gameplay_InputMotionData_velocity
+  commentId: F:CatSweeper.Gameplay.InputMotionData.velocity
+  fullName: CatSweeper.Gameplay.InputMotionData.velocity
+  nameWithType: InputMotionData.velocity
+- uid: CatSweeper.Gameplay.InputService
+  name: InputService
+  href: api/CatSweeper.Gameplay.InputService.html
+  commentId: T:CatSweeper.Gameplay.InputService
+  fullName: CatSweeper.Gameplay.InputService
+  nameWithType: InputService
+- uid: CatSweeper.Gameplay.InputService.Dispose
+  name: Dispose()
+  href: api/CatSweeper.Gameplay.InputService.html#CatSweeper_Gameplay_InputService_Dispose
+  commentId: M:CatSweeper.Gameplay.InputService.Dispose
+  fullName: CatSweeper.Gameplay.InputService.Dispose()
+  nameWithType: InputService.Dispose()
+- uid: CatSweeper.Gameplay.InputService.Dispose*
+  name: Dispose
+  href: api/CatSweeper.Gameplay.InputService.html#CatSweeper_Gameplay_InputService_Dispose_
+  commentId: Overload:CatSweeper.Gameplay.InputService.Dispose
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.InputService.Dispose
+  nameWithType: InputService.Dispose
+- uid: CatSweeper.Gameplay.InputService.SetActiveSystem(CatSweeper.Gameplay.IInputSystem)
+  name: SetActiveSystem(IInputSystem)
+  href: api/CatSweeper.Gameplay.InputService.html#CatSweeper_Gameplay_InputService_SetActiveSystem_CatSweeper_Gameplay_IInputSystem_
+  commentId: M:CatSweeper.Gameplay.InputService.SetActiveSystem(CatSweeper.Gameplay.IInputSystem)
+  fullName: CatSweeper.Gameplay.InputService.SetActiveSystem(CatSweeper.Gameplay.IInputSystem)
+  nameWithType: InputService.SetActiveSystem(IInputSystem)
+- uid: CatSweeper.Gameplay.InputService.SetActiveSystem*
+  name: SetActiveSystem
+  href: api/CatSweeper.Gameplay.InputService.html#CatSweeper_Gameplay_InputService_SetActiveSystem_
+  commentId: Overload:CatSweeper.Gameplay.InputService.SetActiveSystem
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.InputService.SetActiveSystem
+  nameWithType: InputService.SetActiveSystem
+- uid: CatSweeper.Gameplay.InputService.active
+  name: active
+  href: api/CatSweeper.Gameplay.InputService.html#CatSweeper_Gameplay_InputService_active
+  commentId: P:CatSweeper.Gameplay.InputService.active
+  fullName: CatSweeper.Gameplay.InputService.active
+  nameWithType: InputService.active
+- uid: CatSweeper.Gameplay.InputService.active*
+  name: active
+  href: api/CatSweeper.Gameplay.InputService.html#CatSweeper_Gameplay_InputService_active_
+  commentId: Overload:CatSweeper.Gameplay.InputService.active
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.InputService.active
+  nameWithType: InputService.active
+- uid: CatSweeper.Gameplay.InputTouchData
+  name: InputTouchData
+  href: api/CatSweeper.Gameplay.InputTouchData.html
+  commentId: T:CatSweeper.Gameplay.InputTouchData
+  fullName: CatSweeper.Gameplay.InputTouchData
+  nameWithType: InputTouchData
+- uid: CatSweeper.Gameplay.InputTouchData.#ctor(System.Int32,CatSweeper.Gameplay.InputTouchType,Godot.Vector2)
+  name: InputTouchData(int, InputTouchType, Vector2)
+  href: api/CatSweeper.Gameplay.InputTouchData.html#CatSweeper_Gameplay_InputTouchData__ctor_System_Int32_CatSweeper_Gameplay_InputTouchType_Godot_Vector2_
+  commentId: M:CatSweeper.Gameplay.InputTouchData.#ctor(System.Int32,CatSweeper.Gameplay.InputTouchType,Godot.Vector2)
+  name.vb: New(Integer, InputTouchType, Vector2)
+  fullName: CatSweeper.Gameplay.InputTouchData.InputTouchData(int, CatSweeper.Gameplay.InputTouchType, Godot.Vector2)
+  fullName.vb: CatSweeper.Gameplay.InputTouchData.New(Integer, CatSweeper.Gameplay.InputTouchType, Godot.Vector2)
+  nameWithType: InputTouchData.InputTouchData(int, InputTouchType, Vector2)
+  nameWithType.vb: InputTouchData.New(Integer, InputTouchType, Vector2)
+- uid: CatSweeper.Gameplay.InputTouchData.#ctor*
+  name: InputTouchData
+  href: api/CatSweeper.Gameplay.InputTouchData.html#CatSweeper_Gameplay_InputTouchData__ctor_
+  commentId: Overload:CatSweeper.Gameplay.InputTouchData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Gameplay.InputTouchData.InputTouchData
+  fullName.vb: CatSweeper.Gameplay.InputTouchData.New
+  nameWithType: InputTouchData.InputTouchData
+  nameWithType.vb: InputTouchData.New
+- uid: CatSweeper.Gameplay.InputTouchData.pointerIndex
+  name: pointerIndex
+  href: api/CatSweeper.Gameplay.InputTouchData.html#CatSweeper_Gameplay_InputTouchData_pointerIndex
+  commentId: F:CatSweeper.Gameplay.InputTouchData.pointerIndex
+  fullName: CatSweeper.Gameplay.InputTouchData.pointerIndex
+  nameWithType: InputTouchData.pointerIndex
+- uid: CatSweeper.Gameplay.InputTouchData.position
+  name: position
+  href: api/CatSweeper.Gameplay.InputTouchData.html#CatSweeper_Gameplay_InputTouchData_position
+  commentId: F:CatSweeper.Gameplay.InputTouchData.position
+  fullName: CatSweeper.Gameplay.InputTouchData.position
+  nameWithType: InputTouchData.position
+- uid: CatSweeper.Gameplay.InputTouchData.touchType
+  name: touchType
+  href: api/CatSweeper.Gameplay.InputTouchData.html#CatSweeper_Gameplay_InputTouchData_touchType
+  commentId: F:CatSweeper.Gameplay.InputTouchData.touchType
+  fullName: CatSweeper.Gameplay.InputTouchData.touchType
+  nameWithType: InputTouchData.touchType
+- uid: CatSweeper.Gameplay.InputTouchType
+  name: InputTouchType
+  href: api/CatSweeper.Gameplay.InputTouchType.html
+  commentId: T:CatSweeper.Gameplay.InputTouchType
+  fullName: CatSweeper.Gameplay.InputTouchType
+  nameWithType: InputTouchType
+- uid: CatSweeper.Gameplay.InputTouchType.Cancelled
+  name: Cancelled
+  href: api/CatSweeper.Gameplay.InputTouchType.html#CatSweeper_Gameplay_InputTouchType_Cancelled
+  commentId: F:CatSweeper.Gameplay.InputTouchType.Cancelled
+  fullName: CatSweeper.Gameplay.InputTouchType.Cancelled
+  nameWithType: InputTouchType.Cancelled
+- uid: CatSweeper.Gameplay.InputTouchType.DoubleTapped
+  name: DoubleTapped
+  href: api/CatSweeper.Gameplay.InputTouchType.html#CatSweeper_Gameplay_InputTouchType_DoubleTapped
+  commentId: F:CatSweeper.Gameplay.InputTouchType.DoubleTapped
+  fullName: CatSweeper.Gameplay.InputTouchType.DoubleTapped
+  nameWithType: InputTouchType.DoubleTapped
+- uid: CatSweeper.Gameplay.InputTouchType.Held
+  name: Held
+  href: api/CatSweeper.Gameplay.InputTouchType.html#CatSweeper_Gameplay_InputTouchType_Held
+  commentId: F:CatSweeper.Gameplay.InputTouchType.Held
+  fullName: CatSweeper.Gameplay.InputTouchType.Held
+  nameWithType: InputTouchType.Held
+- uid: CatSweeper.Gameplay.InputTouchType.None
+  name: None
+  href: api/CatSweeper.Gameplay.InputTouchType.html#CatSweeper_Gameplay_InputTouchType_None
+  commentId: F:CatSweeper.Gameplay.InputTouchType.None
+  fullName: CatSweeper.Gameplay.InputTouchType.None
+  nameWithType: InputTouchType.None
+- uid: CatSweeper.Gameplay.InputTouchType.Pressed
+  name: Pressed
+  href: api/CatSweeper.Gameplay.InputTouchType.html#CatSweeper_Gameplay_InputTouchType_Pressed
+  commentId: F:CatSweeper.Gameplay.InputTouchType.Pressed
+  fullName: CatSweeper.Gameplay.InputTouchType.Pressed
+  nameWithType: InputTouchType.Pressed
+- uid: CatSweeper.Gameplay.InputTouchType.Released
+  name: Released
+  href: api/CatSweeper.Gameplay.InputTouchType.html#CatSweeper_Gameplay_InputTouchType_Released
+  commentId: F:CatSweeper.Gameplay.InputTouchType.Released
+  fullName: CatSweeper.Gameplay.InputTouchType.Released
+  nameWithType: InputTouchType.Released
 - uid: CatSweeper.Gameplay.TouchInputSystem
   name: TouchInputSystem
   href: api/CatSweeper.Gameplay.TouchInputSystem.html
   commentId: T:CatSweeper.Gameplay.TouchInputSystem
   fullName: CatSweeper.Gameplay.TouchInputSystem
   nameWithType: TouchInputSystem
+- uid: CatSweeper.Gameplay.TouchInputSystem.#ctor
+  name: TouchInputSystem()
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem__ctor
+  commentId: M:CatSweeper.Gameplay.TouchInputSystem.#ctor
+  name.vb: New()
+  fullName: CatSweeper.Gameplay.TouchInputSystem.TouchInputSystem()
+  fullName.vb: CatSweeper.Gameplay.TouchInputSystem.New()
+  nameWithType: TouchInputSystem.TouchInputSystem()
+  nameWithType.vb: TouchInputSystem.New()
+- uid: CatSweeper.Gameplay.TouchInputSystem.#ctor*
+  name: TouchInputSystem
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem__ctor_
+  commentId: Overload:CatSweeper.Gameplay.TouchInputSystem.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Gameplay.TouchInputSystem.TouchInputSystem
+  fullName.vb: CatSweeper.Gameplay.TouchInputSystem.New
+  nameWithType: TouchInputSystem.TouchInputSystem
+  nameWithType.vb: TouchInputSystem.New
 - uid: CatSweeper.Gameplay.TouchInputSystem.MethodName
   name: TouchInputSystem.MethodName
   href: api/CatSweeper.Gameplay.TouchInputSystem.MethodName.html
@@ -501,25 +821,64 @@ references:
   commentId: T:CatSweeper.Gameplay.TouchInputSystem.PropertyName
   fullName: CatSweeper.Gameplay.TouchInputSystem.PropertyName
   nameWithType: TouchInputSystem.PropertyName
-- uid: CatSweeper.Gameplay.TouchInputSystem.RegisterMotionCallback(CatSweeper.Gameplay.InputMotionData)
-  name: RegisterMotionCallback(InputMotionData)
-  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_RegisterMotionCallback_CatSweeper_Gameplay_InputMotionData_
-  commentId: M:CatSweeper.Gameplay.TouchInputSystem.RegisterMotionCallback(CatSweeper.Gameplay.InputMotionData)
-  fullName: CatSweeper.Gameplay.TouchInputSystem.RegisterMotionCallback(CatSweeper.Gameplay.InputMotionData)
-  nameWithType: TouchInputSystem.RegisterMotionCallback(InputMotionData)
-- uid: CatSweeper.Gameplay.TouchInputSystem.RegisterMotionCallback*
-  name: RegisterMotionCallback
-  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_RegisterMotionCallback_
-  commentId: Overload:CatSweeper.Gameplay.TouchInputSystem.RegisterMotionCallback
+- uid: CatSweeper.Gameplay.TouchInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  name: RegisterMotion(IInputMotionListener)
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_RegisterMotion_CatSweeper_Gameplay_IInputMotionListener_
+  commentId: M:CatSweeper.Gameplay.TouchInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  fullName: CatSweeper.Gameplay.TouchInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  nameWithType: TouchInputSystem.RegisterMotion(IInputMotionListener)
+- uid: CatSweeper.Gameplay.TouchInputSystem.RegisterMotion*
+  name: RegisterMotion
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_RegisterMotion_
+  commentId: Overload:CatSweeper.Gameplay.TouchInputSystem.RegisterMotion
   isSpec: "True"
-  fullName: CatSweeper.Gameplay.TouchInputSystem.RegisterMotionCallback
-  nameWithType: TouchInputSystem.RegisterMotionCallback
+  fullName: CatSweeper.Gameplay.TouchInputSystem.RegisterMotion
+  nameWithType: TouchInputSystem.RegisterMotion
+- uid: CatSweeper.Gameplay.TouchInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  name: RegisterTouch(IInputTouchListener)
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_RegisterTouch_CatSweeper_Gameplay_IInputTouchListener_
+  commentId: M:CatSweeper.Gameplay.TouchInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  fullName: CatSweeper.Gameplay.TouchInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  nameWithType: TouchInputSystem.RegisterTouch(IInputTouchListener)
+- uid: CatSweeper.Gameplay.TouchInputSystem.RegisterTouch*
+  name: RegisterTouch
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_RegisterTouch_
+  commentId: Overload:CatSweeper.Gameplay.TouchInputSystem.RegisterTouch
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.TouchInputSystem.RegisterTouch
+  nameWithType: TouchInputSystem.RegisterTouch
 - uid: CatSweeper.Gameplay.TouchInputSystem.SignalName
   name: TouchInputSystem.SignalName
   href: api/CatSweeper.Gameplay.TouchInputSystem.SignalName.html
   commentId: T:CatSweeper.Gameplay.TouchInputSystem.SignalName
   fullName: CatSweeper.Gameplay.TouchInputSystem.SignalName
   nameWithType: TouchInputSystem.SignalName
+- uid: CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  name: UnregisterMotion(IInputMotionListener)
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_UnregisterMotion_CatSweeper_Gameplay_IInputMotionListener_
+  commentId: M:CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  fullName: CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  nameWithType: TouchInputSystem.UnregisterMotion(IInputMotionListener)
+- uid: CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion*
+  name: UnregisterMotion
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_UnregisterMotion_
+  commentId: Overload:CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion
+  nameWithType: TouchInputSystem.UnregisterMotion
+- uid: CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  name: UnregisterTouch(IInputTouchListener)
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_UnregisterTouch_CatSweeper_Gameplay_IInputTouchListener_
+  commentId: M:CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  fullName: CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  nameWithType: TouchInputSystem.UnregisterTouch(IInputTouchListener)
+- uid: CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch*
+  name: UnregisterTouch
+  href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem_UnregisterTouch_
+  commentId: Overload:CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch
+  nameWithType: TouchInputSystem.UnregisterTouch
 - uid: CatSweeper.Gameplay.TouchInputSystem._Input(Godot.InputEvent)
   name: _Input(InputEvent)
   href: api/CatSweeper.Gameplay.TouchInputSystem.html#CatSweeper_Gameplay_TouchInputSystem__Input_Godot_InputEvent_
@@ -775,6 +1134,19 @@ references:
   commentId: T:CatSweeper.Info.StageMapInfo
   fullName: CatSweeper.Info.StageMapInfo
   nameWithType: StageMapInfo
+- uid: CatSweeper.Info.StageMapInfo.GetBounds
+  name: GetBounds()
+  href: api/CatSweeper.Info.StageMapInfo.html#CatSweeper_Info_StageMapInfo_GetBounds
+  commentId: M:CatSweeper.Info.StageMapInfo.GetBounds
+  fullName: CatSweeper.Info.StageMapInfo.GetBounds()
+  nameWithType: StageMapInfo.GetBounds()
+- uid: CatSweeper.Info.StageMapInfo.GetBounds*
+  name: GetBounds
+  href: api/CatSweeper.Info.StageMapInfo.html#CatSweeper_Info_StageMapInfo_GetBounds_
+  commentId: Overload:CatSweeper.Info.StageMapInfo.GetBounds
+  isSpec: "True"
+  fullName: CatSweeper.Info.StageMapInfo.GetBounds
+  nameWithType: StageMapInfo.GetBounds
 - uid: CatSweeper.Info.StageMapInfo.floorGrids
   name: floorGrids
   href: api/CatSweeper.Info.StageMapInfo.html#CatSweeper_Info_StageMapInfo_floorGrids
@@ -942,6 +1314,141 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageCamera._Ready
   nameWithType: StageCamera._Ready
+- uid: CatSweeper.Stage.StageCellData
+  name: StageCellData
+  href: api/CatSweeper.Stage.StageCellData.html
+  commentId: T:CatSweeper.Stage.StageCellData
+  fullName: CatSweeper.Stage.StageCellData
+  nameWithType: StageCellData
+- uid: CatSweeper.Stage.StageCellData.Clear
+  name: Clear()
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_Clear
+  commentId: M:CatSweeper.Stage.StageCellData.Clear
+  fullName: CatSweeper.Stage.StageCellData.Clear()
+  nameWithType: StageCellData.Clear()
+- uid: CatSweeper.Stage.StageCellData.Clear*
+  name: Clear
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_Clear_
+  commentId: Overload:CatSweeper.Stage.StageCellData.Clear
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCellData.Clear
+  nameWithType: StageCellData.Clear
+- uid: CatSweeper.Stage.StageCellData.Create(CatSweeper.Stage.StageCellState,CatSweeper.Stage.StageCellMineData@)
+  name: Create(StageCellState, in StageCellMineData)
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_Create_CatSweeper_Stage_StageCellState_CatSweeper_Stage_StageCellMineData__
+  commentId: M:CatSweeper.Stage.StageCellData.Create(CatSweeper.Stage.StageCellState,CatSweeper.Stage.StageCellMineData@)
+  name.vb: Create(StageCellState, StageCellMineData)
+  fullName: CatSweeper.Stage.StageCellData.Create(CatSweeper.Stage.StageCellState, in CatSweeper.Stage.StageCellMineData)
+  fullName.vb: CatSweeper.Stage.StageCellData.Create(CatSweeper.Stage.StageCellState, CatSweeper.Stage.StageCellMineData)
+  nameWithType: StageCellData.Create(StageCellState, in StageCellMineData)
+  nameWithType.vb: StageCellData.Create(StageCellState, StageCellMineData)
+- uid: CatSweeper.Stage.StageCellData.Create*
+  name: Create
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_Create_
+  commentId: Overload:CatSweeper.Stage.StageCellData.Create
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCellData.Create
+  nameWithType: StageCellData.Create
+- uid: CatSweeper.Stage.StageCellData.CreateEmpty
+  name: CreateEmpty()
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_CreateEmpty
+  commentId: M:CatSweeper.Stage.StageCellData.CreateEmpty
+  fullName: CatSweeper.Stage.StageCellData.CreateEmpty()
+  nameWithType: StageCellData.CreateEmpty()
+- uid: CatSweeper.Stage.StageCellData.CreateEmpty*
+  name: CreateEmpty
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_CreateEmpty_
+  commentId: Overload:CatSweeper.Stage.StageCellData.CreateEmpty
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCellData.CreateEmpty
+  nameWithType: StageCellData.CreateEmpty
+- uid: CatSweeper.Stage.StageCellData.Dispose
+  name: Dispose()
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_Dispose
+  commentId: M:CatSweeper.Stage.StageCellData.Dispose
+  fullName: CatSweeper.Stage.StageCellData.Dispose()
+  nameWithType: StageCellData.Dispose()
+- uid: CatSweeper.Stage.StageCellData.Dispose*
+  name: Dispose
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_Dispose_
+  commentId: Overload:CatSweeper.Stage.StageCellData.Dispose
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCellData.Dispose
+  nameWithType: StageCellData.Dispose
+- uid: CatSweeper.Stage.StageCellData.mineData
+  name: mineData
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_mineData
+  commentId: P:CatSweeper.Stage.StageCellData.mineData
+  fullName: CatSweeper.Stage.StageCellData.mineData
+  nameWithType: StageCellData.mineData
+- uid: CatSweeper.Stage.StageCellData.mineData*
+  name: mineData
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_mineData_
+  commentId: Overload:CatSweeper.Stage.StageCellData.mineData
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCellData.mineData
+  nameWithType: StageCellData.mineData
+- uid: CatSweeper.Stage.StageCellData.state
+  name: state
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_state
+  commentId: P:CatSweeper.Stage.StageCellData.state
+  fullName: CatSweeper.Stage.StageCellData.state
+  nameWithType: StageCellData.state
+- uid: CatSweeper.Stage.StageCellData.state*
+  name: state
+  href: api/CatSweeper.Stage.StageCellData.html#CatSweeper_Stage_StageCellData_state_
+  commentId: Overload:CatSweeper.Stage.StageCellData.state
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageCellData.state
+  nameWithType: StageCellData.state
+- uid: CatSweeper.Stage.StageCellMineData
+  name: StageCellMineData
+  href: api/CatSweeper.Stage.StageCellMineData.html
+  commentId: T:CatSweeper.Stage.StageCellMineData
+  fullName: CatSweeper.Stage.StageCellMineData
+  nameWithType: StageCellMineData
+- uid: CatSweeper.Stage.StageCellMineData.mineCount
+  name: mineCount
+  href: api/CatSweeper.Stage.StageCellMineData.html#CatSweeper_Stage_StageCellMineData_mineCount
+  commentId: F:CatSweeper.Stage.StageCellMineData.mineCount
+  fullName: CatSweeper.Stage.StageCellMineData.mineCount
+  nameWithType: StageCellMineData.mineCount
+- uid: CatSweeper.Stage.StageCellState
+  name: StageCellState
+  href: api/CatSweeper.Stage.StageCellState.html
+  commentId: T:CatSweeper.Stage.StageCellState
+  fullName: CatSweeper.Stage.StageCellState
+  nameWithType: StageCellState
+- uid: CatSweeper.Stage.StageCellState.Closed
+  name: Closed
+  href: api/CatSweeper.Stage.StageCellState.html#CatSweeper_Stage_StageCellState_Closed
+  commentId: F:CatSweeper.Stage.StageCellState.Closed
+  fullName: CatSweeper.Stage.StageCellState.Closed
+  nameWithType: StageCellState.Closed
+- uid: CatSweeper.Stage.StageCellState.Opened
+  name: Opened
+  href: api/CatSweeper.Stage.StageCellState.html#CatSweeper_Stage_StageCellState_Opened
+  commentId: F:CatSweeper.Stage.StageCellState.Opened
+  fullName: CatSweeper.Stage.StageCellState.Opened
+  nameWithType: StageCellState.Opened
+- uid: CatSweeper.Stage.StageConfigData
+  name: StageConfigData
+  href: api/CatSweeper.Stage.StageConfigData.html
+  commentId: T:CatSweeper.Stage.StageConfigData
+  fullName: CatSweeper.Stage.StageConfigData
+  nameWithType: StageConfigData
+- uid: CatSweeper.Stage.StageConfigData.mapInfo
+  name: mapInfo
+  href: api/CatSweeper.Stage.StageConfigData.html#CatSweeper_Stage_StageConfigData_mapInfo
+  commentId: F:CatSweeper.Stage.StageConfigData.mapInfo
+  fullName: CatSweeper.Stage.StageConfigData.mapInfo
+  nameWithType: StageConfigData.mapInfo
+- uid: CatSweeper.Stage.StageConfigData.stageInfo
+  name: stageInfo
+  href: api/CatSweeper.Stage.StageConfigData.html#CatSweeper_Stage_StageConfigData_stageInfo
+  commentId: F:CatSweeper.Stage.StageConfigData.stageInfo
+  fullName: CatSweeper.Stage.StageConfigData.stageInfo
+  nameWithType: StageConfigData.stageInfo
 - uid: CatSweeper.Stage.StageController
   name: StageController
   href: api/CatSweeper.Stage.StageController.html
@@ -996,12 +1503,18 @@ references:
   commentId: T:CatSweeper.Stage.StageController.MethodName
   fullName: CatSweeper.Stage.StageController.MethodName
   nameWithType: StageController.MethodName
-- uid: CatSweeper.Stage.StageController.MethodName._Process
-  name: _Process
-  href: api/CatSweeper.Stage.StageController.MethodName.html#CatSweeper_Stage_StageController_MethodName__Process
-  commentId: F:CatSweeper.Stage.StageController.MethodName._Process
-  fullName: CatSweeper.Stage.StageController.MethodName._Process
-  nameWithType: StageController.MethodName._Process
+- uid: CatSweeper.Stage.StageController.MethodName._EnterTree
+  name: _EnterTree
+  href: api/CatSweeper.Stage.StageController.MethodName.html#CatSweeper_Stage_StageController_MethodName__EnterTree
+  commentId: F:CatSweeper.Stage.StageController.MethodName._EnterTree
+  fullName: CatSweeper.Stage.StageController.MethodName._EnterTree
+  nameWithType: StageController.MethodName._EnterTree
+- uid: CatSweeper.Stage.StageController.MethodName._ExitTree
+  name: _ExitTree
+  href: api/CatSweeper.Stage.StageController.MethodName.html#CatSweeper_Stage_StageController_MethodName__ExitTree
+  commentId: F:CatSweeper.Stage.StageController.MethodName._ExitTree
+  fullName: CatSweeper.Stage.StageController.MethodName._ExitTree
+  nameWithType: StageController.MethodName._ExitTree
 - uid: CatSweeper.Stage.StageController.MethodName._Ready
   name: _Ready
   href: api/CatSweeper.Stage.StageController.MethodName.html#CatSweeper_Stage_StageController_MethodName__Ready
@@ -1020,6 +1533,22 @@ references:
   commentId: T:CatSweeper.Stage.StageController.OnStageInitializedEventHandler
   fullName: CatSweeper.Stage.StageController.OnStageInitializedEventHandler
   nameWithType: StageController.OnStageInitializedEventHandler
+- uid: CatSweeper.Stage.StageController.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData@)
+  name: OnTouchUpdate(in InputTouchData)
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_OnTouchUpdate_CatSweeper_Gameplay_InputTouchData__
+  commentId: M:CatSweeper.Stage.StageController.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData@)
+  name.vb: OnTouchUpdate(InputTouchData)
+  fullName: CatSweeper.Stage.StageController.OnTouchUpdate(in CatSweeper.Gameplay.InputTouchData)
+  fullName.vb: CatSweeper.Stage.StageController.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData)
+  nameWithType: StageController.OnTouchUpdate(in InputTouchData)
+  nameWithType.vb: StageController.OnTouchUpdate(InputTouchData)
+- uid: CatSweeper.Stage.StageController.OnTouchUpdate*
+  name: OnTouchUpdate
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController_OnTouchUpdate_
+  commentId: Overload:CatSweeper.Stage.StageController.OnTouchUpdate
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController.OnTouchUpdate
+  nameWithType: StageController.OnTouchUpdate
 - uid: CatSweeper.Stage.StageController.PropertyName
   name: StageController.PropertyName
   href: api/CatSweeper.Stage.StageController.PropertyName.html
@@ -1056,22 +1585,32 @@ references:
   commentId: F:CatSweeper.Stage.StageController.SignalName.OnStageInitialized
   fullName: CatSweeper.Stage.StageController.SignalName.OnStageInitialized
   nameWithType: StageController.SignalName.OnStageInitialized
-- uid: CatSweeper.Stage.StageController._Process(System.Double)
-  name: _Process(double)
-  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Process_System_Double_
-  commentId: M:CatSweeper.Stage.StageController._Process(System.Double)
-  name.vb: _Process(Double)
-  fullName: CatSweeper.Stage.StageController._Process(double)
-  fullName.vb: CatSweeper.Stage.StageController._Process(Double)
-  nameWithType: StageController._Process(double)
-  nameWithType.vb: StageController._Process(Double)
-- uid: CatSweeper.Stage.StageController._Process*
-  name: _Process
-  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Process_
-  commentId: Overload:CatSweeper.Stage.StageController._Process
+- uid: CatSweeper.Stage.StageController._EnterTree
+  name: _EnterTree()
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__EnterTree
+  commentId: M:CatSweeper.Stage.StageController._EnterTree
+  fullName: CatSweeper.Stage.StageController._EnterTree()
+  nameWithType: StageController._EnterTree()
+- uid: CatSweeper.Stage.StageController._EnterTree*
+  name: _EnterTree
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__EnterTree_
+  commentId: Overload:CatSweeper.Stage.StageController._EnterTree
   isSpec: "True"
-  fullName: CatSweeper.Stage.StageController._Process
-  nameWithType: StageController._Process
+  fullName: CatSweeper.Stage.StageController._EnterTree
+  nameWithType: StageController._EnterTree
+- uid: CatSweeper.Stage.StageController._ExitTree
+  name: _ExitTree()
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__ExitTree
+  commentId: M:CatSweeper.Stage.StageController._ExitTree
+  fullName: CatSweeper.Stage.StageController._ExitTree()
+  nameWithType: StageController._ExitTree()
+- uid: CatSweeper.Stage.StageController._ExitTree*
+  name: _ExitTree
+  href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__ExitTree_
+  commentId: Overload:CatSweeper.Stage.StageController._ExitTree
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageController._ExitTree
+  nameWithType: StageController._ExitTree
 - uid: CatSweeper.Stage.StageController._Ready
   name: _Ready()
   href: api/CatSweeper.Stage.StageController.html#CatSweeper_Stage_StageController__Ready
@@ -1085,24 +1624,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageController._Ready
   nameWithType: StageController._Ready
-- uid: CatSweeper.Stage.StageData
-  name: StageData
-  href: api/CatSweeper.Stage.StageData.html
-  commentId: T:CatSweeper.Stage.StageData
-  fullName: CatSweeper.Stage.StageData
-  nameWithType: StageData
-- uid: CatSweeper.Stage.StageData.mapInfo
-  name: mapInfo
-  href: api/CatSweeper.Stage.StageData.html#CatSweeper_Stage_StageData_mapInfo
-  commentId: F:CatSweeper.Stage.StageData.mapInfo
-  fullName: CatSweeper.Stage.StageData.mapInfo
-  nameWithType: StageData.mapInfo
-- uid: CatSweeper.Stage.StageData.stageInfo
-  name: stageInfo
-  href: api/CatSweeper.Stage.StageData.html#CatSweeper_Stage_StageData_stageInfo
-  commentId: F:CatSweeper.Stage.StageData.stageInfo
-  fullName: CatSweeper.Stage.StageData.stageInfo
-  nameWithType: StageData.stageInfo
 - uid: CatSweeper.Stage.StageMap
   name: StageMap
   href: api/CatSweeper.Stage.StageMap.html
@@ -1135,18 +1656,28 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageMap.GetGridTiles
   nameWithType: StageMap.GetGridTiles
+- uid: CatSweeper.Stage.StageMap.LoadFromMap(cfEngine.DataStructure.IReadOnlyGridMap{CatSweeper.Stage.StageCellData})
+  name: LoadFromMap(IReadOnlyGridMap<StageCellData>)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_LoadFromMap_cfEngine_DataStructure_IReadOnlyGridMap_CatSweeper_Stage_StageCellData__
+  commentId: M:CatSweeper.Stage.StageMap.LoadFromMap(cfEngine.DataStructure.IReadOnlyGridMap{CatSweeper.Stage.StageCellData})
+  name.vb: LoadFromMap(IReadOnlyGridMap(Of StageCellData))
+  fullName: CatSweeper.Stage.StageMap.LoadFromMap(cfEngine.DataStructure.IReadOnlyGridMap<CatSweeper.Stage.StageCellData>)
+  fullName.vb: CatSweeper.Stage.StageMap.LoadFromMap(cfEngine.DataStructure.IReadOnlyGridMap(Of CatSweeper.Stage.StageCellData))
+  nameWithType: StageMap.LoadFromMap(IReadOnlyGridMap<StageCellData>)
+  nameWithType.vb: StageMap.LoadFromMap(IReadOnlyGridMap(Of StageCellData))
+- uid: CatSweeper.Stage.StageMap.LoadFromMap*
+  name: LoadFromMap
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_LoadFromMap_
+  commentId: Overload:CatSweeper.Stage.StageMap.LoadFromMap
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap.LoadFromMap
+  nameWithType: StageMap.LoadFromMap
 - uid: CatSweeper.Stage.StageMap.MethodName
   name: StageMap.MethodName
   href: api/CatSweeper.Stage.StageMap.MethodName.html
   commentId: T:CatSweeper.Stage.StageMap.MethodName
   fullName: CatSweeper.Stage.StageMap.MethodName
   nameWithType: StageMap.MethodName
-- uid: CatSweeper.Stage.StageMap.MethodName.SetClosed
-  name: SetClosed
-  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_SetClosed
-  commentId: F:CatSweeper.Stage.StageMap.MethodName.SetClosed
-  fullName: CatSweeper.Stage.StageMap.MethodName.SetClosed
-  nameWithType: StageMap.MethodName.SetClosed
 - uid: CatSweeper.Stage.StageMap.MethodName._ValidateProperty
   name: _ValidateProperty
   href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName__ValidateProperty
@@ -1159,53 +1690,31 @@ references:
   commentId: T:CatSweeper.Stage.StageMap.PropertyName
   fullName: CatSweeper.Stage.StageMap.PropertyName
   nameWithType: StageMap.PropertyName
-- uid: CatSweeper.Stage.StageMap.PropertyName.closedGridId
-  name: closedGridId
-  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_closedGridId
-  commentId: F:CatSweeper.Stage.StageMap.PropertyName.closedGridId
-  fullName: CatSweeper.Stage.StageMap.PropertyName.closedGridId
-  nameWithType: StageMap.PropertyName.closedGridId
-- uid: CatSweeper.Stage.StageMap.PropertyName.openedGridId
-  name: openedGridId
-  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_openedGridId
-  commentId: F:CatSweeper.Stage.StageMap.PropertyName.openedGridId
-  fullName: CatSweeper.Stage.StageMap.PropertyName.openedGridId
-  nameWithType: StageMap.PropertyName.openedGridId
+- uid: CatSweeper.Stage.StageMap.PropertyName.gridIdMap
+  name: gridIdMap
+  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_gridIdMap
+  commentId: F:CatSweeper.Stage.StageMap.PropertyName.gridIdMap
+  fullName: CatSweeper.Stage.StageMap.PropertyName.gridIdMap
+  nameWithType: StageMap.PropertyName.gridIdMap
 - uid: CatSweeper.Stage.StageMap.PropertyName.tileSourceId
   name: tileSourceId
   href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_tileSourceId
   commentId: F:CatSweeper.Stage.StageMap.PropertyName.tileSourceId
   fullName: CatSweeper.Stage.StageMap.PropertyName.tileSourceId
   nameWithType: StageMap.PropertyName.tileSourceId
-- uid: CatSweeper.Stage.StageMap.SetClosed(Godot.Vector2I)
-  name: SetClosed(Vector2I)
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetClosed_Godot_Vector2I_
-  commentId: M:CatSweeper.Stage.StageMap.SetClosed(Godot.Vector2I)
-  fullName: CatSweeper.Stage.StageMap.SetClosed(Godot.Vector2I)
-  nameWithType: StageMap.SetClosed(Vector2I)
-- uid: CatSweeper.Stage.StageMap.SetClosed*
-  name: SetClosed
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetClosed_
-  commentId: Overload:CatSweeper.Stage.StageMap.SetClosed
+- uid: CatSweeper.Stage.StageMap.SetCell(Godot.Vector2I,CatSweeper.Stage.StageCellData)
+  name: SetCell(Vector2I, StageCellData)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetCell_Godot_Vector2I_CatSweeper_Stage_StageCellData_
+  commentId: M:CatSweeper.Stage.StageMap.SetCell(Godot.Vector2I,CatSweeper.Stage.StageCellData)
+  fullName: CatSweeper.Stage.StageMap.SetCell(Godot.Vector2I, CatSweeper.Stage.StageCellData)
+  nameWithType: StageMap.SetCell(Vector2I, StageCellData)
+- uid: CatSweeper.Stage.StageMap.SetCell*
+  name: SetCell
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetCell_
+  commentId: Overload:CatSweeper.Stage.StageMap.SetCell
   isSpec: "True"
-  fullName: CatSweeper.Stage.StageMap.SetClosed
-  nameWithType: StageMap.SetClosed
-- uid: CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable{Godot.Vector2I})
-  name: SetMap(IEnumerable<Vector2I>)
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetMap_System_Collections_Generic_IEnumerable_Godot_Vector2I__
-  commentId: M:CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable{Godot.Vector2I})
-  name.vb: SetMap(IEnumerable(Of Vector2I))
-  fullName: CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable<Godot.Vector2I>)
-  fullName.vb: CatSweeper.Stage.StageMap.SetMap(System.Collections.Generic.IEnumerable(Of Godot.Vector2I))
-  nameWithType: StageMap.SetMap(IEnumerable<Vector2I>)
-  nameWithType.vb: StageMap.SetMap(IEnumerable(Of Vector2I))
-- uid: CatSweeper.Stage.StageMap.SetMap*
-  name: SetMap
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetMap_
-  commentId: Overload:CatSweeper.Stage.StageMap.SetMap
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageMap.SetMap
-  nameWithType: StageMap.SetMap
+  fullName: CatSweeper.Stage.StageMap.SetCell
+  nameWithType: StageMap.SetCell
 - uid: CatSweeper.Stage.StageMap.SignalName
   name: StageMap.SignalName
   href: api/CatSweeper.Stage.StageMap.SignalName.html
@@ -1262,6 +1771,35 @@ references:
   fullName.vb: CatSweeper.Stage.StageService.New
   nameWithType: StageService.StageService
   nameWithType.vb: StageService.New
+- uid: CatSweeper.Stage.StageService.CanRestoreSession
+  name: CanRestoreSession()
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_CanRestoreSession
+  commentId: M:CatSweeper.Stage.StageService.CanRestoreSession
+  fullName: CatSweeper.Stage.StageService.CanRestoreSession()
+  nameWithType: StageService.CanRestoreSession()
+- uid: CatSweeper.Stage.StageService.CanRestoreSession*
+  name: CanRestoreSession
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_CanRestoreSession_
+  commentId: Overload:CatSweeper.Stage.StageService.CanRestoreSession
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageService.CanRestoreSession
+  nameWithType: StageService.CanRestoreSession
+- uid: CatSweeper.Stage.StageService.CreateSession(System.String)
+  name: CreateSession(string)
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_CreateSession_System_String_
+  commentId: M:CatSweeper.Stage.StageService.CreateSession(System.String)
+  name.vb: CreateSession(String)
+  fullName: CatSweeper.Stage.StageService.CreateSession(string)
+  fullName.vb: CatSweeper.Stage.StageService.CreateSession(String)
+  nameWithType: StageService.CreateSession(string)
+  nameWithType.vb: StageService.CreateSession(String)
+- uid: CatSweeper.Stage.StageService.CreateSession*
+  name: CreateSession
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_CreateSession_
+  commentId: Overload:CatSweeper.Stage.StageService.CreateSession
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageService.CreateSession
+  nameWithType: StageService.CreateSession
 - uid: CatSweeper.Stage.StageService.Dispose
   name: Dispose()
   href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_Dispose
@@ -1288,22 +1826,35 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageService.GetModel
   nameWithType: StageService.GetModel
-- uid: CatSweeper.Stage.StageService.GetStageData(System.String)
-  name: GetStageData(string)
-  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetStageData_System_String_
-  commentId: M:CatSweeper.Stage.StageService.GetStageData(System.String)
-  name.vb: GetStageData(String)
-  fullName: CatSweeper.Stage.StageService.GetStageData(string)
-  fullName.vb: CatSweeper.Stage.StageService.GetStageData(String)
-  nameWithType: StageService.GetStageData(string)
-  nameWithType.vb: StageService.GetStageData(String)
-- uid: CatSweeper.Stage.StageService.GetStageData*
-  name: GetStageData
-  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetStageData_
-  commentId: Overload:CatSweeper.Stage.StageService.GetStageData
+- uid: CatSweeper.Stage.StageService.GetStageConfig(System.String)
+  name: GetStageConfig(string)
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetStageConfig_System_String_
+  commentId: M:CatSweeper.Stage.StageService.GetStageConfig(System.String)
+  name.vb: GetStageConfig(String)
+  fullName: CatSweeper.Stage.StageService.GetStageConfig(string)
+  fullName.vb: CatSweeper.Stage.StageService.GetStageConfig(String)
+  nameWithType: StageService.GetStageConfig(string)
+  nameWithType.vb: StageService.GetStageConfig(String)
+- uid: CatSweeper.Stage.StageService.GetStageConfig*
+  name: GetStageConfig
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_GetStageConfig_
+  commentId: Overload:CatSweeper.Stage.StageService.GetStageConfig
   isSpec: "True"
-  fullName: CatSweeper.Stage.StageService.GetStageData
-  nameWithType: StageService.GetStageData
+  fullName: CatSweeper.Stage.StageService.GetStageConfig
+  nameWithType: StageService.GetStageConfig
+- uid: CatSweeper.Stage.StageService.RestoreSession
+  name: RestoreSession()
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_RestoreSession
+  commentId: M:CatSweeper.Stage.StageService.RestoreSession
+  fullName: CatSweeper.Stage.StageService.RestoreSession()
+  nameWithType: StageService.RestoreSession()
+- uid: CatSweeper.Stage.StageService.RestoreSession*
+  name: RestoreSession
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService_RestoreSession_
+  commentId: Overload:CatSweeper.Stage.StageService.RestoreSession
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageService.RestoreSession
+  nameWithType: StageService.RestoreSession
 - uid: CatSweeper.Stage.StageServiceModel
   name: StageServiceModel
   href: api/CatSweeper.Stage.StageServiceModel.html
@@ -1352,6 +1903,82 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageServiceModel.SetSaveData
   nameWithType: StageServiceModel.SetSaveData
+- uid: CatSweeper.Stage.StageSession
+  name: StageSession
+  href: api/CatSweeper.Stage.StageSession.html
+  commentId: T:CatSweeper.Stage.StageSession
+  fullName: CatSweeper.Stage.StageSession
+  nameWithType: StageSession
+- uid: CatSweeper.Stage.StageSession.#ctor(CatSweeper.Stage.StageService,System.String)
+  name: StageSession(StageService, string)
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession__ctor_CatSweeper_Stage_StageService_System_String_
+  commentId: M:CatSweeper.Stage.StageSession.#ctor(CatSweeper.Stage.StageService,System.String)
+  name.vb: New(StageService, String)
+  fullName: CatSweeper.Stage.StageSession.StageSession(CatSweeper.Stage.StageService, string)
+  fullName.vb: CatSweeper.Stage.StageSession.New(CatSweeper.Stage.StageService, String)
+  nameWithType: StageSession.StageSession(StageService, string)
+  nameWithType.vb: StageSession.New(StageService, String)
+- uid: CatSweeper.Stage.StageSession.#ctor*
+  name: StageSession
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession__ctor_
+  commentId: Overload:CatSweeper.Stage.StageSession.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.StageSession.StageSession
+  fullName.vb: CatSweeper.Stage.StageSession.New
+  nameWithType: StageSession.StageSession
+  nameWithType.vb: StageSession.New
+- uid: CatSweeper.Stage.StageSession.GenerateMap
+  name: GenerateMap()
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap
+  commentId: M:CatSweeper.Stage.StageSession.GenerateMap
+  fullName: CatSweeper.Stage.StageSession.GenerateMap()
+  nameWithType: StageSession.GenerateMap()
+- uid: CatSweeper.Stage.StageSession.GenerateMap*
+  name: GenerateMap
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap_
+  commentId: Overload:CatSweeper.Stage.StageSession.GenerateMap
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageSession.GenerateMap
+  nameWithType: StageSession.GenerateMap
+- uid: CatSweeper.Stage.StageSession.GetGridMap
+  name: GetGridMap
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GetGridMap
+  commentId: P:CatSweeper.Stage.StageSession.GetGridMap
+  fullName: CatSweeper.Stage.StageSession.GetGridMap
+  nameWithType: StageSession.GetGridMap
+- uid: CatSweeper.Stage.StageSession.GetGridMap*
+  name: GetGridMap
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GetGridMap_
+  commentId: Overload:CatSweeper.Stage.StageSession.GetGridMap
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageSession.GetGridMap
+  nameWithType: StageSession.GetGridMap
+- uid: CatSweeper.Stage.StageSession.OnGridUpdated
+  name: OnGridUpdated
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_OnGridUpdated
+  commentId: F:CatSweeper.Stage.StageSession.OnGridUpdated
+  fullName: CatSweeper.Stage.StageSession.OnGridUpdated
+  nameWithType: StageSession.OnGridUpdated
+- uid: CatSweeper.Stage.StageSession.OpenCell(Godot.Vector2I)
+  name: OpenCell(Vector2I)
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_OpenCell_Godot_Vector2I_
+  commentId: M:CatSweeper.Stage.StageSession.OpenCell(Godot.Vector2I)
+  fullName: CatSweeper.Stage.StageSession.OpenCell(Godot.Vector2I)
+  nameWithType: StageSession.OpenCell(Vector2I)
+- uid: CatSweeper.Stage.StageSession.OpenCell*
+  name: OpenCell
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_OpenCell_
+  commentId: Overload:CatSweeper.Stage.StageSession.OpenCell
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageSession.OpenCell
+  nameWithType: StageSession.OpenCell
+- uid: CatSweeper.Stage.StageSession.stageId
+  name: stageId
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_stageId
+  commentId: F:CatSweeper.Stage.StageSession.stageId
+  fullName: CatSweeper.Stage.StageSession.stageId
+  nameWithType: StageSession.stageId
 - uid: CatSweeper.Util
   name: CatSweeper.Util
   href: api/CatSweeper.Util.html
@@ -1396,6 +2023,44 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Util.InfoUtil.CreateStorage
   nameWithType: InfoUtil.CreateStorage
+- uid: CatSweeper.Util.Node2DUtil
+  name: Node2DUtil
+  href: api/CatSweeper.Util.Node2DUtil.html
+  commentId: T:CatSweeper.Util.Node2DUtil
+  fullName: CatSweeper.Util.Node2DUtil
+  nameWithType: Node2DUtil
+- uid: CatSweeper.Util.Node2DUtil.ScreenToWorldPoint(Godot.Node2D,Godot.Vector2)
+  name: ScreenToWorldPoint(Node2D, Vector2)
+  href: api/CatSweeper.Util.Node2DUtil.html#CatSweeper_Util_Node2DUtil_ScreenToWorldPoint_Godot_Node2D_Godot_Vector2_
+  commentId: M:CatSweeper.Util.Node2DUtil.ScreenToWorldPoint(Godot.Node2D,Godot.Vector2)
+  fullName: CatSweeper.Util.Node2DUtil.ScreenToWorldPoint(Godot.Node2D, Godot.Vector2)
+  nameWithType: Node2DUtil.ScreenToWorldPoint(Node2D, Vector2)
+- uid: CatSweeper.Util.Node2DUtil.ScreenToWorldPoint*
+  name: ScreenToWorldPoint
+  href: api/CatSweeper.Util.Node2DUtil.html#CatSweeper_Util_Node2DUtil_ScreenToWorldPoint_
+  commentId: Overload:CatSweeper.Util.Node2DUtil.ScreenToWorldPoint
+  isSpec: "True"
+  fullName: CatSweeper.Util.Node2DUtil.ScreenToWorldPoint
+  nameWithType: Node2DUtil.ScreenToWorldPoint
+- uid: CatSweeper.Util.TileMapLayerExtension
+  name: TileMapLayerExtension
+  href: api/CatSweeper.Util.TileMapLayerExtension.html
+  commentId: T:CatSweeper.Util.TileMapLayerExtension
+  fullName: CatSweeper.Util.TileMapLayerExtension
+  nameWithType: TileMapLayerExtension
+- uid: CatSweeper.Util.TileMapLayerExtension.WorldToGrid(Godot.TileMapLayer,Godot.Vector2)
+  name: WorldToGrid(TileMapLayer, Vector2)
+  href: api/CatSweeper.Util.TileMapLayerExtension.html#CatSweeper_Util_TileMapLayerExtension_WorldToGrid_Godot_TileMapLayer_Godot_Vector2_
+  commentId: M:CatSweeper.Util.TileMapLayerExtension.WorldToGrid(Godot.TileMapLayer,Godot.Vector2)
+  fullName: CatSweeper.Util.TileMapLayerExtension.WorldToGrid(Godot.TileMapLayer, Godot.Vector2)
+  nameWithType: TileMapLayerExtension.WorldToGrid(TileMapLayer, Vector2)
+- uid: CatSweeper.Util.TileMapLayerExtension.WorldToGrid*
+  name: WorldToGrid
+  href: api/CatSweeper.Util.TileMapLayerExtension.html#CatSweeper_Util_TileMapLayerExtension_WorldToGrid_
+  commentId: Overload:CatSweeper.Util.TileMapLayerExtension.WorldToGrid
+  isSpec: "True"
+  fullName: CatSweeper.Util.TileMapLayerExtension.WorldToGrid
+  nameWithType: TileMapLayerExtension.WorldToGrid
 - uid: cfEngine.Core
   name: cfEngine.Core
   href: api/cfEngine.Core.html
@@ -3693,12 +4358,6 @@ references:
   commentId: T:cfGodotEngine.Util.NodeUtil
   fullName: cfGodotEngine.Util.NodeUtil
   nameWithType: NodeUtil
-- uid: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad(Godot.Node)
-  name: DontDestroyOnLoad(Node)
-  href: api/cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad_Godot_Node_
-  commentId: M:cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad(Godot.Node)
-  fullName: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad(Godot.Node)
-  nameWithType: NodeUtil.DontDestroyOnLoad(Node)
 - uid: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad*
   name: DontDestroyOnLoad
   href: api/cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad_
@@ -3706,6 +4365,15 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad
   nameWithType: NodeUtil.DontDestroyOnLoad
+- uid: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad``1(``0)
+  name: DontDestroyOnLoad<T>(T)
+  href: api/cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad__1___0_
+  commentId: M:cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad``1(``0)
+  name.vb: DontDestroyOnLoad(Of T)(T)
+  fullName: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad<T>(T)
+  fullName.vb: cfGodotEngine.Util.NodeUtil.DontDestroyOnLoad(Of T)(T)
+  nameWithType: NodeUtil.DontDestroyOnLoad<T>(T)
+  nameWithType.vb: NodeUtil.DontDestroyOnLoad(Of T)(T)
 - uid: cfGodotEngine.Util.NodeUtil.GetSceneTree
   name: GetSceneTree()
   href: api/cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_GetSceneTree

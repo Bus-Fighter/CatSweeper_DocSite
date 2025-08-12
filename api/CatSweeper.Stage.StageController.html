@@ -114,6 +114,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="CatSweeper.Gameplay.IInputTouchListener.html">IInputTouchListener</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -643,12 +644,6 @@
       <span class="xref">Node.GetParentOrNull&lt;T&gt;()</span>
     </div>
     <div>
-      <span class="xref">Node._EnterTree()</span>
-    </div>
-    <div>
-      <span class="xref">Node._ExitTree()</span>
-    </div>
-    <div>
       <span class="xref">Node._GetConfigurationWarnings()</span>
     </div>
     <div>
@@ -656,6 +651,9 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Node._PhysicsProcess(double)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Node._Process(double)</a>
     </div>
     <div>
       <span class="xref">Node._ShortcutInput(InputEvent)</span>
@@ -1316,7 +1314,7 @@
     <pre><code class="lang-csharp hljs">[Tool]
 [GlobalClass]
 [ScriptPath(&quot;res://Script/Stage/StageController.cs&quot;)]
-public class StageController : Node2D, IDisposable</code></pre>
+public class StageController : Node2D, IDisposable, IInputTouchListener</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -1325,7 +1323,7 @@ public class StageController : Node2D, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController_GetStageMap.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController.GetStageMap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L14">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L20">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageController_GetStageMap_" data-uid="CatSweeper.Stage.StageController.GetStageMap*"></a>
   <h4 id="CatSweeper_Stage_StageController_GetStageMap" data-uid="CatSweeper.Stage.StageController.GetStageMap">GetStageMap</h4>
@@ -1367,7 +1365,7 @@ public class StageController : Node2D, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController_Initialize_CatSweeper_Stage_StageService_CatSweeper_Stage_StageParam__.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController.Initialize(CatSweeper.Stage.StageService%2CCatSweeper.Stage.StageParam%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L29">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L48">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageController_Initialize_" data-uid="CatSweeper.Stage.StageController.Initialize*"></a>
   <h4 id="CatSweeper_Stage_StageController_Initialize_CatSweeper_Stage_StageService_CatSweeper_Stage_StageParam__" data-uid="CatSweeper.Stage.StageController.Initialize(CatSweeper.Stage.StageService,CatSweeper.Stage.StageParam@)">Initialize(StageService, in StageParam)</h4>
@@ -1401,24 +1399,18 @@ public class StageController : Node2D, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController__Process_System_Double_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController._Process(System.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController_OnTouchUpdate_CatSweeper_Gameplay_InputTouchData__.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L50">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L80">View Source</a>
   </span>
-  <a id="CatSweeper_Stage_StageController__Process_" data-uid="CatSweeper.Stage.StageController._Process*"></a>
-  <h4 id="CatSweeper_Stage_StageController__Process_System_Double_" data-uid="CatSweeper.Stage.StageController._Process(System.Double)">_Process(double)</h4>
-  <div class="markdown level1 summary"><p>Called during the processing step of the main loop. Processing happens at every frame and as fast as possible, so the <code class="paramref">delta</code> time since the previous frame is not constant. <code class="paramref">delta</code> is in seconds.</p>
-<p>It is only called if processing is enabled, which is done automatically if this method is overridden, and can be toggled with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">SetProcess(bool)</a>.</p>
-<p>Processing happens in order of <span class="xref">Godot.Node.ProcessPriority</span>, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).</p>
-<p>Corresponds to the <span class="xref">Godot.Node.NotificationProcess</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>.</p>
-<p><b>Note:</b> This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).</p>
-<p><b>Note:</b> <code class="paramref">delta</code> will be larger than expected if running at a framerate lower than <span class="xref">Godot.Engine.PhysicsTicksPerSecond</span> / <span class="xref">Godot.Engine.MaxPhysicsStepsPerFrame</span> FPS. This is done to avoid "spiral of death" scenarios where performance would plummet due to an ever-increasing number of physics steps per frame. This behavior affects both <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">_Process(double)</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">_PhysicsProcess(double)</a>. As a result, avoid using <code class="paramref">delta</code> for time measurements in real-world seconds. Use the <span class="xref">Godot.Time</span> singleton's methods for this purpose instead, such as <span class="xref">Godot.Time.GetTicksUsec()</span>.</p>
-</div>
+  <a id="CatSweeper_Stage_StageController_OnTouchUpdate_" data-uid="CatSweeper.Stage.StageController.OnTouchUpdate*"></a>
+  <h4 id="CatSweeper_Stage_StageController_OnTouchUpdate_CatSweeper_Gameplay_InputTouchData__" data-uid="CatSweeper.Stage.StageController.OnTouchUpdate(CatSweeper.Gameplay.InputTouchData@)">OnTouchUpdate(in InputTouchData)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void _Process(double delta)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnTouchUpdate(in InputTouchData touchData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -1431,20 +1423,56 @@ public class StageController : Node2D, IDisposable</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
-        <td><span class="parametername">delta</span></td>
+        <td><a class="xref" href="CatSweeper.Gameplay.InputTouchData.html">InputTouchData</a></td>
+        <td><span class="parametername">touchData</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController__EnterTree.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController._EnterTree%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L36">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageController__EnterTree_" data-uid="CatSweeper.Stage.StageController._EnterTree*"></a>
+  <h4 id="CatSweeper_Stage_StageController__EnterTree" data-uid="CatSweeper.Stage.StageController._EnterTree">_EnterTree()</h4>
+  <div class="markdown level1 summary"><p>Called when the node enters the <span class="xref">Godot.SceneTree</span> (e.g. upon instantiating, scene changing, or after calling <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">AddChild(Node, bool, InternalMode)</a> in a script). If the node has children, its <span class="xref">Godot.Node._EnterTree()</span> callback will be called first, and then that of the children.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationEnterTree</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void _EnterTree()</code></pre>
+  </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Node._Process(double)</a></div>
+  <div><span class="xref">Godot.Node._EnterTree()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController__ExitTree.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController._ExitTree%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L42">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageController__ExitTree_" data-uid="CatSweeper.Stage.StageController._ExitTree*"></a>
+  <h4 id="CatSweeper_Stage_StageController__ExitTree" data-uid="CatSweeper.Stage.StageController._ExitTree">_ExitTree()</h4>
+  <div class="markdown level1 summary"><p>Called when the node is about to leave the <span class="xref">Godot.SceneTree</span> (e.g. upon freeing, scene changing, or after calling <span class="xref">Godot.Node.RemoveChild(Godot.Node)</span> in a script). If the node has children, its <span class="xref">Godot.Node._ExitTree()</span> callback will be called last, after all its children have left the tree.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationExitTree</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a> and signal <span class="xref">Godot.Node.TreeExiting</span>. To get notified when the node has already left the active tree, connect to the <span class="xref">Godot.Node.TreeExited</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void _ExitTree()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Godot.Node._ExitTree()</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageController__Ready.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageController._Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L21">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageController.cs/#L28">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageController__Ready_" data-uid="CatSweeper.Stage.StageController._Ready*"></a>
   <h4 id="CatSweeper_Stage_StageController__Ready" data-uid="CatSweeper.Stage.StageController._Ready">_Ready()</h4>
@@ -1490,9 +1518,12 @@ public class StageController : Node2D, IDisposable</code></pre>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
   </div>
+  <div>
+      <a class="xref" href="CatSweeper.Gameplay.IInputTouchListener.html">IInputTouchListener</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad_Godot_Node_">NodeUtil.DontDestroyOnLoad(Node)</a>
+      <a class="xref" href="cfGodotEngine.Util.NodeUtil.html#cfGodotEngine_Util_NodeUtil_DontDestroyOnLoad__1___0_">NodeUtil.DontDestroyOnLoad&lt;T&gt;(T)</a>
   </div>
 
 </article>
