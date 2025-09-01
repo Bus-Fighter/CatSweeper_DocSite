@@ -1859,62 +1859,43 @@ references:
   commentId: F:CatSweeper.Stage.StageMap.MethodName.Clear
   fullName: CatSweeper.Stage.StageMap.MethodName.Clear
   nameWithType: StageMap.MethodName.Clear
-- uid: CatSweeper.Stage.StageMap.MethodName.SetGrid
-  name: SetGrid
-  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_SetGrid
-  commentId: F:CatSweeper.Stage.StageMap.MethodName.SetGrid
-  fullName: CatSweeper.Stage.StageMap.MethodName.SetGrid
-  nameWithType: StageMap.MethodName.SetGrid
-- uid: CatSweeper.Stage.StageMap.MethodName._ValidateProperty
-  name: _ValidateProperty
-  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName__ValidateProperty
-  commentId: F:CatSweeper.Stage.StageMap.MethodName._ValidateProperty
-  fullName: CatSweeper.Stage.StageMap.MethodName._ValidateProperty
-  nameWithType: StageMap.MethodName._ValidateProperty
+- uid: CatSweeper.Stage.StageMap.MethodName.UpdateGrid
+  name: UpdateGrid
+  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_UpdateGrid
+  commentId: F:CatSweeper.Stage.StageMap.MethodName.UpdateGrid
+  fullName: CatSweeper.Stage.StageMap.MethodName.UpdateGrid
+  nameWithType: StageMap.MethodName.UpdateGrid
 - uid: CatSweeper.Stage.StageMap.PropertyName
   name: StageMap.PropertyName
   href: api/CatSweeper.Stage.StageMap.PropertyName.html
   commentId: T:CatSweeper.Stage.StageMap.PropertyName
   fullName: CatSweeper.Stage.StageMap.PropertyName
   nameWithType: StageMap.PropertyName
-- uid: CatSweeper.Stage.StageMap.PropertyName.tiles
-  name: tiles
-  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_tiles
-  commentId: F:CatSweeper.Stage.StageMap.PropertyName.tiles
-  fullName: CatSweeper.Stage.StageMap.PropertyName.tiles
-  nameWithType: StageMap.PropertyName.tiles
-- uid: CatSweeper.Stage.StageMap.SetGrid(Godot.Vector2I,CatSweeper.Stage.StageGridData)
-  name: SetGrid(Vector2I, StageGridData)
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetGrid_Godot_Vector2I_CatSweeper_Stage_StageGridData_
-  commentId: M:CatSweeper.Stage.StageMap.SetGrid(Godot.Vector2I,CatSweeper.Stage.StageGridData)
-  fullName: CatSweeper.Stage.StageMap.SetGrid(Godot.Vector2I, CatSweeper.Stage.StageGridData)
-  nameWithType: StageMap.SetGrid(Vector2I, StageGridData)
-- uid: CatSweeper.Stage.StageMap.SetGrid*
-  name: SetGrid
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_SetGrid_
-  commentId: Overload:CatSweeper.Stage.StageMap.SetGrid
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageMap.SetGrid
-  nameWithType: StageMap.SetGrid
+- uid: CatSweeper.Stage.StageMap.PropertyName.gridTiles
+  name: gridTiles
+  href: api/CatSweeper.Stage.StageMap.PropertyName.html#CatSweeper_Stage_StageMap_PropertyName_gridTiles
+  commentId: F:CatSweeper.Stage.StageMap.PropertyName.gridTiles
+  fullName: CatSweeper.Stage.StageMap.PropertyName.gridTiles
+  nameWithType: StageMap.PropertyName.gridTiles
 - uid: CatSweeper.Stage.StageMap.SignalName
   name: StageMap.SignalName
   href: api/CatSweeper.Stage.StageMap.SignalName.html
   commentId: T:CatSweeper.Stage.StageMap.SignalName
   fullName: CatSweeper.Stage.StageMap.SignalName
   nameWithType: StageMap.SignalName
-- uid: CatSweeper.Stage.StageMap._ValidateProperty(Godot.Collections.Dictionary)
-  name: _ValidateProperty(Dictionary)
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap__ValidateProperty_Godot_Collections_Dictionary_
-  commentId: M:CatSweeper.Stage.StageMap._ValidateProperty(Godot.Collections.Dictionary)
-  fullName: CatSweeper.Stage.StageMap._ValidateProperty(Godot.Collections.Dictionary)
-  nameWithType: StageMap._ValidateProperty(Dictionary)
-- uid: CatSweeper.Stage.StageMap._ValidateProperty*
-  name: _ValidateProperty
-  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap__ValidateProperty_
-  commentId: Overload:CatSweeper.Stage.StageMap._ValidateProperty
+- uid: CatSweeper.Stage.StageMap.UpdateGrid(Godot.Vector2I,CatSweeper.Stage.StageGridData)
+  name: UpdateGrid(Vector2I, StageGridData)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_UpdateGrid_Godot_Vector2I_CatSweeper_Stage_StageGridData_
+  commentId: M:CatSweeper.Stage.StageMap.UpdateGrid(Godot.Vector2I,CatSweeper.Stage.StageGridData)
+  fullName: CatSweeper.Stage.StageMap.UpdateGrid(Godot.Vector2I, CatSweeper.Stage.StageGridData)
+  nameWithType: StageMap.UpdateGrid(Vector2I, StageGridData)
+- uid: CatSweeper.Stage.StageMap.UpdateGrid*
+  name: UpdateGrid
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_UpdateGrid_
+  commentId: Overload:CatSweeper.Stage.StageMap.UpdateGrid
   isSpec: "True"
-  fullName: CatSweeper.Stage.StageMap._ValidateProperty
-  nameWithType: StageMap._ValidateProperty
+  fullName: CatSweeper.Stage.StageMap.UpdateGrid
+  nameWithType: StageMap.UpdateGrid
 - uid: CatSweeper.Stage.StageParam
   name: StageParam
   href: api/CatSweeper.Stage.StageParam.html
