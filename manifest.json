@@ -222,6 +222,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.StageMapGrid.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.StageMapGrid.MethodName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Core.StageMapGrid.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.StageMapGrid.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.StageMapGrid.PropertyName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Core.StageMapGrid.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.StageMapGrid.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.StageMapGrid.SignalName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Core.StageMapGrid.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.StageMapGrid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.StageMapGrid",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Core.UILoadState.yml",
       "output": {
         ".html": {
@@ -558,6 +614,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.MineGridMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.MineGridMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.MineGridMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.StageCamera.MethodName.yml",
       "output": {
         ".html": {
@@ -610,48 +680,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageCamera",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageCellData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageCellData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageCellData",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageCellMineData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageCellMineData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageCellMineData",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageCellState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageCellState.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageCellState",
       "Summary": null
     },
     {
@@ -736,6 +764,146 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGrid.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGrid.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGrid.MethodName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGrid.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGrid.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGrid.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGrid.PropertyName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGrid.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGrid.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGrid.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGrid.SignalName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGrid.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGrid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGrid",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridData.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridData.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridData.MethodName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridData.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridData.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridData.PropertyName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridData.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridData.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridData.SignalName",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridMineData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridMineData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridMineData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridState",
       "Summary": null
     },
     {
@@ -1212,6 +1380,286 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Asset",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.Binder.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.Binder.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.Binder.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.Binder.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.Binder.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.Binder.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.Binder.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.Binder.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.Binder.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.Binder.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.Binder.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.Binder.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.Binder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.Binder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.Binder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.BindingNameDrawer.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.BindingNameDrawer.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.BindingNameDrawer.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.BindingNameDrawer.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.BindingNameDrawer.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.BindingNameDrawer.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.BindingNameDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IBindingSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IBindingSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IBindingSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.PropertyBindingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.PropertyBindingAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.PropertyBindingAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.StringBinder.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.StringBinder.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.StringBinder.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.StringBinder.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.StringBinder.OnValueChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.StringBinder.OnValueChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.StringBinder.OnValueChangedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.StringBinder.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.StringBinder.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.StringBinder.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.StringBinder.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.StringBinder.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.StringBinder.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.StringBinder.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.StringBinder.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.StringBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.StringBinder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.StringBinder",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"1\">Binder for binding to a <xref href=\"cfEngine.DataStructure.IPropertyMap\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"cfGodotEngine.Binding.StringBinder._bindingName\" data-throw-if-not-resolved=\"false\"></xref>\nWhen property updated, signal <xref href=\"cfGodotEngine.Binding.StringBinder.OnValueChanged\" data-throw-if-not-resolved=\"false\"></xref> will be emitted, and <xref href=\"cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> will be called.\nFor inherited member,</p>\n<ol sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"4\">\n<li sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"4\">override the <xref href=\"cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom handling for the string value</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"5\">override the <xref href=\"cfGodotEngine.Binding.StringBinder.ParseValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> for adding parsing from object to string</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"6\">override the <xref href=\"cfGodotEngine.Binding.StringBinder.ValidateValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom validation for the object value</li>\n</ol>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.TypeRefDrawer.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.TypeRefDrawer.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.TypeRefDrawer.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.TypeRefDrawer.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.TypeRefDrawer.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.TypeRefDrawer.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.TypeRefDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.TypeRefDrawer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding",
       "Summary": null
     },
     {
@@ -1874,6 +2322,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Rx.CreateRtPropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Rx.CreateRtPropertyAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Rx.CreateRtPropertyAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Rx.SignalRx-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Rx.SignalRx-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Rx.SignalRx<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Rx.SignalRx-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Rx.SignalRx-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Rx.SignalRx<A, B>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Rx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Rx.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Rx",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.SceneManagement.GodotSceneManager.MethodName.yml",
       "output": {
         ".html": {
@@ -1972,6 +2476,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.OptionDropdown.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.OptionDropdown.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.OptionDropdown.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.OptionDropdown.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.OptionDropdown.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.OptionDropdown.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.OptionDropdown",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Util.Application.yml",
       "output": {
         ".html": {
@@ -1982,6 +2556,62 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Util.Application",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.BindingName.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.BindingName.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.BindingName.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Util.BindingName.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.BindingName.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.BindingName.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.BindingName.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Util.BindingName.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.BindingName.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.BindingName.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.BindingName.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Util.BindingName.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.BindingName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.BindingName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.BindingName",
       "Summary": null
     },
     {
@@ -2052,6 +2682,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Util.NodeUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.ObjectUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.ObjectUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.ObjectUtil",
       "Summary": null
     },
     {
@@ -2252,6 +2896,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.TypeRef.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.TypeRef.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.TypeRef.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Util.TypeRef.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.TypeRef.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.TypeRef.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.TypeRef.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Util.TypeRef.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.TypeRef.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.TypeRef.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.TypeRef.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Util.TypeRef.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.TypeRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.TypeRef.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.TypeRef",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Util.yml",
       "output": {
         ".html": {
@@ -2352,11 +3052,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -2475,11 +3175,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
         ".json": {
           "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
         }
       },
       "version": ""
@@ -2498,11 +3198,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
