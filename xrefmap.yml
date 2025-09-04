@@ -2863,6 +2863,118 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Binding.BindingNameDrawer._Ready
   nameWithType: BindingNameDrawer._Ready
+- uid: cfGodotEngine.Binding.FloatBinder
+  name: FloatBinder
+  href: api/cfGodotEngine.Binding.FloatBinder.html
+  commentId: T:cfGodotEngine.Binding.FloatBinder
+  fullName: cfGodotEngine.Binding.FloatBinder
+  nameWithType: FloatBinder
+- uid: cfGodotEngine.Binding.FloatBinder.DispatchSignal(System.Single)
+  name: DispatchSignal(float)
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_DispatchSignal_System_Single_
+  commentId: M:cfGodotEngine.Binding.FloatBinder.DispatchSignal(System.Single)
+  name.vb: DispatchSignal(Single)
+  fullName: cfGodotEngine.Binding.FloatBinder.DispatchSignal(float)
+  fullName.vb: cfGodotEngine.Binding.FloatBinder.DispatchSignal(Single)
+  nameWithType: FloatBinder.DispatchSignal(float)
+  nameWithType.vb: FloatBinder.DispatchSignal(Single)
+- uid: cfGodotEngine.Binding.FloatBinder.DispatchSignal*
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_DispatchSignal_
+  commentId: Overload:cfGodotEngine.Binding.FloatBinder.DispatchSignal
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.FloatBinder.DispatchSignal
+  nameWithType: FloatBinder.DispatchSignal
+- uid: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged(System.Single)
+  name: EmitSignalOnValueChanged(float)
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_EmitSignalOnValueChanged_System_Single_
+  commentId: M:cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged(System.Single)
+  name.vb: EmitSignalOnValueChanged(Single)
+  fullName: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged(float)
+  fullName.vb: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged(Single)
+  nameWithType: FloatBinder.EmitSignalOnValueChanged(float)
+  nameWithType.vb: FloatBinder.EmitSignalOnValueChanged(Single)
+- uid: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged*
+  name: EmitSignalOnValueChanged
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_EmitSignalOnValueChanged_
+  commentId: Overload:cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged
+  nameWithType: FloatBinder.EmitSignalOnValueChanged
+- uid: cfGodotEngine.Binding.FloatBinder.MethodName
+  name: FloatBinder.MethodName
+  href: api/cfGodotEngine.Binding.FloatBinder.MethodName.html
+  commentId: T:cfGodotEngine.Binding.FloatBinder.MethodName
+  fullName: cfGodotEngine.Binding.FloatBinder.MethodName
+  nameWithType: FloatBinder.MethodName
+- uid: cfGodotEngine.Binding.FloatBinder.MethodName.DispatchSignal
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.FloatBinder.MethodName.html#cfGodotEngine_Binding_FloatBinder_MethodName_DispatchSignal
+  commentId: F:cfGodotEngine.Binding.FloatBinder.MethodName.DispatchSignal
+  fullName: cfGodotEngine.Binding.FloatBinder.MethodName.DispatchSignal
+  nameWithType: FloatBinder.MethodName.DispatchSignal
+- uid: cfGodotEngine.Binding.FloatBinder.OnValueChanged
+  name: OnValueChanged
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_OnValueChanged
+  commentId: E:cfGodotEngine.Binding.FloatBinder.OnValueChanged
+  fullName: cfGodotEngine.Binding.FloatBinder.OnValueChanged
+  nameWithType: FloatBinder.OnValueChanged
+- uid: cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler
+  name: FloatBinder.OnValueChangedEventHandler
+  href: api/cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler.html
+  commentId: T:cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler
+  fullName: cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler
+  nameWithType: FloatBinder.OnValueChangedEventHandler
+- uid: cfGodotEngine.Binding.FloatBinder.ParseValue(System.Object)
+  name: ParseValue(object)
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_ParseValue_System_Object_
+  commentId: M:cfGodotEngine.Binding.FloatBinder.ParseValue(System.Object)
+  name.vb: ParseValue(Object)
+  fullName: cfGodotEngine.Binding.FloatBinder.ParseValue(object)
+  fullName.vb: cfGodotEngine.Binding.FloatBinder.ParseValue(Object)
+  nameWithType: FloatBinder.ParseValue(object)
+  nameWithType.vb: FloatBinder.ParseValue(Object)
+- uid: cfGodotEngine.Binding.FloatBinder.ParseValue*
+  name: ParseValue
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_ParseValue_
+  commentId: Overload:cfGodotEngine.Binding.FloatBinder.ParseValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.FloatBinder.ParseValue
+  nameWithType: FloatBinder.ParseValue
+- uid: cfGodotEngine.Binding.FloatBinder.PropertyName
+  name: FloatBinder.PropertyName
+  href: api/cfGodotEngine.Binding.FloatBinder.PropertyName.html
+  commentId: T:cfGodotEngine.Binding.FloatBinder.PropertyName
+  fullName: cfGodotEngine.Binding.FloatBinder.PropertyName
+  nameWithType: FloatBinder.PropertyName
+- uid: cfGodotEngine.Binding.FloatBinder.SignalName
+  name: FloatBinder.SignalName
+  href: api/cfGodotEngine.Binding.FloatBinder.SignalName.html
+  commentId: T:cfGodotEngine.Binding.FloatBinder.SignalName
+  fullName: cfGodotEngine.Binding.FloatBinder.SignalName
+  nameWithType: FloatBinder.SignalName
+- uid: cfGodotEngine.Binding.FloatBinder.SignalName.OnValueChanged
+  name: OnValueChanged
+  href: api/cfGodotEngine.Binding.FloatBinder.SignalName.html#cfGodotEngine_Binding_FloatBinder_SignalName_OnValueChanged
+  commentId: F:cfGodotEngine.Binding.FloatBinder.SignalName.OnValueChanged
+  fullName: cfGodotEngine.Binding.FloatBinder.SignalName.OnValueChanged
+  nameWithType: FloatBinder.SignalName.OnValueChanged
+- uid: cfGodotEngine.Binding.FloatBinder.ValidateValue(System.Object)
+  name: ValidateValue(object)
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_ValidateValue_System_Object_
+  commentId: M:cfGodotEngine.Binding.FloatBinder.ValidateValue(System.Object)
+  name.vb: ValidateValue(Object)
+  fullName: cfGodotEngine.Binding.FloatBinder.ValidateValue(object)
+  fullName.vb: cfGodotEngine.Binding.FloatBinder.ValidateValue(Object)
+  nameWithType: FloatBinder.ValidateValue(object)
+  nameWithType.vb: FloatBinder.ValidateValue(Object)
+- uid: cfGodotEngine.Binding.FloatBinder.ValidateValue*
+  name: ValidateValue
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_ValidateValue_
+  commentId: Overload:cfGodotEngine.Binding.FloatBinder.ValidateValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.FloatBinder.ValidateValue
+  nameWithType: FloatBinder.ValidateValue
 - uid: cfGodotEngine.Binding.IBindingSource
   name: IBindingSource
   href: api/cfGodotEngine.Binding.IBindingSource.html
@@ -2882,6 +2994,118 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Binding.IBindingSource.GetBindings
   nameWithType: IBindingSource.GetBindings
+- uid: cfGodotEngine.Binding.IntBinder
+  name: IntBinder
+  href: api/cfGodotEngine.Binding.IntBinder.html
+  commentId: T:cfGodotEngine.Binding.IntBinder
+  fullName: cfGodotEngine.Binding.IntBinder
+  nameWithType: IntBinder
+- uid: cfGodotEngine.Binding.IntBinder.DispatchSignal(System.Int32)
+  name: DispatchSignal(int)
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_DispatchSignal_System_Int32_
+  commentId: M:cfGodotEngine.Binding.IntBinder.DispatchSignal(System.Int32)
+  name.vb: DispatchSignal(Integer)
+  fullName: cfGodotEngine.Binding.IntBinder.DispatchSignal(int)
+  fullName.vb: cfGodotEngine.Binding.IntBinder.DispatchSignal(Integer)
+  nameWithType: IntBinder.DispatchSignal(int)
+  nameWithType.vb: IntBinder.DispatchSignal(Integer)
+- uid: cfGodotEngine.Binding.IntBinder.DispatchSignal*
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_DispatchSignal_
+  commentId: Overload:cfGodotEngine.Binding.IntBinder.DispatchSignal
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.IntBinder.DispatchSignal
+  nameWithType: IntBinder.DispatchSignal
+- uid: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged(System.Int32)
+  name: EmitSignalOnValueChanged(int)
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_EmitSignalOnValueChanged_System_Int32_
+  commentId: M:cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged(System.Int32)
+  name.vb: EmitSignalOnValueChanged(Integer)
+  fullName: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged(int)
+  fullName.vb: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged(Integer)
+  nameWithType: IntBinder.EmitSignalOnValueChanged(int)
+  nameWithType.vb: IntBinder.EmitSignalOnValueChanged(Integer)
+- uid: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged*
+  name: EmitSignalOnValueChanged
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_EmitSignalOnValueChanged_
+  commentId: Overload:cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged
+  nameWithType: IntBinder.EmitSignalOnValueChanged
+- uid: cfGodotEngine.Binding.IntBinder.MethodName
+  name: IntBinder.MethodName
+  href: api/cfGodotEngine.Binding.IntBinder.MethodName.html
+  commentId: T:cfGodotEngine.Binding.IntBinder.MethodName
+  fullName: cfGodotEngine.Binding.IntBinder.MethodName
+  nameWithType: IntBinder.MethodName
+- uid: cfGodotEngine.Binding.IntBinder.MethodName.DispatchSignal
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.IntBinder.MethodName.html#cfGodotEngine_Binding_IntBinder_MethodName_DispatchSignal
+  commentId: F:cfGodotEngine.Binding.IntBinder.MethodName.DispatchSignal
+  fullName: cfGodotEngine.Binding.IntBinder.MethodName.DispatchSignal
+  nameWithType: IntBinder.MethodName.DispatchSignal
+- uid: cfGodotEngine.Binding.IntBinder.OnValueChanged
+  name: OnValueChanged
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_OnValueChanged
+  commentId: E:cfGodotEngine.Binding.IntBinder.OnValueChanged
+  fullName: cfGodotEngine.Binding.IntBinder.OnValueChanged
+  nameWithType: IntBinder.OnValueChanged
+- uid: cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler
+  name: IntBinder.OnValueChangedEventHandler
+  href: api/cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler.html
+  commentId: T:cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler
+  fullName: cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler
+  nameWithType: IntBinder.OnValueChangedEventHandler
+- uid: cfGodotEngine.Binding.IntBinder.ParseValue(System.Object)
+  name: ParseValue(object)
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_ParseValue_System_Object_
+  commentId: M:cfGodotEngine.Binding.IntBinder.ParseValue(System.Object)
+  name.vb: ParseValue(Object)
+  fullName: cfGodotEngine.Binding.IntBinder.ParseValue(object)
+  fullName.vb: cfGodotEngine.Binding.IntBinder.ParseValue(Object)
+  nameWithType: IntBinder.ParseValue(object)
+  nameWithType.vb: IntBinder.ParseValue(Object)
+- uid: cfGodotEngine.Binding.IntBinder.ParseValue*
+  name: ParseValue
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_ParseValue_
+  commentId: Overload:cfGodotEngine.Binding.IntBinder.ParseValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.IntBinder.ParseValue
+  nameWithType: IntBinder.ParseValue
+- uid: cfGodotEngine.Binding.IntBinder.PropertyName
+  name: IntBinder.PropertyName
+  href: api/cfGodotEngine.Binding.IntBinder.PropertyName.html
+  commentId: T:cfGodotEngine.Binding.IntBinder.PropertyName
+  fullName: cfGodotEngine.Binding.IntBinder.PropertyName
+  nameWithType: IntBinder.PropertyName
+- uid: cfGodotEngine.Binding.IntBinder.SignalName
+  name: IntBinder.SignalName
+  href: api/cfGodotEngine.Binding.IntBinder.SignalName.html
+  commentId: T:cfGodotEngine.Binding.IntBinder.SignalName
+  fullName: cfGodotEngine.Binding.IntBinder.SignalName
+  nameWithType: IntBinder.SignalName
+- uid: cfGodotEngine.Binding.IntBinder.SignalName.OnValueChanged
+  name: OnValueChanged
+  href: api/cfGodotEngine.Binding.IntBinder.SignalName.html#cfGodotEngine_Binding_IntBinder_SignalName_OnValueChanged
+  commentId: F:cfGodotEngine.Binding.IntBinder.SignalName.OnValueChanged
+  fullName: cfGodotEngine.Binding.IntBinder.SignalName.OnValueChanged
+  nameWithType: IntBinder.SignalName.OnValueChanged
+- uid: cfGodotEngine.Binding.IntBinder.ValidateValue(System.Object)
+  name: ValidateValue(object)
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_ValidateValue_System_Object_
+  commentId: M:cfGodotEngine.Binding.IntBinder.ValidateValue(System.Object)
+  name.vb: ValidateValue(Object)
+  fullName: cfGodotEngine.Binding.IntBinder.ValidateValue(object)
+  fullName.vb: cfGodotEngine.Binding.IntBinder.ValidateValue(Object)
+  nameWithType: IntBinder.ValidateValue(object)
+  nameWithType.vb: IntBinder.ValidateValue(Object)
+- uid: cfGodotEngine.Binding.IntBinder.ValidateValue*
+  name: ValidateValue
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_ValidateValue_
+  commentId: Overload:cfGodotEngine.Binding.IntBinder.ValidateValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.IntBinder.ValidateValue
+  nameWithType: IntBinder.ValidateValue
 - uid: cfGodotEngine.Binding.PropertyBindingAttribute
   name: PropertyBindingAttribute
   href: api/cfGodotEngine.Binding.PropertyBindingAttribute.html
@@ -2913,12 +3137,177 @@ references:
   commentId: F:cfGodotEngine.Binding.PropertyBindingAttribute.name
   fullName: cfGodotEngine.Binding.PropertyBindingAttribute.name
   nameWithType: PropertyBindingAttribute.name
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1
+  name: SinglePropertyBinder<T>
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html
+  commentId: T:cfGodotEngine.Binding.SinglePropertyBinder`1
+  name.vb: SinglePropertyBinder(Of T)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T)
+  nameWithType: SinglePropertyBinder<T>
+  nameWithType.vb: SinglePropertyBinder(Of T)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.DispatchSignal(`0)
+  name: DispatchSignal(T)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_DispatchSignal__0_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.DispatchSignal(`0)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.DispatchSignal(T)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).DispatchSignal(T)
+  nameWithType: SinglePropertyBinder<T>.DispatchSignal(T)
+  nameWithType.vb: SinglePropertyBinder(Of T).DispatchSignal(T)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.DispatchSignal*
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_DispatchSignal_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.DispatchSignal
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.DispatchSignal
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).DispatchSignal
+  nameWithType: SinglePropertyBinder<T>.DispatchSignal
+  nameWithType.vb: SinglePropertyBinder(Of T).DispatchSignal
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName
+  name: SinglePropertyBinder<T>.MethodName
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.html
+  commentId: T:cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName
+  name.vb: SinglePropertyBinder(Of T).MethodName
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.MethodName
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).MethodName
+  nameWithType: SinglePropertyBinder<T>.MethodName
+  nameWithType.vb: SinglePropertyBinder(Of T).MethodName
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
+  name: OnBindingRestored(IPropertyMap)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingRestored_cfEngine_DataStructure_IPropertyMap_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
+  nameWithType: SinglePropertyBinder<T>.OnBindingRestored(IPropertyMap)
+  nameWithType.vb: SinglePropertyBinder(Of T).OnBindingRestored(IPropertyMap)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingRestored*
+  name: OnBindingRestored
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingRestored_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingRestored
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnBindingRestored
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingRestored
+  nameWithType: SinglePropertyBinder<T>.OnBindingRestored
+  nameWithType.vb: SinglePropertyBinder(Of T).OnBindingRestored
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged(System.String,System.Object)
+  name: OnBindingValueChanged(string, object)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingValueChanged_System_String_System_Object_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged(System.String,System.Object)
+  name.vb: OnBindingValueChanged(String, Object)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnBindingValueChanged(string, object)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingValueChanged(String, Object)
+  nameWithType: SinglePropertyBinder<T>.OnBindingValueChanged(string, object)
+  nameWithType.vb: SinglePropertyBinder(Of T).OnBindingValueChanged(String, Object)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged*
+  name: OnBindingValueChanged
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingValueChanged_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnBindingValueChanged
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingValueChanged
+  nameWithType: SinglePropertyBinder<T>.OnBindingValueChanged
+  nameWithType.vb: SinglePropertyBinder(Of T).OnBindingValueChanged
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnPropertyChanged(`0)
+  name: OnPropertyChanged(T)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnPropertyChanged__0_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.OnPropertyChanged(`0)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnPropertyChanged(T)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnPropertyChanged(T)
+  nameWithType: SinglePropertyBinder<T>.OnPropertyChanged(T)
+  nameWithType.vb: SinglePropertyBinder(Of T).OnPropertyChanged(T)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnPropertyChanged*
+  name: OnPropertyChanged
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnPropertyChanged_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.OnPropertyChanged
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnPropertyChanged
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnPropertyChanged
+  nameWithType: SinglePropertyBinder<T>.OnPropertyChanged
+  nameWithType.vb: SinglePropertyBinder(Of T).OnPropertyChanged
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.ParseValue(System.Object)
+  name: ParseValue(object)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_ParseValue_System_Object_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.ParseValue(System.Object)
+  name.vb: ParseValue(Object)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.ParseValue(object)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).ParseValue(Object)
+  nameWithType: SinglePropertyBinder<T>.ParseValue(object)
+  nameWithType.vb: SinglePropertyBinder(Of T).ParseValue(Object)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.ParseValue*
+  name: ParseValue
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_ParseValue_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.ParseValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.ParseValue
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).ParseValue
+  nameWithType: SinglePropertyBinder<T>.ParseValue
+  nameWithType.vb: SinglePropertyBinder(Of T).ParseValue
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.PropertyName
+  name: SinglePropertyBinder<T>.PropertyName
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.PropertyName.html
+  commentId: T:cfGodotEngine.Binding.SinglePropertyBinder`1.PropertyName
+  name.vb: SinglePropertyBinder(Of T).PropertyName
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.PropertyName
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).PropertyName
+  nameWithType: SinglePropertyBinder<T>.PropertyName
+  nameWithType.vb: SinglePropertyBinder(Of T).PropertyName
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.PropertyName._bindingName
+  name: _bindingName
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.PropertyName.html#cfGodotEngine_Binding_SinglePropertyBinder_1_PropertyName__bindingName
+  commentId: F:cfGodotEngine.Binding.SinglePropertyBinder`1.PropertyName._bindingName
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.PropertyName._bindingName
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).PropertyName._bindingName
+  nameWithType: SinglePropertyBinder<T>.PropertyName._bindingName
+  nameWithType.vb: SinglePropertyBinder(Of T).PropertyName._bindingName
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.SignalName
+  name: SinglePropertyBinder<T>.SignalName
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.SignalName.html
+  commentId: T:cfGodotEngine.Binding.SinglePropertyBinder`1.SignalName
+  name.vb: SinglePropertyBinder(Of T).SignalName
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.SignalName
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).SignalName
+  nameWithType: SinglePropertyBinder<T>.SignalName
+  nameWithType.vb: SinglePropertyBinder(Of T).SignalName
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.ValidateValue(System.Object)
+  name: ValidateValue(object)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_ValidateValue_System_Object_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.ValidateValue(System.Object)
+  name.vb: ValidateValue(Object)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.ValidateValue(object)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).ValidateValue(Object)
+  nameWithType: SinglePropertyBinder<T>.ValidateValue(object)
+  nameWithType.vb: SinglePropertyBinder(Of T).ValidateValue(Object)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.ValidateValue*
+  name: ValidateValue
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_ValidateValue_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.ValidateValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.ValidateValue
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).ValidateValue
+  nameWithType: SinglePropertyBinder<T>.ValidateValue
+  nameWithType.vb: SinglePropertyBinder(Of T).ValidateValue
 - uid: cfGodotEngine.Binding.StringBinder
   name: StringBinder
   href: api/cfGodotEngine.Binding.StringBinder.html
   commentId: T:cfGodotEngine.Binding.StringBinder
   fullName: cfGodotEngine.Binding.StringBinder
   nameWithType: StringBinder
+- uid: cfGodotEngine.Binding.StringBinder.DispatchSignal(System.String)
+  name: DispatchSignal(string)
+  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_DispatchSignal_System_String_
+  commentId: M:cfGodotEngine.Binding.StringBinder.DispatchSignal(System.String)
+  name.vb: DispatchSignal(String)
+  fullName: cfGodotEngine.Binding.StringBinder.DispatchSignal(string)
+  fullName.vb: cfGodotEngine.Binding.StringBinder.DispatchSignal(String)
+  nameWithType: StringBinder.DispatchSignal(string)
+  nameWithType.vb: StringBinder.DispatchSignal(String)
+- uid: cfGodotEngine.Binding.StringBinder.DispatchSignal*
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_DispatchSignal_
+  commentId: Overload:cfGodotEngine.Binding.StringBinder.DispatchSignal
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.StringBinder.DispatchSignal
+  nameWithType: StringBinder.DispatchSignal
 - uid: cfGodotEngine.Binding.StringBinder.EmitSignalOnValueChanged(System.String)
   name: EmitSignalOnValueChanged(string)
   href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_EmitSignalOnValueChanged_System_String_
@@ -2941,57 +3330,12 @@ references:
   commentId: T:cfGodotEngine.Binding.StringBinder.MethodName
   fullName: cfGodotEngine.Binding.StringBinder.MethodName
   nameWithType: StringBinder.MethodName
-- uid: cfGodotEngine.Binding.StringBinder.MethodName.OnPropertyChanged
-  name: OnPropertyChanged
-  href: api/cfGodotEngine.Binding.StringBinder.MethodName.html#cfGodotEngine_Binding_StringBinder_MethodName_OnPropertyChanged
-  commentId: F:cfGodotEngine.Binding.StringBinder.MethodName.OnPropertyChanged
-  fullName: cfGodotEngine.Binding.StringBinder.MethodName.OnPropertyChanged
-  nameWithType: StringBinder.MethodName.OnPropertyChanged
-- uid: cfGodotEngine.Binding.StringBinder.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
-  name: OnBindingRestored(IPropertyMap)
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnBindingRestored_cfEngine_DataStructure_IPropertyMap_
-  commentId: M:cfGodotEngine.Binding.StringBinder.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
-  fullName: cfGodotEngine.Binding.StringBinder.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
-  nameWithType: StringBinder.OnBindingRestored(IPropertyMap)
-- uid: cfGodotEngine.Binding.StringBinder.OnBindingRestored*
-  name: OnBindingRestored
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnBindingRestored_
-  commentId: Overload:cfGodotEngine.Binding.StringBinder.OnBindingRestored
-  isSpec: "True"
-  fullName: cfGodotEngine.Binding.StringBinder.OnBindingRestored
-  nameWithType: StringBinder.OnBindingRestored
-- uid: cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(System.String,System.Object)
-  name: OnBindingValueChanged(string, object)
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnBindingValueChanged_System_String_System_Object_
-  commentId: M:cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(System.String,System.Object)
-  name.vb: OnBindingValueChanged(String, Object)
-  fullName: cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(string, object)
-  fullName.vb: cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(String, Object)
-  nameWithType: StringBinder.OnBindingValueChanged(string, object)
-  nameWithType.vb: StringBinder.OnBindingValueChanged(String, Object)
-- uid: cfGodotEngine.Binding.StringBinder.OnBindingValueChanged*
-  name: OnBindingValueChanged
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnBindingValueChanged_
-  commentId: Overload:cfGodotEngine.Binding.StringBinder.OnBindingValueChanged
-  isSpec: "True"
-  fullName: cfGodotEngine.Binding.StringBinder.OnBindingValueChanged
-  nameWithType: StringBinder.OnBindingValueChanged
-- uid: cfGodotEngine.Binding.StringBinder.OnPropertyChanged(System.String)
-  name: OnPropertyChanged(string)
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnPropertyChanged_System_String_
-  commentId: M:cfGodotEngine.Binding.StringBinder.OnPropertyChanged(System.String)
-  name.vb: OnPropertyChanged(String)
-  fullName: cfGodotEngine.Binding.StringBinder.OnPropertyChanged(string)
-  fullName.vb: cfGodotEngine.Binding.StringBinder.OnPropertyChanged(String)
-  nameWithType: StringBinder.OnPropertyChanged(string)
-  nameWithType.vb: StringBinder.OnPropertyChanged(String)
-- uid: cfGodotEngine.Binding.StringBinder.OnPropertyChanged*
-  name: OnPropertyChanged
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnPropertyChanged_
-  commentId: Overload:cfGodotEngine.Binding.StringBinder.OnPropertyChanged
-  isSpec: "True"
-  fullName: cfGodotEngine.Binding.StringBinder.OnPropertyChanged
-  nameWithType: StringBinder.OnPropertyChanged
+- uid: cfGodotEngine.Binding.StringBinder.MethodName.DispatchSignal
+  name: DispatchSignal
+  href: api/cfGodotEngine.Binding.StringBinder.MethodName.html#cfGodotEngine_Binding_StringBinder_MethodName_DispatchSignal
+  commentId: F:cfGodotEngine.Binding.StringBinder.MethodName.DispatchSignal
+  fullName: cfGodotEngine.Binding.StringBinder.MethodName.DispatchSignal
+  nameWithType: StringBinder.MethodName.DispatchSignal
 - uid: cfGodotEngine.Binding.StringBinder.OnValueChanged
   name: OnValueChanged
   href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_OnValueChanged
@@ -3026,12 +3370,6 @@ references:
   commentId: T:cfGodotEngine.Binding.StringBinder.PropertyName
   fullName: cfGodotEngine.Binding.StringBinder.PropertyName
   nameWithType: StringBinder.PropertyName
-- uid: cfGodotEngine.Binding.StringBinder.PropertyName._bindingName
-  name: _bindingName
-  href: api/cfGodotEngine.Binding.StringBinder.PropertyName.html#cfGodotEngine_Binding_StringBinder_PropertyName__bindingName
-  commentId: F:cfGodotEngine.Binding.StringBinder.PropertyName._bindingName
-  fullName: cfGodotEngine.Binding.StringBinder.PropertyName._bindingName
-  nameWithType: StringBinder.PropertyName._bindingName
 - uid: cfGodotEngine.Binding.StringBinder.SignalName
   name: StringBinder.SignalName
   href: api/cfGodotEngine.Binding.StringBinder.SignalName.html
@@ -3044,22 +3382,6 @@ references:
   commentId: F:cfGodotEngine.Binding.StringBinder.SignalName.OnValueChanged
   fullName: cfGodotEngine.Binding.StringBinder.SignalName.OnValueChanged
   nameWithType: StringBinder.SignalName.OnValueChanged
-- uid: cfGodotEngine.Binding.StringBinder.ValidateValue(System.Object)
-  name: ValidateValue(object)
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_ValidateValue_System_Object_
-  commentId: M:cfGodotEngine.Binding.StringBinder.ValidateValue(System.Object)
-  name.vb: ValidateValue(Object)
-  fullName: cfGodotEngine.Binding.StringBinder.ValidateValue(object)
-  fullName.vb: cfGodotEngine.Binding.StringBinder.ValidateValue(Object)
-  nameWithType: StringBinder.ValidateValue(object)
-  nameWithType.vb: StringBinder.ValidateValue(Object)
-- uid: cfGodotEngine.Binding.StringBinder.ValidateValue*
-  name: ValidateValue
-  href: api/cfGodotEngine.Binding.StringBinder.html#cfGodotEngine_Binding_StringBinder_ValidateValue_
-  commentId: Overload:cfGodotEngine.Binding.StringBinder.ValidateValue
-  isSpec: "True"
-  fullName: cfGodotEngine.Binding.StringBinder.ValidateValue
-  nameWithType: StringBinder.ValidateValue
 - uid: cfGodotEngine.Binding.TypeRefDrawer
   name: TypeRefDrawer
   href: api/cfGodotEngine.Binding.TypeRefDrawer.html

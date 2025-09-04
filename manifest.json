@@ -1496,6 +1496,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.FloatBinder.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.FloatBinder.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.FloatBinder.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.FloatBinder.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.FloatBinder.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.FloatBinder.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.FloatBinder.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.FloatBinder.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.FloatBinder.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.FloatBinder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.FloatBinder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Binding.IBindingSource.yml",
       "output": {
         ".html": {
@@ -1506,6 +1576,76 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Binding.IBindingSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IntBinder.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IntBinder.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IntBinder.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.IntBinder.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IntBinder.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IntBinder.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IntBinder.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.IntBinder.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IntBinder.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IntBinder.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IntBinder.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.IntBinder.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IntBinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IntBinder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IntBinder",
       "Summary": null
     },
     {
@@ -1521,6 +1661,62 @@
       "IsMRef": true,
       "Title": "cfGodotEngine.Binding.PropertyBindingAttribute",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.SinglePropertyBinder<T>.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.SinglePropertyBinder<T>.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.SinglePropertyBinder<T>.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.SinglePropertyBinder-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.SinglePropertyBinder<T>",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"1\">Binder for binding to a <xref href=\"cfEngine.DataStructure.IPropertyMap\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601._bindingName\" data-throw-if-not-resolved=\"false\"></xref>\nWhen property updated, signal <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnPropertyChanged(%600)\" data-throw-if-not-resolved=\"false\"></xref> will be emitted, and <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> will be called.\nFor inherited member,</p>\n<ol sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"4\">\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"4\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom handling for the <typeparam name=\"T\"></typeparam> value</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"5\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.ParseValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> for adding parsing from object to <typeparam name=\"T\"></typeparam></li>\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"6\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.ValidateValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom validation for the object value</li>\n</ol>\n"
     },
     {
       "type": "ManagedReference",
@@ -1590,7 +1786,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Binding.StringBinder",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"1\">Binder for binding to a <xref href=\"cfEngine.DataStructure.IPropertyMap\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"cfGodotEngine.Binding.StringBinder._bindingName\" data-throw-if-not-resolved=\"false\"></xref>\nWhen property updated, signal <xref href=\"cfGodotEngine.Binding.StringBinder.OnValueChanged\" data-throw-if-not-resolved=\"false\"></xref> will be emitted, and <xref href=\"cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> will be called.\nFor inherited member,</p>\n<ol sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"4\">\n<li sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"4\">override the <xref href=\"cfGodotEngine.Binding.StringBinder.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom handling for the string value</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"5\">override the <xref href=\"cfGodotEngine.Binding.StringBinder.ParseValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> for adding parsing from object to string</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.StringBinder.yml\" sourcestartlinenumber=\"6\">override the <xref href=\"cfGodotEngine.Binding.StringBinder.ValidateValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom validation for the object value</li>\n</ol>\n"
+      "Summary": null
     },
     {
       "type": "ManagedReference",
