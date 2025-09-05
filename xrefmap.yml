@@ -39,6 +39,25 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.BootstrapEndState.StartContext
   nameWithType: BootstrapEndState.StartContext
+- uid: CatSweeper.Core.CommandService_AutoRegister
+  name: CommandService_AutoRegister
+  href: api/CatSweeper.Core.CommandService_AutoRegister.html
+  commentId: T:CatSweeper.Core.CommandService_AutoRegister
+  fullName: CatSweeper.Core.CommandService_AutoRegister
+  nameWithType: CommandService_AutoRegister
+- uid: CatSweeper.Core.CommandService_AutoRegister.RegisterCommands
+  name: RegisterCommands()
+  href: api/CatSweeper.Core.CommandService_AutoRegister.html#CatSweeper_Core_CommandService_AutoRegister_RegisterCommands
+  commentId: M:CatSweeper.Core.CommandService_AutoRegister.RegisterCommands
+  fullName: CatSweeper.Core.CommandService_AutoRegister.RegisterCommands()
+  nameWithType: CommandService_AutoRegister.RegisterCommands()
+- uid: CatSweeper.Core.CommandService_AutoRegister.RegisterCommands*
+  name: RegisterCommands
+  href: api/CatSweeper.Core.CommandService_AutoRegister.html#CatSweeper_Core_CommandService_AutoRegister_RegisterCommands_
+  commentId: Overload:CatSweeper.Core.CommandService_AutoRegister.RegisterCommands
+  isSpec: "True"
+  fullName: CatSweeper.Core.CommandService_AutoRegister.RegisterCommands
+  nameWithType: CommandService_AutoRegister.RegisterCommands
 - uid: CatSweeper.Core.GameEntry
   name: GameEntry
   href: api/CatSweeper.Core.GameEntry.html

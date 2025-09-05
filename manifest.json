@@ -26,6 +26,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.CommandService_AutoRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.CommandService_AutoRegister.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.CommandService_AutoRegister",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Core.GameEntry.MethodName.yml",
       "output": {
         ".html": {
