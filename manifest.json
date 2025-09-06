@@ -2686,6 +2686,118 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Condition.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Condition.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Condition.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Condition.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Condition.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Condition.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Condition.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Condition.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Condition.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Condition.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Condition.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Condition.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Condition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Condition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Condition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalEnable2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalEnable2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalEnable2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalEnable2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalEnable2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.RandomNodeItem.MethodName.yml",
       "output": {
         ".html": {
@@ -2812,62 +2924,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.UI.OptionDropdown.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.OptionDropdown.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.UI.OptionDropdown.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.OptionDropdown.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.UI.OptionDropdown.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.OptionDropdown.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.UI.OptionDropdown.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.UI.OptionDropdown.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.UI.OptionDropdown",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.UI.RandomSprite2D.MethodName.yml",
       "output": {
         ".html": {
@@ -2920,6 +2976,62 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.UI.RandomSprite2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.SearchableOptionDropdown.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.SearchableOptionDropdown.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.SearchableOptionDropdown.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.SearchableOptionDropdown.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.SearchableOptionDropdown.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.UI.SearchableOptionDropdown.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.UI.SearchableOptionDropdown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.UI.SearchableOptionDropdown",
       "Summary": null
     },
     {
