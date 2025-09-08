@@ -1308,6 +1308,80 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.GameExtension.WithStage
   nameWithType: GameExtension.WithStage
+- uid: CatSweeper.Stage.HiddenStageGrid
+  name: HiddenStageGrid
+  href: api/CatSweeper.Stage.HiddenStageGrid.html
+  commentId: T:CatSweeper.Stage.HiddenStageGrid
+  fullName: CatSweeper.Stage.HiddenStageGrid
+  nameWithType: HiddenStageGrid
+- uid: CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal
+  name: EmitSignalOnReveal()
+  href: api/CatSweeper.Stage.HiddenStageGrid.html#CatSweeper_Stage_HiddenStageGrid_EmitSignalOnReveal
+  commentId: M:CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal
+  fullName: CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal()
+  nameWithType: HiddenStageGrid.EmitSignalOnReveal()
+- uid: CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal*
+  name: EmitSignalOnReveal
+  href: api/CatSweeper.Stage.HiddenStageGrid.html#CatSweeper_Stage_HiddenStageGrid_EmitSignalOnReveal_
+  commentId: Overload:CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal
+  isSpec: "True"
+  fullName: CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal
+  nameWithType: HiddenStageGrid.EmitSignalOnReveal
+- uid: CatSweeper.Stage.HiddenStageGrid.MethodName
+  name: HiddenStageGrid.MethodName
+  href: api/CatSweeper.Stage.HiddenStageGrid.MethodName.html
+  commentId: T:CatSweeper.Stage.HiddenStageGrid.MethodName
+  fullName: CatSweeper.Stage.HiddenStageGrid.MethodName
+  nameWithType: HiddenStageGrid.MethodName
+- uid: CatSweeper.Stage.HiddenStageGrid.MethodName.Reveal
+  name: Reveal
+  href: api/CatSweeper.Stage.HiddenStageGrid.MethodName.html#CatSweeper_Stage_HiddenStageGrid_MethodName_Reveal
+  commentId: F:CatSweeper.Stage.HiddenStageGrid.MethodName.Reveal
+  fullName: CatSweeper.Stage.HiddenStageGrid.MethodName.Reveal
+  nameWithType: HiddenStageGrid.MethodName.Reveal
+- uid: CatSweeper.Stage.HiddenStageGrid.OnReveal
+  name: OnReveal
+  href: api/CatSweeper.Stage.HiddenStageGrid.html#CatSweeper_Stage_HiddenStageGrid_OnReveal
+  commentId: E:CatSweeper.Stage.HiddenStageGrid.OnReveal
+  fullName: CatSweeper.Stage.HiddenStageGrid.OnReveal
+  nameWithType: HiddenStageGrid.OnReveal
+- uid: CatSweeper.Stage.HiddenStageGrid.OnRevealEventHandler
+  name: HiddenStageGrid.OnRevealEventHandler
+  href: api/CatSweeper.Stage.HiddenStageGrid.OnRevealEventHandler.html
+  commentId: T:CatSweeper.Stage.HiddenStageGrid.OnRevealEventHandler
+  fullName: CatSweeper.Stage.HiddenStageGrid.OnRevealEventHandler
+  nameWithType: HiddenStageGrid.OnRevealEventHandler
+- uid: CatSweeper.Stage.HiddenStageGrid.PropertyName
+  name: HiddenStageGrid.PropertyName
+  href: api/CatSweeper.Stage.HiddenStageGrid.PropertyName.html
+  commentId: T:CatSweeper.Stage.HiddenStageGrid.PropertyName
+  fullName: CatSweeper.Stage.HiddenStageGrid.PropertyName
+  nameWithType: HiddenStageGrid.PropertyName
+- uid: CatSweeper.Stage.HiddenStageGrid.Reveal
+  name: Reveal()
+  href: api/CatSweeper.Stage.HiddenStageGrid.html#CatSweeper_Stage_HiddenStageGrid_Reveal
+  commentId: M:CatSweeper.Stage.HiddenStageGrid.Reveal
+  fullName: CatSweeper.Stage.HiddenStageGrid.Reveal()
+  nameWithType: HiddenStageGrid.Reveal()
+- uid: CatSweeper.Stage.HiddenStageGrid.Reveal*
+  name: Reveal
+  href: api/CatSweeper.Stage.HiddenStageGrid.html#CatSweeper_Stage_HiddenStageGrid_Reveal_
+  commentId: Overload:CatSweeper.Stage.HiddenStageGrid.Reveal
+  isSpec: "True"
+  fullName: CatSweeper.Stage.HiddenStageGrid.Reveal
+  nameWithType: HiddenStageGrid.Reveal
+- uid: CatSweeper.Stage.HiddenStageGrid.SignalName
+  name: HiddenStageGrid.SignalName
+  href: api/CatSweeper.Stage.HiddenStageGrid.SignalName.html
+  commentId: T:CatSweeper.Stage.HiddenStageGrid.SignalName
+  fullName: CatSweeper.Stage.HiddenStageGrid.SignalName
+  nameWithType: HiddenStageGrid.SignalName
+- uid: CatSweeper.Stage.HiddenStageGrid.SignalName.OnReveal
+  name: OnReveal
+  href: api/CatSweeper.Stage.HiddenStageGrid.SignalName.html#CatSweeper_Stage_HiddenStageGrid_SignalName_OnReveal
+  commentId: F:CatSweeper.Stage.HiddenStageGrid.SignalName.OnReveal
+  fullName: CatSweeper.Stage.HiddenStageGrid.SignalName.OnReveal
+  nameWithType: HiddenStageGrid.SignalName.OnReveal
 - uid: CatSweeper.Stage.MineGridMap
   name: MineGridMap
   href: api/CatSweeper.Stage.MineGridMap.html
@@ -1837,6 +1911,19 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageMap.Clear
   nameWithType: StageMap.Clear
+- uid: CatSweeper.Stage.StageMap.GetGrid(Godot.Vector2I)
+  name: GetGrid(Vector2I)
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGrid_Godot_Vector2I_
+  commentId: M:CatSweeper.Stage.StageMap.GetGrid(Godot.Vector2I)
+  fullName: CatSweeper.Stage.StageMap.GetGrid(Godot.Vector2I)
+  nameWithType: StageMap.GetGrid(Vector2I)
+- uid: CatSweeper.Stage.StageMap.GetGrid*
+  name: GetGrid
+  href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGrid_
+  commentId: Overload:CatSweeper.Stage.StageMap.GetGrid
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageMap.GetGrid
+  nameWithType: StageMap.GetGrid
 - uid: CatSweeper.Stage.StageMap.GetGridPositions
   name: GetGridPositions()
   href: api/CatSweeper.Stage.StageMap.html#CatSweeper_Stage_StageMap_GetGridPositions
@@ -1878,6 +1965,12 @@ references:
   commentId: F:CatSweeper.Stage.StageMap.MethodName.Clear
   fullName: CatSweeper.Stage.StageMap.MethodName.Clear
   nameWithType: StageMap.MethodName.Clear
+- uid: CatSweeper.Stage.StageMap.MethodName.GetGrid
+  name: GetGrid
+  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_GetGrid
+  commentId: F:CatSweeper.Stage.StageMap.MethodName.GetGrid
+  fullName: CatSweeper.Stage.StageMap.MethodName.GetGrid
+  nameWithType: StageMap.MethodName.GetGrid
 - uid: CatSweeper.Stage.StageMap.MethodName.UpdateGrid
   name: UpdateGrid
   href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_UpdateGrid
