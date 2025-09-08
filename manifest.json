@@ -2868,6 +2868,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ObjectSpawner2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ObjectSpawner2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ObjectSpawner2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ObjectSpawner2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ObjectSpawner2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.RandomNodeItem.MethodName.yml",
       "output": {
         ".html": {
@@ -2976,6 +3032,62 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Tool.RandomNodeToggler2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.SimpleRecyclable2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.SimpleRecyclable2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.SimpleRecyclable2D",
       "Summary": null
     },
     {

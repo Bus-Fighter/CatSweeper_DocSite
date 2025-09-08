@@ -2285,6 +2285,38 @@ references:
   commentId: T:CatSweeper.Util.ExportUtil
   fullName: CatSweeper.Util.ExportUtil
   nameWithType: ExportUtil
+- uid: CatSweeper.Util.ExportUtil.EnsureSceneType*
+  name: EnsureSceneType
+  href: api/CatSweeper.Util.ExportUtil.html#CatSweeper_Util_ExportUtil_EnsureSceneType_
+  commentId: Overload:CatSweeper.Util.ExportUtil.EnsureSceneType
+  isSpec: "True"
+  fullName: CatSweeper.Util.ExportUtil.EnsureSceneType
+  nameWithType: ExportUtil.EnsureSceneType
+- uid: CatSweeper.Util.ExportUtil.EnsureSceneType``1(Godot.Collections.Dictionary,Godot.StringName,Godot.PackedScene@)
+  name: EnsureSceneType<T>(Dictionary, StringName, ref PackedScene)
+  href: api/CatSweeper.Util.ExportUtil.html#CatSweeper_Util_ExportUtil_EnsureSceneType__1_Godot_Collections_Dictionary_Godot_StringName_Godot_PackedScene__
+  commentId: M:CatSweeper.Util.ExportUtil.EnsureSceneType``1(Godot.Collections.Dictionary,Godot.StringName,Godot.PackedScene@)
+  name.vb: EnsureSceneType(Of T)(Dictionary, StringName, PackedScene)
+  fullName: CatSweeper.Util.ExportUtil.EnsureSceneType<T>(Godot.Collections.Dictionary, Godot.StringName, ref Godot.PackedScene)
+  fullName.vb: CatSweeper.Util.ExportUtil.EnsureSceneType(Of T)(Godot.Collections.Dictionary, Godot.StringName, Godot.PackedScene)
+  nameWithType: ExportUtil.EnsureSceneType<T>(Dictionary, StringName, ref PackedScene)
+  nameWithType.vb: ExportUtil.EnsureSceneType(Of T)(Dictionary, StringName, PackedScene)
+- uid: CatSweeper.Util.ExportUtil.IsSceneType*
+  name: IsSceneType
+  href: api/CatSweeper.Util.ExportUtil.html#CatSweeper_Util_ExportUtil_IsSceneType_
+  commentId: Overload:CatSweeper.Util.ExportUtil.IsSceneType
+  isSpec: "True"
+  fullName: CatSweeper.Util.ExportUtil.IsSceneType
+  nameWithType: ExportUtil.IsSceneType
+- uid: CatSweeper.Util.ExportUtil.IsSceneType``1(Godot.PackedScene)
+  name: IsSceneType<T>(PackedScene)
+  href: api/CatSweeper.Util.ExportUtil.html#CatSweeper_Util_ExportUtil_IsSceneType__1_Godot_PackedScene_
+  commentId: M:CatSweeper.Util.ExportUtil.IsSceneType``1(Godot.PackedScene)
+  name.vb: IsSceneType(Of T)(PackedScene)
+  fullName: CatSweeper.Util.ExportUtil.IsSceneType<T>(Godot.PackedScene)
+  fullName.vb: CatSweeper.Util.ExportUtil.IsSceneType(Of T)(Godot.PackedScene)
+  nameWithType: ExportUtil.IsSceneType<T>(PackedScene)
+  nameWithType.vb: ExportUtil.IsSceneType(Of T)(PackedScene)
 - uid: CatSweeper.Util.ExportUtil.MarkReadOnly(Godot.Collections.Dictionary,Godot.StringName)
   name: MarkReadOnly(Dictionary, StringName)
   href: api/CatSweeper.Util.ExportUtil.html#CatSweeper_Util_ExportUtil_MarkReadOnly_Godot_Collections_Dictionary_Godot_StringName_
@@ -5601,6 +5633,108 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.ConditionalEnable2D._Ready
   nameWithType: ConditionalEnable2D._Ready
+- uid: cfGodotEngine.Tool.ObjectSpawner2D
+  name: ObjectSpawner2D
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html
+  commentId: T:cfGodotEngine.Tool.ObjectSpawner2D
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D
+  nameWithType: ObjectSpawner2D
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.MethodName
+  name: ObjectSpawner2D.MethodName
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.html
+  commentId: T:cfGodotEngine.Tool.ObjectSpawner2D.MethodName
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.MethodName
+  nameWithType: ObjectSpawner2D.MethodName
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.MethodName.Spawn
+  name: Spawn
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.html#cfGodotEngine_Tool_ObjectSpawner2D_MethodName_Spawn
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.MethodName.Spawn
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.MethodName.Spawn
+  nameWithType: ObjectSpawner2D.MethodName.Spawn
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.MethodName._ValidateProperty
+  name: _ValidateProperty
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.html#cfGodotEngine_Tool_ObjectSpawner2D_MethodName__ValidateProperty
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.MethodName._ValidateProperty
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.MethodName._ValidateProperty
+  nameWithType: ObjectSpawner2D.MethodName._ValidateProperty
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName
+  name: ObjectSpawner2D.PropertyName
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html
+  commentId: T:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName
+  nameWithType: ObjectSpawner2D.PropertyName
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._recyclable
+  name: _recyclable
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html#cfGodotEngine_Tool_ObjectSpawner2D_PropertyName__recyclable
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._recyclable
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._recyclable
+  nameWithType: ObjectSpawner2D.PropertyName._recyclable
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.recyclable
+  name: recyclable
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html#cfGodotEngine_Tool_ObjectSpawner2D_PropertyName_recyclable
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.recyclable
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.recyclable
+  nameWithType: ObjectSpawner2D.PropertyName.recyclable
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.spawnAsChild
+  name: spawnAsChild
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html#cfGodotEngine_Tool_ObjectSpawner2D_PropertyName_spawnAsChild
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.spawnAsChild
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.spawnAsChild
+  nameWithType: ObjectSpawner2D.PropertyName.spawnAsChild
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.SignalName
+  name: ObjectSpawner2D.SignalName
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.SignalName.html
+  commentId: T:cfGodotEngine.Tool.ObjectSpawner2D.SignalName
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.SignalName
+  nameWithType: ObjectSpawner2D.SignalName
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.Spawn(System.Int32)
+  name: Spawn(int)
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_Spawn_System_Int32_
+  commentId: M:cfGodotEngine.Tool.ObjectSpawner2D.Spawn(System.Int32)
+  name.vb: Spawn(Integer)
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.Spawn(int)
+  fullName.vb: cfGodotEngine.Tool.ObjectSpawner2D.Spawn(Integer)
+  nameWithType: ObjectSpawner2D.Spawn(int)
+  nameWithType.vb: ObjectSpawner2D.Spawn(Integer)
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.Spawn*
+  name: Spawn
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_Spawn_
+  commentId: Overload:cfGodotEngine.Tool.ObjectSpawner2D.Spawn
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.Spawn
+  nameWithType: ObjectSpawner2D.Spawn
+- uid: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)
+  name: _ValidateProperty(Dictionary)
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_Godot_Collections_Dictionary_
+  commentId: M:cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)
+  nameWithType: ObjectSpawner2D._ValidateProperty(Dictionary)
+- uid: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty*
+  name: _ValidateProperty
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_
+  commentId: Overload:cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty
+  nameWithType: ObjectSpawner2D._ValidateProperty
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.recyclable
+  name: recyclable
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_recyclable
+  commentId: P:cfGodotEngine.Tool.ObjectSpawner2D.recyclable
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.recyclable
+  nameWithType: ObjectSpawner2D.recyclable
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.recyclable*
+  name: recyclable
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_recyclable_
+  commentId: Overload:cfGodotEngine.Tool.ObjectSpawner2D.recyclable
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.recyclable
+  nameWithType: ObjectSpawner2D.recyclable
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild
+  name: spawnAsChild
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_spawnAsChild
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild
+  nameWithType: ObjectSpawner2D.spawnAsChild
 - uid: cfGodotEngine.Tool.RandomNodeItem
   name: RandomNodeItem
   href: api/cfGodotEngine.Tool.RandomNodeItem.html
@@ -5748,6 +5882,30 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.RandomNodeToggler2D._Ready
   nameWithType: RandomNodeToggler2D._Ready
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D
+  name: SimpleRecyclable2D
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html
+  commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D
+  nameWithType: SimpleRecyclable2D
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName
+  name: SimpleRecyclable2D.MethodName
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.html
+  commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.MethodName
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName
+  nameWithType: SimpleRecyclable2D.MethodName
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName
+  name: SimpleRecyclable2D.PropertyName
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName.html
+  commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName
+  nameWithType: SimpleRecyclable2D.PropertyName
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName
+  name: SimpleRecyclable2D.SignalName
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.html
+  commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.SignalName
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName
+  nameWithType: SimpleRecyclable2D.SignalName
 - uid: cfGodotEngine.UI
   name: cfGodotEngine.UI
   href: api/cfGodotEngine.UI.html
