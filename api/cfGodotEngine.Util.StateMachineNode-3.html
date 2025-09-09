@@ -249,6 +249,12 @@
       <span class="xref">Node.NotificationTextServerChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationAccessibilityUpdate</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationAccessibilityInvalidate</span>
+    </div>
+    <div>
       <span class="xref">Node.GetNode&lt;T&gt;(NodePath)</span>
     </div>
     <div>
@@ -279,7 +285,13 @@
       <span class="xref">Node._ExitTree()</span>
     </div>
     <div>
+      <span class="xref">Node._GetAccessibilityConfigurationWarnings()</span>
+    </div>
+    <div>
       <span class="xref">Node._GetConfigurationWarnings()</span>
+    </div>
+    <div>
+      <span class="xref">Node._GetFocusedAccessibilityElement()</span>
     </div>
     <div>
       <span class="xref">Node._Input(InputEvent)</span>
@@ -298,6 +310,9 @@
     </div>
     <div>
       <span class="xref">Node.PrintOrphanNodes()</span>
+    </div>
+    <div>
+      <span class="xref">Node.GetOrphanNodeIds()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Node.AddSibling(Node, bool)</a>
@@ -447,6 +462,12 @@
       <span class="xref">Node.CanProcess()</span>
     </div>
     <div>
+      <span class="xref">Node.QueueAccessibilityUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">Node.GetAccessibilityElement()</span>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Node.SetDisplayFolded(bool)</a>
     </div>
     <div>
@@ -472,6 +493,9 @@
     </div>
     <div>
       <span class="xref">Node.ResetPhysicsInterpolation()</span>
+    </div>
+    <div>
+      <span class="xref">Node.CanAutoTranslate()</span>
     </div>
     <div>
       <span class="xref">Node.SetTranslationDomainInherited()</span>
@@ -531,7 +555,7 @@
       <span class="xref">Node.RpcConfig(StringName, Variant)</span>
     </div>
     <div>
-      <span class="xref">Node.GetRpcConfig()</span>
+      <span class="xref">Node.GetNodeRpcConfig()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Node.Atr(string, StringName)</a>
@@ -1636,12 +1660,14 @@ public abstract class StateMachineNode&lt;TStateId, TState, TStateMachine&gt; : 
   </span>
   <a id="cfGodotEngine_Util_StateMachineNode_3__Process_" data-uid="cfGodotEngine.Util.StateMachineNode`3._Process*"></a>
   <h4 id="cfGodotEngine_Util_StateMachineNode_3__Process_System_Double_" data-uid="cfGodotEngine.Util.StateMachineNode`3._Process(System.Double)">_Process(double)</h4>
-  <div class="markdown level1 summary"><p>Called during the processing step of the main loop. Processing happens at every frame and as fast as possible, so the <code class="paramref">delta</code> time since the previous frame is not constant. <code class="paramref">delta</code> is in seconds.</p>
-<p>It is only called if processing is enabled, which is done automatically if this method is overridden, and can be toggled with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">SetProcess(bool)</a>.</p>
+  <div class="markdown level1 summary"><p>Called on each idle frame, prior to rendering, and after physics ticks have been processed. <code class="paramref">delta</code> is the time between frames in seconds.</p>
+<p>It is only called if processing is enabled for this Node, which is done automatically if this method is overridden, and can be toggled with <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">SetProcess(bool)</a>.</p>
 <p>Processing happens in order of <span class="xref">Godot.Node.ProcessPriority</span>, lower priority values are called first. Nodes with the same priority are processed in tree order, or top to bottom as seen in the editor (also known as pre-order traversal).</p>
 <p>Corresponds to the <span class="xref">Godot.Node.NotificationProcess</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>.</p>
 <p><b>Note:</b> This method is only called if the node is present in the scene tree (i.e. if it's not an orphan).</p>
-<p><b>Note:</b> <code class="paramref">delta</code> will be larger than expected if running at a framerate lower than <span class="xref">Godot.Engine.PhysicsTicksPerSecond</span> / <span class="xref">Godot.Engine.MaxPhysicsStepsPerFrame</span> FPS. This is done to avoid "spiral of death" scenarios where performance would plummet due to an ever-increasing number of physics steps per frame. This behavior affects both <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">_Process(double)</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">_PhysicsProcess(double)</a>. As a result, avoid using <code class="paramref">delta</code> for time measurements in real-world seconds. Use the <span class="xref">Godot.Time</span> singleton's methods for this purpose instead, such as <span class="xref">Godot.Time.GetTicksUsec()</span>.</p>
+<p><b>Note:</b> When the engine is struggling and the frame rate is lowered, <code class="paramref">delta</code> will increase. When <code class="paramref">delta</code> is increased, it's capped at a maximum of <span class="xref">Godot.Engine.TimeScale</span> * <span class="xref">Godot.Engine.MaxPhysicsStepsPerFrame</span> / <span class="xref">Godot.Engine.PhysicsTicksPerSecond</span>. As a result, accumulated <code class="paramref">delta</code> may not represent real world time.</p>
+<p><b>Note:</b> When <code>--fixed-fps</code> is enabled or the engine is running in Movie Maker mode (see <span class="xref">Godot.MovieWriter</span>), process <code class="paramref">delta</code> will always be the same for every frame, regardless of how much time the frame took to render.</p>
+<p><b>Note:</b> Frame delta may be post-processed by <span class="xref">Godot.OS.DeltaSmoothing</span> if this is enabled for the project.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>

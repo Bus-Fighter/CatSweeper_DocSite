@@ -313,22 +313,22 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">CanvasItem.DrawColoredPolygon(ReadOnlySpan&lt;Vector2&gt;, Color, ReadOnlySpan&lt;Vector2&gt;, Texture2D)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawString(Font, Vector2, string, HorizontalAlignment, float, int, Color?, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawString(Font, Vector2, string, HorizontalAlignment, float, int, Color?, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation, float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawMultilineString(Font, Vector2, string, HorizontalAlignment, float, int, int, Color?, TextServer.LineBreakFlag, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawMultilineString(Font, Vector2, string, HorizontalAlignment, float, int, int, Color?, TextServer.LineBreakFlag, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation, float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawStringOutline(Font, Vector2, string, HorizontalAlignment, float, int, int, Color?, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawStringOutline(Font, Vector2, string, HorizontalAlignment, float, int, int, Color?, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation, float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawMultilineStringOutline(Font, Vector2, string, HorizontalAlignment, float, int, int, int, Color?, TextServer.LineBreakFlag, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawMultilineStringOutline(Font, Vector2, string, HorizontalAlignment, float, int, int, int, Color?, TextServer.LineBreakFlag, TextServer.JustificationFlag, TextServer.Direction, TextServer.Orientation, float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawChar(Font, Vector2, string, int, Color?)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawChar(Font, Vector2, string, int, Color?, float)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawCharOutline(Font, Vector2, string, int, int, Color?)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CanvasItem.DrawCharOutline(Font, Vector2, string, int, int, Color?, float)</a>
     </div>
     <div>
       <span class="xref">CanvasItem.DrawMesh(Mesh, Texture2D, Transform2D?, Color?)</span>
@@ -619,6 +619,12 @@
       <span class="xref">Node.NotificationTextServerChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationAccessibilityUpdate</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationAccessibilityInvalidate</span>
+    </div>
+    <div>
       <span class="xref">Node.GetNode&lt;T&gt;(NodePath)</span>
     </div>
     <div>
@@ -649,7 +655,13 @@
       <span class="xref">Node._ExitTree()</span>
     </div>
     <div>
+      <span class="xref">Node._GetAccessibilityConfigurationWarnings()</span>
+    </div>
+    <div>
       <span class="xref">Node._GetConfigurationWarnings()</span>
+    </div>
+    <div>
+      <span class="xref">Node._GetFocusedAccessibilityElement()</span>
     </div>
     <div>
       <span class="xref">Node._Input(InputEvent)</span>
@@ -674,6 +686,9 @@
     </div>
     <div>
       <span class="xref">Node.PrintOrphanNodes()</span>
+    </div>
+    <div>
+      <span class="xref">Node.GetOrphanNodeIds()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Node.AddSibling(Node, bool)</a>
@@ -823,6 +838,12 @@
       <span class="xref">Node.CanProcess()</span>
     </div>
     <div>
+      <span class="xref">Node.QueueAccessibilityUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">Node.GetAccessibilityElement()</span>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Node.SetDisplayFolded(bool)</a>
     </div>
     <div>
@@ -848,6 +869,9 @@
     </div>
     <div>
       <span class="xref">Node.ResetPhysicsInterpolation()</span>
+    </div>
+    <div>
+      <span class="xref">Node.CanAutoTranslate()</span>
     </div>
     <div>
       <span class="xref">Node.SetTranslationDomainInherited()</span>
@@ -907,7 +931,7 @@
       <span class="xref">Node.RpcConfig(StringName, Variant)</span>
     </div>
     <div>
-      <span class="xref">Node.GetRpcConfig()</span>
+      <span class="xref">Node.GetNodeRpcConfig()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Node.Atr(string, StringName)</a>
