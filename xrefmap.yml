@@ -5888,24 +5888,159 @@ references:
   commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D
   fullName: cfGodotEngine.Tool.SimpleRecyclable2D
   nameWithType: SimpleRecyclable2D
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.Clear
+  name: Clear()
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Clear
+  commentId: M:cfGodotEngine.Tool.SimpleRecyclable2D.Clear
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.Clear()
+  nameWithType: SimpleRecyclable2D.Clear()
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.Clear*
+  name: Clear
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Clear_
+  commentId: Overload:cfGodotEngine.Tool.SimpleRecyclable2D.Clear
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.Clear
+  nameWithType: SimpleRecyclable2D.Clear
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear
+  name: EmitSignalOnClear()
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear
+  commentId: M:cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear()
+  nameWithType: SimpleRecyclable2D.EmitSignalOnClear()
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear*
+  name: EmitSignalOnClear
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear_
+  commentId: Overload:cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear
+  nameWithType: SimpleRecyclable2D.EmitSignalOnClear
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize
+  name: EmitSignalOnInitialize()
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize
+  commentId: M:cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize()
+  nameWithType: SimpleRecyclable2D.EmitSignalOnInitialize()
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize*
+  name: EmitSignalOnInitialize
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize_
+  commentId: Overload:cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize
+  nameWithType: SimpleRecyclable2D.EmitSignalOnInitialize
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.Initialize
+  name: Initialize()
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Initialize
+  commentId: M:cfGodotEngine.Tool.SimpleRecyclable2D.Initialize
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.Initialize()
+  nameWithType: SimpleRecyclable2D.Initialize()
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.Initialize*
+  name: Initialize
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Initialize_
+  commentId: Overload:cfGodotEngine.Tool.SimpleRecyclable2D.Initialize
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.Initialize
+  nameWithType: SimpleRecyclable2D.Initialize
 - uid: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName
   name: SimpleRecyclable2D.MethodName
   href: api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.html
   commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.MethodName
   fullName: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName
   nameWithType: SimpleRecyclable2D.MethodName
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Clear
+  name: Clear
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.html#cfGodotEngine_Tool_SimpleRecyclable2D_MethodName_Clear
+  commentId: F:cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Clear
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Clear
+  nameWithType: SimpleRecyclable2D.MethodName.Clear
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Initialize
+  name: Initialize
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.html#cfGodotEngine_Tool_SimpleRecyclable2D_MethodName_Initialize
+  commentId: F:cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Initialize
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Initialize
+  nameWithType: SimpleRecyclable2D.MethodName.Initialize
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Recycle
+  name: Recycle
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.html#cfGodotEngine_Tool_SimpleRecyclable2D_MethodName_Recycle
+  commentId: F:cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Recycle
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.MethodName.Recycle
+  nameWithType: SimpleRecyclable2D.MethodName.Recycle
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.OnClear
+  name: OnClear
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_OnClear
+  commentId: E:cfGodotEngine.Tool.SimpleRecyclable2D.OnClear
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.OnClear
+  nameWithType: SimpleRecyclable2D.OnClear
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler
+  name: SimpleRecyclable2D.OnClearEventHandler
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler.html
+  commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler
+  nameWithType: SimpleRecyclable2D.OnClearEventHandler
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.OnInitialize
+  name: OnInitialize
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_OnInitialize
+  commentId: E:cfGodotEngine.Tool.SimpleRecyclable2D.OnInitialize
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.OnInitialize
+  nameWithType: SimpleRecyclable2D.OnInitialize
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler
+  name: SimpleRecyclable2D.OnInitializeEventHandler
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler.html
+  commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler
+  nameWithType: SimpleRecyclable2D.OnInitializeEventHandler
 - uid: cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName
   name: SimpleRecyclable2D.PropertyName
   href: api/cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName.html
   commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName
   fullName: cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName
   nameWithType: SimpleRecyclable2D.PropertyName
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.Recycle
+  name: Recycle()
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Recycle
+  commentId: M:cfGodotEngine.Tool.SimpleRecyclable2D.Recycle
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.Recycle()
+  nameWithType: SimpleRecyclable2D.Recycle()
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.Recycle*
+  name: Recycle
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Recycle_
+  commentId: Overload:cfGodotEngine.Tool.SimpleRecyclable2D.Recycle
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.Recycle
+  nameWithType: SimpleRecyclable2D.Recycle
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool{cfGodotEngine.Tool.SimpleRecyclable2D})
+  name: SetPool(ObjectPool<SimpleRecyclable2D>)
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__
+  commentId: M:cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool{cfGodotEngine.Tool.SimpleRecyclable2D})
+  name.vb: SetPool(ObjectPool(Of SimpleRecyclable2D))
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool<cfGodotEngine.Tool.SimpleRecyclable2D>)
+  fullName.vb: cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool(Of cfGodotEngine.Tool.SimpleRecyclable2D))
+  nameWithType: SimpleRecyclable2D.SetPool(ObjectPool<SimpleRecyclable2D>)
+  nameWithType.vb: SimpleRecyclable2D.SetPool(ObjectPool(Of SimpleRecyclable2D))
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.SetPool*
+  name: SetPool
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_
+  commentId: Overload:cfGodotEngine.Tool.SimpleRecyclable2D.SetPool
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.SetPool
+  nameWithType: SimpleRecyclable2D.SetPool
 - uid: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName
   name: SimpleRecyclable2D.SignalName
   href: api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.html
   commentId: T:cfGodotEngine.Tool.SimpleRecyclable2D.SignalName
   fullName: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName
   nameWithType: SimpleRecyclable2D.SignalName
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.OnClear
+  name: OnClear
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.html#cfGodotEngine_Tool_SimpleRecyclable2D_SignalName_OnClear
+  commentId: F:cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.OnClear
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.OnClear
+  nameWithType: SimpleRecyclable2D.SignalName.OnClear
+- uid: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.OnInitialize
+  name: OnInitialize
+  href: api/cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.html#cfGodotEngine_Tool_SimpleRecyclable2D_SignalName_OnInitialize
+  commentId: F:cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.OnInitialize
+  fullName: cfGodotEngine.Tool.SimpleRecyclable2D.SignalName.OnInitialize
+  nameWithType: SimpleRecyclable2D.SignalName.OnInitialize
 - uid: cfGodotEngine.UI
   name: cfGodotEngine.UI
   href: api/cfGodotEngine.UI.html

@@ -3050,6 +3050,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.SimpleRecyclable2D.PropertyName.yml",
       "output": {
         ".html": {
