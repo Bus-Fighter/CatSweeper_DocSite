@@ -100,7 +100,8 @@
 
 
   <h1 id="cfGodotEngine_Tool_ObjectSpawner2D" data-uid="cfGodotEngine.Tool.ObjectSpawner2D" class="text-break">Class ObjectSpawner2D</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>2D version of ObjectSpawner that requires a PackedScene with root node inherited from <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html">SimpleRecyclable2D</a></p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -1147,6 +1148,9 @@
       <span class="xref">GodotObject._Set(StringName, Variant)</span>
     </div>
     <div>
+      <span class="xref">GodotObject._ValidateProperty(Dictionary)</span>
+    </div>
+    <div>
       <span class="xref">GodotObject.Free()</span>
     </div>
     <div>
@@ -1345,38 +1349,6 @@
 [ScriptPath(&quot;res://cfGodotEngine/tool/ObjectSpawner/ObjectSpawner2D.cs&quot;)]
 public class ObjectSpawner2D : Node2D, IDisposable</code></pre>
   </div>
-  <h3 id="fields">Fields
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ObjectSpawner2D_spawnAsChild.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/ObjectSpawner2D.cs/#L30">View Source</a>
-  </span>
-  <h4 id="cfGodotEngine_Tool_ObjectSpawner2D_spawnAsChild" data-uid="cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild">spawnAsChild</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Export(PropertyHint.None, &quot;&quot;)]
-public bool spawnAsChild</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
@@ -1384,7 +1356,7 @@ public bool spawnAsChild</code></pre>
     <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ObjectSpawner2D_recyclable.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ObjectSpawner2D.recyclable%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/ObjectSpawner2D.cs/#L16">View Source</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/ObjectSpawner2D.cs/#L18">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_ObjectSpawner2D_recyclable_" data-uid="cfGodotEngine.Tool.ObjectSpawner2D.recyclable*"></a>
   <h4 id="cfGodotEngine_Tool_ObjectSpawner2D_recyclable" data-uid="cfGodotEngine.Tool.ObjectSpawner2D.recyclable">recyclable</h4>
@@ -1417,7 +1389,7 @@ public PackedScene recyclable { get; set; }</code></pre>
     <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ObjectSpawner2D_Spawn_System_Int32_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ObjectSpawner2D.Spawn(System.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/ObjectSpawner2D.cs/#L38">View Source</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/ObjectSpawner2D.cs/#L48">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_ObjectSpawner2D_Spawn_" data-uid="cfGodotEngine.Tool.ObjectSpawner2D.Spawn*"></a>
   <h4 id="cfGodotEngine_Tool_ObjectSpawner2D_Spawn_System_Int32_" data-uid="cfGodotEngine.Tool.ObjectSpawner2D.Spawn(System.Int32)">Spawn(int)</h4>
@@ -1444,70 +1416,6 @@ public PackedScene recyclable { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_Godot_Collections_Dictionary_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/ObjectSpawner2D.cs/#L32">View Source</a>
-  </span>
-  <a id="cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_" data-uid="cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty*"></a>
-  <h4 id="cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_Godot_Collections_Dictionary_" data-uid="cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)">_ValidateProperty(Dictionary)</h4>
-  <div class="markdown level1 summary"><p>Override this method to customize existing properties. Every property info goes through this method, except properties added with <span class="xref">Godot.GodotObject._GetPropertyList()</span>. The dictionary contents is the same as in <span class="xref">Godot.GodotObject._GetPropertyList()</span>.</p>
-<p>
-   <pre><code class="lang-csharp">[Tool]
-   public partial class MyNode : Node
-   {
-   	private bool _isNumberEditable;
-<pre><code>[Export]
-public bool IsNumberEditable
-{
-	get =&gt; _isNumberEditable;
-	set
-	{
-		_isNumberEditable = value;
-		NotifyPropertyListChanged();
-	}
-}
-
-[Export]
-public int Number { get; set; }
-
-public override void _ValidateProperty(Godot.Collections.Dictionary property)
-{
-	if (property[&quot;name&quot;].AsStringName() == PropertyName.Number &amp;&amp; !IsNumberEditable)
-	{
-		var usage = property[&quot;usage&quot;].As&lt;PropertyUsageFlags&gt;() | PropertyUsageFlags.ReadOnly;
-		property[&quot;usage&quot;] = (int)usage;
-	}
-}
-</code></pre>
-<p>}</p></code></pre>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void _ValidateProperty(Dictionary property)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Dictionary</span></td>
-        <td><span class="parametername">property</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Godot.GodotObject._ValidateProperty(Godot.Collections.Dictionary)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>

@@ -5541,18 +5541,203 @@ references:
   commentId: N:cfGodotEngine.Tool
   fullName: cfGodotEngine.Tool
   nameWithType: cfGodotEngine.Tool
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D
+  name: AnimationPlayEndRecyclable2D
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html
+  commentId: T:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D
+  nameWithType: AnimationPlayEndRecyclable2D
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear
+  name: Clear()
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Clear
+  commentId: M:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear()
+  nameWithType: AnimationPlayEndRecyclable2D.Clear()
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear*
+  name: Clear
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Clear_
+  commentId: Overload:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear
+  nameWithType: AnimationPlayEndRecyclable2D.Clear
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize
+  name: Initialize()
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Initialize
+  commentId: M:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize()
+  nameWithType: AnimationPlayEndRecyclable2D.Initialize()
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize*
+  name: Initialize
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Initialize_
+  commentId: Overload:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize
+  nameWithType: AnimationPlayEndRecyclable2D.Initialize
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName
+  name: AnimationPlayEndRecyclable2D.MethodName
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html
+  commentId: T:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.Clear
+  name: Clear
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_MethodName_Clear
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.Clear
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.Clear
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName.Clear
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.Initialize
+  name: Initialize
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_MethodName_Initialize
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.Initialize
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.Initialize
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName.Initialize
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.OnAnimationFinished
+  name: OnAnimationFinished
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_MethodName_OnAnimationFinished
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.OnAnimationFinished
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.OnAnimationFinished
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName.OnAnimationFinished
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._EnterTree
+  name: _EnterTree
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_MethodName__EnterTree
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._EnterTree
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._EnterTree
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName._EnterTree
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._ExitTree
+  name: _ExitTree
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_MethodName__ExitTree
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._ExitTree
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._ExitTree
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName._ExitTree
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._Ready
+  name: _Ready
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_MethodName__Ready
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._Ready
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName._Ready
+  nameWithType: AnimationPlayEndRecyclable2D.MethodName._Ready
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName
+  name: AnimationPlayEndRecyclable2D.PropertyName
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName.html
+  commentId: T:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName
+  nameWithType: AnimationPlayEndRecyclable2D.PropertyName
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName._animationName
+  name: _animationName
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_PropertyName__animationName
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName._animationName
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName._animationName
+  nameWithType: AnimationPlayEndRecyclable2D.PropertyName._animationName
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName._animationPlayer
+  name: _animationPlayer
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_PropertyName__animationPlayer
+  commentId: F:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName._animationPlayer
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName._animationPlayer
+  nameWithType: AnimationPlayEndRecyclable2D.PropertyName._animationPlayer
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName
+  name: AnimationPlayEndRecyclable2D.SignalName
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName.html
+  commentId: T:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName
+  nameWithType: AnimationPlayEndRecyclable2D.SignalName
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree
+  name: _EnterTree()
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__EnterTree
+  commentId: M:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree()
+  nameWithType: AnimationPlayEndRecyclable2D._EnterTree()
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree*
+  name: _EnterTree
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__EnterTree_
+  commentId: Overload:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree
+  nameWithType: AnimationPlayEndRecyclable2D._EnterTree
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree
+  name: _ExitTree()
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__ExitTree
+  commentId: M:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree()
+  nameWithType: AnimationPlayEndRecyclable2D._ExitTree()
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree*
+  name: _ExitTree
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__ExitTree_
+  commentId: Overload:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree
+  nameWithType: AnimationPlayEndRecyclable2D._ExitTree
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready
+  name: _Ready()
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__Ready
+  commentId: M:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready()
+  nameWithType: AnimationPlayEndRecyclable2D._Ready()
+- uid: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready*
+  name: _Ready
+  href: api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html#cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__Ready_
+  commentId: Overload:cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready
+  nameWithType: AnimationPlayEndRecyclable2D._Ready
 - uid: cfGodotEngine.Tool.Condition
   name: Condition
   href: api/cfGodotEngine.Tool.Condition.html
   commentId: T:cfGodotEngine.Tool.Condition
   fullName: cfGodotEngine.Tool.Condition
   nameWithType: Condition
+- uid: cfGodotEngine.Tool.Condition.Fulfill
+  name: Fulfill()
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_Fulfill
+  commentId: M:cfGodotEngine.Tool.Condition.Fulfill
+  fullName: cfGodotEngine.Tool.Condition.Fulfill()
+  nameWithType: Condition.Fulfill()
+- uid: cfGodotEngine.Tool.Condition.Fulfill*
+  name: Fulfill
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_Fulfill_
+  commentId: Overload:cfGodotEngine.Tool.Condition.Fulfill
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.Condition.Fulfill
+  nameWithType: Condition.Fulfill
+- uid: cfGodotEngine.Tool.Condition.GetConfigurationWarnings(System.Collections.Generic.IList{System.String})
+  name: GetConfigurationWarnings(IList<string>)
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__
+  commentId: M:cfGodotEngine.Tool.Condition.GetConfigurationWarnings(System.Collections.Generic.IList{System.String})
+  name.vb: GetConfigurationWarnings(IList(Of String))
+  fullName: cfGodotEngine.Tool.Condition.GetConfigurationWarnings(System.Collections.Generic.IList<string>)
+  fullName.vb: cfGodotEngine.Tool.Condition.GetConfigurationWarnings(System.Collections.Generic.IList(Of String))
+  nameWithType: Condition.GetConfigurationWarnings(IList<string>)
+  nameWithType.vb: Condition.GetConfigurationWarnings(IList(Of String))
+- uid: cfGodotEngine.Tool.Condition.GetConfigurationWarnings*
+  name: GetConfigurationWarnings
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_GetConfigurationWarnings_
+  commentId: Overload:cfGodotEngine.Tool.Condition.GetConfigurationWarnings
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.Condition.GetConfigurationWarnings
+  nameWithType: Condition.GetConfigurationWarnings
 - uid: cfGodotEngine.Tool.Condition.MethodName
   name: Condition.MethodName
   href: api/cfGodotEngine.Tool.Condition.MethodName.html
   commentId: T:cfGodotEngine.Tool.Condition.MethodName
   fullName: cfGodotEngine.Tool.Condition.MethodName
   nameWithType: Condition.MethodName
+- uid: cfGodotEngine.Tool.Condition.MethodName.Fulfill
+  name: Fulfill
+  href: api/cfGodotEngine.Tool.Condition.MethodName.html#cfGodotEngine_Tool_Condition_MethodName_Fulfill
+  commentId: F:cfGodotEngine.Tool.Condition.MethodName.Fulfill
+  fullName: cfGodotEngine.Tool.Condition.MethodName.Fulfill
+  nameWithType: Condition.MethodName.Fulfill
+- uid: cfGodotEngine.Tool.Condition.OnFulfilled
+  name: OnFulfilled
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_OnFulfilled
+  commentId: P:cfGodotEngine.Tool.Condition.OnFulfilled
+  fullName: cfGodotEngine.Tool.Condition.OnFulfilled
+  nameWithType: Condition.OnFulfilled
+- uid: cfGodotEngine.Tool.Condition.OnFulfilled*
+  name: OnFulfilled
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_OnFulfilled_
+  commentId: Overload:cfGodotEngine.Tool.Condition.OnFulfilled
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.Condition.OnFulfilled
+  nameWithType: Condition.OnFulfilled
 - uid: cfGodotEngine.Tool.Condition.PropertyName
   name: Condition.PropertyName
   href: api/cfGodotEngine.Tool.Condition.PropertyName.html
@@ -5633,6 +5818,80 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.ConditionalEnable2D._Ready
   nameWithType: ConditionalEnable2D._Ready
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D
+  name: ConditionalRecyclable2D
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.html
+  commentId: T:cfGodotEngine.Tool.ConditionalRecyclable2D
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D
+  nameWithType: ConditionalRecyclable2D
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName
+  name: ConditionalRecyclable2D.MethodName
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.html
+  commentId: T:cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName
+  nameWithType: ConditionalRecyclable2D.MethodName
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.OnConditionFulfilled
+  name: OnConditionFulfilled
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.html#cfGodotEngine_Tool_ConditionalRecyclable2D_MethodName_OnConditionFulfilled
+  commentId: F:cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.OnConditionFulfilled
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.OnConditionFulfilled
+  nameWithType: ConditionalRecyclable2D.MethodName.OnConditionFulfilled
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName._EnterTree
+  name: _EnterTree
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.html#cfGodotEngine_Tool_ConditionalRecyclable2D_MethodName__EnterTree
+  commentId: F:cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName._EnterTree
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName._EnterTree
+  nameWithType: ConditionalRecyclable2D.MethodName._EnterTree
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName._ExitTree
+  name: _ExitTree
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.html#cfGodotEngine_Tool_ConditionalRecyclable2D_MethodName__ExitTree
+  commentId: F:cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName._ExitTree
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName._ExitTree
+  nameWithType: ConditionalRecyclable2D.MethodName._ExitTree
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName
+  name: ConditionalRecyclable2D.PropertyName
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName.html
+  commentId: T:cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName
+  nameWithType: ConditionalRecyclable2D.PropertyName
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName._condition
+  name: _condition
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName.html#cfGodotEngine_Tool_ConditionalRecyclable2D_PropertyName__condition
+  commentId: F:cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName._condition
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName._condition
+  nameWithType: ConditionalRecyclable2D.PropertyName._condition
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName
+  name: ConditionalRecyclable2D.SignalName
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName.html
+  commentId: T:cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName
+  nameWithType: ConditionalRecyclable2D.SignalName
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D._EnterTree
+  name: _EnterTree()
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.html#cfGodotEngine_Tool_ConditionalRecyclable2D__EnterTree
+  commentId: M:cfGodotEngine.Tool.ConditionalRecyclable2D._EnterTree
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D._EnterTree()
+  nameWithType: ConditionalRecyclable2D._EnterTree()
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D._EnterTree*
+  name: _EnterTree
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.html#cfGodotEngine_Tool_ConditionalRecyclable2D__EnterTree_
+  commentId: Overload:cfGodotEngine.Tool.ConditionalRecyclable2D._EnterTree
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D._EnterTree
+  nameWithType: ConditionalRecyclable2D._EnterTree
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D._ExitTree
+  name: _ExitTree()
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.html#cfGodotEngine_Tool_ConditionalRecyclable2D__ExitTree
+  commentId: M:cfGodotEngine.Tool.ConditionalRecyclable2D._ExitTree
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D._ExitTree()
+  nameWithType: ConditionalRecyclable2D._ExitTree()
+- uid: cfGodotEngine.Tool.ConditionalRecyclable2D._ExitTree*
+  name: _ExitTree
+  href: api/cfGodotEngine.Tool.ConditionalRecyclable2D.html#cfGodotEngine_Tool_ConditionalRecyclable2D__ExitTree_
+  commentId: Overload:cfGodotEngine.Tool.ConditionalRecyclable2D._ExitTree
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.ConditionalRecyclable2D._ExitTree
+  nameWithType: ConditionalRecyclable2D._ExitTree
 - uid: cfGodotEngine.Tool.ObjectSpawner2D
   name: ObjectSpawner2D
   href: api/cfGodotEngine.Tool.ObjectSpawner2D.html
@@ -5651,12 +5910,6 @@ references:
   commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.MethodName.Spawn
   fullName: cfGodotEngine.Tool.ObjectSpawner2D.MethodName.Spawn
   nameWithType: ObjectSpawner2D.MethodName.Spawn
-- uid: cfGodotEngine.Tool.ObjectSpawner2D.MethodName._ValidateProperty
-  name: _ValidateProperty
-  href: api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.html#cfGodotEngine_Tool_ObjectSpawner2D_MethodName__ValidateProperty
-  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.MethodName._ValidateProperty
-  fullName: cfGodotEngine.Tool.ObjectSpawner2D.MethodName._ValidateProperty
-  nameWithType: ObjectSpawner2D.MethodName._ValidateProperty
 - uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName
   name: ObjectSpawner2D.PropertyName
   href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html
@@ -5669,18 +5922,18 @@ references:
   commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._recyclable
   fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._recyclable
   nameWithType: ObjectSpawner2D.PropertyName._recyclable
+- uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._spawnAsChild
+  name: _spawnAsChild
+  href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html#cfGodotEngine_Tool_ObjectSpawner2D_PropertyName__spawnAsChild
+  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._spawnAsChild
+  fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName._spawnAsChild
+  nameWithType: ObjectSpawner2D.PropertyName._spawnAsChild
 - uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.recyclable
   name: recyclable
   href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html#cfGodotEngine_Tool_ObjectSpawner2D_PropertyName_recyclable
   commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.recyclable
   fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.recyclable
   nameWithType: ObjectSpawner2D.PropertyName.recyclable
-- uid: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.spawnAsChild
-  name: spawnAsChild
-  href: api/cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.html#cfGodotEngine_Tool_ObjectSpawner2D_PropertyName_spawnAsChild
-  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.spawnAsChild
-  fullName: cfGodotEngine.Tool.ObjectSpawner2D.PropertyName.spawnAsChild
-  nameWithType: ObjectSpawner2D.PropertyName.spawnAsChild
 - uid: cfGodotEngine.Tool.ObjectSpawner2D.SignalName
   name: ObjectSpawner2D.SignalName
   href: api/cfGodotEngine.Tool.ObjectSpawner2D.SignalName.html
@@ -5703,19 +5956,6 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.ObjectSpawner2D.Spawn
   nameWithType: ObjectSpawner2D.Spawn
-- uid: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)
-  name: _ValidateProperty(Dictionary)
-  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_Godot_Collections_Dictionary_
-  commentId: M:cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)
-  fullName: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty(Godot.Collections.Dictionary)
-  nameWithType: ObjectSpawner2D._ValidateProperty(Dictionary)
-- uid: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty*
-  name: _ValidateProperty
-  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D__ValidateProperty_
-  commentId: Overload:cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty
-  isSpec: "True"
-  fullName: cfGodotEngine.Tool.ObjectSpawner2D._ValidateProperty
-  nameWithType: ObjectSpawner2D._ValidateProperty
 - uid: cfGodotEngine.Tool.ObjectSpawner2D.recyclable
   name: recyclable
   href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_recyclable
@@ -5729,12 +5969,6 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.ObjectSpawner2D.recyclable
   nameWithType: ObjectSpawner2D.recyclable
-- uid: cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild
-  name: spawnAsChild
-  href: api/cfGodotEngine.Tool.ObjectSpawner2D.html#cfGodotEngine_Tool_ObjectSpawner2D_spawnAsChild
-  commentId: F:cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild
-  fullName: cfGodotEngine.Tool.ObjectSpawner2D.spawnAsChild
-  nameWithType: ObjectSpawner2D.spawnAsChild
 - uid: cfGodotEngine.Tool.RandomNodeItem
   name: RandomNodeItem
   href: api/cfGodotEngine.Tool.RandomNodeItem.html

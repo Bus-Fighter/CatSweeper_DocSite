@@ -5,9 +5,9 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class SimpleRecyclable2D | CatSweeper Documentation </title>
+      <title>Class AnimationPlayEndRecyclable2D | CatSweeper Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class SimpleRecyclable2D | CatSweeper Documentation ">
+      <meta name="title" content="Class AnimationPlayEndRecyclable2D | CatSweeper Documentation ">
       <meta name="generator" content="docfx ">
   
       <link rel="shortcut icon" href="../favicon.ico">
@@ -95,11 +95,11 @@
                          <div class="contribution">
                          </div>
 
-                    <article class="content wrap" id="_content" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D">
+                    <article class="content wrap" id="_content" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D">
 
 
 
-  <h1 id="cfGodotEngine_Tool_SimpleRecyclable2D" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D" class="text-break">Class SimpleRecyclable2D</h1>
+  <h1 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D" class="text-break">Class AnimationPlayEndRecyclable2D</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -109,9 +109,8 @@
     <div class="level2"><span class="xref">Node</span></div>
     <div class="level3"><span class="xref">CanvasItem</span></div>
     <div class="level4"><span class="xref">Node2D</span></div>
-    <div class="level5"><span class="xref">SimpleRecyclable2D</span></div>
-      <div class="level6"><a class="xref" href="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html">AnimationPlayEndRecyclable2D</a></div>
-      <div class="level6"><a class="xref" href="cfGodotEngine.Tool.ConditionalRecyclable2D.html">ConditionalRecyclable2D</a></div>
+    <div class="level5"><a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html">SimpleRecyclable2D</a></div>
+    <div class="level6"><span class="xref">AnimationPlayEndRecyclable2D</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -119,6 +118,24 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__">SimpleRecyclable2D.SetPool(ObjectPool&lt;SimpleRecyclable2D&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Recycle">SimpleRecyclable2D.Recycle()</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_OnInitialize">SimpleRecyclable2D.OnInitialize</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize">SimpleRecyclable2D.EmitSignalOnInitialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_OnClear">SimpleRecyclable2D.OnClear</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear">SimpleRecyclable2D.EmitSignalOnClear()</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Node2D.Rotate(float)</a>
     </div>
@@ -651,12 +668,6 @@
       <span class="xref">Node.GetParentOrNull&lt;T&gt;()</span>
     </div>
     <div>
-      <span class="xref">Node._EnterTree()</span>
-    </div>
-    <div>
-      <span class="xref">Node._ExitTree()</span>
-    </div>
-    <div>
       <span class="xref">Node._GetAccessibilityConfigurationWarnings()</span>
     </div>
     <div>
@@ -673,9 +684,6 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Node._Process(double)</a>
-    </div>
-    <div>
-      <span class="xref">Node._Ready()</span>
     </div>
     <div>
       <span class="xref">Node._ShortcutInput(InputEvent)</span>
@@ -1343,162 +1351,108 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="cfGodotEngine.html">cfGodotEngine</a>.<a class="xref" href="cfGodotEngine.Tool.html">Tool</a></h6>
   <h6><strong>Assembly</strong>: CatSweeper.dll</h6>
-  <h5 id="cfGodotEngine_Tool_SimpleRecyclable2D_syntax">Syntax</h5>
+  <h5 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tool]
 [GlobalClass]
-[ScriptPath(&quot;res://cfGodotEngine/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs&quot;)]
-public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
+[ScriptPath(&quot;res://cfGodotEngine/tool/ObjectSpawner/Recyclable/AnimationPlayEndRecyclable2D.cs&quot;)]
+public class AnimationPlayEndRecyclable2D : SimpleRecyclable2D, IDisposable</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Clear.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Clear.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L31">View Source</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/AnimationPlayEndRecyclable2D.cs/#L53">View Source</a>
   </span>
-  <a id="cfGodotEngine_Tool_SimpleRecyclable2D_Clear_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Clear*"></a>
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_Clear" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Clear">Clear()</h4>
+  <a id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Clear_" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear*"></a>
+  <h4 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Clear" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Clear">Clear()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Clear()</code></pre>
   </div>
-
-
-  <a id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear*"></a>
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear">EmitSignalOnClear()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void EmitSignalOnClear()</code></pre>
-  </div>
-
-
-  <a id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize*"></a>
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize">EmitSignalOnInitialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void EmitSignalOnInitialize()</code></pre>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Clear">SimpleRecyclable2D.Clear()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Initialize.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Initialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Initialize.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L20">View Source</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/AnimationPlayEndRecyclable2D.cs/#L47">View Source</a>
   </span>
-  <a id="cfGodotEngine_Tool_SimpleRecyclable2D_Initialize_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Initialize*"></a>
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_Initialize" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Initialize">Initialize()</h4>
+  <a id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Initialize_" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize*"></a>
+  <h4 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D_Initialize" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Initialize()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Initialize()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Recycle.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Recycle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L25">View Source</a>
-  </span>
-  <a id="cfGodotEngine_Tool_SimpleRecyclable2D_Recycle_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Recycle*"></a>
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_Recycle" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Recycle">Recycle()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Recycle()</code></pre>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html#cfGodotEngine_Tool_SimpleRecyclable2D_Initialize">SimpleRecyclable2D.Initialize()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool%7BcfGodotEngine.Tool.SimpleRecyclable2D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__EnterTree.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L15">View Source</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/AnimationPlayEndRecyclable2D.cs/#L35">View Source</a>
   </span>
-  <a id="cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.SetPool*"></a>
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool{cfGodotEngine.Tool.SimpleRecyclable2D})">SetPool(ObjectPool&lt;SimpleRecyclable2D&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__EnterTree_" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree*"></a>
+  <h4 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__EnterTree" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._EnterTree">_EnterTree()</h4>
+  <div class="markdown level1 summary"><p>Called when the node enters the <span class="xref">Godot.SceneTree</span> (e.g. upon instantiating, scene changing, or after calling <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">AddChild(Node, bool, InternalMode)</a> in a script). If the node has children, its <span class="xref">Godot.Node._EnterTree()</span> callback will be called first, and then that of the children.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationEnterTree</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetPool(ObjectPool&lt;SimpleRecyclable2D&gt; pool)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void _EnterTree()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ObjectPool</span>&lt;<a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html">SimpleRecyclable2D</a>&gt;</td>
-        <td><span class="parametername">pool</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="events">Events
-</h3>
-
-
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_OnClear" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.OnClear">OnClear</h4>
-  <div class="markdown level1 summary"></div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Godot.Node._EnterTree()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__ExitTree.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/AnimationPlayEndRecyclable2D.cs/#L41">View Source</a>
+  </span>
+  <a id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__ExitTree_" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree*"></a>
+  <h4 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__ExitTree" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._ExitTree">_ExitTree()</h4>
+  <div class="markdown level1 summary"><p>Called when the node is about to leave the <span class="xref">Godot.SceneTree</span> (e.g. upon freeing, scene changing, or after calling <span class="xref">Godot.Node.RemoveChild(Godot.Node)</span> in a script). If the node has children, its <span class="xref">Godot.Node._ExitTree()</span> callback will be called last, after all its children have left the tree.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationExitTree</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a> and signal <span class="xref">Godot.Node.TreeExiting</span>. To get notified when the node has already left the active tree, connect to the <span class="xref">Godot.Node.TreeExited</span>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event SimpleRecyclable2D.OnClearEventHandler OnClear</code></pre>
+    <pre><code class="lang-csharp hljs">public override void _ExitTree()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html">SimpleRecyclable2D</a>.<a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.OnClearEventHandler.html">OnClearEventHandler</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_OnInitialize" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.OnInitialize">OnInitialize</h4>
-  <div class="markdown level1 summary"></div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Godot.Node._ExitTree()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__Ready.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/AnimationPlayEndRecyclable2D.cs/#L28">View Source</a>
+  </span>
+  <a id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__Ready_" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready*"></a>
+  <h4 id="cfGodotEngine_Tool_AnimationPlayEndRecyclable2D__Ready" data-uid="cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready">_Ready()</h4>
+  <div class="markdown level1 summary"><p>Called when the node is "ready", i.e. when both the node and its children have entered the scene tree. If the node has children, their <span class="xref">Godot.Node._Ready()</span> callbacks get triggered first, and the parent node will receive the ready notification afterwards.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationReady</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>. See also the <code>@onready</code> annotation for variables.</p>
+<p>Usually used for initialization. For even earlier initialization, <span class="xref">Godot.GodotObject.GodotObject()</span> may be used. See also <span class="xref">Godot.Node._EnterTree()</span>.</p>
+<p><b>Note:</b> This method may be called only once for each node. After removing a node from the scene tree and adding it again, <span class="xref">Godot.Node._Ready()</span> will <b>not</b> be called a second time. This can be bypassed by requesting another call with <span class="xref">Godot.Node.RequestReady()</span>, which may be called anywhere before adding the node again.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event SimpleRecyclable2D.OnInitializeEventHandler OnInitialize</code></pre>
+    <pre><code class="lang-csharp hljs">public override void _Ready()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.html">SimpleRecyclable2D</a>.<a class="xref" href="cfGodotEngine.Tool.SimpleRecyclable2D.OnInitializeEventHandler.html">OnInitializeEventHandler</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Godot.Node._Ready()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>

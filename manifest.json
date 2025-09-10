@@ -2756,6 +2756,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.AnimationPlayEndRecyclable2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.AnimationPlayEndRecyclable2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.Condition.MethodName.yml",
       "output": {
         ".html": {
@@ -2868,6 +2924,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalRecyclable2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalRecyclable2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalRecyclable2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionalRecyclable2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionalRecyclable2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.yml",
       "output": {
         ".html": {
@@ -2920,7 +3032,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Tool.ObjectSpawner2D",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ObjectSpawner2D.yml\" sourcestartlinenumber=\"1\">2D version of ObjectSpawner that requires a PackedScene with root node inherited from <xref href=\"cfGodotEngine.Tool.SimpleRecyclable2D\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
     },
     {
       "type": "ManagedReference",
