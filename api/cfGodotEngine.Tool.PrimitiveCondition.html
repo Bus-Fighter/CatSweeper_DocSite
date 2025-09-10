@@ -5,9 +5,9 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class Condition | CatSweeper Documentation </title>
+      <title>Class PrimitiveCondition | CatSweeper Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class Condition | CatSweeper Documentation ">
+      <meta name="title" content="Class PrimitiveCondition | CatSweeper Documentation ">
       <meta name="generator" content="docfx ">
   
       <link rel="shortcut icon" href="../favicon.ico">
@@ -95,11 +95,11 @@
                          <div class="contribution">
                          </div>
 
-                    <article class="content wrap" id="_content" data-uid="cfGodotEngine.Tool.Condition">
+                    <article class="content wrap" id="_content" data-uid="cfGodotEngine.Tool.PrimitiveCondition">
 
 
 
-  <h1 id="cfGodotEngine_Tool_Condition" data-uid="cfGodotEngine.Tool.Condition" class="text-break">Class Condition</h1>
+  <h1 id="cfGodotEngine_Tool_PrimitiveCondition" data-uid="cfGodotEngine.Tool.PrimitiveCondition" class="text-break">Class PrimitiveCondition</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -108,8 +108,8 @@
     <div class="level1"><span class="xref">GodotObject</span></div>
     <div class="level2"><span class="xref">RefCounted</span></div>
     <div class="level3"><span class="xref">Resource</span></div>
-    <div class="level4"><span class="xref">Condition</span></div>
-      <div class="level5"><a class="xref" href="cfGodotEngine.Tool.PrimitiveCondition.html">PrimitiveCondition</a></div>
+    <div class="level4"><a class="xref" href="cfGodotEngine.Tool.Condition.html">Condition</a></div>
+    <div class="level5"><span class="xref">PrimitiveCondition</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -117,6 +117,18 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_isFulfilled">Condition.isFulfilled</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_OnFulfilled">Condition.OnFulfilled</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_Fulfill">Condition.Fulfill()</a>
+    </div>
+    <div>
+      <a class="xref" href="cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__">Condition.GetConfigurationWarnings(IList&lt;string&gt;)</a>
+    </div>
     <div>
       <span class="xref">Resource._GetRid()</span>
     </div>
@@ -468,139 +480,29 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="cfGodotEngine.html">cfGodotEngine</a>.<a class="xref" href="cfGodotEngine.Tool.html">Tool</a></h6>
   <h6><strong>Assembly</strong>: CatSweeper.dll</h6>
-  <h5 id="cfGodotEngine_Tool_Condition_syntax">Syntax</h5>
+  <h5 id="cfGodotEngine_Tool_PrimitiveCondition_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tool]
 [GlobalClass]
-[ScriptPath(&quot;res://cfGodotEngine/tool/Condition/Condition.cs&quot;)]
-public class Condition : Resource, IDisposable</code></pre>
+[ScriptPath(&quot;res://cfGodotEngine/tool/Condition/PrimitiveCondition.cs&quot;)]
+public class PrimitiveCondition : Condition, IDisposable</code></pre>
   </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_Condition_OnFulfilled.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.Condition.OnFulfilled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/Condition.cs/#L15">View Source</a>
-  </span>
-  <a id="cfGodotEngine_Tool_Condition_OnFulfilled_" data-uid="cfGodotEngine.Tool.Condition.OnFulfilled*"></a>
-  <h4 id="cfGodotEngine_Tool_Condition_OnFulfilled" data-uid="cfGodotEngine.Tool.Condition.OnFulfilled">OnFulfilled</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IRelay&lt;Action&gt; OnFulfilled { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IRelay</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_Condition_isFulfilled.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.Condition.isFulfilled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/Condition.cs/#L13">View Source</a>
-  </span>
-  <a id="cfGodotEngine_Tool_Condition_isFulfilled_" data-uid="cfGodotEngine.Tool.Condition.isFulfilled*"></a>
-  <h4 id="cfGodotEngine_Tool_Condition_isFulfilled" data-uid="cfGodotEngine.Tool.Condition.isFulfilled">isFulfilled</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isFulfilled { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_Condition_Fulfill.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.Condition.Fulfill%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_PrimitiveCondition_SetValue_Godot_Variant_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.PrimitiveCondition.SetValue(Godot.Variant)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/Condition.cs/#L19">View Source</a>
+    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/PrimitiveCondition.cs/#L16">View Source</a>
   </span>
-  <a id="cfGodotEngine_Tool_Condition_Fulfill_" data-uid="cfGodotEngine.Tool.Condition.Fulfill*"></a>
-  <h4 id="cfGodotEngine_Tool_Condition_Fulfill" data-uid="cfGodotEngine.Tool.Condition.Fulfill">Fulfill()</h4>
+  <a id="cfGodotEngine_Tool_PrimitiveCondition_SetValue_" data-uid="cfGodotEngine.Tool.PrimitiveCondition.SetValue*"></a>
+  <h4 id="cfGodotEngine_Tool_PrimitiveCondition_SetValue_Godot_Variant_" data-uid="cfGodotEngine.Tool.PrimitiveCondition.SetValue(Godot.Variant)">SetValue(Variant)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Fulfill()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_Condition_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.Condition.GetConfigurationWarnings(System.Collections.Generic.IList%7BSystem.String%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/Condition.cs/#L31">View Source</a>
-  </span>
-  <a id="cfGodotEngine_Tool_Condition_GetConfigurationWarnings_" data-uid="cfGodotEngine.Tool.Condition.GetConfigurationWarnings*"></a>
-  <h4 id="cfGodotEngine_Tool_Condition_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__" data-uid="cfGodotEngine.Tool.Condition.GetConfigurationWarnings(System.Collections.Generic.IList{System.String})">GetConfigurationWarnings(IList&lt;string&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Conditional(&quot;TOOLS&quot;)]
-public virtual void GetConfigurationWarnings(IList&lt;string&gt; warnings)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
-        <td><span class="parametername">warnings</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_Condition_SetValue_Godot_Variant_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.Condition.SetValue(Godot.Variant)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/Condition.cs/#L17">View Source</a>
-  </span>
-  <a id="cfGodotEngine_Tool_Condition_SetValue_" data-uid="cfGodotEngine.Tool.Condition.SetValue*"></a>
-  <h4 id="cfGodotEngine_Tool_Condition_SetValue_Godot_Variant_" data-uid="cfGodotEngine.Tool.Condition.SetValue(Godot.Variant)">SetValue(Variant)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void SetValue(Variant v)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void SetValue(Variant v)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -619,6 +521,8 @@ public virtual void GetConfigurationWarnings(IList&lt;string&gt; warnings)</code
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_SetValue_Godot_Variant_">Condition.SetValue(Variant)</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>

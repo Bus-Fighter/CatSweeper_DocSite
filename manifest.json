@@ -3036,6 +3036,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.OpCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.OpCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.OpCode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.PrimitiveCondition.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.PrimitiveCondition.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.PrimitiveCondition.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.PrimitiveCondition",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.RandomNodeItem.MethodName.yml",
       "output": {
         ".html": {
@@ -3830,6 +3900,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Util.TypeRef",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.VariantUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.VariantUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.VariantUtil",
       "Summary": null
     },
     {

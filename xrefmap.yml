@@ -5725,6 +5725,12 @@ references:
   commentId: F:cfGodotEngine.Tool.Condition.MethodName.Fulfill
   fullName: cfGodotEngine.Tool.Condition.MethodName.Fulfill
   nameWithType: Condition.MethodName.Fulfill
+- uid: cfGodotEngine.Tool.Condition.MethodName.SetValue
+  name: SetValue
+  href: api/cfGodotEngine.Tool.Condition.MethodName.html#cfGodotEngine_Tool_Condition_MethodName_SetValue
+  commentId: F:cfGodotEngine.Tool.Condition.MethodName.SetValue
+  fullName: cfGodotEngine.Tool.Condition.MethodName.SetValue
+  nameWithType: Condition.MethodName.SetValue
 - uid: cfGodotEngine.Tool.Condition.OnFulfilled
   name: OnFulfilled
   href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_OnFulfilled
@@ -5750,6 +5756,19 @@ references:
   commentId: F:cfGodotEngine.Tool.Condition.PropertyName.isFulfilled
   fullName: cfGodotEngine.Tool.Condition.PropertyName.isFulfilled
   nameWithType: Condition.PropertyName.isFulfilled
+- uid: cfGodotEngine.Tool.Condition.SetValue(Godot.Variant)
+  name: SetValue(Variant)
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_SetValue_Godot_Variant_
+  commentId: M:cfGodotEngine.Tool.Condition.SetValue(Godot.Variant)
+  fullName: cfGodotEngine.Tool.Condition.SetValue(Godot.Variant)
+  nameWithType: Condition.SetValue(Variant)
+- uid: cfGodotEngine.Tool.Condition.SetValue*
+  name: SetValue
+  href: api/cfGodotEngine.Tool.Condition.html#cfGodotEngine_Tool_Condition_SetValue_
+  commentId: Overload:cfGodotEngine.Tool.Condition.SetValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.Condition.SetValue
+  nameWithType: Condition.SetValue
 - uid: cfGodotEngine.Tool.Condition.SignalName
   name: Condition.SignalName
   href: api/cfGodotEngine.Tool.Condition.SignalName.html
@@ -5781,6 +5800,12 @@ references:
   commentId: T:cfGodotEngine.Tool.ConditionalEnable2D.MethodName
   fullName: cfGodotEngine.Tool.ConditionalEnable2D.MethodName
   nameWithType: ConditionalEnable2D.MethodName
+- uid: cfGodotEngine.Tool.ConditionalEnable2D.MethodName.SetConditionValue
+  name: SetConditionValue
+  href: api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.html#cfGodotEngine_Tool_ConditionalEnable2D_MethodName_SetConditionValue
+  commentId: F:cfGodotEngine.Tool.ConditionalEnable2D.MethodName.SetConditionValue
+  fullName: cfGodotEngine.Tool.ConditionalEnable2D.MethodName.SetConditionValue
+  nameWithType: ConditionalEnable2D.MethodName.SetConditionValue
 - uid: cfGodotEngine.Tool.ConditionalEnable2D.MethodName._Ready
   name: _Ready
   href: api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.html#cfGodotEngine_Tool_ConditionalEnable2D_MethodName__Ready
@@ -5799,6 +5824,19 @@ references:
   commentId: F:cfGodotEngine.Tool.ConditionalEnable2D.PropertyName._condition
   fullName: cfGodotEngine.Tool.ConditionalEnable2D.PropertyName._condition
   nameWithType: ConditionalEnable2D.PropertyName._condition
+- uid: cfGodotEngine.Tool.ConditionalEnable2D.SetConditionValue(Godot.Variant)
+  name: SetConditionValue(Variant)
+  href: api/cfGodotEngine.Tool.ConditionalEnable2D.html#cfGodotEngine_Tool_ConditionalEnable2D_SetConditionValue_Godot_Variant_
+  commentId: M:cfGodotEngine.Tool.ConditionalEnable2D.SetConditionValue(Godot.Variant)
+  fullName: cfGodotEngine.Tool.ConditionalEnable2D.SetConditionValue(Godot.Variant)
+  nameWithType: ConditionalEnable2D.SetConditionValue(Variant)
+- uid: cfGodotEngine.Tool.ConditionalEnable2D.SetConditionValue*
+  name: SetConditionValue
+  href: api/cfGodotEngine.Tool.ConditionalEnable2D.html#cfGodotEngine_Tool_ConditionalEnable2D_SetConditionValue_
+  commentId: Overload:cfGodotEngine.Tool.ConditionalEnable2D.SetConditionValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.ConditionalEnable2D.SetConditionValue
+  nameWithType: ConditionalEnable2D.SetConditionValue
 - uid: cfGodotEngine.Tool.ConditionalEnable2D.SignalName
   name: ConditionalEnable2D.SignalName
   href: api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.html
@@ -5969,6 +6007,103 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.ObjectSpawner2D.recyclable
   nameWithType: ObjectSpawner2D.recyclable
+- uid: cfGodotEngine.Tool.OpCode
+  name: OpCode
+  href: api/cfGodotEngine.Tool.OpCode.html
+  commentId: T:cfGodotEngine.Tool.OpCode
+  fullName: cfGodotEngine.Tool.OpCode
+  nameWithType: OpCode
+- uid: cfGodotEngine.Tool.OpCode.Equal
+  name: Equal
+  href: api/cfGodotEngine.Tool.OpCode.html#cfGodotEngine_Tool_OpCode_Equal
+  commentId: F:cfGodotEngine.Tool.OpCode.Equal
+  fullName: cfGodotEngine.Tool.OpCode.Equal
+  nameWithType: OpCode.Equal
+- uid: cfGodotEngine.Tool.OpCode.Greater
+  name: Greater
+  href: api/cfGodotEngine.Tool.OpCode.html#cfGodotEngine_Tool_OpCode_Greater
+  commentId: F:cfGodotEngine.Tool.OpCode.Greater
+  fullName: cfGodotEngine.Tool.OpCode.Greater
+  nameWithType: OpCode.Greater
+- uid: cfGodotEngine.Tool.OpCode.GreaterOrEqual
+  name: GreaterOrEqual
+  href: api/cfGodotEngine.Tool.OpCode.html#cfGodotEngine_Tool_OpCode_GreaterOrEqual
+  commentId: F:cfGodotEngine.Tool.OpCode.GreaterOrEqual
+  fullName: cfGodotEngine.Tool.OpCode.GreaterOrEqual
+  nameWithType: OpCode.GreaterOrEqual
+- uid: cfGodotEngine.Tool.OpCode.Less
+  name: Less
+  href: api/cfGodotEngine.Tool.OpCode.html#cfGodotEngine_Tool_OpCode_Less
+  commentId: F:cfGodotEngine.Tool.OpCode.Less
+  fullName: cfGodotEngine.Tool.OpCode.Less
+  nameWithType: OpCode.Less
+- uid: cfGodotEngine.Tool.OpCode.LessOrEqual
+  name: LessOrEqual
+  href: api/cfGodotEngine.Tool.OpCode.html#cfGodotEngine_Tool_OpCode_LessOrEqual
+  commentId: F:cfGodotEngine.Tool.OpCode.LessOrEqual
+  fullName: cfGodotEngine.Tool.OpCode.LessOrEqual
+  nameWithType: OpCode.LessOrEqual
+- uid: cfGodotEngine.Tool.OpCode.NotEqual
+  name: NotEqual
+  href: api/cfGodotEngine.Tool.OpCode.html#cfGodotEngine_Tool_OpCode_NotEqual
+  commentId: F:cfGodotEngine.Tool.OpCode.NotEqual
+  fullName: cfGodotEngine.Tool.OpCode.NotEqual
+  nameWithType: OpCode.NotEqual
+- uid: cfGodotEngine.Tool.PrimitiveCondition
+  name: PrimitiveCondition
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.html
+  commentId: T:cfGodotEngine.Tool.PrimitiveCondition
+  fullName: cfGodotEngine.Tool.PrimitiveCondition
+  nameWithType: PrimitiveCondition
+- uid: cfGodotEngine.Tool.PrimitiveCondition.MethodName
+  name: PrimitiveCondition.MethodName
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.html
+  commentId: T:cfGodotEngine.Tool.PrimitiveCondition.MethodName
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.MethodName
+  nameWithType: PrimitiveCondition.MethodName
+- uid: cfGodotEngine.Tool.PrimitiveCondition.MethodName.SetValue
+  name: SetValue
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.html#cfGodotEngine_Tool_PrimitiveCondition_MethodName_SetValue
+  commentId: F:cfGodotEngine.Tool.PrimitiveCondition.MethodName.SetValue
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.MethodName.SetValue
+  nameWithType: PrimitiveCondition.MethodName.SetValue
+- uid: cfGodotEngine.Tool.PrimitiveCondition.PropertyName
+  name: PrimitiveCondition.PropertyName
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.html
+  commentId: T:cfGodotEngine.Tool.PrimitiveCondition.PropertyName
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.PropertyName
+  nameWithType: PrimitiveCondition.PropertyName
+- uid: cfGodotEngine.Tool.PrimitiveCondition.PropertyName._op
+  name: _op
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.html#cfGodotEngine_Tool_PrimitiveCondition_PropertyName__op
+  commentId: F:cfGodotEngine.Tool.PrimitiveCondition.PropertyName._op
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.PropertyName._op
+  nameWithType: PrimitiveCondition.PropertyName._op
+- uid: cfGodotEngine.Tool.PrimitiveCondition.PropertyName._value
+  name: _value
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.html#cfGodotEngine_Tool_PrimitiveCondition_PropertyName__value
+  commentId: F:cfGodotEngine.Tool.PrimitiveCondition.PropertyName._value
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.PropertyName._value
+  nameWithType: PrimitiveCondition.PropertyName._value
+- uid: cfGodotEngine.Tool.PrimitiveCondition.SetValue(Godot.Variant)
+  name: SetValue(Variant)
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.html#cfGodotEngine_Tool_PrimitiveCondition_SetValue_Godot_Variant_
+  commentId: M:cfGodotEngine.Tool.PrimitiveCondition.SetValue(Godot.Variant)
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.SetValue(Godot.Variant)
+  nameWithType: PrimitiveCondition.SetValue(Variant)
+- uid: cfGodotEngine.Tool.PrimitiveCondition.SetValue*
+  name: SetValue
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.html#cfGodotEngine_Tool_PrimitiveCondition_SetValue_
+  commentId: Overload:cfGodotEngine.Tool.PrimitiveCondition.SetValue
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.SetValue
+  nameWithType: PrimitiveCondition.SetValue
+- uid: cfGodotEngine.Tool.PrimitiveCondition.SignalName
+  name: PrimitiveCondition.SignalName
+  href: api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.html
+  commentId: T:cfGodotEngine.Tool.PrimitiveCondition.SignalName
+  fullName: cfGodotEngine.Tool.PrimitiveCondition.SignalName
+  nameWithType: PrimitiveCondition.SignalName
 - uid: cfGodotEngine.Tool.RandomNodeItem
   name: RandomNodeItem
   href: api/cfGodotEngine.Tool.RandomNodeItem.html
@@ -7663,6 +7798,25 @@ references:
   commentId: T:cfGodotEngine.Util.TypeRef.SignalName
   fullName: cfGodotEngine.Util.TypeRef.SignalName
   nameWithType: TypeRef.SignalName
+- uid: cfGodotEngine.Util.VariantUtil
+  name: VariantUtil
+  href: api/cfGodotEngine.Util.VariantUtil.html
+  commentId: T:cfGodotEngine.Util.VariantUtil
+  fullName: cfGodotEngine.Util.VariantUtil
+  nameWithType: VariantUtil
+- uid: cfGodotEngine.Util.VariantUtil.IsPrimitive(Godot.Variant)
+  name: IsPrimitive(Variant)
+  href: api/cfGodotEngine.Util.VariantUtil.html#cfGodotEngine_Util_VariantUtil_IsPrimitive_Godot_Variant_
+  commentId: M:cfGodotEngine.Util.VariantUtil.IsPrimitive(Godot.Variant)
+  fullName: cfGodotEngine.Util.VariantUtil.IsPrimitive(Godot.Variant)
+  nameWithType: VariantUtil.IsPrimitive(Variant)
+- uid: cfGodotEngine.Util.VariantUtil.IsPrimitive*
+  name: IsPrimitive
+  href: api/cfGodotEngine.Util.VariantUtil.html#cfGodotEngine_Util_VariantUtil_IsPrimitive_
+  commentId: Overload:cfGodotEngine.Util.VariantUtil.IsPrimitive
+  isSpec: "True"
+  fullName: cfGodotEngine.Util.VariantUtil.IsPrimitive
+  nameWithType: VariantUtil.IsPrimitive
 - uid: gdUnit4.addons.gdUnit4.src.dotnet
   name: gdUnit4.addons.gdUnit4.src.dotnet
   href: api/gdUnit4.addons.gdUnit4.src.dotnet.html
