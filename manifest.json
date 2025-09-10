@@ -544,6 +544,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.MineInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.MineInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.MineInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.MineInfoManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.MineInfoManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.MineInfoManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Info.StageInfo.yml",
       "output": {
         ".html": {
