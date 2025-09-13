@@ -1232,6 +1232,37 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Info.StageInfo.GetMap
   nameWithType: StageInfo.GetMap
+- uid: CatSweeper.Info.StageInfo.GetMineSettings
+  name: GetMineSettings()
+  href: api/CatSweeper.Info.StageInfo.html#CatSweeper_Info_StageInfo_GetMineSettings
+  commentId: M:CatSweeper.Info.StageInfo.GetMineSettings
+  fullName: CatSweeper.Info.StageInfo.GetMineSettings()
+  nameWithType: StageInfo.GetMineSettings()
+- uid: CatSweeper.Info.StageInfo.GetMineSettings*
+  name: GetMineSettings
+  href: api/CatSweeper.Info.StageInfo.html#CatSweeper_Info_StageInfo_GetMineSettings_
+  commentId: Overload:CatSweeper.Info.StageInfo.GetMineSettings
+  isSpec: "True"
+  fullName: CatSweeper.Info.StageInfo.GetMineSettings
+  nameWithType: StageInfo.GetMineSettings
+- uid: CatSweeper.Info.StageInfo.MineSetting
+  name: StageInfo.MineSetting
+  href: api/CatSweeper.Info.StageInfo.MineSetting.html
+  commentId: T:CatSweeper.Info.StageInfo.MineSetting
+  fullName: CatSweeper.Info.StageInfo.MineSetting
+  nameWithType: StageInfo.MineSetting
+- uid: CatSweeper.Info.StageInfo.MineSetting.count
+  name: count
+  href: api/CatSweeper.Info.StageInfo.MineSetting.html#CatSweeper_Info_StageInfo_MineSetting_count
+  commentId: F:CatSweeper.Info.StageInfo.MineSetting.count
+  fullName: CatSweeper.Info.StageInfo.MineSetting.count
+  nameWithType: StageInfo.MineSetting.count
+- uid: CatSweeper.Info.StageInfo.MineSetting.info
+  name: info
+  href: api/CatSweeper.Info.StageInfo.MineSetting.html#CatSweeper_Info_StageInfo_MineSetting_info
+  commentId: F:CatSweeper.Info.StageInfo.MineSetting.info
+  fullName: CatSweeper.Info.StageInfo.MineSetting.info
+  nameWithType: StageInfo.MineSetting.info
 - uid: CatSweeper.Info.StageInfo.map
   name: map
   href: api/CatSweeper.Info.StageInfo.html#CatSweeper_Info_StageInfo_map
@@ -1245,6 +1276,19 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Info.StageInfo.map
   nameWithType: StageInfo.map
+- uid: CatSweeper.Info.StageInfo.mineSettings
+  name: mineSettings
+  href: api/CatSweeper.Info.StageInfo.html#CatSweeper_Info_StageInfo_mineSettings
+  commentId: P:CatSweeper.Info.StageInfo.mineSettings
+  fullName: CatSweeper.Info.StageInfo.mineSettings
+  nameWithType: StageInfo.mineSettings
+- uid: CatSweeper.Info.StageInfo.mineSettings*
+  name: mineSettings
+  href: api/CatSweeper.Info.StageInfo.html#CatSweeper_Info_StageInfo_mineSettings_
+  commentId: Overload:CatSweeper.Info.StageInfo.mineSettings
+  isSpec: "True"
+  fullName: CatSweeper.Info.StageInfo.mineSettings
+  nameWithType: StageInfo.mineSettings
 - uid: CatSweeper.Info.StageInfo.scenePath
   name: scenePath
   href: api/CatSweeper.Info.StageInfo.html#CatSweeper_Info_StageInfo_scenePath
@@ -1619,6 +1663,12 @@ references:
   commentId: F:CatSweeper.Stage.StageConfigData.mapInfo
   fullName: CatSweeper.Stage.StageConfigData.mapInfo
   nameWithType: StageConfigData.mapInfo
+- uid: CatSweeper.Stage.StageConfigData.mineSettings
+  name: mineSettings
+  href: api/CatSweeper.Stage.StageConfigData.html#CatSweeper_Stage_StageConfigData_mineSettings
+  commentId: F:CatSweeper.Stage.StageConfigData.mineSettings
+  fullName: CatSweeper.Stage.StageConfigData.mineSettings
+  nameWithType: StageConfigData.mineSettings
 - uid: CatSweeper.Stage.StageConfigData.stageInfo
   name: stageInfo
   href: api/CatSweeper.Stage.StageConfigData.html#CatSweeper_Stage_StageConfigData_stageInfo

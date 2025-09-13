@@ -572,6 +572,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.StageInfo.MineSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.StageInfo.MineSetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.StageInfo.MineSetting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Info.StageInfo.yml",
       "output": {
         ".html": {
