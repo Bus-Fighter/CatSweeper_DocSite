@@ -7258,19 +7258,70 @@ references:
   commentId: T:cfGodotEngine.Util.RandomUtil
   fullName: cfGodotEngine.Util.RandomUtil
   nameWithType: RandomUtil
-- uid: cfGodotEngine.Util.RandomUtil.RandVecRange(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
-  name: RandVecRange(RandomNumberGenerator, Vector3, Vector3)
-  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVecRange_Godot_RandomNumberGenerator_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:cfGodotEngine.Util.RandomUtil.RandVecRange(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
-  fullName: cfGodotEngine.Util.RandomUtil.RandVecRange(Godot.RandomNumberGenerator, System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: RandomUtil.RandVecRange(RandomNumberGenerator, Vector3, Vector3)
-- uid: cfGodotEngine.Util.RandomUtil.RandVecRange*
-  name: RandVecRange
-  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVecRange_
-  commentId: Overload:cfGodotEngine.Util.RandomUtil.RandVecRange
+- uid: cfGodotEngine.Util.RandomUtil.RandVec2IRange(Godot.RandomNumberGenerator,Godot.Vector2,Godot.Vector2)
+  name: RandVec2IRange(RandomNumberGenerator, Vector2, Vector2)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec2IRange_Godot_RandomNumberGenerator_Godot_Vector2_Godot_Vector2_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVec2IRange(Godot.RandomNumberGenerator,Godot.Vector2,Godot.Vector2)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec2IRange(Godot.RandomNumberGenerator, Godot.Vector2, Godot.Vector2)
+  nameWithType: RandomUtil.RandVec2IRange(RandomNumberGenerator, Vector2, Vector2)
+- uid: cfGodotEngine.Util.RandomUtil.RandVec2IRange(Godot.RandomNumberGenerator,Godot.Vector2I,Godot.Vector2I)
+  name: RandVec2IRange(RandomNumberGenerator, Vector2I, Vector2I)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec2IRange_Godot_RandomNumberGenerator_Godot_Vector2I_Godot_Vector2I_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVec2IRange(Godot.RandomNumberGenerator,Godot.Vector2I,Godot.Vector2I)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec2IRange(Godot.RandomNumberGenerator, Godot.Vector2I, Godot.Vector2I)
+  nameWithType: RandomUtil.RandVec2IRange(RandomNumberGenerator, Vector2I, Vector2I)
+- uid: cfGodotEngine.Util.RandomUtil.RandVec2IRange*
+  name: RandVec2IRange
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec2IRange_
+  commentId: Overload:cfGodotEngine.Util.RandomUtil.RandVec2IRange
   isSpec: "True"
-  fullName: cfGodotEngine.Util.RandomUtil.RandVecRange
-  nameWithType: RandomUtil.RandVecRange
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec2IRange
+  nameWithType: RandomUtil.RandVec2IRange
+- uid: cfGodotEngine.Util.RandomUtil.RandVec2Range(Godot.RandomNumberGenerator,Godot.Vector2,Godot.Vector2)
+  name: RandVec2Range(RandomNumberGenerator, Vector2, Vector2)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec2Range_Godot_RandomNumberGenerator_Godot_Vector2_Godot_Vector2_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVec2Range(Godot.RandomNumberGenerator,Godot.Vector2,Godot.Vector2)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec2Range(Godot.RandomNumberGenerator, Godot.Vector2, Godot.Vector2)
+  nameWithType: RandomUtil.RandVec2Range(RandomNumberGenerator, Vector2, Vector2)
+- uid: cfGodotEngine.Util.RandomUtil.RandVec2Range*
+  name: RandVec2Range
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec2Range_
+  commentId: Overload:cfGodotEngine.Util.RandomUtil.RandVec2Range
+  isSpec: "True"
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec2Range
+  nameWithType: RandomUtil.RandVec2Range
+- uid: cfGodotEngine.Util.RandomUtil.RandVec3IRange(Godot.RandomNumberGenerator,Godot.Vector3I,Godot.Vector3I)
+  name: RandVec3IRange(RandomNumberGenerator, Vector3I, Vector3I)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec3IRange_Godot_RandomNumberGenerator_Godot_Vector3I_Godot_Vector3I_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVec3IRange(Godot.RandomNumberGenerator,Godot.Vector3I,Godot.Vector3I)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec3IRange(Godot.RandomNumberGenerator, Godot.Vector3I, Godot.Vector3I)
+  nameWithType: RandomUtil.RandVec3IRange(RandomNumberGenerator, Vector3I, Vector3I)
+- uid: cfGodotEngine.Util.RandomUtil.RandVec3IRange(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
+  name: RandVec3IRange(RandomNumberGenerator, Vector3, Vector3)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec3IRange_Godot_RandomNumberGenerator_System_Numerics_Vector3_System_Numerics_Vector3_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVec3IRange(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec3IRange(Godot.RandomNumberGenerator, System.Numerics.Vector3, System.Numerics.Vector3)
+  nameWithType: RandomUtil.RandVec3IRange(RandomNumberGenerator, Vector3, Vector3)
+- uid: cfGodotEngine.Util.RandomUtil.RandVec3IRange*
+  name: RandVec3IRange
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec3IRange_
+  commentId: Overload:cfGodotEngine.Util.RandomUtil.RandVec3IRange
+  isSpec: "True"
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec3IRange
+  nameWithType: RandomUtil.RandVec3IRange
+- uid: cfGodotEngine.Util.RandomUtil.RandVec3Range(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
+  name: RandVec3Range(RandomNumberGenerator, Vector3, Vector3)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec3Range_Godot_RandomNumberGenerator_System_Numerics_Vector3_System_Numerics_Vector3_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVec3Range(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec3Range(Godot.RandomNumberGenerator, System.Numerics.Vector3, System.Numerics.Vector3)
+  nameWithType: RandomUtil.RandVec3Range(RandomNumberGenerator, Vector3, Vector3)
+- uid: cfGodotEngine.Util.RandomUtil.RandVec3Range*
+  name: RandVec3Range
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVec3Range_
+  commentId: Overload:cfGodotEngine.Util.RandomUtil.RandVec3Range
+  isSpec: "True"
+  fullName: cfGodotEngine.Util.RandomUtil.RandVec3Range
+  nameWithType: RandomUtil.RandVec3Range
 - uid: cfGodotEngine.Util.SettingPath
   name: SettingPath
   href: api/cfGodotEngine.Util.SettingPath.html
