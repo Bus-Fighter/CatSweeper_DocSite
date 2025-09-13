@@ -94,12 +94,6 @@ references:
   commentId: F:CatSweeper.Core.GameEntry.PropertyName._logLevel
   fullName: CatSweeper.Core.GameEntry.PropertyName._logLevel
   nameWithType: GameEntry.PropertyName._logLevel
-- uid: CatSweeper.Core.GameEntry.RegisterCoreService(cfEngine.Core.Domain)
-  name: RegisterCoreService(Domain)
-  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterCoreService_cfEngine_Core_Domain_
-  commentId: M:CatSweeper.Core.GameEntry.RegisterCoreService(cfEngine.Core.Domain)
-  fullName: CatSweeper.Core.GameEntry.RegisterCoreService(cfEngine.Core.Domain)
-  nameWithType: GameEntry.RegisterCoreService(Domain)
 - uid: CatSweeper.Core.GameEntry.RegisterCoreService*
   name: RegisterCoreService
   href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterCoreService_
@@ -107,6 +101,15 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.GameEntry.RegisterCoreService
   nameWithType: GameEntry.RegisterCoreService
+- uid: CatSweeper.Core.GameEntry.RegisterCoreService``1(``0)
+  name: RegisterCoreService<TDomain>(TDomain)
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterCoreService__1___0_
+  commentId: M:CatSweeper.Core.GameEntry.RegisterCoreService``1(``0)
+  name.vb: RegisterCoreService(Of TDomain)(TDomain)
+  fullName: CatSweeper.Core.GameEntry.RegisterCoreService<TDomain>(TDomain)
+  fullName.vb: CatSweeper.Core.GameEntry.RegisterCoreService(Of TDomain)(TDomain)
+  nameWithType: GameEntry.RegisterCoreService<TDomain>(TDomain)
+  nameWithType.vb: GameEntry.RegisterCoreService(Of TDomain)(TDomain)
 - uid: CatSweeper.Core.GameEntry.RegisterGameplayService(cfEngine.Core.Domain)
   name: RegisterGameplayService(Domain)
   href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry_RegisterGameplayService_cfEngine_Core_Domain_
@@ -1815,18 +1818,18 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.PropertyName
   fullName: CatSweeper.Stage.StageGrid.PropertyName
   nameWithType: StageGrid.PropertyName
-- uid: CatSweeper.Stage.StageGrid.PropertyName._neighborMineCount
-  name: _neighborMineCount
-  href: api/CatSweeper.Stage.StageGrid.PropertyName.html#CatSweeper_Stage_StageGrid_PropertyName__neighborMineCount
-  commentId: F:CatSweeper.Stage.StageGrid.PropertyName._neighborMineCount
-  fullName: CatSweeper.Stage.StageGrid.PropertyName._neighborMineCount
-  nameWithType: StageGrid.PropertyName._neighborMineCount
-- uid: CatSweeper.Stage.StageGrid.PropertyName._selfMineCount
-  name: _selfMineCount
-  href: api/CatSweeper.Stage.StageGrid.PropertyName.html#CatSweeper_Stage_StageGrid_PropertyName__selfMineCount
-  commentId: F:CatSweeper.Stage.StageGrid.PropertyName._selfMineCount
-  fullName: CatSweeper.Stage.StageGrid.PropertyName._selfMineCount
-  nameWithType: StageGrid.PropertyName._selfMineCount
+- uid: CatSweeper.Stage.StageGrid.PropertyName._neighborMineLevel
+  name: _neighborMineLevel
+  href: api/CatSweeper.Stage.StageGrid.PropertyName.html#CatSweeper_Stage_StageGrid_PropertyName__neighborMineLevel
+  commentId: F:CatSweeper.Stage.StageGrid.PropertyName._neighborMineLevel
+  fullName: CatSweeper.Stage.StageGrid.PropertyName._neighborMineLevel
+  nameWithType: StageGrid.PropertyName._neighborMineLevel
+- uid: CatSweeper.Stage.StageGrid.PropertyName._selfMineLevel
+  name: _selfMineLevel
+  href: api/CatSweeper.Stage.StageGrid.PropertyName.html#CatSweeper_Stage_StageGrid_PropertyName__selfMineLevel
+  commentId: F:CatSweeper.Stage.StageGrid.PropertyName._selfMineLevel
+  fullName: CatSweeper.Stage.StageGrid.PropertyName._selfMineLevel
+  nameWithType: StageGrid.PropertyName._selfMineLevel
 - uid: CatSweeper.Stage.StageGrid.SetData(CatSweeper.Stage.StageGridData)
   name: SetData(StageGridData)
   href: api/CatSweeper.Stage.StageGrid.html#CatSweeper_Stage_StageGrid_SetData_CatSweeper_Stage_StageGridData_
@@ -1997,18 +2000,18 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageGridMineData.isMine
   nameWithType: StageGridMineData.isMine
-- uid: CatSweeper.Stage.StageGridMineData.neighborMineCount
-  name: neighborMineCount
-  href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_neighborMineCount
-  commentId: F:CatSweeper.Stage.StageGridMineData.neighborMineCount
-  fullName: CatSweeper.Stage.StageGridMineData.neighborMineCount
-  nameWithType: StageGridMineData.neighborMineCount
-- uid: CatSweeper.Stage.StageGridMineData.selfMineCount
-  name: selfMineCount
-  href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_selfMineCount
-  commentId: F:CatSweeper.Stage.StageGridMineData.selfMineCount
-  fullName: CatSweeper.Stage.StageGridMineData.selfMineCount
-  nameWithType: StageGridMineData.selfMineCount
+- uid: CatSweeper.Stage.StageGridMineData.neighborMineLevel
+  name: neighborMineLevel
+  href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_neighborMineLevel
+  commentId: F:CatSweeper.Stage.StageGridMineData.neighborMineLevel
+  fullName: CatSweeper.Stage.StageGridMineData.neighborMineLevel
+  nameWithType: StageGridMineData.neighborMineLevel
+- uid: CatSweeper.Stage.StageGridMineData.selfMineLevel
+  name: selfMineLevel
+  href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_selfMineLevel
+  commentId: F:CatSweeper.Stage.StageGridMineData.selfMineLevel
+  fullName: CatSweeper.Stage.StageGridMineData.selfMineLevel
+  nameWithType: StageGridMineData.selfMineLevel
 - uid: CatSweeper.Stage.StageGridState
   name: StageGridState
   href: api/CatSweeper.Stage.StageGridState.html
@@ -2402,12 +2405,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageSession.gridMap
   nameWithType: StageSession.gridMap
-- uid: CatSweeper.Stage.StageSession.stageId
-  name: stageId
-  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_stageId
-  commentId: F:CatSweeper.Stage.StageSession.stageId
-  fullName: CatSweeper.Stage.StageSession.stageId
-  nameWithType: StageSession.stageId
 - uid: CatSweeper.Util
   name: CatSweeper.Util
   href: api/CatSweeper.Util.html
@@ -3823,6 +3820,25 @@ references:
   commentId: N:cfGodotEngine.Core
   fullName: cfGodotEngine.Core
   nameWithType: cfGodotEngine.Core
+- uid: cfGodotEngine.Core.GameDomain
+  name: GameDomain
+  href: api/cfGodotEngine.Core.GameDomain.html
+  commentId: T:cfGodotEngine.Core.GameDomain
+  fullName: cfGodotEngine.Core.GameDomain
+  nameWithType: GameDomain
+- uid: cfGodotEngine.Core.GameDomain.HandleException(System.Exception)
+  name: HandleException(Exception)
+  href: api/cfGodotEngine.Core.GameDomain.html#cfGodotEngine_Core_GameDomain_HandleException_System_Exception_
+  commentId: M:cfGodotEngine.Core.GameDomain.HandleException(System.Exception)
+  fullName: cfGodotEngine.Core.GameDomain.HandleException(System.Exception)
+  nameWithType: GameDomain.HandleException(Exception)
+- uid: cfGodotEngine.Core.GameDomain.HandleException*
+  name: HandleException
+  href: api/cfGodotEngine.Core.GameDomain.html#cfGodotEngine_Core_GameDomain_HandleException_
+  commentId: Overload:cfGodotEngine.Core.GameDomain.HandleException
+  isSpec: "True"
+  fullName: cfGodotEngine.Core.GameDomain.HandleException
+  nameWithType: GameDomain.HandleException
 - uid: cfGodotEngine.Core.GameExtension
   name: GameExtension
   href: api/cfGodotEngine.Core.GameExtension.html
@@ -6960,6 +6976,19 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Util.Application.GetGlobalizePath
   nameWithType: Application.GetGlobalizePath
+- uid: cfGodotEngine.Util.Application.Quit
+  name: Quit()
+  href: api/cfGodotEngine.Util.Application.html#cfGodotEngine_Util_Application_Quit
+  commentId: M:cfGodotEngine.Util.Application.Quit
+  fullName: cfGodotEngine.Util.Application.Quit()
+  nameWithType: Application.Quit()
+- uid: cfGodotEngine.Util.Application.Quit*
+  name: Quit
+  href: api/cfGodotEngine.Util.Application.html#cfGodotEngine_Util_Application_Quit_
+  commentId: Overload:cfGodotEngine.Util.Application.Quit
+  isSpec: "True"
+  fullName: cfGodotEngine.Util.Application.Quit
+  nameWithType: Application.Quit
 - uid: cfGodotEngine.Util.Application.assetDataPath
   name: assetDataPath
   href: api/cfGodotEngine.Util.Application.html#cfGodotEngine_Util_Application_assetDataPath
@@ -7173,6 +7202,25 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Util.ObjectUtil.IsAlive
   nameWithType: ObjectUtil.IsAlive
+- uid: cfGodotEngine.Util.RandomUtil
+  name: RandomUtil
+  href: api/cfGodotEngine.Util.RandomUtil.html
+  commentId: T:cfGodotEngine.Util.RandomUtil
+  fullName: cfGodotEngine.Util.RandomUtil
+  nameWithType: RandomUtil
+- uid: cfGodotEngine.Util.RandomUtil.RandVecRange(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
+  name: RandVecRange(RandomNumberGenerator, Vector3, Vector3)
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVecRange_Godot_RandomNumberGenerator_System_Numerics_Vector3_System_Numerics_Vector3_
+  commentId: M:cfGodotEngine.Util.RandomUtil.RandVecRange(Godot.RandomNumberGenerator,System.Numerics.Vector3,System.Numerics.Vector3)
+  fullName: cfGodotEngine.Util.RandomUtil.RandVecRange(Godot.RandomNumberGenerator, System.Numerics.Vector3, System.Numerics.Vector3)
+  nameWithType: RandomUtil.RandVecRange(RandomNumberGenerator, Vector3, Vector3)
+- uid: cfGodotEngine.Util.RandomUtil.RandVecRange*
+  name: RandVecRange
+  href: api/cfGodotEngine.Util.RandomUtil.html#cfGodotEngine_Util_RandomUtil_RandVecRange_
+  commentId: Overload:cfGodotEngine.Util.RandomUtil.RandVecRange
+  isSpec: "True"
+  fullName: cfGodotEngine.Util.RandomUtil.RandVecRange
+  nameWithType: RandomUtil.RandVecRange
 - uid: cfGodotEngine.Util.SettingPath
   name: SettingPath
   href: api/cfGodotEngine.Util.SettingPath.html

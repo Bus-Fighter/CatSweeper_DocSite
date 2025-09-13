@@ -2098,6 +2098,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Core.GameDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Core.GameDomain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Core.GameDomain",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Core.GameExtension.yml",
       "output": {
         ".html": {
@@ -3676,6 +3690,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Util.ObjectUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Util.RandomUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Util.RandomUtil.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Util.RandomUtil",
       "Summary": null
     },
     {
