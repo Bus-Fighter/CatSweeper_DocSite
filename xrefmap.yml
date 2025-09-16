@@ -1868,6 +1868,12 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.PropertyName
   fullName: CatSweeper.Stage.StageGrid.PropertyName
   nameWithType: StageGrid.PropertyName
+- uid: CatSweeper.Stage.StageGrid.PropertyName._neighborHiddenMineLevel
+  name: _neighborHiddenMineLevel
+  href: api/CatSweeper.Stage.StageGrid.PropertyName.html#CatSweeper_Stage_StageGrid_PropertyName__neighborHiddenMineLevel
+  commentId: F:CatSweeper.Stage.StageGrid.PropertyName._neighborHiddenMineLevel
+  fullName: CatSweeper.Stage.StageGrid.PropertyName._neighborHiddenMineLevel
+  nameWithType: StageGrid.PropertyName._neighborHiddenMineLevel
 - uid: CatSweeper.Stage.StageGrid.PropertyName._neighborMineLevel
   name: _neighborMineLevel
   href: api/CatSweeper.Stage.StageGrid.PropertyName.html#CatSweeper_Stage_StageGrid_PropertyName__neighborMineLevel
@@ -2050,6 +2056,12 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageGridMineData.isMine
   nameWithType: StageGridMineData.isMine
+- uid: CatSweeper.Stage.StageGridMineData.neighborHiddenMineLevel
+  name: neighborHiddenMineLevel
+  href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_neighborHiddenMineLevel
+  commentId: F:CatSweeper.Stage.StageGridMineData.neighborHiddenMineLevel
+  fullName: CatSweeper.Stage.StageGridMineData.neighborHiddenMineLevel
+  nameWithType: StageGridMineData.neighborHiddenMineLevel
 - uid: CatSweeper.Stage.StageGridMineData.neighborMineLevel
   name: neighborMineLevel
   href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_neighborMineLevel
