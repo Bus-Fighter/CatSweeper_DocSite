@@ -2868,114 +2868,254 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.Condition.MethodName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.MethodName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.Condition.MethodName.html"
+          "relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.MethodName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.Condition.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Condition.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.CompositeConditionNode.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.CompositeConditionNode.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.Condition.PropertyName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.OpCode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.Condition.PropertyName.html"
+          "relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.OpCode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.Condition.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Condition.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.Condition.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.Condition.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.Condition.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Condition.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.Condition.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.Condition.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.Condition",
+      "Title": "cfGodotEngine.Tool.CompositeConditionNode.OpCode",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.PropertyName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.html"
+          "relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.PropertyName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.ConditionalEnable2D.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalEnable2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.CompositeConditionNode.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.CompositeConditionNode.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.PropertyName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.SignalName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.PropertyName.html"
+          "relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.SignalName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.ConditionalEnable2D.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalEnable2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.CompositeConditionNode.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.CompositeConditionNode.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.html"
+          "relative_path": "api/cfGodotEngine.Tool.CompositeConditionNode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.ConditionalEnable2D.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionalEnable2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.CompositeConditionNode",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionNode.MethodName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.ConditionalEnable2D.html"
+          "relative_path": "api/cfGodotEngine.Tool.ConditionNode.MethodName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.ConditionalEnable2D",
+      "Title": "cfGodotEngine.Tool.ConditionNode.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionNode.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionNode.OnConditionUpdatedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionNode.OnConditionUpdatedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionNode.OnConditionUpdatedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionNode.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionNode.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionNode.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionNode.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionNode.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionNode.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionNode.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionNode.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionStateful2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionStateful2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionStateful2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionStateful2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionStateful2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.ConditionStateful2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.ConditionStateful2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.ConditionStateful2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Conditional2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Conditional2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Conditional2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Conditional2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Conditional2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Conditional2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Conditional2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Conditional2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Conditional2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Conditional2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Conditional2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Conditional2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Conditional2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Conditional2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Conditional2D",
       "Summary": null
     },
     {
@@ -3106,58 +3246,58 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.MethodName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.html"
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.MethodName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.PrimitiveCondition.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveCondition.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.PrimitiveConditionNode.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveConditionNode.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.PropertyName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.html"
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.PropertyName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.PrimitiveCondition.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveCondition.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.PrimitiveConditionNode.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveConditionNode.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.SignalName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.html"
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.SignalName.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.PrimitiveCondition.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveCondition.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+      "Title": "cfGodotEngine.Tool.PrimitiveConditionNode.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.PrimitiveConditionNode.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.yml",
+      "source_relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.PrimitiveCondition.html"
+          "relative_path": "api/cfGodotEngine.Tool.PrimitiveConditionNode.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.PrimitiveCondition",
+      "Title": "cfGodotEngine.Tool.PrimitiveConditionNode",
       "Summary": null
     },
     {
@@ -3354,6 +3494,62 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Tool.SimpleRecyclable2D",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Stateful2D.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Stateful2D.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Stateful2D.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Stateful2D.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Stateful2D.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Stateful2D.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Stateful2D.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Stateful2D.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Stateful2D.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Stateful2D.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Stateful2D.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.Stateful2D.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.Stateful2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.Stateful2D.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.Stateful2D",
       "Summary": null
     },
     {
