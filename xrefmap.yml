@@ -3233,6 +3233,22 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueChanged
   nameWithType: FloatBinder.EmitSignalOnValueChanged
+- uid: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged(System.String)
+  name: EmitSignalOnValueTextChanged(string)
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_EmitSignalOnValueTextChanged_System_String_
+  commentId: M:cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged(System.String)
+  name.vb: EmitSignalOnValueTextChanged(String)
+  fullName: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged(string)
+  fullName.vb: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged(String)
+  nameWithType: FloatBinder.EmitSignalOnValueTextChanged(string)
+  nameWithType.vb: FloatBinder.EmitSignalOnValueTextChanged(String)
+- uid: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged*
+  name: EmitSignalOnValueTextChanged
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_EmitSignalOnValueTextChanged_
+  commentId: Overload:cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.FloatBinder.EmitSignalOnValueTextChanged
+  nameWithType: FloatBinder.EmitSignalOnValueTextChanged
 - uid: cfGodotEngine.Binding.FloatBinder.MethodName
   name: FloatBinder.MethodName
   href: api/cfGodotEngine.Binding.FloatBinder.MethodName.html
@@ -3257,6 +3273,18 @@ references:
   commentId: T:cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler
   fullName: cfGodotEngine.Binding.FloatBinder.OnValueChangedEventHandler
   nameWithType: FloatBinder.OnValueChangedEventHandler
+- uid: cfGodotEngine.Binding.FloatBinder.OnValueTextChanged
+  name: OnValueTextChanged
+  href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_OnValueTextChanged
+  commentId: E:cfGodotEngine.Binding.FloatBinder.OnValueTextChanged
+  fullName: cfGodotEngine.Binding.FloatBinder.OnValueTextChanged
+  nameWithType: FloatBinder.OnValueTextChanged
+- uid: cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler
+  name: FloatBinder.OnValueTextChangedEventHandler
+  href: api/cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler.html
+  commentId: T:cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler
+  fullName: cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler
+  nameWithType: FloatBinder.OnValueTextChangedEventHandler
 - uid: cfGodotEngine.Binding.FloatBinder.ParseValue(System.Object)
   name: ParseValue(object)
   href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_ParseValue_System_Object_
@@ -3291,6 +3319,12 @@ references:
   commentId: F:cfGodotEngine.Binding.FloatBinder.SignalName.OnValueChanged
   fullName: cfGodotEngine.Binding.FloatBinder.SignalName.OnValueChanged
   nameWithType: FloatBinder.SignalName.OnValueChanged
+- uid: cfGodotEngine.Binding.FloatBinder.SignalName.OnValueTextChanged
+  name: OnValueTextChanged
+  href: api/cfGodotEngine.Binding.FloatBinder.SignalName.html#cfGodotEngine_Binding_FloatBinder_SignalName_OnValueTextChanged
+  commentId: F:cfGodotEngine.Binding.FloatBinder.SignalName.OnValueTextChanged
+  fullName: cfGodotEngine.Binding.FloatBinder.SignalName.OnValueTextChanged
+  nameWithType: FloatBinder.SignalName.OnValueTextChanged
 - uid: cfGodotEngine.Binding.FloatBinder.ValidateValue(System.Object)
   name: ValidateValue(object)
   href: api/cfGodotEngine.Binding.FloatBinder.html#cfGodotEngine_Binding_FloatBinder_ValidateValue_System_Object_
@@ -3364,6 +3398,22 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueChanged
   nameWithType: IntBinder.EmitSignalOnValueChanged
+- uid: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged(System.String)
+  name: EmitSignalOnValueTextChanged(string)
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_EmitSignalOnValueTextChanged_System_String_
+  commentId: M:cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged(System.String)
+  name.vb: EmitSignalOnValueTextChanged(String)
+  fullName: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged(string)
+  fullName.vb: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged(String)
+  nameWithType: IntBinder.EmitSignalOnValueTextChanged(string)
+  nameWithType.vb: IntBinder.EmitSignalOnValueTextChanged(String)
+- uid: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged*
+  name: EmitSignalOnValueTextChanged
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_EmitSignalOnValueTextChanged_
+  commentId: Overload:cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.IntBinder.EmitSignalOnValueTextChanged
+  nameWithType: IntBinder.EmitSignalOnValueTextChanged
 - uid: cfGodotEngine.Binding.IntBinder.MethodName
   name: IntBinder.MethodName
   href: api/cfGodotEngine.Binding.IntBinder.MethodName.html
@@ -3388,6 +3438,18 @@ references:
   commentId: T:cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler
   fullName: cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler
   nameWithType: IntBinder.OnValueChangedEventHandler
+- uid: cfGodotEngine.Binding.IntBinder.OnValueTextChanged
+  name: OnValueTextChanged
+  href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_OnValueTextChanged
+  commentId: E:cfGodotEngine.Binding.IntBinder.OnValueTextChanged
+  fullName: cfGodotEngine.Binding.IntBinder.OnValueTextChanged
+  nameWithType: IntBinder.OnValueTextChanged
+- uid: cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler
+  name: IntBinder.OnValueTextChangedEventHandler
+  href: api/cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler.html
+  commentId: T:cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler
+  fullName: cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler
+  nameWithType: IntBinder.OnValueTextChangedEventHandler
 - uid: cfGodotEngine.Binding.IntBinder.ParseValue(System.Object)
   name: ParseValue(object)
   href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_ParseValue_System_Object_
@@ -3422,6 +3484,12 @@ references:
   commentId: F:cfGodotEngine.Binding.IntBinder.SignalName.OnValueChanged
   fullName: cfGodotEngine.Binding.IntBinder.SignalName.OnValueChanged
   nameWithType: IntBinder.SignalName.OnValueChanged
+- uid: cfGodotEngine.Binding.IntBinder.SignalName.OnValueTextChanged
+  name: OnValueTextChanged
+  href: api/cfGodotEngine.Binding.IntBinder.SignalName.html#cfGodotEngine_Binding_IntBinder_SignalName_OnValueTextChanged
+  commentId: F:cfGodotEngine.Binding.IntBinder.SignalName.OnValueTextChanged
+  fullName: cfGodotEngine.Binding.IntBinder.SignalName.OnValueTextChanged
+  nameWithType: IntBinder.SignalName.OnValueTextChanged
 - uid: cfGodotEngine.Binding.IntBinder.ValidateValue(System.Object)
   name: ValidateValue(object)
   href: api/cfGodotEngine.Binding.IntBinder.html#cfGodotEngine_Binding_IntBinder_ValidateValue_System_Object_

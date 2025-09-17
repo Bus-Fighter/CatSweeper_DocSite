@@ -1650,6 +1650,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.FloatBinder.OnValueTextChangedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Binding.FloatBinder.PropertyName.yml",
       "output": {
         ".html": {
@@ -1730,6 +1744,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Binding.IntBinder.OnValueChangedEventHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.IntBinder.OnValueTextChangedEventHandler",
       "Summary": null
     },
     {
