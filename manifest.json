@@ -3204,6 +3204,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.yml",
       "output": {
         ".html": {
@@ -4228,11 +4284,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -4351,11 +4407,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -4374,11 +4430,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
