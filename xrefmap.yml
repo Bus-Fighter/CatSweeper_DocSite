@@ -13,19 +13,6 @@ references:
   commentId: T:CatSweeper.Core.BootstrapEndState
   fullName: CatSweeper.Core.BootstrapEndState
   nameWithType: BootstrapEndState
-- uid: CatSweeper.Core.BootstrapEndState.Id
-  name: Id
-  href: api/CatSweeper.Core.BootstrapEndState.html#CatSweeper_Core_BootstrapEndState_Id
-  commentId: P:CatSweeper.Core.BootstrapEndState.Id
-  fullName: CatSweeper.Core.BootstrapEndState.Id
-  nameWithType: BootstrapEndState.Id
-- uid: CatSweeper.Core.BootstrapEndState.Id*
-  name: Id
-  href: api/CatSweeper.Core.BootstrapEndState.html#CatSweeper_Core_BootstrapEndState_Id_
-  commentId: Overload:CatSweeper.Core.BootstrapEndState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.BootstrapEndState.Id
-  nameWithType: BootstrapEndState.Id
 - uid: CatSweeper.Core.BootstrapEndState.StartContext(cfEngine.Util.StateParam)
   name: StartContext(StateParam)
   href: api/CatSweeper.Core.BootstrapEndState.html#CatSweeper_Core_BootstrapEndState_StartContext_cfEngine_Util_StateParam_
@@ -39,6 +26,19 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.BootstrapEndState.StartContext
   nameWithType: BootstrapEndState.StartContext
+- uid: CatSweeper.Core.BootstrapEndState.id
+  name: id
+  href: api/CatSweeper.Core.BootstrapEndState.html#CatSweeper_Core_BootstrapEndState_id
+  commentId: P:CatSweeper.Core.BootstrapEndState.id
+  fullName: CatSweeper.Core.BootstrapEndState.id
+  nameWithType: BootstrapEndState.id
+- uid: CatSweeper.Core.BootstrapEndState.id*
+  name: id
+  href: api/CatSweeper.Core.BootstrapEndState.html#CatSweeper_Core_BootstrapEndState_id_
+  commentId: Overload:CatSweeper.Core.BootstrapEndState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.BootstrapEndState.id
+  nameWithType: BootstrapEndState.id
 - uid: CatSweeper.Core.CommandService_AutoRegister
   name: CommandService_AutoRegister
   href: api/CatSweeper.Core.CommandService_AutoRegister.html
@@ -76,12 +76,6 @@ references:
   commentId: F:CatSweeper.Core.GameEntry.MethodName.InfoBuildByte
   fullName: CatSweeper.Core.GameEntry.MethodName.InfoBuildByte
   nameWithType: GameEntry.MethodName.InfoBuildByte
-- uid: CatSweeper.Core.GameEntry.MethodName.RegisterJsonConverters
-  name: RegisterJsonConverters
-  href: api/CatSweeper.Core.GameEntry.MethodName.html#CatSweeper_Core_GameEntry_MethodName_RegisterJsonConverters
-  commentId: F:CatSweeper.Core.GameEntry.MethodName.RegisterJsonConverters
-  fullName: CatSweeper.Core.GameEntry.MethodName.RegisterJsonConverters
-  nameWithType: GameEntry.MethodName.RegisterJsonConverters
 - uid: CatSweeper.Core.GameEntry.PropertyName
   name: GameEntry.PropertyName
   href: api/CatSweeper.Core.GameEntry.PropertyName.html
@@ -135,6 +129,22 @@ references:
   commentId: T:CatSweeper.Core.GameState
   fullName: CatSweeper.Core.GameState
   nameWithType: GameState
+- uid: CatSweeper.Core.GameState.GetService*
+  name: GetService
+  href: api/CatSweeper.Core.GameState.html#CatSweeper_Core_GameState_GetService_
+  commentId: Overload:CatSweeper.Core.GameState.GetService
+  isSpec: "True"
+  fullName: CatSweeper.Core.GameState.GetService
+  nameWithType: GameState.GetService
+- uid: CatSweeper.Core.GameState.GetService``1(``0@)
+  name: GetService<TService>(out TService)
+  href: api/CatSweeper.Core.GameState.html#CatSweeper_Core_GameState_GetService__1___0__
+  commentId: M:CatSweeper.Core.GameState.GetService``1(``0@)
+  name.vb: GetService(Of TService)(TService)
+  fullName: CatSweeper.Core.GameState.GetService<TService>(out TService)
+  fullName.vb: CatSweeper.Core.GameState.GetService(Of TService)(TService)
+  nameWithType: GameState.GetService<TService>(out TService)
+  nameWithType.vb: GameState.GetService(Of TService)(TService)
 - uid: CatSweeper.Core.GameStateId
   name: GameStateId
   href: api/CatSweeper.Core.GameStateId.html
@@ -220,19 +230,6 @@ references:
   commentId: T:CatSweeper.Core.GameplayInitState
   fullName: CatSweeper.Core.GameplayInitState
   nameWithType: GameplayInitState
-- uid: CatSweeper.Core.GameplayInitState.Id
-  name: Id
-  href: api/CatSweeper.Core.GameplayInitState.html#CatSweeper_Core_GameplayInitState_Id
-  commentId: P:CatSweeper.Core.GameplayInitState.Id
-  fullName: CatSweeper.Core.GameplayInitState.Id
-  nameWithType: GameplayInitState.Id
-- uid: CatSweeper.Core.GameplayInitState.Id*
-  name: Id
-  href: api/CatSweeper.Core.GameplayInitState.html#CatSweeper_Core_GameplayInitState_Id_
-  commentId: Overload:CatSweeper.Core.GameplayInitState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.GameplayInitState.Id
-  nameWithType: GameplayInitState.Id
 - uid: CatSweeper.Core.GameplayInitState.StartContext(cfEngine.Util.StateParam)
   name: StartContext(StateParam)
   href: api/CatSweeper.Core.GameplayInitState.html#CatSweeper_Core_GameplayInitState_StartContext_cfEngine_Util_StateParam_
@@ -246,25 +243,25 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.GameplayInitState.StartContext
   nameWithType: GameplayInitState.StartContext
+- uid: CatSweeper.Core.GameplayInitState.id
+  name: id
+  href: api/CatSweeper.Core.GameplayInitState.html#CatSweeper_Core_GameplayInitState_id
+  commentId: P:CatSweeper.Core.GameplayInitState.id
+  fullName: CatSweeper.Core.GameplayInitState.id
+  nameWithType: GameplayInitState.id
+- uid: CatSweeper.Core.GameplayInitState.id*
+  name: id
+  href: api/CatSweeper.Core.GameplayInitState.html#CatSweeper_Core_GameplayInitState_id_
+  commentId: Overload:CatSweeper.Core.GameplayInitState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.GameplayInitState.id
+  nameWithType: GameplayInitState.id
 - uid: CatSweeper.Core.InfoLoadState
   name: InfoLoadState
   href: api/CatSweeper.Core.InfoLoadState.html
   commentId: T:CatSweeper.Core.InfoLoadState
   fullName: CatSweeper.Core.InfoLoadState
   nameWithType: InfoLoadState
-- uid: CatSweeper.Core.InfoLoadState.Id
-  name: Id
-  href: api/CatSweeper.Core.InfoLoadState.html#CatSweeper_Core_InfoLoadState_Id
-  commentId: P:CatSweeper.Core.InfoLoadState.Id
-  fullName: CatSweeper.Core.InfoLoadState.Id
-  nameWithType: InfoLoadState.Id
-- uid: CatSweeper.Core.InfoLoadState.Id*
-  name: Id
-  href: api/CatSweeper.Core.InfoLoadState.html#CatSweeper_Core_InfoLoadState_Id_
-  commentId: Overload:CatSweeper.Core.InfoLoadState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.InfoLoadState.Id
-  nameWithType: InfoLoadState.Id
 - uid: CatSweeper.Core.InfoLoadState.StartContext(cfEngine.Util.StateParam)
   name: StartContext(StateParam)
   href: api/CatSweeper.Core.InfoLoadState.html#CatSweeper_Core_InfoLoadState_StartContext_cfEngine_Util_StateParam_
@@ -278,25 +275,25 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.InfoLoadState.StartContext
   nameWithType: InfoLoadState.StartContext
+- uid: CatSweeper.Core.InfoLoadState.id
+  name: id
+  href: api/CatSweeper.Core.InfoLoadState.html#CatSweeper_Core_InfoLoadState_id
+  commentId: P:CatSweeper.Core.InfoLoadState.id
+  fullName: CatSweeper.Core.InfoLoadState.id
+  nameWithType: InfoLoadState.id
+- uid: CatSweeper.Core.InfoLoadState.id*
+  name: id
+  href: api/CatSweeper.Core.InfoLoadState.html#CatSweeper_Core_InfoLoadState_id_
+  commentId: Overload:CatSweeper.Core.InfoLoadState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.InfoLoadState.id
+  nameWithType: InfoLoadState.id
 - uid: CatSweeper.Core.LoadStageState
   name: LoadStageState
   href: api/CatSweeper.Core.LoadStageState.html
   commentId: T:CatSweeper.Core.LoadStageState
   fullName: CatSweeper.Core.LoadStageState
   nameWithType: LoadStageState
-- uid: CatSweeper.Core.LoadStageState.Id
-  name: Id
-  href: api/CatSweeper.Core.LoadStageState.html#CatSweeper_Core_LoadStageState_Id
-  commentId: P:CatSweeper.Core.LoadStageState.Id
-  fullName: CatSweeper.Core.LoadStageState.Id
-  nameWithType: LoadStageState.Id
-- uid: CatSweeper.Core.LoadStageState.Id*
-  name: Id
-  href: api/CatSweeper.Core.LoadStageState.html#CatSweeper_Core_LoadStageState_Id_
-  commentId: Overload:CatSweeper.Core.LoadStageState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.LoadStageState.Id
-  nameWithType: LoadStageState.Id
 - uid: CatSweeper.Core.LoadStageState.InitParam
   name: LoadStageState.InitParam
   href: api/CatSweeper.Core.LoadStageState.InitParam.html
@@ -335,25 +332,25 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.LoadStageState.StartContext
   nameWithType: LoadStageState.StartContext
+- uid: CatSweeper.Core.LoadStageState.id
+  name: id
+  href: api/CatSweeper.Core.LoadStageState.html#CatSweeper_Core_LoadStageState_id
+  commentId: P:CatSweeper.Core.LoadStageState.id
+  fullName: CatSweeper.Core.LoadStageState.id
+  nameWithType: LoadStageState.id
+- uid: CatSweeper.Core.LoadStageState.id*
+  name: id
+  href: api/CatSweeper.Core.LoadStageState.html#CatSweeper_Core_LoadStageState_id_
+  commentId: Overload:CatSweeper.Core.LoadStageState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.LoadStageState.id
+  nameWithType: LoadStageState.id
 - uid: CatSweeper.Core.LocalLoadState
   name: LocalLoadState
   href: api/CatSweeper.Core.LocalLoadState.html
   commentId: T:CatSweeper.Core.LocalLoadState
   fullName: CatSweeper.Core.LocalLoadState
   nameWithType: LocalLoadState
-- uid: CatSweeper.Core.LocalLoadState.Id
-  name: Id
-  href: api/CatSweeper.Core.LocalLoadState.html#CatSweeper_Core_LocalLoadState_Id
-  commentId: P:CatSweeper.Core.LocalLoadState.Id
-  fullName: CatSweeper.Core.LocalLoadState.Id
-  nameWithType: LocalLoadState.Id
-- uid: CatSweeper.Core.LocalLoadState.Id*
-  name: Id
-  href: api/CatSweeper.Core.LocalLoadState.html#CatSweeper_Core_LocalLoadState_Id_
-  commentId: Overload:CatSweeper.Core.LocalLoadState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.LocalLoadState.Id
-  nameWithType: LocalLoadState.Id
 - uid: CatSweeper.Core.LocalLoadState.StartContext(cfEngine.Util.StateParam)
   name: StartContext(StateParam)
   href: api/CatSweeper.Core.LocalLoadState.html#CatSweeper_Core_LocalLoadState_StartContext_cfEngine_Util_StateParam_
@@ -367,25 +364,25 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.LocalLoadState.StartContext
   nameWithType: LocalLoadState.StartContext
+- uid: CatSweeper.Core.LocalLoadState.id
+  name: id
+  href: api/CatSweeper.Core.LocalLoadState.html#CatSweeper_Core_LocalLoadState_id
+  commentId: P:CatSweeper.Core.LocalLoadState.id
+  fullName: CatSweeper.Core.LocalLoadState.id
+  nameWithType: LocalLoadState.id
+- uid: CatSweeper.Core.LocalLoadState.id*
+  name: id
+  href: api/CatSweeper.Core.LocalLoadState.html#CatSweeper_Core_LocalLoadState_id_
+  commentId: Overload:CatSweeper.Core.LocalLoadState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.LocalLoadState.id
+  nameWithType: LocalLoadState.id
 - uid: CatSweeper.Core.LoginState
   name: LoginState
   href: api/CatSweeper.Core.LoginState.html
   commentId: T:CatSweeper.Core.LoginState
   fullName: CatSweeper.Core.LoginState
   nameWithType: LoginState
-- uid: CatSweeper.Core.LoginState.Id
-  name: Id
-  href: api/CatSweeper.Core.LoginState.html#CatSweeper_Core_LoginState_Id
-  commentId: P:CatSweeper.Core.LoginState.Id
-  fullName: CatSweeper.Core.LoginState.Id
-  nameWithType: LoginState.Id
-- uid: CatSweeper.Core.LoginState.Id*
-  name: Id
-  href: api/CatSweeper.Core.LoginState.html#CatSweeper_Core_LoginState_Id_
-  commentId: Overload:CatSweeper.Core.LoginState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.LoginState.Id
-  nameWithType: LoginState.Id
 - uid: CatSweeper.Core.LoginState.Param
   name: LoginState.Param
   href: api/CatSweeper.Core.LoginState.Param.html
@@ -417,6 +414,19 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.LoginState.StartContext
   nameWithType: LoginState.StartContext
+- uid: CatSweeper.Core.LoginState.id
+  name: id
+  href: api/CatSweeper.Core.LoginState.html#CatSweeper_Core_LoginState_id
+  commentId: P:CatSweeper.Core.LoginState.id
+  fullName: CatSweeper.Core.LoginState.id
+  nameWithType: LoginState.id
+- uid: CatSweeper.Core.LoginState.id*
+  name: id
+  href: api/CatSweeper.Core.LoginState.html#CatSweeper_Core_LoginState_id_
+  commentId: Overload:CatSweeper.Core.LoginState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.LoginState.id
+  nameWithType: LoginState.id
 - uid: CatSweeper.Core.StageMapGrid
   name: StageMapGrid
   href: api/CatSweeper.Core.StageMapGrid.html
@@ -447,19 +457,6 @@ references:
   commentId: T:CatSweeper.Core.UILoadState
   fullName: CatSweeper.Core.UILoadState
   nameWithType: UILoadState
-- uid: CatSweeper.Core.UILoadState.Id
-  name: Id
-  href: api/CatSweeper.Core.UILoadState.html#CatSweeper_Core_UILoadState_Id
-  commentId: P:CatSweeper.Core.UILoadState.Id
-  fullName: CatSweeper.Core.UILoadState.Id
-  nameWithType: UILoadState.Id
-- uid: CatSweeper.Core.UILoadState.Id*
-  name: Id
-  href: api/CatSweeper.Core.UILoadState.html#CatSweeper_Core_UILoadState_Id_
-  commentId: Overload:CatSweeper.Core.UILoadState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.UILoadState.Id
-  nameWithType: UILoadState.Id
 - uid: CatSweeper.Core.UILoadState.StartContext(cfEngine.Util.StateParam)
   name: StartContext(StateParam)
   href: api/CatSweeper.Core.UILoadState.html#CatSweeper_Core_UILoadState_StartContext_cfEngine_Util_StateParam_
@@ -473,25 +470,25 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.UILoadState.StartContext
   nameWithType: UILoadState.StartContext
+- uid: CatSweeper.Core.UILoadState.id
+  name: id
+  href: api/CatSweeper.Core.UILoadState.html#CatSweeper_Core_UILoadState_id
+  commentId: P:CatSweeper.Core.UILoadState.id
+  fullName: CatSweeper.Core.UILoadState.id
+  nameWithType: UILoadState.id
+- uid: CatSweeper.Core.UILoadState.id*
+  name: id
+  href: api/CatSweeper.Core.UILoadState.html#CatSweeper_Core_UILoadState_id_
+  commentId: Overload:CatSweeper.Core.UILoadState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.UILoadState.id
+  nameWithType: UILoadState.id
 - uid: CatSweeper.Core.UserDataLoadState
   name: UserDataLoadState
   href: api/CatSweeper.Core.UserDataLoadState.html
   commentId: T:CatSweeper.Core.UserDataLoadState
   fullName: CatSweeper.Core.UserDataLoadState
   nameWithType: UserDataLoadState
-- uid: CatSweeper.Core.UserDataLoadState.Id
-  name: Id
-  href: api/CatSweeper.Core.UserDataLoadState.html#CatSweeper_Core_UserDataLoadState_Id
-  commentId: P:CatSweeper.Core.UserDataLoadState.Id
-  fullName: CatSweeper.Core.UserDataLoadState.Id
-  nameWithType: UserDataLoadState.Id
-- uid: CatSweeper.Core.UserDataLoadState.Id*
-  name: Id
-  href: api/CatSweeper.Core.UserDataLoadState.html#CatSweeper_Core_UserDataLoadState_Id_
-  commentId: Overload:CatSweeper.Core.UserDataLoadState.Id
-  isSpec: "True"
-  fullName: CatSweeper.Core.UserDataLoadState.Id
-  nameWithType: UserDataLoadState.Id
 - uid: CatSweeper.Core.UserDataLoadState.StartContext(cfEngine.Util.StateParam)
   name: StartContext(StateParam)
   href: api/CatSweeper.Core.UserDataLoadState.html#CatSweeper_Core_UserDataLoadState_StartContext_cfEngine_Util_StateParam_
@@ -505,12 +502,83 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.UserDataLoadState.StartContext
   nameWithType: UserDataLoadState.StartContext
+- uid: CatSweeper.Core.UserDataLoadState.id
+  name: id
+  href: api/CatSweeper.Core.UserDataLoadState.html#CatSweeper_Core_UserDataLoadState_id
+  commentId: P:CatSweeper.Core.UserDataLoadState.id
+  fullName: CatSweeper.Core.UserDataLoadState.id
+  nameWithType: UserDataLoadState.id
+- uid: CatSweeper.Core.UserDataLoadState.id*
+  name: id
+  href: api/CatSweeper.Core.UserDataLoadState.html#CatSweeper_Core_UserDataLoadState_id_
+  commentId: Overload:CatSweeper.Core.UserDataLoadState.id
+  isSpec: "True"
+  fullName: CatSweeper.Core.UserDataLoadState.id
+  nameWithType: UserDataLoadState.id
 - uid: CatSweeper.Gameplay
   name: CatSweeper.Gameplay
   href: api/CatSweeper.Gameplay.html
   commentId: N:CatSweeper.Gameplay
   fullName: CatSweeper.Gameplay
   nameWithType: CatSweeper.Gameplay
+- uid: CatSweeper.Gameplay.EmptyInputSystem
+  name: EmptyInputSystem
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html
+  commentId: T:CatSweeper.Gameplay.EmptyInputSystem
+  fullName: CatSweeper.Gameplay.EmptyInputSystem
+  nameWithType: EmptyInputSystem
+- uid: CatSweeper.Gameplay.EmptyInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  name: RegisterMotion(IInputMotionListener)
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_RegisterMotion_CatSweeper_Gameplay_IInputMotionListener_
+  commentId: M:CatSweeper.Gameplay.EmptyInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  nameWithType: EmptyInputSystem.RegisterMotion(IInputMotionListener)
+- uid: CatSweeper.Gameplay.EmptyInputSystem.RegisterMotion*
+  name: RegisterMotion
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_RegisterMotion_
+  commentId: Overload:CatSweeper.Gameplay.EmptyInputSystem.RegisterMotion
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.RegisterMotion
+  nameWithType: EmptyInputSystem.RegisterMotion
+- uid: CatSweeper.Gameplay.EmptyInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  name: RegisterTouch(IInputTouchListener)
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_RegisterTouch_CatSweeper_Gameplay_IInputTouchListener_
+  commentId: M:CatSweeper.Gameplay.EmptyInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  nameWithType: EmptyInputSystem.RegisterTouch(IInputTouchListener)
+- uid: CatSweeper.Gameplay.EmptyInputSystem.RegisterTouch*
+  name: RegisterTouch
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_RegisterTouch_
+  commentId: Overload:CatSweeper.Gameplay.EmptyInputSystem.RegisterTouch
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.RegisterTouch
+  nameWithType: EmptyInputSystem.RegisterTouch
+- uid: CatSweeper.Gameplay.EmptyInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  name: UnregisterMotion(IInputMotionListener)
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_UnregisterMotion_CatSweeper_Gameplay_IInputMotionListener_
+  commentId: M:CatSweeper.Gameplay.EmptyInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)
+  nameWithType: EmptyInputSystem.UnregisterMotion(IInputMotionListener)
+- uid: CatSweeper.Gameplay.EmptyInputSystem.UnregisterMotion*
+  name: UnregisterMotion
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_UnregisterMotion_
+  commentId: Overload:CatSweeper.Gameplay.EmptyInputSystem.UnregisterMotion
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.UnregisterMotion
+  nameWithType: EmptyInputSystem.UnregisterMotion
+- uid: CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  name: UnregisterTouch(IInputTouchListener)
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_UnregisterTouch_CatSweeper_Gameplay_IInputTouchListener_
+  commentId: M:CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)
+  nameWithType: EmptyInputSystem.UnregisterTouch(IInputTouchListener)
+- uid: CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch*
+  name: UnregisterTouch
+  href: api/CatSweeper.Gameplay.EmptyInputSystem.html#CatSweeper_Gameplay_EmptyInputSystem_UnregisterTouch_
+  commentId: Overload:CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch
+  isSpec: "True"
+  fullName: CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch
+  nameWithType: EmptyInputSystem.UnregisterTouch
 - uid: CatSweeper.Gameplay.GameExtension
   name: GameExtension
   href: api/CatSweeper.Gameplay.GameExtension.html
@@ -1458,38 +1526,6 @@ references:
   commentId: N:CatSweeper.Stage
   fullName: CatSweeper.Stage
   nameWithType: CatSweeper.Stage
-- uid: CatSweeper.Stage.GameExtension
-  name: GameExtension
-  href: api/CatSweeper.Stage.GameExtension.html
-  commentId: T:CatSweeper.Stage.GameExtension
-  fullName: CatSweeper.Stage.GameExtension
-  nameWithType: GameExtension
-- uid: CatSweeper.Stage.GameExtension.GetStageService(cfEngine.Core.Domain)
-  name: GetStageService(Domain)
-  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_GetStageService_cfEngine_Core_Domain_
-  commentId: M:CatSweeper.Stage.GameExtension.GetStageService(cfEngine.Core.Domain)
-  fullName: CatSweeper.Stage.GameExtension.GetStageService(cfEngine.Core.Domain)
-  nameWithType: GameExtension.GetStageService(Domain)
-- uid: CatSweeper.Stage.GameExtension.GetStageService*
-  name: GetStageService
-  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_GetStageService_
-  commentId: Overload:CatSweeper.Stage.GameExtension.GetStageService
-  isSpec: "True"
-  fullName: CatSweeper.Stage.GameExtension.GetStageService
-  nameWithType: GameExtension.GetStageService
-- uid: CatSweeper.Stage.GameExtension.WithStage(cfEngine.Core.Domain,CatSweeper.Stage.StageService)
-  name: WithStage(Domain, StageService)
-  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_WithStage_cfEngine_Core_Domain_CatSweeper_Stage_StageService_
-  commentId: M:CatSweeper.Stage.GameExtension.WithStage(cfEngine.Core.Domain,CatSweeper.Stage.StageService)
-  fullName: CatSweeper.Stage.GameExtension.WithStage(cfEngine.Core.Domain, CatSweeper.Stage.StageService)
-  nameWithType: GameExtension.WithStage(Domain, StageService)
-- uid: CatSweeper.Stage.GameExtension.WithStage*
-  name: WithStage
-  href: api/CatSweeper.Stage.GameExtension.html#CatSweeper_Stage_GameExtension_WithStage_
-  commentId: Overload:CatSweeper.Stage.GameExtension.WithStage
-  isSpec: "True"
-  fullName: CatSweeper.Stage.GameExtension.WithStage
-  nameWithType: GameExtension.WithStage
 - uid: CatSweeper.Stage.HiddenStageGrid
   name: HiddenStageGrid
   href: api/CatSweeper.Stage.HiddenStageGrid.html
@@ -2581,76 +2617,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Util.TileMapLayerExtension.WorldToGrid
   nameWithType: TileMapLayerExtension.WorldToGrid
-- uid: cfEngine.Core
-  name: cfEngine.Core
-  href: api/cfEngine.Core.html
-  commentId: N:cfEngine.Core
-  fullName: cfEngine.Core
-  nameWithType: cfEngine.Core
-- uid: cfEngine.Core.GameExtension
-  name: GameExtension
-  href: api/cfEngine.Core.GameExtension.html
-  commentId: T:cfEngine.Core.GameExtension
-  fullName: cfEngine.Core.GameExtension
-  nameWithType: GameExtension
-- uid: cfEngine.Core.GameExtension.GetGameStateMachine(cfEngine.Core.Domain)
-  name: GetGameStateMachine(Domain)
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetGameStateMachine_cfEngine_Core_Domain_
-  commentId: M:cfEngine.Core.GameExtension.GetGameStateMachine(cfEngine.Core.Domain)
-  fullName: cfEngine.Core.GameExtension.GetGameStateMachine(cfEngine.Core.Domain)
-  nameWithType: GameExtension.GetGameStateMachine(Domain)
-- uid: cfEngine.Core.GameExtension.GetGameStateMachine*
-  name: GetGameStateMachine
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetGameStateMachine_
-  commentId: Overload:cfEngine.Core.GameExtension.GetGameStateMachine
-  isSpec: "True"
-  fullName: cfEngine.Core.GameExtension.GetGameStateMachine
-  nameWithType: GameExtension.GetGameStateMachine
-- uid: cfEngine.Core.GameExtension.GetSceneManager*
-  name: GetSceneManager
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetSceneManager_
-  commentId: Overload:cfEngine.Core.GameExtension.GetSceneManager
-  isSpec: "True"
-  fullName: cfEngine.Core.GameExtension.GetSceneManager
-  nameWithType: GameExtension.GetSceneManager
-- uid: cfEngine.Core.GameExtension.GetSceneManager``1(cfEngine.Core.Domain)
-  name: GetSceneManager<TScene>(Domain)
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_GetSceneManager__1_cfEngine_Core_Domain_
-  commentId: M:cfEngine.Core.GameExtension.GetSceneManager``1(cfEngine.Core.Domain)
-  name.vb: GetSceneManager(Of TScene)(Domain)
-  fullName: cfEngine.Core.GameExtension.GetSceneManager<TScene>(cfEngine.Core.Domain)
-  fullName.vb: cfEngine.Core.GameExtension.GetSceneManager(Of TScene)(cfEngine.Core.Domain)
-  nameWithType: GameExtension.GetSceneManager<TScene>(Domain)
-  nameWithType.vb: GameExtension.GetSceneManager(Of TScene)(Domain)
-- uid: cfEngine.Core.GameExtension.WithGameStateMachine(cfEngine.Core.Domain,CatSweeper.Core.GameStateMachine)
-  name: WithGameStateMachine(Domain, GameStateMachine)
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithGameStateMachine_cfEngine_Core_Domain_CatSweeper_Core_GameStateMachine_
-  commentId: M:cfEngine.Core.GameExtension.WithGameStateMachine(cfEngine.Core.Domain,CatSweeper.Core.GameStateMachine)
-  fullName: cfEngine.Core.GameExtension.WithGameStateMachine(cfEngine.Core.Domain, CatSweeper.Core.GameStateMachine)
-  nameWithType: GameExtension.WithGameStateMachine(Domain, GameStateMachine)
-- uid: cfEngine.Core.GameExtension.WithGameStateMachine*
-  name: WithGameStateMachine
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithGameStateMachine_
-  commentId: Overload:cfEngine.Core.GameExtension.WithGameStateMachine
-  isSpec: "True"
-  fullName: cfEngine.Core.GameExtension.WithGameStateMachine
-  nameWithType: GameExtension.WithGameStateMachine
-- uid: cfEngine.Core.GameExtension.WithSceneManager*
-  name: WithSceneManager
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithSceneManager_
-  commentId: Overload:cfEngine.Core.GameExtension.WithSceneManager
-  isSpec: "True"
-  fullName: cfEngine.Core.GameExtension.WithSceneManager
-  nameWithType: GameExtension.WithSceneManager
-- uid: cfEngine.Core.GameExtension.WithSceneManager``1(cfEngine.Core.Domain,cfGodotEngine.SceneManagement.ISceneManager{``0})
-  name: WithSceneManager<TScene>(Domain, ISceneManager<TScene>)
-  href: api/cfEngine.Core.GameExtension.html#cfEngine_Core_GameExtension_WithSceneManager__1_cfEngine_Core_Domain_cfGodotEngine_SceneManagement_ISceneManager___0__
-  commentId: M:cfEngine.Core.GameExtension.WithSceneManager``1(cfEngine.Core.Domain,cfGodotEngine.SceneManagement.ISceneManager{``0})
-  name.vb: WithSceneManager(Of TScene)(Domain, ISceneManager(Of TScene))
-  fullName: cfEngine.Core.GameExtension.WithSceneManager<TScene>(cfEngine.Core.Domain, cfGodotEngine.SceneManagement.ISceneManager<TScene>)
-  fullName.vb: cfEngine.Core.GameExtension.WithSceneManager(Of TScene)(cfEngine.Core.Domain, cfGodotEngine.SceneManagement.ISceneManager(Of TScene))
-  nameWithType: GameExtension.WithSceneManager<TScene>(Domain, ISceneManager<TScene>)
-  nameWithType.vb: GameExtension.WithSceneManager(Of TScene)(Domain, ISceneManager(Of TScene))
 - uid: cfGodotEngine.Asset
   name: cfGodotEngine.Asset
   href: api/cfGodotEngine.Asset.html
@@ -3969,38 +3935,6 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Core.GameDomain.HandleException
   nameWithType: GameDomain.HandleException
-- uid: cfGodotEngine.Core.GameExtension
-  name: GameExtension
-  href: api/cfGodotEngine.Core.GameExtension.html
-  commentId: T:cfGodotEngine.Core.GameExtension
-  fullName: cfGodotEngine.Core.GameExtension
-  nameWithType: GameExtension
-- uid: cfGodotEngine.Core.GameExtension.GetAsset(cfEngine.Core.Domain)
-  name: GetAsset(Domain)
-  href: api/cfGodotEngine.Core.GameExtension.html#cfGodotEngine_Core_GameExtension_GetAsset_cfEngine_Core_Domain_
-  commentId: M:cfGodotEngine.Core.GameExtension.GetAsset(cfEngine.Core.Domain)
-  fullName: cfGodotEngine.Core.GameExtension.GetAsset(cfEngine.Core.Domain)
-  nameWithType: GameExtension.GetAsset(Domain)
-- uid: cfGodotEngine.Core.GameExtension.GetAsset*
-  name: GetAsset
-  href: api/cfGodotEngine.Core.GameExtension.html#cfGodotEngine_Core_GameExtension_GetAsset_
-  commentId: Overload:cfGodotEngine.Core.GameExtension.GetAsset
-  isSpec: "True"
-  fullName: cfGodotEngine.Core.GameExtension.GetAsset
-  nameWithType: GameExtension.GetAsset
-- uid: cfGodotEngine.Core.GameExtension.WithAsset(cfEngine.Core.Domain,cfGodotEngine.Asset.ResourceAssetManager)
-  name: WithAsset(Domain, ResourceAssetManager)
-  href: api/cfGodotEngine.Core.GameExtension.html#cfGodotEngine_Core_GameExtension_WithAsset_cfEngine_Core_Domain_cfGodotEngine_Asset_ResourceAssetManager_
-  commentId: M:cfGodotEngine.Core.GameExtension.WithAsset(cfEngine.Core.Domain,cfGodotEngine.Asset.ResourceAssetManager)
-  fullName: cfGodotEngine.Core.GameExtension.WithAsset(cfEngine.Core.Domain, cfGodotEngine.Asset.ResourceAssetManager)
-  nameWithType: GameExtension.WithAsset(Domain, ResourceAssetManager)
-- uid: cfGodotEngine.Core.GameExtension.WithAsset*
-  name: WithAsset
-  href: api/cfGodotEngine.Core.GameExtension.html#cfGodotEngine_Core_GameExtension_WithAsset_
-  commentId: Overload:cfGodotEngine.Core.GameExtension.WithAsset
-  isSpec: "True"
-  fullName: cfGodotEngine.Core.GameExtension.WithAsset
-  nameWithType: GameExtension.WithAsset
 - uid: cfGodotEngine.Core.GodotLogger
   name: GodotLogger
   href: api/cfGodotEngine.Core.GodotLogger.html

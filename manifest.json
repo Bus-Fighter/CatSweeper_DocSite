@@ -334,6 +334,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Gameplay.EmptyInputSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Gameplay.EmptyInputSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Gameplay.EmptyInputSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Gameplay.GameExtension.yml",
       "output": {
         ".html": {
@@ -652,20 +666,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Info",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.GameExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.GameExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.GameExtension",
       "Summary": null
     },
     {
@@ -1226,34 +1226,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Util",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfEngine.Core.GameExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfEngine.Core.GameExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfEngine.Core.GameExtension",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfEngine.Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfEngine.Core.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfEngine.Core",
       "Summary": null
     },
     {
@@ -2150,20 +2122,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Core.GameDomain",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Core.GameExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Core.GameExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Core.GameExtension",
       "Summary": null
     },
     {
