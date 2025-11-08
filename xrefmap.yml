@@ -579,38 +579,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Gameplay.EmptyInputSystem.UnregisterTouch
   nameWithType: EmptyInputSystem.UnregisterTouch
-- uid: CatSweeper.Gameplay.GameExtension
-  name: GameExtension
-  href: api/CatSweeper.Gameplay.GameExtension.html
-  commentId: T:CatSweeper.Gameplay.GameExtension
-  fullName: CatSweeper.Gameplay.GameExtension
-  nameWithType: GameExtension
-- uid: CatSweeper.Gameplay.GameExtension.GetActiveInput(cfEngine.Core.Domain)
-  name: GetActiveInput(Domain)
-  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_GetActiveInput_cfEngine_Core_Domain_
-  commentId: M:CatSweeper.Gameplay.GameExtension.GetActiveInput(cfEngine.Core.Domain)
-  fullName: CatSweeper.Gameplay.GameExtension.GetActiveInput(cfEngine.Core.Domain)
-  nameWithType: GameExtension.GetActiveInput(Domain)
-- uid: CatSweeper.Gameplay.GameExtension.GetActiveInput*
-  name: GetActiveInput
-  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_GetActiveInput_
-  commentId: Overload:CatSweeper.Gameplay.GameExtension.GetActiveInput
-  isSpec: "True"
-  fullName: CatSweeper.Gameplay.GameExtension.GetActiveInput
-  nameWithType: GameExtension.GetActiveInput
-- uid: CatSweeper.Gameplay.GameExtension.SetActiveInput(cfEngine.Core.Domain,CatSweeper.Gameplay.IInputSystem)
-  name: SetActiveInput(Domain, IInputSystem)
-  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_SetActiveInput_cfEngine_Core_Domain_CatSweeper_Gameplay_IInputSystem_
-  commentId: M:CatSweeper.Gameplay.GameExtension.SetActiveInput(cfEngine.Core.Domain,CatSweeper.Gameplay.IInputSystem)
-  fullName: CatSweeper.Gameplay.GameExtension.SetActiveInput(cfEngine.Core.Domain, CatSweeper.Gameplay.IInputSystem)
-  nameWithType: GameExtension.SetActiveInput(Domain, IInputSystem)
-- uid: CatSweeper.Gameplay.GameExtension.SetActiveInput*
-  name: SetActiveInput
-  href: api/CatSweeper.Gameplay.GameExtension.html#CatSweeper_Gameplay_GameExtension_SetActiveInput_
-  commentId: Overload:CatSweeper.Gameplay.GameExtension.SetActiveInput
-  isSpec: "True"
-  fullName: CatSweeper.Gameplay.GameExtension.SetActiveInput
-  nameWithType: GameExtension.SetActiveInput
 - uid: CatSweeper.Gameplay.IInputMotionListener
   name: IInputMotionListener
   href: api/CatSweeper.Gameplay.IInputMotionListener.html

@@ -348,20 +348,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Gameplay.GameExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Gameplay.GameExtension.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Gameplay.GameExtension",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Gameplay.IInputMotionListener.yml",
       "output": {
         ".html": {
