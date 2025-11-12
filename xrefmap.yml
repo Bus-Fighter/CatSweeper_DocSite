@@ -1574,15 +1574,15 @@ references:
   commentId: T:CatSweeper.Stage.MineGridMap
   fullName: CatSweeper.Stage.MineGridMap
   nameWithType: MineGridMap
-- uid: CatSweeper.Stage.MineGridMap.#ctor(System.Numerics.Vector3,System.Numerics.Vector3)
-  name: MineGridMap(Vector3, Vector3)
-  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_System_Numerics_Vector3_System_Numerics_Vector3_
-  commentId: M:CatSweeper.Stage.MineGridMap.#ctor(System.Numerics.Vector3,System.Numerics.Vector3)
-  name.vb: New(Vector3, Vector3)
-  fullName: CatSweeper.Stage.MineGridMap.MineGridMap(System.Numerics.Vector3, System.Numerics.Vector3)
-  fullName.vb: CatSweeper.Stage.MineGridMap.New(System.Numerics.Vector3, System.Numerics.Vector3)
-  nameWithType: MineGridMap.MineGridMap(Vector3, Vector3)
-  nameWithType.vb: MineGridMap.New(Vector3, Vector3)
+- uid: CatSweeper.Stage.MineGridMap.#ctor(System.Numerics.Vector3,System.Func{CatSweeper.Stage.StageGridData},System.Numerics.Vector3)
+  name: MineGridMap(Vector3, Func<StageGridData>, Vector3)
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_System_Numerics_Vector3_System_Func_CatSweeper_Stage_StageGridData__System_Numerics_Vector3_
+  commentId: M:CatSweeper.Stage.MineGridMap.#ctor(System.Numerics.Vector3,System.Func{CatSweeper.Stage.StageGridData},System.Numerics.Vector3)
+  name.vb: New(Vector3, Func(Of StageGridData), Vector3)
+  fullName: CatSweeper.Stage.MineGridMap.MineGridMap(System.Numerics.Vector3, System.Func<CatSweeper.Stage.StageGridData>, System.Numerics.Vector3)
+  fullName.vb: CatSweeper.Stage.MineGridMap.New(System.Numerics.Vector3, System.Func(Of CatSweeper.Stage.StageGridData), System.Numerics.Vector3)
+  nameWithType: MineGridMap.MineGridMap(Vector3, Func<StageGridData>, Vector3)
+  nameWithType.vb: MineGridMap.New(Vector3, Func(Of StageGridData), Vector3)
 - uid: CatSweeper.Stage.MineGridMap.#ctor*
   name: MineGridMap
   href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_
@@ -1661,6 +1661,12 @@ references:
   commentId: T:CatSweeper.Stage.StageConfigData
   fullName: CatSweeper.Stage.StageConfigData
   nameWithType: StageConfigData
+- uid: CatSweeper.Stage.StageConfigData.initialSafeCount
+  name: initialSafeCount
+  href: api/CatSweeper.Stage.StageConfigData.html#CatSweeper_Stage_StageConfigData_initialSafeCount
+  commentId: F:CatSweeper.Stage.StageConfigData.initialSafeCount
+  fullName: CatSweeper.Stage.StageConfigData.initialSafeCount
+  nameWithType: StageConfigData.initialSafeCount
 - uid: CatSweeper.Stage.StageConfigData.mapInfo
   name: mapInfo
   href: api/CatSweeper.Stage.StageConfigData.html#CatSweeper_Stage_StageConfigData_mapInfo
@@ -2230,15 +2236,15 @@ references:
   commentId: T:CatSweeper.Stage.StageService
   fullName: CatSweeper.Stage.StageService
   nameWithType: StageService
-- uid: CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)
-  name: StageService(StageServiceModel, StageInfoManager, StageMapInfoManager)
-  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService__ctor_CatSweeper_Stage_StageServiceModel_CatSweeper_Info_StageInfoManager_CatSweeper_Info_StageMapInfoManager_
-  commentId: M:CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager)
-  name.vb: New(StageServiceModel, StageInfoManager, StageMapInfoManager)
-  fullName: CatSweeper.Stage.StageService.StageService(CatSweeper.Stage.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager)
-  fullName.vb: CatSweeper.Stage.StageService.New(CatSweeper.Stage.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager)
-  nameWithType: StageService.StageService(StageServiceModel, StageInfoManager, StageMapInfoManager)
-  nameWithType.vb: StageService.New(StageServiceModel, StageInfoManager, StageMapInfoManager)
+- uid: CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager,CatSweeper.Info.GameSettingInfoManager)
+  name: StageService(StageServiceModel, StageInfoManager, StageMapInfoManager, GameSettingInfoManager)
+  href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService__ctor_CatSweeper_Stage_StageServiceModel_CatSweeper_Info_StageInfoManager_CatSweeper_Info_StageMapInfoManager_CatSweeper_Info_GameSettingInfoManager_
+  commentId: M:CatSweeper.Stage.StageService.#ctor(CatSweeper.Stage.StageServiceModel,CatSweeper.Info.StageInfoManager,CatSweeper.Info.StageMapInfoManager,CatSweeper.Info.GameSettingInfoManager)
+  name.vb: New(StageServiceModel, StageInfoManager, StageMapInfoManager, GameSettingInfoManager)
+  fullName: CatSweeper.Stage.StageService.StageService(CatSweeper.Stage.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager, CatSweeper.Info.GameSettingInfoManager)
+  fullName.vb: CatSweeper.Stage.StageService.New(CatSweeper.Stage.StageServiceModel, CatSweeper.Info.StageInfoManager, CatSweeper.Info.StageMapInfoManager, CatSweeper.Info.GameSettingInfoManager)
+  nameWithType: StageService.StageService(StageServiceModel, StageInfoManager, StageMapInfoManager, GameSettingInfoManager)
+  nameWithType.vb: StageService.New(StageServiceModel, StageInfoManager, StageMapInfoManager, GameSettingInfoManager)
 - uid: CatSweeper.Stage.StageService.#ctor*
   name: StageService
   href: api/CatSweeper.Stage.StageService.html#CatSweeper_Stage_StageService__ctor_
