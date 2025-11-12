@@ -2406,12 +2406,15 @@ references:
   fullName.vb: CatSweeper.Stage.StageSession.New
   nameWithType: StageSession.StageSession
   nameWithType.vb: StageSession.New
-- uid: CatSweeper.Stage.StageSession.GenerateMap
-  name: GenerateMap()
-  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap
-  commentId: M:CatSweeper.Stage.StageSession.GenerateMap
-  fullName: CatSweeper.Stage.StageSession.GenerateMap()
-  nameWithType: StageSession.GenerateMap()
+- uid: CatSweeper.Stage.StageSession.GenerateMap(System.Int32)
+  name: GenerateMap(int)
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap_System_Int32_
+  commentId: M:CatSweeper.Stage.StageSession.GenerateMap(System.Int32)
+  name.vb: GenerateMap(Integer)
+  fullName: CatSweeper.Stage.StageSession.GenerateMap(int)
+  fullName.vb: CatSweeper.Stage.StageSession.GenerateMap(Integer)
+  nameWithType: StageSession.GenerateMap(int)
+  nameWithType.vb: StageSession.GenerateMap(Integer)
 - uid: CatSweeper.Stage.StageSession.GenerateMap*
   name: GenerateMap
   href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap_
@@ -2445,19 +2448,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageSession.RevealGrid
   nameWithType: StageSession.RevealGrid
-- uid: CatSweeper.Stage.StageSession.UpdateGrid(System.Numerics.Vector3,CatSweeper.Stage.StageGridData)
-  name: UpdateGrid(Vector3, StageGridData)
-  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_UpdateGrid_System_Numerics_Vector3_CatSweeper_Stage_StageGridData_
-  commentId: M:CatSweeper.Stage.StageSession.UpdateGrid(System.Numerics.Vector3,CatSweeper.Stage.StageGridData)
-  fullName: CatSweeper.Stage.StageSession.UpdateGrid(System.Numerics.Vector3, CatSweeper.Stage.StageGridData)
-  nameWithType: StageSession.UpdateGrid(Vector3, StageGridData)
-- uid: CatSweeper.Stage.StageSession.UpdateGrid*
-  name: UpdateGrid
-  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_UpdateGrid_
-  commentId: Overload:CatSweeper.Stage.StageSession.UpdateGrid
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageSession.UpdateGrid
-  nameWithType: StageSession.UpdateGrid
 - uid: CatSweeper.Stage.StageSession.gridMap
   name: gridMap
   href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_gridMap
