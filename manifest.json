@@ -3148,62 +3148,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.GameToolsDebuggerPlugin.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.GameToolsDebuggerPlugin",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Tool.ObjectSpawner2D.MethodName.yml",
       "output": {
         ".html": {
@@ -3522,62 +3466,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Tool.SimpleRecyclable2D",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.StageSessionGridData.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.StageSessionGridData.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.StageSessionGridData.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.StageSessionGridData.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.StageSessionGridData.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.StageSessionGridData.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Tool.StageSessionGridData.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Tool.StageSessionGridData",
       "Summary": null
     },
     {
