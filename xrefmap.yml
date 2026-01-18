@@ -1829,57 +1829,6 @@ references:
   fullName.vb: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.New
   nameWithType: GridRevealResult.AlreadyRevealed.AlreadyRevealed
   nameWithType.vb: GridRevealResult.AlreadyRevealed.New
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated
-  name: GridRevealResult.BufferRegenerated
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html
-  commentId: T:CatSweeper.Stage.GridRevealResult.BufferRegenerated
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated
-  nameWithType: GridRevealResult.BufferRegenerated
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor(Godot.Vector2I,System.Int32,System.Int32)
-  name: BufferRegenerated(Vector2I, int, int)
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated__ctor_Godot_Vector2I_System_Int32_System_Int32_
-  commentId: M:CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor(Godot.Vector2I,System.Int32,System.Int32)
-  name.vb: New(Vector2I, Integer, Integer)
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferRegenerated(Godot.Vector2I, int, int)
-  fullName.vb: CatSweeper.Stage.GridRevealResult.BufferRegenerated.New(Godot.Vector2I, Integer, Integer)
-  nameWithType: GridRevealResult.BufferRegenerated.BufferRegenerated(Vector2I, int, int)
-  nameWithType.vb: GridRevealResult.BufferRegenerated.New(Vector2I, Integer, Integer)
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor*
-  name: BufferRegenerated
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated__ctor_
-  commentId: Overload:CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferRegenerated
-  fullName.vb: CatSweeper.Stage.GridRevealResult.BufferRegenerated.New
-  nameWithType: GridRevealResult.BufferRegenerated.BufferRegenerated
-  nameWithType.vb: GridRevealResult.BufferRegenerated.New
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
-  name: BufferClickIndex
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_BufferClickIndex
-  commentId: P:CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
-  nameWithType: GridRevealResult.BufferRegenerated.BufferClickIndex
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex*
-  name: BufferClickIndex
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_BufferClickIndex_
-  commentId: Overload:CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
-  isSpec: "True"
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
-  nameWithType: GridRevealResult.BufferRegenerated.BufferClickIndex
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
-  name: TotalBufferClicks
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_TotalBufferClicks
-  commentId: P:CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
-  nameWithType: GridRevealResult.BufferRegenerated.TotalBufferClicks
-- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks*
-  name: TotalBufferClicks
-  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_TotalBufferClicks_
-  commentId: Overload:CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
-  isSpec: "True"
-  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
-  nameWithType: GridRevealResult.BufferRegenerated.TotalBufferClicks
 - uid: CatSweeper.Stage.GridRevealResult.HitMine
   name: GridRevealResult.HitMine
   href: api/CatSweeper.Stage.GridRevealResult.HitMine.html
@@ -2701,32 +2650,6 @@ references:
   commentId: T:CatSweeper.Stage.StageGridMapGenerator
   fullName: CatSweeper.Stage.StageGridMapGenerator
   nameWithType: StageGridMapGenerator
-- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)
-  name: AddForbiddenPosition(GridPosition)
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_cfEngine_DataStructure_GridPosition_
-  commentId: M:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)
-  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)
-  nameWithType: StageGridMapGenerator.AddForbiddenPosition(GridPosition)
-- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition*
-  name: AddForbiddenPosition
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_
-  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition
-  nameWithType: StageGridMapGenerator.AddForbiddenPosition
-- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)
-  name: AddForbiddenPositionWithNeighbors(GridPosition)
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_cfEngine_DataStructure_GridPosition_
-  commentId: M:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)
-  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)
-  nameWithType: StageGridMapGenerator.AddForbiddenPositionWithNeighbors(GridPosition)
-- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors*
-  name: AddForbiddenPositionWithNeighbors
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_
-  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors
-  nameWithType: StageGridMapGenerator.AddForbiddenPositionWithNeighbors
 - uid: CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Stage.StageGridGenerationConfig)
   name: CanGenerateOnGrid(GridPosition, StageGridGenerationConfig)
   href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Stage_StageGridGenerationConfig_
@@ -2740,32 +2663,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid
   nameWithType: StageGridMapGenerator.CanGenerateOnGrid
-- uid: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
-  name: ClearForbiddenPositions()
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions
-  commentId: M:CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
-  fullName: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions()
-  nameWithType: StageGridMapGenerator.ClearForbiddenPositions()
-- uid: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions*
-  name: ClearForbiddenPositions
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions_
-  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
-  nameWithType: StageGridMapGenerator.ClearForbiddenPositions
-- uid: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
-  name: ForbiddenPositionCount
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount
-  commentId: P:CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
-  fullName: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
-  nameWithType: StageGridMapGenerator.ForbiddenPositionCount
-- uid: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount*
-  name: ForbiddenPositionCount
-  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount_
-  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
-  nameWithType: StageGridMapGenerator.ForbiddenPositionCount
 - uid: CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)
   name: Generate(StageGridGenerationConfig)
   href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_

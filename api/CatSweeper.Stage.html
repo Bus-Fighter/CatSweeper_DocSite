@@ -111,9 +111,6 @@ Use pattern matching: if (result is GridRevealResult.Revealed r) { ... }</p>
       <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html">GridRevealResult.AlreadyRevealed</a></h5>
       <section><p>Tile was already revealed - no action taken.</p>
 </section>
-      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.BufferRegenerated.html">GridRevealResult.BufferRegenerated</a></h5>
-      <section><p>Buffer phase - grid was regenerated to ensure safety.</p>
-</section>
       <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.HitMine.html">GridRevealResult.HitMine</a></h5>
       <section><p>Hit a mine (cat) - may cause damage based on player level.</p>
 </section>
@@ -178,7 +175,7 @@ Pure C# class - fully testable without Godot dependencies.</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.StageGridMapGenerator.html">StageGridMapGenerator</a></h5>
       <section><p>Grid map generator for CatSweeper stages.
-Handles mine placement with buffer system (forbidden positions).
+Handles random mine placement.
 Pure C# logic - no Godot dependencies for testability.</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.StageMap.html">StageMap</a></h5>

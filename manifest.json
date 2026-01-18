@@ -870,20 +870,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.GridRevealResult.BufferRegenerated",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.yml\" sourcestartlinenumber=\"1\">Buffer phase - grid was regenerated to ensure safety.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.HitMine.yml",
       "output": {
         ".html": {
@@ -1272,7 +1258,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageGridMapGenerator",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridMapGenerator.yml\" sourcestartlinenumber=\"1\">Grid map generator for CatSweeper stages.\nHandles mine placement with buffer system (forbidden positions).\nPure C# logic - no Godot dependencies for testability.</p>\n"
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridMapGenerator.yml\" sourcestartlinenumber=\"1\">Grid map generator for CatSweeper stages.\nHandles random mine placement.\nPure C# logic - no Godot dependencies for testability.</p>\n"
     },
     {
       "type": "ManagedReference",

@@ -102,7 +102,7 @@
 
   <h1 id="CatSweeper_Stage_StageGridMapGenerator" data-uid="CatSweeper.Stage.StageGridMapGenerator" class="text-break">Class StageGridMapGenerator</h1>
   <div class="markdown level0 summary"><p>Grid map generator for CatSweeper stages.
-Handles mine placement with buffer system (forbidden positions).
+Handles random mine placement.
 Pure C# logic - no Godot dependencies for testability.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -145,115 +145,14 @@ Pure C# logic - no Godot dependencies for testability.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class StageGridMapGenerator : IGridMapGenerator&lt;StageGridData, StageGridGenerationConfig&gt;</code></pre>
   </div>
-  <h3 id="properties">Properties
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L60">View Source</a>
-  </span>
-  <a id="CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount_" data-uid="CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount*"></a>
-  <h4 id="CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount" data-uid="CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount">ForbiddenPositionCount</h4>
-  <div class="markdown level1 summary"><p>Get count of forbidden positions (for debugging/testing).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ForbiddenPositionCount { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_cfEngine_DataStructure_GridPosition_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L25">View Source</a>
-  </span>
-  <a id="CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_" data-uid="CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition*"></a>
-  <h4 id="CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_cfEngine_DataStructure_GridPosition_" data-uid="CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)">AddForbiddenPosition(GridPosition)</h4>
-  <div class="markdown level1 summary"><p>Add a single position to the forbidden list (buffer system).
-Mines will not be placed at forbidden positions.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddForbiddenPosition(GridPosition position)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GridPosition</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_cfEngine_DataStructure_GridPosition_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L34">View Source</a>
-  </span>
-  <a id="CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_" data-uid="CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors*"></a>
-  <h4 id="CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_cfEngine_DataStructure_GridPosition_" data-uid="CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)">AddForbiddenPositionWithNeighbors(GridPosition)</h4>
-  <div class="markdown level1 summary"><p>Add a position and all its 8 neighbors to the forbidden list.
-Used for buffer system to ensure safe clicks.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddForbiddenPositionWithNeighbors(GridPosition position)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">GridPosition</span></td>
-        <td><span class="parametername">position</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Stage_StageGridGenerationConfig_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition%2CCatSweeper.Stage.StageGridGenerationConfig)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L91">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L49">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_" data-uid="CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid*"></a>
   <h4 id="CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Stage_StageGridGenerationConfig_" data-uid="CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Stage.StageGridGenerationConfig)">CanGenerateOnGrid(GridPosition, StageGridGenerationConfig)</h4>
@@ -308,26 +207,10 @@ Implementations may need to convert to cfEngine.DataStructure.GridPosition (3D g
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L52">View Source</a>
-  </span>
-  <a id="CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions_" data-uid="CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions*"></a>
-  <h4 id="CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions" data-uid="CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions">ClearForbiddenPositions()</h4>
-  <div class="markdown level1 summary"><p>Clear all forbidden positions. Useful for regenerating grid.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ClearForbiddenPositions()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L62">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L20">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridMapGenerator_Generate_" data-uid="CatSweeper.Stage.StageGridMapGenerator.Generate*"></a>
   <h4 id="CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_" data-uid="CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)">Generate(StageGridGenerationConfig)</h4>
