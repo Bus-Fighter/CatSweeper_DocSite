@@ -5,9 +5,9 @@
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class StageGridData | CatSweeper Documentation </title>
+      <title>Struct StageGridData | CatSweeper Documentation </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class StageGridData | CatSweeper Documentation ">
+      <meta name="title" content="Struct StageGridData | CatSweeper Documentation ">
       <meta name="generator" content="docfx ">
   
       <link rel="shortcut icon" href="../favicon.ico">
@@ -100,275 +100,28 @@
 
 
 
-  <h1 id="CatSweeper_Stage_StageGridData" data-uid="CatSweeper.Stage.StageGridData" class="text-break">Class StageGridData</h1>
-  <div class="markdown level0 summary"></div>
+  <h1 id="CatSweeper_Stage_StageGridData" data-uid="CatSweeper.Stage.StageGridData" class="text-break">Struct StageGridData</h1>
+  <div class="markdown level0 summary"><p>Pure C# data container for grid cell state.
+No Godot dependencies - fully unit testable.
+Uses struct value semantics - no pooling or disposal needed.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">GodotObject</span></div>
-    <div class="level2"><span class="xref">StageGridData</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">GodotObject.NotificationPostinitialize</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
     </div>
     <div>
-      <span class="xref">GodotObject.NotificationPredelete</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
     </div>
     <div>
-      <span class="xref">GodotObject.NotificationExtensionReloaded</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">GodotObject.InstanceFromId(ulong)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">GodotObject.IsInstanceIdValid(ulong)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.IsInstanceValid(GodotObject)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.WeakRef(GodotObject)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Dispose()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.ToSignal(GodotObject, StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._Get(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._GetPropertyList()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._IterGet(Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._IterInit(Array)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._IterNext(Array)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">GodotObject._Notification(int)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject._PropertyCanRevert(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._PropertyGetRevert(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._Set(StringName, Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject._ValidateProperty(Dictionary)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Free()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetClass()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Set(StringName, Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Get(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.SetIndexed(NodePath, Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetIndexed(NodePath)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetPropertyList()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetMethodList()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.PropertyCanRevert(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.PropertyGetRevert(StringName)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">GodotObject.Notification(int, bool)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetInstanceId()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.SetScript(Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetScript()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.SetMeta(StringName, Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.RemoveMeta(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetMeta(StringName, Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasMeta(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetMetaList()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.AddUserSignal(string, Array)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasUserSignal(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.RemoveUserSignal(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.EmitSignal(StringName, params Variant[])</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">GodotObject.EmitSignal(StringName, ReadOnlySpan&lt;Variant&gt;)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Call(StringName, params Variant[])</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">GodotObject.Call(StringName, ReadOnlySpan&lt;Variant&gt;)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.CallDeferred(StringName, params Variant[])</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">GodotObject.CallDeferred(StringName, ReadOnlySpan&lt;Variant&gt;)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.SetDeferred(StringName, Variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Callv(StringName, Array)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasMethod(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetMethodArgumentCount(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasSignal(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetSignalList()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetSignalConnectionList(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetIncomingConnections()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">GodotObject.Connect(StringName, Callable, uint)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Disconnect(StringName, Callable)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.IsConnected(StringName, Callable)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasConnections(StringName)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">GodotObject.SetBlockSignals(bool)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.IsBlockingSignals()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.NotifyPropertyListChanged()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">GodotObject.SetMessageTranslation(bool)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.CanTranslateMessages()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.Tr(StringName, StringName)</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">GodotObject.TrN(StringName, StringName, int, StringName)</a>
-    </div>
-    <div>
-      <span class="xref">GodotObject.GetTranslationDomain()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.SetTranslationDomain(StringName)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.IsQueuedForDeletion()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.CancelFree()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.EmitSignalScriptChanged()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.EmitSignalPropertyListChanged()</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.InvokeGodotClassMethod(in godot_string_name, NativeVariantPtrArgs, out godot_variant)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasGodotClassMethod(in godot_string_name)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.HasGodotClassSignal(in godot_string_name)</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.NativeInstance</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.ScriptChanged</span>
-    </div>
-    <div>
-      <span class="xref">GodotObject.PropertyListChanged</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
@@ -378,8 +131,7 @@
   <h6><strong>Assembly</strong>: CatSweeper.dll</h6>
   <h5 id="CatSweeper_Stage_StageGridData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ScriptPath(&quot;res://Script/Stage/StageGridData.cs&quot;)]
-public class StageGridData : GodotObject, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public struct StageGridData</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
@@ -388,7 +140,7 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridData_mineData.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridData.mineData%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGridData.cs/#L25">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridData.cs/#L27">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridData_mineData_" data-uid="CatSweeper.Stage.StageGridData.mineData*"></a>
   <h4 id="CatSweeper_Stage_StageGridData_mineData" data-uid="CatSweeper.Stage.StageGridData.mineData">mineData</h4>
@@ -396,7 +148,7 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StageGridMineData mineData { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StageGridMineData mineData { readonly get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -418,7 +170,7 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridData_state.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridData.state%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGridData.cs/#L24">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridData.cs/#L26">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridData_state_" data-uid="CatSweeper.Stage.StageGridData.state*"></a>
   <h4 id="CatSweeper_Stage_StageGridData_state" data-uid="CatSweeper.Stage.StageGridData.state">state</h4>
@@ -426,7 +178,7 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StageGridState state { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StageGridState state { readonly get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -447,25 +199,10 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridData_Clear.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridData.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGridData.cs/#L29">View Source</a>
-  </span>
-  <a id="CatSweeper_Stage_StageGridData_Clear_" data-uid="CatSweeper.Stage.StageGridData.Clear*"></a>
-  <h4 id="CatSweeper_Stage_StageGridData_Clear" data-uid="CatSweeper.Stage.StageGridData.Clear">Clear()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
-  </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridData_Create_CatSweeper_Stage_StageGridState_CatSweeper_Stage_StageGridMineData__.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridData.Create(CatSweeper.Stage.StageGridState%2CCatSweeper.Stage.StageGridMineData%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGridData.cs/#L49">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridData.cs/#L29">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridData_Create_" data-uid="CatSweeper.Stage.StageGridData.Create*"></a>
   <h4 id="CatSweeper_Stage_StageGridData_Create_CatSweeper_Stage_StageGridState_CatSweeper_Stage_StageGridMineData__" data-uid="CatSweeper.Stage.StageGridData.Create(CatSweeper.Stage.StageGridState,CatSweeper.Stage.StageGridMineData@)">Create(StageGridState, in StageGridMineData)</h4>
@@ -517,7 +254,7 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridData_CreateEmpty.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridData.CreateEmpty%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGridData.cs/#L57">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridData.cs/#L38">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridData_CreateEmpty_" data-uid="CatSweeper.Stage.StageGridData.CreateEmpty*"></a>
   <h4 id="CatSweeper_Stage_StageGridData_CreateEmpty" data-uid="CatSweeper.Stage.StageGridData.CreateEmpty">CreateEmpty()</h4>
@@ -542,49 +279,6 @@ public class StageGridData : GodotObject, IDisposable</code></pre>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridData_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridData.Dispose(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGridData.cs/#L62">View Source</a>
-  </span>
-  <a id="CatSweeper_Stage_StageGridData_Dispose_" data-uid="CatSweeper.Stage.StageGridData.Dispose*"></a>
-  <h4 id="CatSweeper_Stage_StageGridData_Dispose_System_Boolean_" data-uid="CatSweeper.Stage.StageGridData.Dispose(System.Boolean)">Dispose(bool)</h4>
-  <div class="markdown level1 summary"><p>Disposes implementation of this <span class="xref">Godot.GodotObject</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
-        <td><span class="parametername">disposing</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">GodotObject.Dispose(bool)</a></div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="cfGodotEngine.Util.ObjectUtil.html#cfGodotEngine_Util_ObjectUtil_IsAlive_Godot_GodotObject_">ObjectUtil.IsAlive(GodotObject)</a>
-  </div>
 
 </article>
                 </div>

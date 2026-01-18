@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Stage UI | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Stage UI | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../../styles/config.css">
+      <link rel="stylesheet" href="../../styles/singulink.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../../toc.html">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../../index.html">
+              <img src="../../logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../../index.html">
+                          <img src="../../logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Documentation/GameDesign/Cat Sweeper/Stage UI 23e886abe7dc8056b91fd10af9478945.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="stage-ui">Stage UI</h1>
+
+<p>玩法請移玉步至<a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95%2023c886abe7dc807db1edcf4b7574ba42.html">踩地雷玩法</a></p>
+<p>Stage Setting請移玉步至<a href="Home%20UI%2023e886abe7dc8024b5ecf13519a5333d.html">Stage Setting</a></p>
+<p><a href="Stage%20UI/Victory%20UI%2023e886abe7dc80fe9a88d7d6aedf08a9.html">Victory UI</a></p>
+<p><a href="Stage%20UI/Lose%20UI%2023e886abe7dc8080814af038a6ac913e.html">Lose UI</a></p>
+<p><img src="Stage%20UI/image%209.png" alt="image.png"></p>
+<ol>
+<li>玩家HP，default 3
+<ol>
+<li>扣HP時會有一個心碎animation</li>
+</ol>
+</li>
+<li>player Level，睇下點樣代表到捉貓熟練度呢個concept</li>
+<li>呢個stage有嘅地雷同數量</li>
+<li>踩地雷本體，詳見
+<ol>
+<li><a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">Grid Status</a></li>
+<li><a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">踩地雷操作</a></li>
+</ol>
+</li>
+<li>Fever Mode 能量Bar，Fever Mode機制詳見<a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95/Fever%20Mode%2023e886abe7dc80f2bae6d7e0d8e9953e.html">Fever Mode</a></li>
+<li>切換操作mode
+<ol>
+<li>踩地雷Mode(Mine Mode)</li>
+<li>標記地雷Mode(Mark Mode)，<a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">傳送門</a></li>
+</ol>
+</li>
+<li>道具欄，詳見<a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95/Item%2023e886abe7dc80589e59d0a2fe569213.html">Item</a></li>
+</ol>
+<h1 id="grid-status">Grid Status</h1>
+<h2 id="未打開">未打開</h2>
+<h3 id="mine-mode">Mine Mode</h3>
+<ol>
+<li><p>空格：按地圖主題，例如公園係草叢</p>
+<p><img src="Stage%20UI/image.png" alt="image.png"></p>
+</li>
+<li><p>有標記地雷(Marked Mine)</p>
+<p><img src="Stage%20UI/image%201.png" alt="image.png"></p>
+</li>
+</ol>
+<h3 id="mark-mode">Mark Mode</h3>
+<ol>
+<li><p>空格：將裝飾半透，標示為可標記的格</p>
+<p><img src="Stage%20UI/image%202.png" alt="image.png"></p>
+</li>
+<li><p>標記地雷(Marked Mine)</p>
+<p><img src="Stage%20UI/image%203.png" alt="image.png"></p>
+</li>
+</ol>
+<aside>
+💡
+<p>Mark Mode <a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">傳送門</a></p>
+</aside>
+<h2 id="已打開">已打開</h2>
+<ol>
+<li><p>空格（附近本身冇地雷）</p>
+<p><img src="Stage%20UI/image%204.png" alt="image.png"></p>
+</li>
+<li><p>數字（附近有地雷）：貓貓腳印</p>
+<p><img src="Stage%20UI/image%205.png" alt="image.png"></p>
+</li>
+<li><p>數字歸零：即本身附近有地雷，但附近地雷全打開後，數字消失，但留下腳印</p>
+<p><img src="Stage%20UI/image%206.png" alt="image.png"></p>
+</li>
+<li><p>地雷（Mine）→ 數字</p>
+<p><img src="Stage%20UI/image%207.png" alt="image.png"></p>
+</li>
+<li><p>地雷→數字→空格</p>
+<p><img src="Stage%20UI/image%208.png" alt="image.png"></p>
+</li>
+</ol>
+<aside>
+💡
+<p>關於打開格字為地雷的操作：<a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">傳送門</a></p>
+</aside>
+<h1 id="踩地雷操作">踩地雷操作</h1>
+<ul>
+<li>打開格子：Click Grid
+<ul>
+<li>當前Player Level &lt; 標記地雷(Marked Mine)的Level, 不會打開格子</li>
+<li>如打開的格子為地雷，詳看<a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">打開地雷</a>
+<ul>
+<li>需要vfx &amp; sfx 提示</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>拖曳地圖：Drag Screen
+<ul>
+<li><p>只限將地圖的四個角拖至中心點</p>
+<p><img src="Stage%20UI/image%2010.png" alt="image.png"></p>
+</li>
+<li><p>例如上圖, 假如玩家向右下拖曳地圖, 會以地圖的左上角為準, 最多拖至中心點</p>
+</li>
+</ul>
+</li>
+<li>縮放地圖：pinch in &amp; out
+<ul>
+<li>設最大zoom in &amp; out的大細</li>
+<li>細大&amp;縮細後仍可拖曳地圖</li>
+</ul>
+</li>
+</ul>
+<p><img src="Stage%20UI/image%2011.png" alt="image.png"></p>
+<p><img src="Stage%20UI/image%2012.png" alt="image.png"></p>
+<ul>
+<li><del>切換地雷↔地雷數字（No need）</del>
+<ul>
+<li><p><del>Click 地雷</del></p>
+<p><img src="Stage%20UI/Screenshot_2025-07-29_at_12.50.21_AM.png" alt="Screenshot 2025-07-29 at 12.50.21 AM.png"></p>
+<p><img src="Stage%20UI/Screenshot_2025-07-29_at_12.50.57_AM.png" alt="Screenshot 2025-07-29 at 12.50.57 AM.png"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="標記模式mark-mode">標記模式(Mark Mode)</h2>
+<p><img src="Stage%20UI/image%2013.png" alt="image.png"></p>
+<p>Mine Mode</p>
+<p><img src="Stage%20UI/image%2014.png" alt="image.png"></p>
+<p>選擇標記數字</p>
+<p><img src="Stage%20UI/image%2015.png" alt="image.png"></p>
+<p>切換至Mark Mode</p>
+<h3 id="進入模式">進入模式</h3>
+<ol>
+<li><p>點擊Stage UI中的toggle</p>
+<p><img src="Stage%20UI/image%2016.png" alt="image.png"></p>
+</li>
+<li><p>會彈出選擇要標記的數字, 撳tooltip以外地方, back to Mine Mode</p>
+<p><img src="Stage%20UI/image%2014.png" alt="image.png"></p>
+<ol>
+<li>選擇數字的area需要scrollable</li>
+</ol>
+</li>
+<li><p>選擇數字後, toggle的旗會變成帶有數字, 進入Mark Mode(trigger 切換UI animation)</p>
+<p><img src="Stage%20UI/image%2017.png" alt="image.png"></p>
+</li>
+</ol>
+<h3 id="切換ui">切換UI</h3>
+<ol>
+<li><p>Mine Mode切換為在Mark Mode期間所有未打開的grid會切換成mark mode的UI，反之亦然</p>
+<p><img src="Stage%20UI/image%2015.png" alt="image.png"></p>
+</li>
+<li><p>預留grid切換會有animation</p>
+</li>
+</ol>
+<h3 id="標記地雷">標記地雷</h3>
+<ol>
+<li><p>Mark Mode期間點擊空格，會在空格標記數字</p>
+<p><img src="Stage%20UI/image%2018.png" alt="image.png"></p>
+</li>
+<li><p>再次點擊該標記地雷，會取消標記</p>
+</li>
+<li><p>再次點擊toggle的旗icon，會再彈出tooltip選擇標記數字</p>
+</li>
+</ol>
+<h2 id="打開地雷">打開地雷</h2>
+<ul>
+<li>當打開的格子為地雷時，地雷會從地圖中消失，附近的數字會更新</li>
+<li>如Player Level ≥ mine level: 主角要有一個捉起貓貓聞嘅animation</li>
+<li>如Player Level &lt; mind level: 要有貓貓抗拒主角嘅animation, e.g.貓爪、跑走、叫 etc
+<ul>
+<li>並會扣一格HP</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>2</th>
+<th>2</th>
+<th>2</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>**</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>*</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Before</p>
+<table>
+<thead>
+<tr>
+<th>2</th>
+<th>2</th>
+<th>2</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>**</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>打開（2）</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>After</p>
+<ul>
+<li>visual 表達以捉咗隻貓/貓貓逃走(如失敗)</li>
+</ul>
+<p><img src="Stage%20UI/image%2019.png" alt="image.png"></p>
+<p>Auto Open Mine UI</p>
+<p>Trigger Condition</p>
+<ul>
+<li>當Player Level提高時彈出</li>
+</ul>
+<p>Behaviour</p>
+<ul>
+<li>Yes</li>
+<li>No：取消</li>
+</ul>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../../styles/docfx.js"></script>
+        <script type="text/javascript" src="../../styles/main.js"></script>
+        <script type="text/javascript" src="../../styles/singulink.js"></script>    </body>
+</html>

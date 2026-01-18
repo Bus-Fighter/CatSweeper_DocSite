@@ -11,6 +11,206 @@
       }
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "Assembly-Unload-Diagnostics.md",
+      "output": {
+        ".html": {
+          "relative_path": "Assembly-Unload-Diagnostics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDebuggerUtil-Usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDebuggerUtil-Usage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper 239886abe7dc8041bb8de79ca5d0b5df.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper 239886abe7dc8041bb8de79ca5d0b5df.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Buy Lives UI 23e886abe7dc805b931fd7499060230f.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Buy Lives UI 23e886abe7dc805b931fd7499060230f.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Collection UI 23e886abe7dc804c9abce01b1ebea96a.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Collection UI 23e886abe7dc804c9abce01b1ebea96a.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Enter Stage Flow 24d886abe7dc80478fe1d684e30a1475.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Enter Stage Flow 24d886abe7dc80478fe1d684e30a1475.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Home UI 23e886abe7dc8024b5ecf13519a5333d.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Home UI 23e886abe7dc8024b5ecf13519a5333d.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Shop UI 23e886abe7dc80af950ec6d0ca8239f3.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Shop UI 23e886abe7dc80af950ec6d0ca8239f3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Stage UI 23e886abe7dc8056b91fd10af9478945.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Stage UI 23e886abe7dc8056b91fd10af9478945.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Stage UI/Lose UI 23e886abe7dc8080814af038a6ac913e.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Stage UI/Lose UI 23e886abe7dc8080814af038a6ac913e.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Stage UI/Victory UI 23e886abe7dc80fe9a88d7d6aedf08a9.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Stage UI/Victory UI 23e886abe7dc80fe9a88d7d6aedf08a9.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/StageDetailUI 254886abe7dc80a5b98be9c8a480e942.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/StageDetailUI 254886abe7dc80a5b98be9c8a480e942.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/Story System 23e886abe7dc80e88277f4761259ebbe.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/Story System 23e886abe7dc80e88277f4761259ebbe.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/大橋 23c886abe7dc80808f60c8000139c698.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/大橋 23c886abe7dc80808f60c8000139c698.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/踩地雷玩法 23c886abe7dc807db1edcf4b7574ba42.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/踩地雷玩法 23c886abe7dc807db1edcf4b7574ba42.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/踩地雷玩法/Fever Mode 23e886abe7dc80f2bae6d7e0d8e9953e.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/踩地雷玩法/Fever Mode 23e886abe7dc80f2bae6d7e0d8e9953e.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "GameDesign/Cat Sweeper/踩地雷玩法/Item 23e886abe7dc80589e59d0a2fe569213.md",
+      "output": {
+        ".html": {
+          "relative_path": "GameDesign/Cat Sweeper/踩地雷玩法/Item 23e886abe7dc80589e59d0a2fe569213.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "WebSocket-Debugger-Assembly-Unload-Fix.md",
+      "output": {
+        ".html": {
+          "relative_path": "WebSocket-Debugger-Assembly-Unload-Fix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "WebSocket-Debugger-Migration.md",
+      "output": {
+        ".html": {
+          "relative_path": "WebSocket-Debugger-Migration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "WsConnect-Dynamic-Buffer.md",
+      "output": {
+        ".html": {
+          "relative_path": "WsConnect-Dynamic-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Core.BootstrapEndState.yml",
       "output": {
@@ -152,6 +352,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.GridGeneration.GridPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.GridGeneration.GridPosition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.GridGeneration.GridPosition",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Core.GridGeneration.GridPosition.yml\" sourcestartlinenumber=\"1\">Represents a 2D grid position using integer coordinates.\nPure C# value type with no Godot dependencies.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.GridGeneration.IGridGenerationConfig",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.yml\" sourcestartlinenumber=\"1\">Base interface for grid generation configuration.\nAll grid generators must accept a config implementing this interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.GridGeneration.IGridMapGenerator<TGridUnit, TConfig>",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.yml\" sourcestartlinenumber=\"1\">Generic interface for grid map generation.\nImplementations should maintain internal state (e.g., forbidden positions)\nand generate grids based on provided configuration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.GridGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.GridGeneration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.GridGeneration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Core.InfoLoadState.yml",
       "output": {
         ".html": {
@@ -232,62 +488,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Core.LoginState",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Core.StageMapGrid.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Core.StageMapGrid.MethodName",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Core.StageMapGrid.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Core.StageMapGrid.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Core.StageMapGrid.PropertyName",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Core.StageMapGrid.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Core.StageMapGrid.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Core.StageMapGrid.SignalName",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Core.StageMapGrid.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Core.StageMapGrid.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Core.StageMapGrid.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Core.StageMapGrid",
       "Summary": null
     },
     {
@@ -656,6 +856,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridRevealResult.AlreadyRevealed",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.yml\" sourcestartlinenumber=\"1\">Tile was already revealed - no action taken.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridRevealResult.BufferRegenerated",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.yml\" sourcestartlinenumber=\"1\">Buffer phase - grid was regenerated to ensure safety.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.HitMine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridRevealResult.HitMine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridRevealResult.HitMine",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.HitMine.yml\" sourcestartlinenumber=\"1\">Hit a mine (cat) - may cause damage based on player level.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.Revealed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridRevealResult.Revealed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridRevealResult.Revealed",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.Revealed.yml\" sourcestartlinenumber=\"1\">Successfully revealed tile(s), possibly via flood-fill.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridRevealResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridRevealResult",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.yml\" sourcestartlinenumber=\"1\">Result of a grid reveal operation (Rust-style discriminated union).\nUse pattern matching: if (result is GridRevealResult.Revealed r) { ... }</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridSession.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridSession",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridSession.yml\" sourcestartlinenumber=\"1\">Manages grid state and reveal logic for a single stage.\nPure C# class - fully testable without Godot dependencies.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.HiddenStageGrid.MethodName.yml",
       "output": {
         ".html": {
@@ -737,6 +1021,20 @@
       "IsMRef": true,
       "Title": "CatSweeper.Stage.MineGridMap",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.MineTypeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.MineTypeConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.MineTypeConfig",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.MineTypeConfig.yml\" sourcestartlinenumber=\"1\">Configuration for a specific mine type to be placed in the grid.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -936,48 +1234,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageGridData.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageGridData.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageGridData.MethodName",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageGridData.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageGridData.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageGridData.PropertyName",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.StageGridData.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.StageGridData.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.StageGridData.SignalName",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.StageGridData.yml",
       "output": {
         ".html": {
@@ -988,7 +1244,35 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageGridData",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridData.yml\" sourcestartlinenumber=\"1\">Pure C# data container for grid cell state.\nNo Godot dependencies - fully unit testable.\nUses struct value semantics - no pooling or disposal needed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridGenerationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridGenerationConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridGenerationConfig",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridGenerationConfig.yml\" sourcestartlinenumber=\"1\">Configuration for stage grid generation with mine placement.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridMapGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridMapGenerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridMapGenerator",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridMapGenerator.yml\" sourcestartlinenumber=\"1\">Grid map generator for CatSweeper stages.\nHandles mine placement with buffer system (forbidden positions).\nPure C# logic - no Godot dependencies for testability.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1128,7 +1412,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageSession",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageSession.yml\" sourcestartlinenumber=\"1\">Orchestrates stage gameplay including grid management, player state, and stage lifecycle.\nDelegates grid operations to GridSession.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1146,6 +1430,90 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.yml\" sourcestartlinenumber=\"1\">Black-box integration tests simulating real gameplay scenarios.\nTests complete player flows using realistic game data and configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Tests.Stage.StageGrid.GridSessionTests",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.yml\" sourcestartlinenumber=\"1\">Unit tests for GridSession - pure C# grid logic.\nTests buffer phase, flood-fill, mine regeneration, and grid state.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Tests.Stage.StageGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Tests.Stage.StageGrid.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Tests.Stage.StageGrid",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Tests.Util.TestHelpers.MockStageConfig",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.yml\" sourcestartlinenumber=\"1\">Helper class to create mock StageConfigData for testing.\nProvides fluent API for building test configurations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Tests.Util.TestHelpers.TestLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Tests.Util.TestHelpers.TestLogger",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Util.TestHelpers.TestLogger.yml\" sourcestartlinenumber=\"1\">Simple console logger for unit tests that doesn't depend on Godot.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Tests.Util.TestHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Tests.Util.TestHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Tests.Util.TestHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Util.ExportUtil.yml",
       "output": {
         ".html": {
@@ -1157,6 +1525,20 @@
       "IsMRef": true,
       "Title": "CatSweeper.Util.ExportUtil",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Util.GameDebugger_DISABLED.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Util.GameDebugger_DISABLED.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Util.GameDebugger_DISABLED",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Util.GameDebugger_DISABLED.yml\" sourcestartlinenumber=\"1\">DISABLED - Will be implemented in a later milestone.\nStatic wrapper for Rust GameDebugger. Provides easy access to editor debugging tools.\nThread-safe and null-safe - gracefully handles when editor plugin not loaded.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2837,6 +3219,20 @@
       "IsMRef": true,
       "Title": "cfGodotEngine.Tool.AnimationPlayEndRecyclable2D",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Tool.AssemblyCleanup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Tool.AssemblyCleanup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Tool.AssemblyCleanup",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Tool.AssemblyCleanup.yml\" sourcestartlinenumber=\"1\">Handles cleanup when the assembly is about to be unloaded.\nThis helps prevent the &quot;Failed to unload assemblies&quot; error in Godot.</p>\n"
     },
     {
       "type": "ManagedReference",

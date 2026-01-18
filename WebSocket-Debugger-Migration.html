@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>WebSocket-Based Debugger Migration | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="WebSocket-Based Debugger Migration | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/config.css">
+      <link rel="stylesheet" href="styles/singulink.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="index.html">
+              <img src="logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="index.html">
+                          <img src="logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Documentation/WebSocket-Debugger-Migration.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="websocket-based-debugger-migration">WebSocket-Based Debugger Migration</h1>
+
+<h2 id="overview">Overview</h2>
+<p>Successfully replaced the EngineDebugger workflow with a WebSocket-based client/server architecture to avoid the known issue where EngineDebugger loses binding when the solution is rebuilt.</p>
+<h2 id="architecture">Architecture</h2>
+<h3 id="editor-side-gametoolsplugin">Editor Side (GameToolsPlugin)</h3>
+<ul>
+<li><strong>WebSocket Server</strong>: Starts when the plugin enters the tree on port 8080</li>
+<li><strong>Message Router</strong>: Routes incoming messages to appropriate GameToolWindow instances based on channel names</li>
+<li><strong>Protocol</strong>: JSON-based messages with format <code>{ &quot;Message&quot;: &quot;channel:message_name&quot;, &quot;Data&quot;: [...] }</code></li>
+</ul>
+<h3 id="runtime-side-gamedebugger">Runtime Side (GameDebugger)</h3>
+<ul>
+<li><strong>WebSocket Client</strong>: Singleton instance that connects to editor on port 8080</li>
+<li><strong>Async Connection</strong>: Connects asynchronously when the game starts</li>
+<li><strong>Message Sending</strong>: Converts Godot types to JSON and sends via WebSocket</li>
+</ul>
+<h2 id="files-modified">Files Modified</h2>
+<h3 id="1-catsweepercsproj">1. CatSweeper.csproj</h3>
+<ul>
+<li>Added reference to <code>Modules\WsConnect\WsConnect\WsConnect.csproj</code></li>
+</ul>
+<h3 id="2-gametoolsplugincs-addonsgametools">2. GameToolsPlugin.cs (addons/GameTools/)</h3>
+<p><strong>Changes:</strong></p>
+<ul>
+<li>Removed <code>GameToolsDebuggerPlugin</code> dependency</li>
+<li>Added <code>WsServer</code> instance</li>
+<li>Added <code>GameToolsMessageRouter</code> for routing messages</li>
+<li>Implemented WebSocket server lifecycle (start/stop)</li>
+<li>Added message handlers: <code>OnClientConnected</code>, <code>OnClientDisconnected</code>, <code>OnMessageReceived</code></li>
+</ul>
+<h3 id="3-gametoolsmessageroutercs-new---addonsgametools">3. GameToolsMessageRouter.cs (NEW - addons/GameTools/)</h3>
+<p><strong>Purpose:</strong></p>
+<ul>
+<li>Routes WebSocket messages to appropriate GameToolWindow instances</li>
+<li>Converts JSON data back to Godot types (Array, Dictionary, Vector2I, etc.)</li>
+<li>Handles complex type conversions from JsonElement to Variant</li>
+</ul>
+<p><strong>Key Methods:</strong></p>
+<ul>
+<li><code>RegisterWindow()</code>: Registers a GameToolWindow for a specific channel</li>
+<li><code>RouteMessage()</code>: Parses message format &quot;channel:message_name&quot; and routes to window</li>
+<li><code>ConvertToGodotArray()</code>: Converts JSON arrays to Godot Arrays</li>
+<li><code>ConvertJsonElementToGodotValue()</code>: Handles all JSON type conversions</li>
+</ul>
+<h3 id="4-gamedebuggercs-new---scriptcore">4. GameDebugger.cs (NEW - Script/Core/)</h3>
+<p><strong>Purpose:</strong></p>
+<ul>
+<li>Singleton runtime debugger that replaces EngineDebugger</li>
+<li>Connects to editor WebSocket server at ws://localhost:8080</li>
+<li>Sends debug messages from game to editor</li>
+</ul>
+<p><strong>Key Methods:</strong></p>
+<ul>
+<li><code>Instance</code>: Singleton accessor</li>
+<li><code>IsActive()</code>: Returns true if connected to editor</li>
+<li><code>ConnectAsync()</code>: Establishes WebSocket connection</li>
+<li><code>SendMessage()</code>: Sends messages in format &quot;channel:message_name&quot; with Godot Array data</li>
+<li><code>ConvertArrayToJson()</code>: Converts Godot types to JSON-serializable objects</li>
+<li><code>ConvertVariantToJson()</code>: Handles Variant type conversions (Vector2I, Dictionary, Array, etc.)</li>
+</ul>
+<h3 id="5-stagecontrollercs-scriptstage">5. StageController.cs (Script/Stage/)</h3>
+<p><strong>Changes:</strong></p>
+<ul>
+<li>Added <code>using CatSweeper.Core;</code> for GameDebugger</li>
+<li>In <code>_Ready()</code>: Calls <code>GameDebugger.Instance.ConnectAsync()</code> under <code>#if TOOLS</code></li>
+<li>Replaced <code>EngineDebugger.SendMessage()</code> with <code>GameDebugger.Instance.SendMessage()</code> in two locations:
+<ul>
+<li><code>stage:stage_initialized</code> message</li>
+<li><code>stage:grid_updated</code> message</li>
+</ul>
+</li>
+</ul>
+<h2 id="message-flow">Message Flow</h2>
+<h3 id="from-game-to-editor">From Game to Editor:</h3>
+<ol>
+<li>Game calls <code>GameDebugger.Instance.SendMessage(&quot;stage:grid_updated&quot;, data)</code></li>
+<li>GameDebugger converts Godot types to JSON</li>
+<li>Message sent via WsClient to WebSocket server</li>
+<li>GameToolsPlugin receives message</li>
+<li>GameToolsMessageRouter parses channel name</li>
+<li>Message routed to appropriate GameToolWindow (e.g., StageSessionWindow)</li>
+<li>Window's <code>OnMessageCaptured()</code> method processes the data</li>
+</ol>
+<h3 id="message-format">Message Format:</h3>
+<pre><code class="lang-json">{
+  &quot;Message&quot;: &quot;channel:message_name&quot;,
+  &quot;Data&quot;: [/* array of converted Godot types */]
+}
+</code></pre>
+<h2 id="type-conversions">Type Conversions</h2>
+<h3 id="godot--json-gamedebugger">Godot → JSON (GameDebugger):</h3>
+<ul>
+<li><code>Vector2I/Vector2</code> → <code>{ x: number, y: number }</code></li>
+<li><code>Dictionary</code> → <code>{ [key: string]: any }</code></li>
+<li><code>Array</code> → <code>any[]</code></li>
+<li>Primitives → string/number/boolean</li>
+</ul>
+<h3 id="json--godot-gametoolsmessagerouter">JSON → Godot (GameToolsMessageRouter):</h3>
+<ul>
+<li><code>{ x: number, y: number }</code> → <code>Vector2I</code></li>
+<li>JSON Object → <code>Godot.Collections.Dictionary</code></li>
+<li>JSON Array → <code>Godot.Collections.Array</code></li>
+<li>Primitives → int/long/double/string/bool</li>
+</ul>
+<h2 id="benefits">Benefits</h2>
+<ol>
+<li><strong>No Rebuild Issues</strong>: WebSocket connection persists across solution rebuilds</li>
+<li><strong>Decoupled</strong>: Editor and runtime communicate via standard WebSocket protocol</li>
+<li><strong>Flexible</strong>: Can add new channels/windows without modifying core infrastructure</li>
+<li><strong>Debuggable</strong>: Can inspect WebSocket traffic with standard tools</li>
+<li><strong>Extensible</strong>: Easy to add new message types and handlers</li>
+</ol>
+<h2 id="usage">Usage</h2>
+<h3 id="in-runtime-code">In Runtime Code:</h3>
+<pre><code class="lang-csharp">#if TOOLS
+GameDebugger.Instance.SendMessage(&quot;channel:message_name&quot;, new Array()
+{
+    data1,
+    data2,
+    new Dictionary { { &quot;key&quot;, value } }
+});
+#endif
+</code></pre>
+<h3 id="in-editor-plugin">In Editor Plugin:</h3>
+<pre><code class="lang-csharp">public class MyToolWindow : GameToolWindow
+{
+    public override string channelName =&gt; &quot;mychannel&quot;;
+    public override string tabName =&gt; &quot;My Tool&quot;;
+    
+    public override bool OnMessageCaptured(string message, Array data, int sessionId)
+    {
+        if (message == &quot;message_name&quot;)
+        {
+            // Handle the message
+            return true;
+        }
+        return false;
+    }
+}
+</code></pre>
+<h2 id="testing">Testing</h2>
+<p>Build succeeded with 0 errors and 140 warnings (all pre-existing).</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>WebSocket server runs on <code>localhost:8080</code></li>
+<li>Connection is only active in editor (<code>#if TOOLS</code>)</li>
+<li>WsServer and WsClient use infinite keep-alive mode for persistent connections</li>
+<li>All type conversions use <code>Variant.From()</code> to ensure proper Godot type handling</li>
+</ul>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="styles/docfx.js"></script>
+        <script type="text/javascript" src="styles/main.js"></script>
+        <script type="text/javascript" src="styles/singulink.js"></script>    </body>
+</html>

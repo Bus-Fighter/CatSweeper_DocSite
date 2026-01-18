@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>GameDebuggerUtil - JSON ↔ Variant Conversion | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="GameDebuggerUtil - JSON ↔ Variant Conversion | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/config.css">
+      <link rel="stylesheet" href="styles/singulink.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="index.html">
+              <img src="logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="index.html">
+                          <img src="logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Documentation/GameDebuggerUtil-Usage.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="gamedebuggerutil---json--variant-conversion">GameDebuggerUtil - JSON ↔ Variant Conversion</h1>
+
+<h2 id="overview">Overview</h2>
+<p><code>GameDebuggerUtil</code> provides bidirectional conversion between JSON objects and Godot Variants, enabling seamless data exchange between C# and Godot types.</p>
+<h2 id="features">Features</h2>
+<h3 id="-convert-godot--json">✅ Convert Godot → JSON</h3>
+<ul>
+<li>Converts Godot Variants to JSON-serializable objects</li>
+<li>Handles Vector2, Vector2I, Dictionary, Array</li>
+<li>Preserves type information where possible</li>
+</ul>
+<h3 id="-parse-json--godot">✅ Parse JSON → Godot</h3>
+<ul>
+<li>Reconstructs Godot Variants from JSON objects</li>
+<li>Auto-detects Vector2/Vector2I from <code>{x, y}</code> objects</li>
+<li>Supports System.Text.Json.JsonElement</li>
+<li>Handles nested structures</li>
+</ul>
+<h2 id="api-reference">API Reference</h2>
+<h3 id="godot--json-conversion">Godot → JSON Conversion</h3>
+<pre><code class="lang-csharp">// Convert a single Variant to JSON object
+object ConvertVariantToJson(Variant variant)
+
+// Convert Godot Array to object[]
+object[] ConvertArrayToJson(Godot.Collections.Array array)
+
+// Convert Godot Dictionary to C# Dictionary
+Dictionary&lt;string, object&gt; ConvertDictionaryToJson(Godot.Collections.Dictionary dict)
+</code></pre>
+<h3 id="json--godot-conversion">JSON → Godot Conversion</h3>
+<pre><code class="lang-csharp">// Parse JSON object to Variant
+Variant ParseJsonToVariant(object jsonObj)
+
+// Parse JSON array to Godot Array
+Godot.Collections.Array ParseJsonToArray(object[] jsonArray)
+
+// Parse JSON dictionary to Godot Dictionary
+Godot.Collections.Dictionary ParseJsonToDictionary(Dictionary&lt;string, object&gt; jsonDict)
+</code></pre>
+<h2 id="usage-examples">Usage Examples</h2>
+<h3 id="example-1-convert-godot-data-to-json">Example 1: Convert Godot Data to JSON</h3>
+<pre><code class="lang-csharp">// Godot data
+var position = new Vector2I(10, 20);
+var data = new Godot.Collections.Array { position, &quot;player&quot;, 100 };
+
+// Convert to JSON
+var jsonArray = GameDebuggerUtil.ConvertArrayToJson(data);
+var json = JsonSerializer.Serialize(jsonArray);
+
+// Result: [[{&quot;x&quot;:10,&quot;y&quot;:20},&quot;player&quot;,&quot;100&quot;]]
+</code></pre>
+<h3 id="example-2-parse-json-back-to-godot">Example 2: Parse JSON back to Godot</h3>
+<pre><code class="lang-csharp">// JSON data
+var json = &quot;&quot;&quot;{&quot;x&quot;: 10, &quot;y&quot;: 20}&quot;&quot;&quot;;
+var jsonObj = JsonSerializer.Deserialize&lt;Dictionary&lt;string, object&gt;&gt;(json);
+
+// Convert to Godot Variant
+var variant = GameDebuggerUtil.ParseJsonToVariant(jsonObj);
+var position = variant.AsVector2I(); // Vector2I(10, 20)
+</code></pre>
+<h3 id="example-3-complex-nested-data">Example 3: Complex Nested Data</h3>
+<pre><code class="lang-csharp">// Godot data with nested structures
+var gameState = new Godot.Collections.Dictionary
+{
+    [&quot;player&quot;] = new Godot.Collections.Dictionary
+    {
+        [&quot;position&quot;] = new Vector2(100.5f, 200.3f),
+        [&quot;health&quot;] = 100,
+        [&quot;inventory&quot;] = new Godot.Collections.Array { &quot;sword&quot;, &quot;shield&quot; }
+    },
+    [&quot;level&quot;] = 5
+};
+
+// Convert to JSON
+var jsonDict = GameDebuggerUtil.ConvertDictionaryToJson(gameState);
+var json = JsonSerializer.Serialize(jsonDict);
+
+// Parse back to Godot
+var parsedDict = JsonSerializer.Deserialize&lt;Dictionary&lt;string, object&gt;&gt;(json);
+var godotDict = GameDebuggerUtil.ParseJsonToDictionary(parsedDict);
+</code></pre>
+<h3 id="example-4-working-with-jsonelement">Example 4: Working with JsonElement</h3>
+<pre><code class="lang-csharp">// Receive JSON from WebSocket
+var jsonText = &quot;&quot;&quot;{&quot;position&quot;: {&quot;x&quot;: 50, &quot;y&quot;: 100}, &quot;name&quot;: &quot;Player&quot;}&quot;&quot;&quot;;
+var document = JsonDocument.Parse(jsonText);
+
+// Convert JsonElement to Variant
+var variant = GameDebuggerUtil.ParseJsonToVariant(document.RootElement);
+var dict = variant.AsGodotDictionary();
+
+// Access nested data
+var positionVariant = dict[&quot;position&quot;];
+var position = positionVariant.AsVector2I(); // Vector2I(50, 100)
+</code></pre>
+<h2 id="type-conversion-table">Type Conversion Table</h2>
+<table>
+<thead>
+<tr>
+<th>Godot Type</th>
+<th>JSON Representation</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Vector2I(10, 20)</code></td>
+<td><code>{&quot;x&quot;: 10, &quot;y&quot;: 20}</code></td>
+<td>Integer coordinates</td>
+</tr>
+<tr>
+<td><code>Vector2(10.5, 20.3)</code></td>
+<td><code>{&quot;x&quot;: 10.5, &quot;y&quot;: 20.3}</code></td>
+<td>Float coordinates</td>
+</tr>
+<tr>
+<td><code>Dictionary</code></td>
+<td><code>{ &quot;key&quot;: value }</code></td>
+<td>Recursive conversion</td>
+</tr>
+<tr>
+<td><code>Array</code></td>
+<td><code>[item1, item2]</code></td>
+<td>Recursive conversion</td>
+</tr>
+<tr>
+<td><code>string</code></td>
+<td><code>&quot;text&quot;</code></td>
+<td>Direct conversion</td>
+</tr>
+<tr>
+<td><code>int</code>, <code>long</code>, <code>float</code>, <code>double</code></td>
+<td><code>123</code>, <code>45.67</code></td>
+<td>Direct conversion</td>
+</tr>
+<tr>
+<td><code>bool</code></td>
+<td><code>true</code>, <code>false</code></td>
+<td>Direct conversion</td>
+</tr>
+<tr>
+<td><code>null</code></td>
+<td><code>null</code></td>
+<td>Default Variant</td>
+</tr>
+</tbody>
+</table>
+<h2 id="auto-detection-logic">Auto-Detection Logic</h2>
+<h3 id="vector2-vs-vector2i-detection">Vector2 vs Vector2I Detection</h3>
+<p>When parsing <code>{&quot;x&quot;: ..., &quot;y&quot;: ...}</code> objects:</p>
+<ol>
+<li><p><strong>Vector2I</strong> - If both x and y are integers</p>
+<pre><code class="lang-json">{&quot;x&quot;: 10, &quot;y&quot;: 20} → Vector2I(10, 20)
+</code></pre>
+</li>
+<li><p><strong>Vector2</strong> - If either x or y has decimals</p>
+<pre><code class="lang-json">{&quot;x&quot;: 10.5, &quot;y&quot;: 20} → Vector2(10.5, 20)
+</code></pre>
+</li>
+</ol>
+<h3 id="dictionary-vs-vector-detection">Dictionary vs Vector Detection</h3>
+<ul>
+<li>If object has <strong>exactly 2 properties</strong> named &quot;x&quot; and &quot;y&quot; → Vector</li>
+<li>Otherwise → Dictionary</li>
+</ul>
+<h2 id="integration-with-gamedebugger">Integration with GameDebugger</h2>
+<p>The utility is used internally by <code>GameDebugger</code> for WebSocket communication:</p>
+<pre><code class="lang-csharp">// In GameDebugger.SendMessage
+var payload = new DebugMessage
+{
+    Message = &quot;stage_info&quot;,
+    Data = GameDebuggerUtil.ConvertArrayToJson(data)
+};
+var json = JsonSerializer.Serialize(payload);
+await _client.SendText(json);
+</code></pre>
+<pre><code class="lang-csharp">// In GameToolsPlugin.OnMessageReceived
+var json = Encoding.UTF8.GetString(socketMessage.data.Span);
+var message = JsonSerializer.Deserialize&lt;DebugMessage&gt;(json);
+
+// message.Data is now ready to be parsed back to Godot Variant
+var godotData = GameDebuggerUtil.ParseJsonToVariant(message.Data);
+</code></pre>
+<h2 id="performance-considerations">Performance Considerations</h2>
+<h3 id="memory-allocation">Memory Allocation</h3>
+<ul>
+<li><strong>ConvertToJson</strong>: Creates new object arrays/dictionaries</li>
+<li><strong>ParseToVariant</strong>: Creates new Godot collections</li>
+<li>For high-frequency messages, consider object pooling</li>
+</ul>
+<h3 id="type-detection-overhead">Type Detection Overhead</h3>
+<ul>
+<li>Vector detection requires checking object properties</li>
+<li>Minimal overhead for most use cases</li>
+<li>Consider explicit type hints for performance-critical code</li>
+</ul>
+<h2 id="error-handling">Error Handling</h2>
+<p>The utility is designed to be fault-tolerant:</p>
+<ul>
+<li><strong>Null values</strong>: Return default Variant</li>
+<li><strong>Unknown types</strong>: Convert to string via <code>ToString()</code></li>
+<li><strong>Invalid structures</strong>: Gracefully degrade to simpler types</li>
+</ul>
+<h2 id="best-practices">Best Practices</h2>
+<ol>
+<li><strong>Use for WebSocket/Network communication</strong> where JSON is required</li>
+<li><strong>Avoid for internal Godot-to-Godot</strong> communication (use Variants directly)</li>
+<li><strong>Validate data types</strong> after parsing if type safety is critical</li>
+<li><strong>Cache frequently used conversions</strong> if performance is a concern</li>
+</ol>
+<h2 id="future-enhancements">Future Enhancements</h2>
+<p>Potential additions:</p>
+<ul>
+<li>Support for more Godot types (Vector3, Color, Rect2, etc.)</li>
+<li>Custom serialization attributes</li>
+<li>Schema validation</li>
+<li>Performance optimizations with object pooling</li>
+</ul>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="styles/docfx.js"></script>
+        <script type="text/javascript" src="styles/main.js"></script>
+        <script type="text/javascript" src="styles/singulink.js"></script>    </body>
+</html>

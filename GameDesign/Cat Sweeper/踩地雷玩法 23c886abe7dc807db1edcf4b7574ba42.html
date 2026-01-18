@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>踩地雷玩法 | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="踩地雷玩法 | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../../styles/config.css">
+      <link rel="stylesheet" href="../../styles/singulink.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../../toc.html">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../../index.html">
+              <img src="../../logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../../index.html">
+                          <img src="../../logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Documentation/GameDesign/Cat Sweeper/踩地雷玩法 23c886abe7dc807db1edcf4b7574ba42.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="踩地雷玩法">踩地雷玩法</h1>
+
+<p>Reference Game：<a href="https://hojamaka.com/games/mamono_sweeper">傳送門</a></p>
+<p>UI請移玉步到<a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">Stage UI</a></p>
+<p><a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95/Item%2023e886abe7dc80589e59d0a2fe569213.html">Item</a></p>
+<p><a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95/Fever%20Mode%2023e886abe7dc80f2bae6d7e0d8e9953e.html">Fever Mode</a></p>
+<h1 id="玩法介紹">玩法介紹</h1>
+<ul>
+<li>場上地雷（Mine）有等級(Mine Level)設定</li>
+<li>地圖的格子（grid）會顯示相鄰8格的Mine Level 總和</li>
+<li>玩家每場開始時起初始玩家等級（Player level） 為1</li>
+<li>玩家點擊地雷時會獲得等同Mine Level的經驗值（EXP）
+<ul>
+<li>例如打開Level 1 Mine, 會獲得EXP 1</li>
+<li>EXP滿時Player Level會級升</li>
+<li>每個Player Level的升級所需EXP視每場的Mine數量而定，詳看<a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95%2023c886abe7dc807db1edcf4b7574ba42.html">map setting</a></li>
+</ul>
+</li>
+<li>每場起始有3 HP （global variable, 可在gameSetting調整）
+<ul>
+<li>當玩家打開Mine Level &gt; Player Level的Mine，會扣除HP</li>
+</ul>
+</li>
+<li>打開格子時如為空格（Empty Grid）, 會一併打開相連的空格及其外圍一圈的數字</li>
+</ul>
+<h2 id="打開地雷">打開地雷</h2>
+<ul>
+<li>當打開的格子為地雷時，地雷會從地圖中消失，附近的數字會更新</li>
+<li>如Player Level ≥ mine level: 主角要有一個捉起貓貓聞嘅animation</li>
+<li>如Player Level &lt; mind level: 要有貓貓抗拒主角嘅animation, e.g.貓爪、跑走、叫 etc
+<ul>
+<li>並會扣一格HP</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>2</th>
+<th>2</th>
+<th>2</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>**</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>*</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Before</p>
+<table>
+<thead>
+<tr>
+<th>2</th>
+<th>2</th>
+<th>2</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>**</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>打開（2）</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>After</p>
+<ul>
+<li>visual 表達以捉咗隻貓/貓貓逃走(如失敗)</li>
+</ul>
+<h1 id="grid-status">Grid Status</h1>
+<h2 id="未打開">未打開</h2>
+<h3 id="mine-mode">Mine Mode</h3>
+<ol>
+<li><p>空格：按地圖主題，例如公園係草叢</p>
+<p><img src="Stage%20UI/image.png" alt="image.png"></p>
+</li>
+<li><p>有標記地雷(Marked Mine)</p>
+<p><img src="Stage%20UI/image%201.png" alt="image.png"></p>
+</li>
+</ol>
+<h3 id="mark-mode">Mark Mode</h3>
+<ol>
+<li><p>空格：將裝飾半透，標示為可標記的格</p>
+<p><img src="Stage%20UI/image%202.png" alt="image.png"></p>
+</li>
+<li><p>標記地雷(Marked Mine)</p>
+<p><img src="Stage%20UI/image%203.png" alt="image.png"></p>
+</li>
+</ol>
+<aside>
+💡
+<p>Mark Mode <a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">傳送門</a></p>
+</aside>
+<h2 id="已打開">已打開</h2>
+<ol>
+<li><p>空格（附近本身冇地雷）</p>
+<p><img src="Stage%20UI/image%204.png" alt="image.png"></p>
+</li>
+<li><p>數字（附近有地雷）：貓貓腳印</p>
+<p><img src="Stage%20UI/image%205.png" alt="image.png"></p>
+</li>
+<li><p>數字歸零：即本身附近有地雷，但附近地雷全打開後，數字消失，但留下腳印</p>
+<p><img src="Stage%20UI/image%206.png" alt="image.png"></p>
+</li>
+<li><p>地雷（Mine）→ 數字</p>
+<p><img src="Stage%20UI/image%207.png" alt="image.png"></p>
+</li>
+<li><p>地雷→數字→空格</p>
+<p><img src="Stage%20UI/image%208.png" alt="image.png"></p>
+</li>
+</ol>
+<aside>
+💡
+<p>關於打開格字為地雷的操作：<a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">傳送門</a></p>
+</aside>
+<h2 id="遊戲勝利條件">遊戲勝利條件</h2>
+<ul>
+<li>成功找出所有地雷</li>
+<li>（TBC）Player Level已達到最高Level / 場上沒有mine level &gt; player level的mine</li>
+<li>彈出<a href="Stage%20UI/Victory%20UI%2023e886abe7dc80fe9a88d7d6aedf08a9.html">Victory UI</a></li>
+</ul>
+<h2 id="失敗條件">失敗條件</h2>
+<ul>
+<li>玩家HP歸0 時失敗，彈出<a href="Stage%20UI/Lose%20UI%2023e886abe7dc8080814af038a6ac913e.html">Lose UI</a></li>
+</ul>
+<h1 id="地圖設定mapmine-setting-api-doc">地圖設定(MapMine Setting) (<a href="https://bus-fighter.github.io/CatSweeper_DocSite/api/CatSweeper.Info.StageInfo.html?q=stageinfo#CatSweeper_Info_StageInfo">API Doc)</a></h1>
+<table>
+<thead>
+<tr>
+<th>mapId</th>
+<th>string</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>size</td>
+<td>string</td>
+<td>Size({height},{width})</td>
+<td></td>
+</tr>
+<tr>
+<td>mineSetting</td>
+<td>string</td>
+<td>mine({mineId},{amount}</td>
+<td>一條list代表會出現的地雷id及數量</td>
+</tr>
+<tr>
+<td>詳見<a href="%E8%B8%A9%E5%9C%B0%E9%9B%B7%E7%8E%A9%E6%B3%95%2023c886abe7dc807db1edcf4b7574ba42.html">地雷設定（Mine Setting）</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>playerLevelTable</td>
+<td>string</td>
+<td></td>
+<td>詳見playerLevelTable</td>
+</tr>
+</tbody>
+</table>
+<aside>
+💡
+<p>mineSetting嗰到要support一個random拎mineId嘅做法，可能係drop pool? 或者係stage info到roll mapId？
+因為可能level 1 嘅mine我有一堆唔同嘅貓，而我想world 1嘅stage只會出現某幾款level 1嘅貓</p>
+</aside>
+<ul>
+<li>每次進入關卡會根據info setting隨機生成地圖</li>
+<li>地圖採取no guessing 規則生成
+<ul>
+<li>包括撳第一下一定唔會爆（唔會爆= 空格 or 地雷LV ≤ 當前player Level)</li>
+<li>如果做唔到no guessing
+<ul>
+<li>至少做起始 buffer步數，<code>startingBufferLimit</code>個value designer喺game setting到set</li>
+<li>然後入關卡時random 1-<code>startingBufferLimit</code>, 抽到嘅數字代表buffer步數
+<ul>
+<li>例如抽到3，即代表頭3下都唔會爆，之後先gen個地圖出嚟</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><del>同個map可以70%以上唔洗靠估嚟贏</del></li>
+</ul>
+</li>
+</ul>
+<h2 id="player-level-table">Player Level Table</h2>
+<ul>
+<li><p>會有一個default設定嘅table, 如果係用default，每Level升級需求就係場上該level有嘅地雷數目，Max Level就係等如場上最高Mine Level嘅地雷</p>
+</li>
+<li><p>例如場上有10個level 1， 5個level 2，2個level 3，咁level 1 就係要10點EXP，Level 2就係5點EXP，最大等級就係3</p>
+<table>
+<thead>
+<tr>
+<th>keyId</th>
+<th>default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>level</td>
+<td>EXP</td>
+</tr>
+<tr>
+<td>1</td>
+<td>MineLevelCount(0)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>MineLevelCount(0)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>MineLevelCount(0)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>MineLevelCount(0)</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>MineLevelCount(0)嘅意思係該場上相同Level地雷數量 +-  0</p>
+<ul>
+<li>假如Level 1填MineLevelCount(-1)，代表場上level 1的mine總和-1，即如果場上有10個level 1 mine，level 1 升level 2所需EXP為9</li>
+</ul>
+</li>
+</ul>
+<h1 id="地雷設定mine-setting">地雷設定（Mine Setting）</h1>
+<table>
+<thead>
+<tr>
+<th>mineId</th>
+<th>string</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iconName</td>
+<td>string</td>
+<td>於關卡中顯示的icon</td>
+</tr>
+<tr>
+<td>mineLevel</td>
+<td>int</td>
+<td></td>
+</tr>
+<tr>
+<td>displayName</td>
+<td>string</td>
+<td>localisation</td>
+</tr>
+<tr>
+<td>prefabPath</td>
+<td>path</td>
+<td>於關卡中顯示animation用</td>
+</tr>
+<tr>
+<td>uiModelPath</td>
+<td>path</td>
+<td>在主畫面/圖鑑用</td>
+</tr>
+<tr>
+<td>revealReward</td>
+<td>Command string</td>
+<td>成功打開地雷時的reward</td>
+</tr>
+</tbody>
+</table>
+<h1 id="操作">操作</h1>
+<p>因涉及UIUX，詳見<a href="Stage%20UI%2023e886abe7dc8056b91fd10af9478945.html">踩地雷操作</a></p>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../../styles/docfx.js"></script>
+        <script type="text/javascript" src="../../styles/main.js"></script>
+        <script type="text/javascript" src="../../styles/singulink.js"></script>    </body>
+</html>

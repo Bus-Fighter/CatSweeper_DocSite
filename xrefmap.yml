@@ -76,6 +76,12 @@ references:
   commentId: F:CatSweeper.Core.GameEntry.MethodName.InfoBuildByte
   fullName: CatSweeper.Core.GameEntry.MethodName.InfoBuildByte
   nameWithType: GameEntry.MethodName.InfoBuildByte
+- uid: CatSweeper.Core.GameEntry.MethodName._ExitTree
+  name: _ExitTree
+  href: api/CatSweeper.Core.GameEntry.MethodName.html#CatSweeper_Core_GameEntry_MethodName__ExitTree
+  commentId: F:CatSweeper.Core.GameEntry.MethodName._ExitTree
+  fullName: CatSweeper.Core.GameEntry.MethodName._ExitTree
+  nameWithType: GameEntry.MethodName._ExitTree
 - uid: CatSweeper.Core.GameEntry.PropertyName
   name: GameEntry.PropertyName
   href: api/CatSweeper.Core.GameEntry.PropertyName.html
@@ -123,6 +129,19 @@ references:
   commentId: T:CatSweeper.Core.GameEntry.SignalName
   fullName: CatSweeper.Core.GameEntry.SignalName
   nameWithType: GameEntry.SignalName
+- uid: CatSweeper.Core.GameEntry._ExitTree
+  name: _ExitTree()
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry__ExitTree
+  commentId: M:CatSweeper.Core.GameEntry._ExitTree
+  fullName: CatSweeper.Core.GameEntry._ExitTree()
+  nameWithType: GameEntry._ExitTree()
+- uid: CatSweeper.Core.GameEntry._ExitTree*
+  name: _ExitTree
+  href: api/CatSweeper.Core.GameEntry.html#CatSweeper_Core_GameEntry__ExitTree_
+  commentId: Overload:CatSweeper.Core.GameEntry._ExitTree
+  isSpec: "True"
+  fullName: CatSweeper.Core.GameEntry._ExitTree
+  nameWithType: GameEntry._ExitTree
 - uid: CatSweeper.Core.GameState
   name: GameState
   href: api/CatSweeper.Core.GameState.html
@@ -256,6 +275,296 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.GameplayInitState.id
   nameWithType: GameplayInitState.id
+- uid: CatSweeper.Core.GridGeneration
+  name: CatSweeper.Core.GridGeneration
+  href: api/CatSweeper.Core.GridGeneration.html
+  commentId: N:CatSweeper.Core.GridGeneration
+  fullName: CatSweeper.Core.GridGeneration
+  nameWithType: CatSweeper.Core.GridGeneration
+- uid: CatSweeper.Core.GridGeneration.GridPosition
+  name: GridPosition
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html
+  commentId: T:CatSweeper.Core.GridGeneration.GridPosition
+  fullName: CatSweeper.Core.GridGeneration.GridPosition
+  nameWithType: GridPosition
+- uid: CatSweeper.Core.GridGeneration.GridPosition.#ctor(System.Int32,System.Int32)
+  name: GridPosition(int, int)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition__ctor_System_Int32_System_Int32_
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.GridPosition(int, int)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.New(Integer, Integer)
+  nameWithType: GridPosition.GridPosition(int, int)
+  nameWithType.vb: GridPosition.New(Integer, Integer)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.#ctor*
+  name: GridPosition
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition__ctor_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.GridPosition
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.New
+  nameWithType: GridPosition.GridPosition
+  nameWithType.vb: GridPosition.New
+- uid: CatSweeper.Core.GridGeneration.GridPosition.Equals(CatSweeper.Core.GridGeneration.GridPosition)
+  name: Equals(GridPosition)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_Equals_CatSweeper_Core_GridGeneration_GridPosition_
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.Equals(CatSweeper.Core.GridGeneration.GridPosition)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.Equals(CatSweeper.Core.GridGeneration.GridPosition)
+  nameWithType: GridPosition.Equals(GridPosition)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.Equals(System.Object)
+  name: Equals(object)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_Equals_System_Object_
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.Equals(object)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.Equals(Object)
+  nameWithType: GridPosition.Equals(object)
+  nameWithType.vb: GridPosition.Equals(Object)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.Equals*
+  name: Equals
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_Equals_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.Equals
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.Equals
+  nameWithType: GridPosition.Equals
+- uid: CatSweeper.Core.GridGeneration.GridPosition.GetHashCode
+  name: GetHashCode()
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_GetHashCode
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.GetHashCode
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.GetHashCode()
+  nameWithType: GridPosition.GetHashCode()
+- uid: CatSweeper.Core.GridGeneration.GridPosition.GetHashCode*
+  name: GetHashCode
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_GetHashCode_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.GetHashCode
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.GetHashCode
+  nameWithType: GridPosition.GetHashCode
+- uid: CatSweeper.Core.GridGeneration.GridPosition.ToString
+  name: ToString()
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_ToString
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.ToString
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.ToString()
+  nameWithType: GridPosition.ToString()
+- uid: CatSweeper.Core.GridGeneration.GridPosition.ToString*
+  name: ToString
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_ToString_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.ToString
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.ToString
+  nameWithType: GridPosition.ToString
+- uid: CatSweeper.Core.GridGeneration.GridPosition.X
+  name: X
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_X
+  commentId: P:CatSweeper.Core.GridGeneration.GridPosition.X
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.X
+  nameWithType: GridPosition.X
+- uid: CatSweeper.Core.GridGeneration.GridPosition.X*
+  name: X
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_X_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.X
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.X
+  nameWithType: GridPosition.X
+- uid: CatSweeper.Core.GridGeneration.GridPosition.Y
+  name: Y
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_Y
+  commentId: P:CatSweeper.Core.GridGeneration.GridPosition.Y
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.Y
+  nameWithType: GridPosition.Y
+- uid: CatSweeper.Core.GridGeneration.GridPosition.Y*
+  name: Y
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_Y_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.Y
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.Y
+  nameWithType: GridPosition.Y
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Equality(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Core.GridGeneration.GridPosition)
+  name: operator ==(GridPosition, GridPosition)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Equality_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Core_GridGeneration_GridPosition_
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.op_Equality(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Core.GridGeneration.GridPosition)
+  name.vb: =(GridPosition, GridPosition)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.operator ==(CatSweeper.Core.GridGeneration.GridPosition, CatSweeper.Core.GridGeneration.GridPosition)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.=(CatSweeper.Core.GridGeneration.GridPosition, CatSweeper.Core.GridGeneration.GridPosition)
+  nameWithType: GridPosition.operator ==(GridPosition, GridPosition)
+  nameWithType.vb: GridPosition.=(GridPosition, GridPosition)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Equality*
+  name: operator ==
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Equality_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.operator ==
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.=
+  nameWithType: GridPosition.operator ==
+  nameWithType.vb: GridPosition.=
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(CatSweeper.Core.GridGeneration.GridPosition)~Godot.Vector2I
+  name: implicit operator Vector2I(GridPosition)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Implicit_CatSweeper_Core_GridGeneration_GridPosition__Godot_Vector2I
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(CatSweeper.Core.GridGeneration.GridPosition)~Godot.Vector2I
+  name.vb: CType(GridPosition)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.implicit operator Godot.Vector2I(CatSweeper.Core.GridGeneration.GridPosition)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.CType(CatSweeper.Core.GridGeneration.GridPosition)
+  nameWithType: GridPosition.implicit operator Vector2I(GridPosition)
+  nameWithType.vb: GridPosition.CType(GridPosition)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(CatSweeper.Core.GridGeneration.GridPosition)~cfEngine.DataStructure.GridPosition
+  name: implicit operator GridPosition(GridPosition)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Implicit_CatSweeper_Core_GridGeneration_GridPosition__cfEngine_DataStructure_GridPosition
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(CatSweeper.Core.GridGeneration.GridPosition)~cfEngine.DataStructure.GridPosition
+  name.vb: CType(GridPosition)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.implicit operator cfEngine.DataStructure.GridPosition(CatSweeper.Core.GridGeneration.GridPosition)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.CType(CatSweeper.Core.GridGeneration.GridPosition)
+  nameWithType: GridPosition.implicit operator GridPosition(GridPosition)
+  nameWithType.vb: GridPosition.CType(GridPosition)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(Godot.Vector2I)~CatSweeper.Core.GridGeneration.GridPosition
+  name: implicit operator GridPosition(Vector2I)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Implicit_Godot_Vector2I__CatSweeper_Core_GridGeneration_GridPosition
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(Godot.Vector2I)~CatSweeper.Core.GridGeneration.GridPosition
+  name.vb: CType(Vector2I)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.implicit operator CatSweeper.Core.GridGeneration.GridPosition(Godot.Vector2I)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.CType(Godot.Vector2I)
+  nameWithType: GridPosition.implicit operator GridPosition(Vector2I)
+  nameWithType.vb: GridPosition.CType(Vector2I)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(cfEngine.DataStructure.GridPosition)~CatSweeper.Core.GridGeneration.GridPosition
+  name: implicit operator GridPosition(GridPosition)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Implicit_cfEngine_DataStructure_GridPosition__CatSweeper_Core_GridGeneration_GridPosition
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.op_Implicit(cfEngine.DataStructure.GridPosition)~CatSweeper.Core.GridGeneration.GridPosition
+  name.vb: CType(GridPosition)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.implicit operator CatSweeper.Core.GridGeneration.GridPosition(cfEngine.DataStructure.GridPosition)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.CType(cfEngine.DataStructure.GridPosition)
+  nameWithType: GridPosition.implicit operator GridPosition(GridPosition)
+  nameWithType.vb: GridPosition.CType(GridPosition)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Implicit*
+  name: implicit operator
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Implicit_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.implicit operator
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.CType
+  nameWithType: GridPosition.implicit operator
+  nameWithType.vb: GridPosition.CType
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Inequality(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Core.GridGeneration.GridPosition)
+  name: operator !=(GridPosition, GridPosition)
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Inequality_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Core_GridGeneration_GridPosition_
+  commentId: M:CatSweeper.Core.GridGeneration.GridPosition.op_Inequality(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Core.GridGeneration.GridPosition)
+  name.vb: <>(GridPosition, GridPosition)
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.operator !=(CatSweeper.Core.GridGeneration.GridPosition, CatSweeper.Core.GridGeneration.GridPosition)
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.<>(CatSweeper.Core.GridGeneration.GridPosition, CatSweeper.Core.GridGeneration.GridPosition)
+  nameWithType: GridPosition.operator !=(GridPosition, GridPosition)
+  nameWithType.vb: GridPosition.<>(GridPosition, GridPosition)
+- uid: CatSweeper.Core.GridGeneration.GridPosition.op_Inequality*
+  name: operator !=
+  href: api/CatSweeper.Core.GridGeneration.GridPosition.html#CatSweeper_Core_GridGeneration_GridPosition_op_Inequality_
+  commentId: Overload:CatSweeper.Core.GridGeneration.GridPosition.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: CatSweeper.Core.GridGeneration.GridPosition.operator !=
+  fullName.vb: CatSweeper.Core.GridGeneration.GridPosition.<>
+  nameWithType: GridPosition.operator !=
+  nameWithType.vb: GridPosition.<>
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig
+  name: IGridGenerationConfig
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html
+  commentId: T:CatSweeper.Core.GridGeneration.IGridGenerationConfig
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig
+  nameWithType: IGridGenerationConfig
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Height
+  name: Height
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_Height
+  commentId: P:CatSweeper.Core.GridGeneration.IGridGenerationConfig.Height
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Height
+  nameWithType: IGridGenerationConfig.Height
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Height*
+  name: Height
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_Height_
+  commentId: Overload:CatSweeper.Core.GridGeneration.IGridGenerationConfig.Height
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Height
+  nameWithType: IGridGenerationConfig.Height
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Seed
+  name: Seed
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_Seed
+  commentId: P:CatSweeper.Core.GridGeneration.IGridGenerationConfig.Seed
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Seed
+  nameWithType: IGridGenerationConfig.Seed
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Seed*
+  name: Seed
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_Seed_
+  commentId: Overload:CatSweeper.Core.GridGeneration.IGridGenerationConfig.Seed
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Seed
+  nameWithType: IGridGenerationConfig.Seed
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.StartPosition
+  name: StartPosition
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_StartPosition
+  commentId: P:CatSweeper.Core.GridGeneration.IGridGenerationConfig.StartPosition
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.StartPosition
+  nameWithType: IGridGenerationConfig.StartPosition
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.StartPosition*
+  name: StartPosition
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_StartPosition_
+  commentId: Overload:CatSweeper.Core.GridGeneration.IGridGenerationConfig.StartPosition
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.StartPosition
+  nameWithType: IGridGenerationConfig.StartPosition
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Width
+  name: Width
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_Width
+  commentId: P:CatSweeper.Core.GridGeneration.IGridGenerationConfig.Width
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Width
+  nameWithType: IGridGenerationConfig.Width
+- uid: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Width*
+  name: Width
+  href: api/CatSweeper.Core.GridGeneration.IGridGenerationConfig.html#CatSweeper_Core_GridGeneration_IGridGenerationConfig_Width_
+  commentId: Overload:CatSweeper.Core.GridGeneration.IGridGenerationConfig.Width
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.IGridGenerationConfig.Width
+  nameWithType: IGridGenerationConfig.Width
+- uid: CatSweeper.Core.GridGeneration.IGridMapGenerator`2
+  name: IGridMapGenerator<TGridUnit, TConfig>
+  href: api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.html
+  commentId: T:CatSweeper.Core.GridGeneration.IGridMapGenerator`2
+  name.vb: IGridMapGenerator(Of TGridUnit, TConfig)
+  fullName: CatSweeper.Core.GridGeneration.IGridMapGenerator<TGridUnit, TConfig>
+  fullName.vb: CatSweeper.Core.GridGeneration.IGridMapGenerator(Of TGridUnit, TConfig)
+  nameWithType: IGridMapGenerator<TGridUnit, TConfig>
+  nameWithType.vb: IGridMapGenerator(Of TGridUnit, TConfig)
+- uid: CatSweeper.Core.GridGeneration.IGridMapGenerator`2.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,`1)
+  name: CanGenerateOnGrid(GridPosition, TConfig)
+  href: api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.html#CatSweeper_Core_GridGeneration_IGridMapGenerator_2_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition__1_
+  commentId: M:CatSweeper.Core.GridGeneration.IGridMapGenerator`2.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,`1)
+  fullName: CatSweeper.Core.GridGeneration.IGridMapGenerator<TGridUnit, TConfig>.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition, TConfig)
+  fullName.vb: CatSweeper.Core.GridGeneration.IGridMapGenerator(Of TGridUnit, TConfig).CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition, TConfig)
+  nameWithType: IGridMapGenerator<TGridUnit, TConfig>.CanGenerateOnGrid(GridPosition, TConfig)
+  nameWithType.vb: IGridMapGenerator(Of TGridUnit, TConfig).CanGenerateOnGrid(GridPosition, TConfig)
+- uid: CatSweeper.Core.GridGeneration.IGridMapGenerator`2.CanGenerateOnGrid*
+  name: CanGenerateOnGrid
+  href: api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.html#CatSweeper_Core_GridGeneration_IGridMapGenerator_2_CanGenerateOnGrid_
+  commentId: Overload:CatSweeper.Core.GridGeneration.IGridMapGenerator`2.CanGenerateOnGrid
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.IGridMapGenerator<TGridUnit, TConfig>.CanGenerateOnGrid
+  fullName.vb: CatSweeper.Core.GridGeneration.IGridMapGenerator(Of TGridUnit, TConfig).CanGenerateOnGrid
+  nameWithType: IGridMapGenerator<TGridUnit, TConfig>.CanGenerateOnGrid
+  nameWithType.vb: IGridMapGenerator(Of TGridUnit, TConfig).CanGenerateOnGrid
+- uid: CatSweeper.Core.GridGeneration.IGridMapGenerator`2.Generate(`1)
+  name: Generate(TConfig)
+  href: api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.html#CatSweeper_Core_GridGeneration_IGridMapGenerator_2_Generate__1_
+  commentId: M:CatSweeper.Core.GridGeneration.IGridMapGenerator`2.Generate(`1)
+  fullName: CatSweeper.Core.GridGeneration.IGridMapGenerator<TGridUnit, TConfig>.Generate(TConfig)
+  fullName.vb: CatSweeper.Core.GridGeneration.IGridMapGenerator(Of TGridUnit, TConfig).Generate(TConfig)
+  nameWithType: IGridMapGenerator<TGridUnit, TConfig>.Generate(TConfig)
+  nameWithType.vb: IGridMapGenerator(Of TGridUnit, TConfig).Generate(TConfig)
+- uid: CatSweeper.Core.GridGeneration.IGridMapGenerator`2.Generate*
+  name: Generate
+  href: api/CatSweeper.Core.GridGeneration.IGridMapGenerator-2.html#CatSweeper_Core_GridGeneration_IGridMapGenerator_2_Generate_
+  commentId: Overload:CatSweeper.Core.GridGeneration.IGridMapGenerator`2.Generate
+  isSpec: "True"
+  fullName: CatSweeper.Core.GridGeneration.IGridMapGenerator<TGridUnit, TConfig>.Generate
+  fullName.vb: CatSweeper.Core.GridGeneration.IGridMapGenerator(Of TGridUnit, TConfig).Generate
+  nameWithType: IGridMapGenerator<TGridUnit, TConfig>.Generate
+  nameWithType.vb: IGridMapGenerator(Of TGridUnit, TConfig).Generate
 - uid: CatSweeper.Core.InfoLoadState
   name: InfoLoadState
   href: api/CatSweeper.Core.InfoLoadState.html
@@ -427,30 +736,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Core.LoginState.id
   nameWithType: LoginState.id
-- uid: CatSweeper.Core.StageMapGrid
-  name: StageMapGrid
-  href: api/CatSweeper.Core.StageMapGrid.html
-  commentId: T:CatSweeper.Core.StageMapGrid
-  fullName: CatSweeper.Core.StageMapGrid
-  nameWithType: StageMapGrid
-- uid: CatSweeper.Core.StageMapGrid.MethodName
-  name: StageMapGrid.MethodName
-  href: api/CatSweeper.Core.StageMapGrid.MethodName.html
-  commentId: T:CatSweeper.Core.StageMapGrid.MethodName
-  fullName: CatSweeper.Core.StageMapGrid.MethodName
-  nameWithType: StageMapGrid.MethodName
-- uid: CatSweeper.Core.StageMapGrid.PropertyName
-  name: StageMapGrid.PropertyName
-  href: api/CatSweeper.Core.StageMapGrid.PropertyName.html
-  commentId: T:CatSweeper.Core.StageMapGrid.PropertyName
-  fullName: CatSweeper.Core.StageMapGrid.PropertyName
-  nameWithType: StageMapGrid.PropertyName
-- uid: CatSweeper.Core.StageMapGrid.SignalName
-  name: StageMapGrid.SignalName
-  href: api/CatSweeper.Core.StageMapGrid.SignalName.html
-  commentId: T:CatSweeper.Core.StageMapGrid.SignalName
-  fullName: CatSweeper.Core.StageMapGrid.SignalName
-  nameWithType: StageMapGrid.SignalName
 - uid: CatSweeper.Core.UILoadState
   name: UILoadState
   href: api/CatSweeper.Core.UILoadState.html
@@ -1494,6 +1779,295 @@ references:
   commentId: N:CatSweeper.Stage
   fullName: CatSweeper.Stage
   nameWithType: CatSweeper.Stage
+- uid: CatSweeper.Stage.GridRevealResult
+  name: GridRevealResult
+  href: api/CatSweeper.Stage.GridRevealResult.html
+  commentId: T:CatSweeper.Stage.GridRevealResult
+  fullName: CatSweeper.Stage.GridRevealResult
+  nameWithType: GridRevealResult
+- uid: CatSweeper.Stage.GridRevealResult.#ctor(Godot.Vector2I)
+  name: GridRevealResult(Vector2I)
+  href: api/CatSweeper.Stage.GridRevealResult.html#CatSweeper_Stage_GridRevealResult__ctor_Godot_Vector2I_
+  commentId: M:CatSweeper.Stage.GridRevealResult.#ctor(Godot.Vector2I)
+  name.vb: New(Vector2I)
+  fullName: CatSweeper.Stage.GridRevealResult.GridRevealResult(Godot.Vector2I)
+  fullName.vb: CatSweeper.Stage.GridRevealResult.New(Godot.Vector2I)
+  nameWithType: GridRevealResult.GridRevealResult(Vector2I)
+  nameWithType.vb: GridRevealResult.New(Vector2I)
+- uid: CatSweeper.Stage.GridRevealResult.#ctor*
+  name: GridRevealResult
+  href: api/CatSweeper.Stage.GridRevealResult.html#CatSweeper_Stage_GridRevealResult__ctor_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.GridRevealResult.GridRevealResult
+  fullName.vb: CatSweeper.Stage.GridRevealResult.New
+  nameWithType: GridRevealResult.GridRevealResult
+  nameWithType.vb: GridRevealResult.New
+- uid: CatSweeper.Stage.GridRevealResult.AlreadyRevealed
+  name: GridRevealResult.AlreadyRevealed
+  href: api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html
+  commentId: T:CatSweeper.Stage.GridRevealResult.AlreadyRevealed
+  fullName: CatSweeper.Stage.GridRevealResult.AlreadyRevealed
+  nameWithType: GridRevealResult.AlreadyRevealed
+- uid: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.#ctor(Godot.Vector2I)
+  name: AlreadyRevealed(Vector2I)
+  href: api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html#CatSweeper_Stage_GridRevealResult_AlreadyRevealed__ctor_Godot_Vector2I_
+  commentId: M:CatSweeper.Stage.GridRevealResult.AlreadyRevealed.#ctor(Godot.Vector2I)
+  name.vb: New(Vector2I)
+  fullName: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.AlreadyRevealed(Godot.Vector2I)
+  fullName.vb: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.New(Godot.Vector2I)
+  nameWithType: GridRevealResult.AlreadyRevealed.AlreadyRevealed(Vector2I)
+  nameWithType.vb: GridRevealResult.AlreadyRevealed.New(Vector2I)
+- uid: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.#ctor*
+  name: AlreadyRevealed
+  href: api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html#CatSweeper_Stage_GridRevealResult_AlreadyRevealed__ctor_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.AlreadyRevealed.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.AlreadyRevealed
+  fullName.vb: CatSweeper.Stage.GridRevealResult.AlreadyRevealed.New
+  nameWithType: GridRevealResult.AlreadyRevealed.AlreadyRevealed
+  nameWithType.vb: GridRevealResult.AlreadyRevealed.New
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated
+  name: GridRevealResult.BufferRegenerated
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html
+  commentId: T:CatSweeper.Stage.GridRevealResult.BufferRegenerated
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated
+  nameWithType: GridRevealResult.BufferRegenerated
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor(Godot.Vector2I,System.Int32,System.Int32)
+  name: BufferRegenerated(Vector2I, int, int)
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated__ctor_Godot_Vector2I_System_Int32_System_Int32_
+  commentId: M:CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor(Godot.Vector2I,System.Int32,System.Int32)
+  name.vb: New(Vector2I, Integer, Integer)
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferRegenerated(Godot.Vector2I, int, int)
+  fullName.vb: CatSweeper.Stage.GridRevealResult.BufferRegenerated.New(Godot.Vector2I, Integer, Integer)
+  nameWithType: GridRevealResult.BufferRegenerated.BufferRegenerated(Vector2I, int, int)
+  nameWithType.vb: GridRevealResult.BufferRegenerated.New(Vector2I, Integer, Integer)
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor*
+  name: BufferRegenerated
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated__ctor_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.BufferRegenerated.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferRegenerated
+  fullName.vb: CatSweeper.Stage.GridRevealResult.BufferRegenerated.New
+  nameWithType: GridRevealResult.BufferRegenerated.BufferRegenerated
+  nameWithType.vb: GridRevealResult.BufferRegenerated.New
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
+  name: BufferClickIndex
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_BufferClickIndex
+  commentId: P:CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
+  nameWithType: GridRevealResult.BufferRegenerated.BufferClickIndex
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex*
+  name: BufferClickIndex
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_BufferClickIndex_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.BufferClickIndex
+  nameWithType: GridRevealResult.BufferRegenerated.BufferClickIndex
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
+  name: TotalBufferClicks
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_TotalBufferClicks
+  commentId: P:CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
+  nameWithType: GridRevealResult.BufferRegenerated.TotalBufferClicks
+- uid: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks*
+  name: TotalBufferClicks
+  href: api/CatSweeper.Stage.GridRevealResult.BufferRegenerated.html#CatSweeper_Stage_GridRevealResult_BufferRegenerated_TotalBufferClicks_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.BufferRegenerated.TotalBufferClicks
+  nameWithType: GridRevealResult.BufferRegenerated.TotalBufferClicks
+- uid: CatSweeper.Stage.GridRevealResult.HitMine
+  name: GridRevealResult.HitMine
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html
+  commentId: T:CatSweeper.Stage.GridRevealResult.HitMine
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine
+  nameWithType: GridRevealResult.HitMine
+- uid: CatSweeper.Stage.GridRevealResult.HitMine.#ctor(Godot.Vector2I,CatSweeper.Info.MineInfo,System.Boolean)
+  name: HitMine(Vector2I, MineInfo, bool)
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html#CatSweeper_Stage_GridRevealResult_HitMine__ctor_Godot_Vector2I_CatSweeper_Info_MineInfo_System_Boolean_
+  commentId: M:CatSweeper.Stage.GridRevealResult.HitMine.#ctor(Godot.Vector2I,CatSweeper.Info.MineInfo,System.Boolean)
+  name.vb: New(Vector2I, MineInfo, Boolean)
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine.HitMine(Godot.Vector2I, CatSweeper.Info.MineInfo, bool)
+  fullName.vb: CatSweeper.Stage.GridRevealResult.HitMine.New(Godot.Vector2I, CatSweeper.Info.MineInfo, Boolean)
+  nameWithType: GridRevealResult.HitMine.HitMine(Vector2I, MineInfo, bool)
+  nameWithType.vb: GridRevealResult.HitMine.New(Vector2I, MineInfo, Boolean)
+- uid: CatSweeper.Stage.GridRevealResult.HitMine.#ctor*
+  name: HitMine
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html#CatSweeper_Stage_GridRevealResult_HitMine__ctor_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.HitMine.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine.HitMine
+  fullName.vb: CatSweeper.Stage.GridRevealResult.HitMine.New
+  nameWithType: GridRevealResult.HitMine.HitMine
+  nameWithType.vb: GridRevealResult.HitMine.New
+- uid: CatSweeper.Stage.GridRevealResult.HitMine.MineInfo
+  name: MineInfo
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html#CatSweeper_Stage_GridRevealResult_HitMine_MineInfo
+  commentId: P:CatSweeper.Stage.GridRevealResult.HitMine.MineInfo
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine.MineInfo
+  nameWithType: GridRevealResult.HitMine.MineInfo
+- uid: CatSweeper.Stage.GridRevealResult.HitMine.MineInfo*
+  name: MineInfo
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html#CatSweeper_Stage_GridRevealResult_HitMine_MineInfo_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.HitMine.MineInfo
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine.MineInfo
+  nameWithType: GridRevealResult.HitMine.MineInfo
+- uid: CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage
+  name: WillCauseDamage
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html#CatSweeper_Stage_GridRevealResult_HitMine_WillCauseDamage
+  commentId: P:CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage
+  nameWithType: GridRevealResult.HitMine.WillCauseDamage
+- uid: CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage*
+  name: WillCauseDamage
+  href: api/CatSweeper.Stage.GridRevealResult.HitMine.html#CatSweeper_Stage_GridRevealResult_HitMine_WillCauseDamage_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage
+  nameWithType: GridRevealResult.HitMine.WillCauseDamage
+- uid: CatSweeper.Stage.GridRevealResult.Position
+  name: Position
+  href: api/CatSweeper.Stage.GridRevealResult.html#CatSweeper_Stage_GridRevealResult_Position
+  commentId: P:CatSweeper.Stage.GridRevealResult.Position
+  fullName: CatSweeper.Stage.GridRevealResult.Position
+  nameWithType: GridRevealResult.Position
+- uid: CatSweeper.Stage.GridRevealResult.Position*
+  name: Position
+  href: api/CatSweeper.Stage.GridRevealResult.html#CatSweeper_Stage_GridRevealResult_Position_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.Position
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.Position
+  nameWithType: GridRevealResult.Position
+- uid: CatSweeper.Stage.GridRevealResult.Revealed
+  name: GridRevealResult.Revealed
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html
+  commentId: T:CatSweeper.Stage.GridRevealResult.Revealed
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed
+  nameWithType: GridRevealResult.Revealed
+- uid: CatSweeper.Stage.GridRevealResult.Revealed.#ctor(Godot.Vector2I,System.Int32,System.Boolean)
+  name: Revealed(Vector2I, int, bool)
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html#CatSweeper_Stage_GridRevealResult_Revealed__ctor_Godot_Vector2I_System_Int32_System_Boolean_
+  commentId: M:CatSweeper.Stage.GridRevealResult.Revealed.#ctor(Godot.Vector2I,System.Int32,System.Boolean)
+  name.vb: New(Vector2I, Integer, Boolean)
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed.Revealed(Godot.Vector2I, int, bool)
+  fullName.vb: CatSweeper.Stage.GridRevealResult.Revealed.New(Godot.Vector2I, Integer, Boolean)
+  nameWithType: GridRevealResult.Revealed.Revealed(Vector2I, int, bool)
+  nameWithType.vb: GridRevealResult.Revealed.New(Vector2I, Integer, Boolean)
+- uid: CatSweeper.Stage.GridRevealResult.Revealed.#ctor*
+  name: Revealed
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html#CatSweeper_Stage_GridRevealResult_Revealed__ctor_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.Revealed.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed.Revealed
+  fullName.vb: CatSweeper.Stage.GridRevealResult.Revealed.New
+  nameWithType: GridRevealResult.Revealed.Revealed
+  nameWithType.vb: GridRevealResult.Revealed.New
+- uid: CatSweeper.Stage.GridRevealResult.Revealed.IsFloodFill
+  name: IsFloodFill
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html#CatSweeper_Stage_GridRevealResult_Revealed_IsFloodFill
+  commentId: P:CatSweeper.Stage.GridRevealResult.Revealed.IsFloodFill
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed.IsFloodFill
+  nameWithType: GridRevealResult.Revealed.IsFloodFill
+- uid: CatSweeper.Stage.GridRevealResult.Revealed.IsFloodFill*
+  name: IsFloodFill
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html#CatSweeper_Stage_GridRevealResult_Revealed_IsFloodFill_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.Revealed.IsFloodFill
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed.IsFloodFill
+  nameWithType: GridRevealResult.Revealed.IsFloodFill
+- uid: CatSweeper.Stage.GridRevealResult.Revealed.TilesRevealed
+  name: TilesRevealed
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html#CatSweeper_Stage_GridRevealResult_Revealed_TilesRevealed
+  commentId: P:CatSweeper.Stage.GridRevealResult.Revealed.TilesRevealed
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed.TilesRevealed
+  nameWithType: GridRevealResult.Revealed.TilesRevealed
+- uid: CatSweeper.Stage.GridRevealResult.Revealed.TilesRevealed*
+  name: TilesRevealed
+  href: api/CatSweeper.Stage.GridRevealResult.Revealed.html#CatSweeper_Stage_GridRevealResult_Revealed_TilesRevealed_
+  commentId: Overload:CatSweeper.Stage.GridRevealResult.Revealed.TilesRevealed
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridRevealResult.Revealed.TilesRevealed
+  nameWithType: GridRevealResult.Revealed.TilesRevealed
+- uid: CatSweeper.Stage.GridSession
+  name: GridSession
+  href: api/CatSweeper.Stage.GridSession.html
+  commentId: T:CatSweeper.Stage.GridSession
+  fullName: CatSweeper.Stage.GridSession
+  nameWithType: GridSession
+- uid: CatSweeper.Stage.GridSession.#ctor(CatSweeper.Stage.StageConfigData,CatSweeper.Stage.StageGridMapGenerator)
+  name: GridSession(StageConfigData, StageGridMapGenerator)
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession__ctor_CatSweeper_Stage_StageConfigData_CatSweeper_Stage_StageGridMapGenerator_
+  commentId: M:CatSweeper.Stage.GridSession.#ctor(CatSweeper.Stage.StageConfigData,CatSweeper.Stage.StageGridMapGenerator)
+  name.vb: New(StageConfigData, StageGridMapGenerator)
+  fullName: CatSweeper.Stage.GridSession.GridSession(CatSweeper.Stage.StageConfigData, CatSweeper.Stage.StageGridMapGenerator)
+  fullName.vb: CatSweeper.Stage.GridSession.New(CatSweeper.Stage.StageConfigData, CatSweeper.Stage.StageGridMapGenerator)
+  nameWithType: GridSession.GridSession(StageConfigData, StageGridMapGenerator)
+  nameWithType.vb: GridSession.New(StageConfigData, StageGridMapGenerator)
+- uid: CatSweeper.Stage.GridSession.#ctor*
+  name: GridSession
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession__ctor_
+  commentId: Overload:CatSweeper.Stage.GridSession.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CatSweeper.Stage.GridSession.GridSession
+  fullName.vb: CatSweeper.Stage.GridSession.New
+  nameWithType: GridSession.GridSession
+  nameWithType.vb: GridSession.New
+- uid: CatSweeper.Stage.GridSession.GridMap
+  name: GridMap
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_GridMap
+  commentId: P:CatSweeper.Stage.GridSession.GridMap
+  fullName: CatSweeper.Stage.GridSession.GridMap
+  nameWithType: GridSession.GridMap
+- uid: CatSweeper.Stage.GridSession.GridMap*
+  name: GridMap
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_GridMap_
+  commentId: Overload:CatSweeper.Stage.GridSession.GridMap
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridSession.GridMap
+  nameWithType: GridSession.GridMap
+- uid: CatSweeper.Stage.GridSession.Initialize
+  name: Initialize()
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_Initialize
+  commentId: M:CatSweeper.Stage.GridSession.Initialize
+  fullName: CatSweeper.Stage.GridSession.Initialize()
+  nameWithType: GridSession.Initialize()
+- uid: CatSweeper.Stage.GridSession.Initialize*
+  name: Initialize
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_Initialize_
+  commentId: Overload:CatSweeper.Stage.GridSession.Initialize
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridSession.Initialize
+  nameWithType: GridSession.Initialize
+- uid: CatSweeper.Stage.GridSession.OnGridUpdated
+  name: OnGridUpdated
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_OnGridUpdated
+  commentId: E:CatSweeper.Stage.GridSession.OnGridUpdated
+  fullName: CatSweeper.Stage.GridSession.OnGridUpdated
+  nameWithType: GridSession.OnGridUpdated
+- uid: CatSweeper.Stage.GridSession.RevealGrid(System.Int32,System.Int32)
+  name: RevealGrid(int, int)
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_RevealGrid_System_Int32_System_Int32_
+  commentId: M:CatSweeper.Stage.GridSession.RevealGrid(System.Int32,System.Int32)
+  name.vb: RevealGrid(Integer, Integer)
+  fullName: CatSweeper.Stage.GridSession.RevealGrid(int, int)
+  fullName.vb: CatSweeper.Stage.GridSession.RevealGrid(Integer, Integer)
+  nameWithType: GridSession.RevealGrid(int, int)
+  nameWithType.vb: GridSession.RevealGrid(Integer, Integer)
+- uid: CatSweeper.Stage.GridSession.RevealGrid*
+  name: RevealGrid
+  href: api/CatSweeper.Stage.GridSession.html#CatSweeper_Stage_GridSession_RevealGrid_
+  commentId: Overload:CatSweeper.Stage.GridSession.RevealGrid
+  isSpec: "True"
+  fullName: CatSweeper.Stage.GridSession.RevealGrid
+  nameWithType: GridSession.RevealGrid
 - uid: CatSweeper.Stage.HiddenStageGrid
   name: HiddenStageGrid
   href: api/CatSweeper.Stage.HiddenStageGrid.html
@@ -1574,15 +2148,24 @@ references:
   commentId: T:CatSweeper.Stage.MineGridMap
   fullName: CatSweeper.Stage.MineGridMap
   nameWithType: MineGridMap
-- uid: CatSweeper.Stage.MineGridMap.#ctor(System.Numerics.Vector3,System.Func{CatSweeper.Stage.StageGridData},System.Numerics.Vector3)
-  name: MineGridMap(Vector3, Func<StageGridData>, Vector3)
-  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_System_Numerics_Vector3_System_Func_CatSweeper_Stage_StageGridData__System_Numerics_Vector3_
-  commentId: M:CatSweeper.Stage.MineGridMap.#ctor(System.Numerics.Vector3,System.Func{CatSweeper.Stage.StageGridData},System.Numerics.Vector3)
-  name.vb: New(Vector3, Func(Of StageGridData), Vector3)
-  fullName: CatSweeper.Stage.MineGridMap.MineGridMap(System.Numerics.Vector3, System.Func<CatSweeper.Stage.StageGridData>, System.Numerics.Vector3)
-  fullName.vb: CatSweeper.Stage.MineGridMap.New(System.Numerics.Vector3, System.Func(Of CatSweeper.Stage.StageGridData), System.Numerics.Vector3)
-  nameWithType: MineGridMap.MineGridMap(Vector3, Func<StageGridData>, Vector3)
-  nameWithType.vb: MineGridMap.New(Vector3, Func(Of StageGridData), Vector3)
+- uid: CatSweeper.Stage.MineGridMap.#ctor(cfEngine.DataStructure.GridPosition,CatSweeper.Stage.StageGridData,cfEngine.DataStructure.GridPosition)
+  name: MineGridMap(GridPosition, StageGridData, GridPosition)
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_cfEngine_DataStructure_GridPosition_CatSweeper_Stage_StageGridData_cfEngine_DataStructure_GridPosition_
+  commentId: M:CatSweeper.Stage.MineGridMap.#ctor(cfEngine.DataStructure.GridPosition,CatSweeper.Stage.StageGridData,cfEngine.DataStructure.GridPosition)
+  name.vb: New(GridPosition, StageGridData, GridPosition)
+  fullName: CatSweeper.Stage.MineGridMap.MineGridMap(cfEngine.DataStructure.GridPosition, CatSweeper.Stage.StageGridData, cfEngine.DataStructure.GridPosition)
+  fullName.vb: CatSweeper.Stage.MineGridMap.New(cfEngine.DataStructure.GridPosition, CatSweeper.Stage.StageGridData, cfEngine.DataStructure.GridPosition)
+  nameWithType: MineGridMap.MineGridMap(GridPosition, StageGridData, GridPosition)
+  nameWithType.vb: MineGridMap.New(GridPosition, StageGridData, GridPosition)
+- uid: CatSweeper.Stage.MineGridMap.#ctor(cfEngine.DataStructure.GridPosition,System.Func{CatSweeper.Stage.StageGridData},cfEngine.DataStructure.GridPosition)
+  name: MineGridMap(GridPosition, Func<StageGridData>, GridPosition)
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_cfEngine_DataStructure_GridPosition_System_Func_CatSweeper_Stage_StageGridData__cfEngine_DataStructure_GridPosition_
+  commentId: M:CatSweeper.Stage.MineGridMap.#ctor(cfEngine.DataStructure.GridPosition,System.Func{CatSweeper.Stage.StageGridData},cfEngine.DataStructure.GridPosition)
+  name.vb: New(GridPosition, Func(Of StageGridData), GridPosition)
+  fullName: CatSweeper.Stage.MineGridMap.MineGridMap(cfEngine.DataStructure.GridPosition, System.Func<CatSweeper.Stage.StageGridData>, cfEngine.DataStructure.GridPosition)
+  fullName.vb: CatSweeper.Stage.MineGridMap.New(cfEngine.DataStructure.GridPosition, System.Func(Of CatSweeper.Stage.StageGridData), cfEngine.DataStructure.GridPosition)
+  nameWithType: MineGridMap.MineGridMap(GridPosition, Func<StageGridData>, GridPosition)
+  nameWithType.vb: MineGridMap.New(GridPosition, Func(Of StageGridData), GridPosition)
 - uid: CatSweeper.Stage.MineGridMap.#ctor*
   name: MineGridMap
   href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap__ctor_
@@ -1606,6 +2189,77 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.MineGridMap.ComputeNeighborMineCount
   nameWithType: MineGridMap.ComputeNeighborMineCount
+- uid: CatSweeper.Stage.MineGridMap.mineCount
+  name: mineCount
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap_mineCount
+  commentId: P:CatSweeper.Stage.MineGridMap.mineCount
+  fullName: CatSweeper.Stage.MineGridMap.mineCount
+  nameWithType: MineGridMap.mineCount
+- uid: CatSweeper.Stage.MineGridMap.mineCount*
+  name: mineCount
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap_mineCount_
+  commentId: Overload:CatSweeper.Stage.MineGridMap.mineCount
+  isSpec: "True"
+  fullName: CatSweeper.Stage.MineGridMap.mineCount
+  nameWithType: MineGridMap.mineCount
+- uid: CatSweeper.Stage.MineGridMap.revealedCount
+  name: revealedCount
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap_revealedCount
+  commentId: P:CatSweeper.Stage.MineGridMap.revealedCount
+  fullName: CatSweeper.Stage.MineGridMap.revealedCount
+  nameWithType: MineGridMap.revealedCount
+- uid: CatSweeper.Stage.MineGridMap.revealedCount*
+  name: revealedCount
+  href: api/CatSweeper.Stage.MineGridMap.html#CatSweeper_Stage_MineGridMap_revealedCount_
+  commentId: Overload:CatSweeper.Stage.MineGridMap.revealedCount
+  isSpec: "True"
+  fullName: CatSweeper.Stage.MineGridMap.revealedCount
+  nameWithType: MineGridMap.revealedCount
+- uid: CatSweeper.Stage.MineTypeConfig
+  name: MineTypeConfig
+  href: api/CatSweeper.Stage.MineTypeConfig.html
+  commentId: T:CatSweeper.Stage.MineTypeConfig
+  fullName: CatSweeper.Stage.MineTypeConfig
+  nameWithType: MineTypeConfig
+- uid: CatSweeper.Stage.MineTypeConfig.Count
+  name: Count
+  href: api/CatSweeper.Stage.MineTypeConfig.html#CatSweeper_Stage_MineTypeConfig_Count
+  commentId: P:CatSweeper.Stage.MineTypeConfig.Count
+  fullName: CatSweeper.Stage.MineTypeConfig.Count
+  nameWithType: MineTypeConfig.Count
+- uid: CatSweeper.Stage.MineTypeConfig.Count*
+  name: Count
+  href: api/CatSweeper.Stage.MineTypeConfig.html#CatSweeper_Stage_MineTypeConfig_Count_
+  commentId: Overload:CatSweeper.Stage.MineTypeConfig.Count
+  isSpec: "True"
+  fullName: CatSweeper.Stage.MineTypeConfig.Count
+  nameWithType: MineTypeConfig.Count
+- uid: CatSweeper.Stage.MineTypeConfig.MineInfo
+  name: MineInfo
+  href: api/CatSweeper.Stage.MineTypeConfig.html#CatSweeper_Stage_MineTypeConfig_MineInfo
+  commentId: P:CatSweeper.Stage.MineTypeConfig.MineInfo
+  fullName: CatSweeper.Stage.MineTypeConfig.MineInfo
+  nameWithType: MineTypeConfig.MineInfo
+- uid: CatSweeper.Stage.MineTypeConfig.MineInfo*
+  name: MineInfo
+  href: api/CatSweeper.Stage.MineTypeConfig.html#CatSweeper_Stage_MineTypeConfig_MineInfo_
+  commentId: Overload:CatSweeper.Stage.MineTypeConfig.MineInfo
+  isSpec: "True"
+  fullName: CatSweeper.Stage.MineTypeConfig.MineInfo
+  nameWithType: MineTypeConfig.MineInfo
+- uid: CatSweeper.Stage.MineTypeConfig.MineLevel
+  name: MineLevel
+  href: api/CatSweeper.Stage.MineTypeConfig.html#CatSweeper_Stage_MineTypeConfig_MineLevel
+  commentId: P:CatSweeper.Stage.MineTypeConfig.MineLevel
+  fullName: CatSweeper.Stage.MineTypeConfig.MineLevel
+  nameWithType: MineTypeConfig.MineLevel
+- uid: CatSweeper.Stage.MineTypeConfig.MineLevel*
+  name: MineLevel
+  href: api/CatSweeper.Stage.MineTypeConfig.html#CatSweeper_Stage_MineTypeConfig_MineLevel_
+  commentId: Overload:CatSweeper.Stage.MineTypeConfig.MineLevel
+  isSpec: "True"
+  fullName: CatSweeper.Stage.MineTypeConfig.MineLevel
+  nameWithType: MineTypeConfig.MineLevel
 - uid: CatSweeper.Stage.StageCamera
   name: StageCamera
   href: api/CatSweeper.Stage.StageCamera.html
@@ -1866,12 +2520,6 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.MethodName
   fullName: CatSweeper.Stage.StageGrid.MethodName
   nameWithType: StageGrid.MethodName
-- uid: CatSweeper.Stage.StageGrid.MethodName.SetData
-  name: SetData
-  href: api/CatSweeper.Stage.StageGrid.MethodName.html#CatSweeper_Stage_StageGrid_MethodName_SetData
-  commentId: F:CatSweeper.Stage.StageGrid.MethodName.SetData
-  fullName: CatSweeper.Stage.StageGrid.MethodName.SetData
-  nameWithType: StageGrid.MethodName.SetData
 - uid: CatSweeper.Stage.StageGrid.PropertyName
   name: StageGrid.PropertyName
   href: api/CatSweeper.Stage.StageGrid.PropertyName.html
@@ -1921,19 +2569,6 @@ references:
   commentId: T:CatSweeper.Stage.StageGridData
   fullName: CatSweeper.Stage.StageGridData
   nameWithType: StageGridData
-- uid: CatSweeper.Stage.StageGridData.Clear
-  name: Clear()
-  href: api/CatSweeper.Stage.StageGridData.html#CatSweeper_Stage_StageGridData_Clear
-  commentId: M:CatSweeper.Stage.StageGridData.Clear
-  fullName: CatSweeper.Stage.StageGridData.Clear()
-  nameWithType: StageGridData.Clear()
-- uid: CatSweeper.Stage.StageGridData.Clear*
-  name: Clear
-  href: api/CatSweeper.Stage.StageGridData.html#CatSweeper_Stage_StageGridData_Clear_
-  commentId: Overload:CatSweeper.Stage.StageGridData.Clear
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGridData.Clear
-  nameWithType: StageGridData.Clear
 - uid: CatSweeper.Stage.StageGridData.Create(CatSweeper.Stage.StageGridState,CatSweeper.Stage.StageGridMineData@)
   name: Create(StageGridState, in StageGridMineData)
   href: api/CatSweeper.Stage.StageGridData.html#CatSweeper_Stage_StageGridData_Create_CatSweeper_Stage_StageGridState_CatSweeper_Stage_StageGridMineData__
@@ -1963,64 +2598,6 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageGridData.CreateEmpty
   nameWithType: StageGridData.CreateEmpty
-- uid: CatSweeper.Stage.StageGridData.Dispose(System.Boolean)
-  name: Dispose(bool)
-  href: api/CatSweeper.Stage.StageGridData.html#CatSweeper_Stage_StageGridData_Dispose_System_Boolean_
-  commentId: M:CatSweeper.Stage.StageGridData.Dispose(System.Boolean)
-  name.vb: Dispose(Boolean)
-  fullName: CatSweeper.Stage.StageGridData.Dispose(bool)
-  fullName.vb: CatSweeper.Stage.StageGridData.Dispose(Boolean)
-  nameWithType: StageGridData.Dispose(bool)
-  nameWithType.vb: StageGridData.Dispose(Boolean)
-- uid: CatSweeper.Stage.StageGridData.Dispose*
-  name: Dispose
-  href: api/CatSweeper.Stage.StageGridData.html#CatSweeper_Stage_StageGridData_Dispose_
-  commentId: Overload:CatSweeper.Stage.StageGridData.Dispose
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGridData.Dispose
-  nameWithType: StageGridData.Dispose
-- uid: CatSweeper.Stage.StageGridData.MethodName
-  name: StageGridData.MethodName
-  href: api/CatSweeper.Stage.StageGridData.MethodName.html
-  commentId: T:CatSweeper.Stage.StageGridData.MethodName
-  fullName: CatSweeper.Stage.StageGridData.MethodName
-  nameWithType: StageGridData.MethodName
-- uid: CatSweeper.Stage.StageGridData.MethodName.Clear
-  name: Clear
-  href: api/CatSweeper.Stage.StageGridData.MethodName.html#CatSweeper_Stage_StageGridData_MethodName_Clear
-  commentId: F:CatSweeper.Stage.StageGridData.MethodName.Clear
-  fullName: CatSweeper.Stage.StageGridData.MethodName.Clear
-  nameWithType: StageGridData.MethodName.Clear
-- uid: CatSweeper.Stage.StageGridData.MethodName.CreateEmpty
-  name: CreateEmpty
-  href: api/CatSweeper.Stage.StageGridData.MethodName.html#CatSweeper_Stage_StageGridData_MethodName_CreateEmpty
-  commentId: F:CatSweeper.Stage.StageGridData.MethodName.CreateEmpty
-  fullName: CatSweeper.Stage.StageGridData.MethodName.CreateEmpty
-  nameWithType: StageGridData.MethodName.CreateEmpty
-- uid: CatSweeper.Stage.StageGridData.MethodName.Dispose
-  name: Dispose
-  href: api/CatSweeper.Stage.StageGridData.MethodName.html#CatSweeper_Stage_StageGridData_MethodName_Dispose
-  commentId: F:CatSweeper.Stage.StageGridData.MethodName.Dispose
-  fullName: CatSweeper.Stage.StageGridData.MethodName.Dispose
-  nameWithType: StageGridData.MethodName.Dispose
-- uid: CatSweeper.Stage.StageGridData.PropertyName
-  name: StageGridData.PropertyName
-  href: api/CatSweeper.Stage.StageGridData.PropertyName.html
-  commentId: T:CatSweeper.Stage.StageGridData.PropertyName
-  fullName: CatSweeper.Stage.StageGridData.PropertyName
-  nameWithType: StageGridData.PropertyName
-- uid: CatSweeper.Stage.StageGridData.PropertyName.state
-  name: state
-  href: api/CatSweeper.Stage.StageGridData.PropertyName.html#CatSweeper_Stage_StageGridData_PropertyName_state
-  commentId: F:CatSweeper.Stage.StageGridData.PropertyName.state
-  fullName: CatSweeper.Stage.StageGridData.PropertyName.state
-  nameWithType: StageGridData.PropertyName.state
-- uid: CatSweeper.Stage.StageGridData.SignalName
-  name: StageGridData.SignalName
-  href: api/CatSweeper.Stage.StageGridData.SignalName.html
-  commentId: T:CatSweeper.Stage.StageGridData.SignalName
-  fullName: CatSweeper.Stage.StageGridData.SignalName
-  nameWithType: StageGridData.SignalName
 - uid: CatSweeper.Stage.StageGridData.mineData
   name: mineData
   href: api/CatSweeper.Stage.StageGridData.html#CatSweeper_Stage_StageGridData_mineData
@@ -2047,6 +2624,161 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageGridData.state
   nameWithType: StageGridData.state
+- uid: CatSweeper.Stage.StageGridGenerationConfig
+  name: StageGridGenerationConfig
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html
+  commentId: T:CatSweeper.Stage.StageGridGenerationConfig
+  fullName: CatSweeper.Stage.StageGridGenerationConfig
+  nameWithType: StageGridGenerationConfig
+- uid: CatSweeper.Stage.StageGridGenerationConfig.Height
+  name: Height
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_Height
+  commentId: P:CatSweeper.Stage.StageGridGenerationConfig.Height
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.Height
+  nameWithType: StageGridGenerationConfig.Height
+- uid: CatSweeper.Stage.StageGridGenerationConfig.Height*
+  name: Height
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_Height_
+  commentId: Overload:CatSweeper.Stage.StageGridGenerationConfig.Height
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.Height
+  nameWithType: StageGridGenerationConfig.Height
+- uid: CatSweeper.Stage.StageGridGenerationConfig.MineTypes
+  name: MineTypes
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_MineTypes
+  commentId: P:CatSweeper.Stage.StageGridGenerationConfig.MineTypes
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.MineTypes
+  nameWithType: StageGridGenerationConfig.MineTypes
+- uid: CatSweeper.Stage.StageGridGenerationConfig.MineTypes*
+  name: MineTypes
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_MineTypes_
+  commentId: Overload:CatSweeper.Stage.StageGridGenerationConfig.MineTypes
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.MineTypes
+  nameWithType: StageGridGenerationConfig.MineTypes
+- uid: CatSweeper.Stage.StageGridGenerationConfig.Seed
+  name: Seed
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_Seed
+  commentId: P:CatSweeper.Stage.StageGridGenerationConfig.Seed
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.Seed
+  nameWithType: StageGridGenerationConfig.Seed
+- uid: CatSweeper.Stage.StageGridGenerationConfig.Seed*
+  name: Seed
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_Seed_
+  commentId: Overload:CatSweeper.Stage.StageGridGenerationConfig.Seed
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.Seed
+  nameWithType: StageGridGenerationConfig.Seed
+- uid: CatSweeper.Stage.StageGridGenerationConfig.StartPosition
+  name: StartPosition
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_StartPosition
+  commentId: P:CatSweeper.Stage.StageGridGenerationConfig.StartPosition
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.StartPosition
+  nameWithType: StageGridGenerationConfig.StartPosition
+- uid: CatSweeper.Stage.StageGridGenerationConfig.StartPosition*
+  name: StartPosition
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_StartPosition_
+  commentId: Overload:CatSweeper.Stage.StageGridGenerationConfig.StartPosition
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.StartPosition
+  nameWithType: StageGridGenerationConfig.StartPosition
+- uid: CatSweeper.Stage.StageGridGenerationConfig.Width
+  name: Width
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_Width
+  commentId: P:CatSweeper.Stage.StageGridGenerationConfig.Width
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.Width
+  nameWithType: StageGridGenerationConfig.Width
+- uid: CatSweeper.Stage.StageGridGenerationConfig.Width*
+  name: Width
+  href: api/CatSweeper.Stage.StageGridGenerationConfig.html#CatSweeper_Stage_StageGridGenerationConfig_Width_
+  commentId: Overload:CatSweeper.Stage.StageGridGenerationConfig.Width
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridGenerationConfig.Width
+  nameWithType: StageGridGenerationConfig.Width
+- uid: CatSweeper.Stage.StageGridMapGenerator
+  name: StageGridMapGenerator
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html
+  commentId: T:CatSweeper.Stage.StageGridMapGenerator
+  fullName: CatSweeper.Stage.StageGridMapGenerator
+  nameWithType: StageGridMapGenerator
+- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)
+  name: AddForbiddenPosition(GridPosition)
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_cfEngine_DataStructure_GridPosition_
+  commentId: M:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)
+  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition(cfEngine.DataStructure.GridPosition)
+  nameWithType: StageGridMapGenerator.AddForbiddenPosition(GridPosition)
+- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition*
+  name: AddForbiddenPosition
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPosition_
+  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPosition
+  nameWithType: StageGridMapGenerator.AddForbiddenPosition
+- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)
+  name: AddForbiddenPositionWithNeighbors(GridPosition)
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_cfEngine_DataStructure_GridPosition_
+  commentId: M:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)
+  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors(cfEngine.DataStructure.GridPosition)
+  nameWithType: StageGridMapGenerator.AddForbiddenPositionWithNeighbors(GridPosition)
+- uid: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors*
+  name: AddForbiddenPositionWithNeighbors
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_AddForbiddenPositionWithNeighbors_
+  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridMapGenerator.AddForbiddenPositionWithNeighbors
+  nameWithType: StageGridMapGenerator.AddForbiddenPositionWithNeighbors
+- uid: CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Stage.StageGridGenerationConfig)
+  name: CanGenerateOnGrid(GridPosition, StageGridGenerationConfig)
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Stage_StageGridGenerationConfig_
+  commentId: M:CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Stage.StageGridGenerationConfig)
+  fullName: CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition, CatSweeper.Stage.StageGridGenerationConfig)
+  nameWithType: StageGridMapGenerator.CanGenerateOnGrid(GridPosition, StageGridGenerationConfig)
+- uid: CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid*
+  name: CanGenerateOnGrid
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_
+  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid
+  nameWithType: StageGridMapGenerator.CanGenerateOnGrid
+- uid: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
+  name: ClearForbiddenPositions()
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions
+  commentId: M:CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
+  fullName: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions()
+  nameWithType: StageGridMapGenerator.ClearForbiddenPositions()
+- uid: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions*
+  name: ClearForbiddenPositions
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ClearForbiddenPositions_
+  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridMapGenerator.ClearForbiddenPositions
+  nameWithType: StageGridMapGenerator.ClearForbiddenPositions
+- uid: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
+  name: ForbiddenPositionCount
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount
+  commentId: P:CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
+  fullName: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
+  nameWithType: StageGridMapGenerator.ForbiddenPositionCount
+- uid: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount*
+  name: ForbiddenPositionCount
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_ForbiddenPositionCount_
+  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridMapGenerator.ForbiddenPositionCount
+  nameWithType: StageGridMapGenerator.ForbiddenPositionCount
+- uid: CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)
+  name: Generate(StageGridGenerationConfig)
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_
+  commentId: M:CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)
+  fullName: CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)
+  nameWithType: StageGridMapGenerator.Generate(StageGridGenerationConfig)
+- uid: CatSweeper.Stage.StageGridMapGenerator.Generate*
+  name: Generate
+  href: api/CatSweeper.Stage.StageGridMapGenerator.html#CatSweeper_Stage_StageGridMapGenerator_Generate_
+  commentId: Overload:CatSweeper.Stage.StageGridMapGenerator.Generate
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGridMapGenerator.Generate
+  nameWithType: StageGridMapGenerator.Generate
 - uid: CatSweeper.Stage.StageGridMineData
   name: StageGridMineData
   href: api/CatSweeper.Stage.StageGridMineData.html
@@ -2066,6 +2798,12 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageGridMineData.isMine
   nameWithType: StageGridMineData.isMine
+- uid: CatSweeper.Stage.StageGridMineData.mineInfo
+  name: mineInfo
+  href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_mineInfo
+  commentId: F:CatSweeper.Stage.StageGridMineData.mineInfo
+  fullName: CatSweeper.Stage.StageGridMineData.mineInfo
+  nameWithType: StageGridMineData.mineInfo
 - uid: CatSweeper.Stage.StageGridMineData.neighborHiddenMineLevel
   name: neighborHiddenMineLevel
   href: api/CatSweeper.Stage.StageGridMineData.html#CatSweeper_Stage_StageGridMineData_neighborHiddenMineLevel
@@ -2181,12 +2919,6 @@ references:
   commentId: F:CatSweeper.Stage.StageMap.MethodName.GetGrid
   fullName: CatSweeper.Stage.StageMap.MethodName.GetGrid
   nameWithType: StageMap.MethodName.GetGrid
-- uid: CatSweeper.Stage.StageMap.MethodName.UpdateGrid
-  name: UpdateGrid
-  href: api/CatSweeper.Stage.StageMap.MethodName.html#CatSweeper_Stage_StageMap_MethodName_UpdateGrid
-  commentId: F:CatSweeper.Stage.StageMap.MethodName.UpdateGrid
-  fullName: CatSweeper.Stage.StageMap.MethodName.UpdateGrid
-  nameWithType: StageMap.MethodName.UpdateGrid
 - uid: CatSweeper.Stage.StageMap.PropertyName
   name: StageMap.PropertyName
   href: api/CatSweeper.Stage.StageMap.PropertyName.html
@@ -2412,22 +3144,19 @@ references:
   fullName.vb: CatSweeper.Stage.StageSession.New
   nameWithType: StageSession.StageSession
   nameWithType.vb: StageSession.New
-- uid: CatSweeper.Stage.StageSession.GenerateMap(System.Int32)
-  name: GenerateMap(int)
-  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap_System_Int32_
-  commentId: M:CatSweeper.Stage.StageSession.GenerateMap(System.Int32)
-  name.vb: GenerateMap(Integer)
-  fullName: CatSweeper.Stage.StageSession.GenerateMap(int)
-  fullName.vb: CatSweeper.Stage.StageSession.GenerateMap(Integer)
-  nameWithType: StageSession.GenerateMap(int)
-  nameWithType.vb: StageSession.GenerateMap(Integer)
-- uid: CatSweeper.Stage.StageSession.GenerateMap*
-  name: GenerateMap
-  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_GenerateMap_
-  commentId: Overload:CatSweeper.Stage.StageSession.GenerateMap
+- uid: CatSweeper.Stage.StageSession.Initialize
+  name: Initialize()
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_Initialize
+  commentId: M:CatSweeper.Stage.StageSession.Initialize
+  fullName: CatSweeper.Stage.StageSession.Initialize()
+  nameWithType: StageSession.Initialize()
+- uid: CatSweeper.Stage.StageSession.Initialize*
+  name: Initialize
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_Initialize_
+  commentId: Overload:CatSweeper.Stage.StageSession.Initialize
   isSpec: "True"
-  fullName: CatSweeper.Stage.StageSession.GenerateMap
-  nameWithType: StageSession.GenerateMap
+  fullName: CatSweeper.Stage.StageSession.Initialize
+  nameWithType: StageSession.Initialize
 - uid: CatSweeper.Stage.StageSession.OnGridUpdated
   name: OnGridUpdated
   href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_OnGridUpdated
@@ -2467,6 +3196,673 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Stage.StageSession.gridMap
   nameWithType: StageSession.gridMap
+- uid: CatSweeper.Tests.Stage.StageGrid
+  name: CatSweeper.Tests.Stage.StageGrid
+  href: api/CatSweeper.Tests.Stage.StageGrid.html
+  commentId: N:CatSweeper.Tests.Stage.StageGrid
+  fullName: CatSweeper.Tests.Stage.StageGrid
+  nameWithType: CatSweeper.Tests.Stage.StageGrid
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests
+  name: GridSessionIntegrationTests
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html
+  commentId: T:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests
+  nameWithType: GridSessionIntegrationTests
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid
+  name: CompleteGame_ClearEntireEmptyGrid()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_CompleteGame_ClearEntireEmptyGrid
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid()
+  nameWithType: GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid*
+  name: CompleteGame_ClearEntireEmptyGrid
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_CompleteGame_ClearEntireEmptyGrid_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid
+  nameWithType: GridSessionIntegrationTests.CompleteGame_ClearEntireEmptyGrid
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid
+  name: CompleteGame_FindAllMinesInSmallGrid()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_CompleteGame_FindAllMinesInSmallGrid
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid()
+  nameWithType: GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid*
+  name: CompleteGame_FindAllMinesInSmallGrid
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_CompleteGame_FindAllMinesInSmallGrid_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid
+  nameWithType: GridSessionIntegrationTests.CompleteGame_FindAllMinesInSmallGrid
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AllCornersClicked
+  name: EdgeCase_AllCornersClicked()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_EdgeCase_AllCornersClicked
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AllCornersClicked
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AllCornersClicked()
+  nameWithType: GridSessionIntegrationTests.EdgeCase_AllCornersClicked()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AllCornersClicked*
+  name: EdgeCase_AllCornersClicked
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_EdgeCase_AllCornersClicked_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AllCornersClicked
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AllCornersClicked
+  nameWithType: GridSessionIntegrationTests.EdgeCase_AllCornersClicked
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern
+  name: EdgeCase_AlternatingClickPattern()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_EdgeCase_AlternatingClickPattern
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern()
+  nameWithType: GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern*
+  name: EdgeCase_AlternatingClickPattern
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_EdgeCase_AlternatingClickPattern_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern
+  nameWithType: GridSessionIntegrationTests.EdgeCase_AlternatingClickPattern
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly
+  name: EdgeCase_ClickSamePositionRepeatedly()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_EdgeCase_ClickSamePositionRepeatedly
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly()
+  nameWithType: GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly*
+  name: EdgeCase_ClickSamePositionRepeatedly
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_EdgeCase_ClickSamePositionRepeatedly_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly
+  nameWithType: GridSessionIntegrationTests.EdgeCase_ClickSamePositionRepeatedly
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+  name: FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand()
+  nameWithType: GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand*
+  name: FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+  nameWithType: GridSessionIntegrationTests.FloodFill_BorderBehavior_RevealsNumberedBorderButDoesNotExpand
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+  name: FloodFill_EmptyCell_RevealsAllConnectedEmptyCells()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells()
+  nameWithType: GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells*
+  name: FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_FloodFill_EmptyCell_RevealsAllConnectedEmptyCells_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+  nameWithType: GridSessionIntegrationTests.FloodFill_EmptyCell_RevealsAllConnectedEmptyCells
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+  name: FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern()
+  nameWithType: GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern*
+  name: FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+  nameWithType: GridSessionIntegrationTests.FloodFill_ReproduceScreenshotBehavior_VerifyExpectedPattern
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression
+  name: RealPlay_BeginnerStage_SafeStartAndProgression()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_BeginnerStage_SafeStartAndProgression
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression()
+  nameWithType: GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression*
+  name: RealPlay_BeginnerStage_SafeStartAndProgression
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_BeginnerStage_SafeStartAndProgression_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression
+  nameWithType: GridSessionIntegrationTests.RealPlay_BeginnerStage_SafeStartAndProgression
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion
+  name: RealPlay_FloodFillChaining_EmptyRegion()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_FloodFillChaining_EmptyRegion
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion()
+  nameWithType: GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion*
+  name: RealPlay_FloodFillChaining_EmptyRegion
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_FloodFillChaining_EmptyRegion_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion
+  nameWithType: GridSessionIntegrationTests.RealPlay_FloodFillChaining_EmptyRegion
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection
+  name: RealPlay_HighDensityGrid_BufferProtection()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_HighDensityGrid_BufferProtection
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection()
+  nameWithType: GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection*
+  name: RealPlay_HighDensityGrid_BufferProtection
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_HighDensityGrid_BufferProtection_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection
+  nameWithType: GridSessionIntegrationTests.RealPlay_HighDensityGrid_BufferProtection
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency
+  name: RealPlay_MultipleRegenerations_StateConsistency()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_MultipleRegenerations_StateConsistency
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency()
+  nameWithType: GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency*
+  name: RealPlay_MultipleRegenerations_StateConsistency
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_MultipleRegenerations_StateConsistency_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency
+  nameWithType: GridSessionIntegrationTests.RealPlay_MultipleRegenerations_StateConsistency
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner
+  name: RealPlay_SystematicClearing_CornerToCorner()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_SystematicClearing_CornerToCorner
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner()
+  nameWithType: GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner*
+  name: RealPlay_SystematicClearing_CornerToCorner
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_RealPlay_SystematicClearing_CornerToCorner_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner
+  nameWithType: GridSessionIntegrationTests.RealPlay_SystematicClearing_CornerToCorner
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Setup
+  name: Setup()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_Setup
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Setup
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Setup()
+  nameWithType: GridSessionIntegrationTests.Setup()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Setup*
+  name: Setup
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_Setup_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Setup
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Setup
+  nameWithType: GridSessionIntegrationTests.Setup
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_ManyConsecutiveClicks
+  name: Stress_ManyConsecutiveClicks()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_Stress_ManyConsecutiveClicks
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_ManyConsecutiveClicks
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_ManyConsecutiveClicks()
+  nameWithType: GridSessionIntegrationTests.Stress_ManyConsecutiveClicks()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_ManyConsecutiveClicks*
+  name: Stress_ManyConsecutiveClicks
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_Stress_ManyConsecutiveClicks_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_ManyConsecutiveClicks
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_ManyConsecutiveClicks
+  nameWithType: GridSessionIntegrationTests.Stress_ManyConsecutiveClicks
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_MaximumBufferPhase
+  name: Stress_MaximumBufferPhase()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_Stress_MaximumBufferPhase
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_MaximumBufferPhase
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_MaximumBufferPhase()
+  nameWithType: GridSessionIntegrationTests.Stress_MaximumBufferPhase()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_MaximumBufferPhase*
+  name: Stress_MaximumBufferPhase
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionIntegrationTests_Stress_MaximumBufferPhase_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_MaximumBufferPhase
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.Stress_MaximumBufferPhase
+  nameWithType: GridSessionIntegrationTests.Stress_MaximumBufferPhase
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests
+  name: GridSessionTests
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html
+  commentId: T:CatSweeper.Tests.Stage.StageGrid.GridSessionTests
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests
+  nameWithType: GridSessionTests
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration
+  name: BufferPhase_AfterBufferCount_NoMoreRegeneration()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_AfterBufferCount_NoMoreRegeneration
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration()
+  nameWithType: GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration*
+  name: BufferPhase_AfterBufferCount_NoMoreRegeneration
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_AfterBufferCount_NoMoreRegeneration_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration
+  nameWithType: GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines
+  name: BufferPhase_ExcludesNeighborsFromMines()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_ExcludesNeighborsFromMines
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines()
+  nameWithType: GridSessionTests.BufferPhase_ExcludesNeighborsFromMines()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines*
+  name: BufferPhase_ExcludesNeighborsFromMines
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_ExcludesNeighborsFromMines_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines
+  nameWithType: GridSessionTests.BufferPhase_ExcludesNeighborsFromMines
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine
+  name: BufferPhase_FirstClickNeverHitsMine()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_FirstClickNeverHitsMine
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine()
+  nameWithType: GridSessionTests.BufferPhase_FirstClickNeverHitsMine()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine*
+  name: BufferPhase_FirstClickNeverHitsMine
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_FirstClickNeverHitsMine_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine
+  nameWithType: GridSessionTests.BufferPhase_FirstClickNeverHitsMine
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe
+  name: BufferPhase_MultipleClicks_AllSafe()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_MultipleClicks_AllSafe
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe()
+  nameWithType: GridSessionTests.BufferPhase_MultipleClicks_AllSafe()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe*
+  name: BufferPhase_MultipleClicks_AllSafe
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_MultipleClicks_AllSafe_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe
+  nameWithType: GridSessionTests.BufferPhase_MultipleClicks_AllSafe
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine
+  name: BufferPhase_RegeneratesWhenClickingMine()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegeneratesWhenClickingMine
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine()
+  nameWithType: GridSessionTests.BufferPhase_RegeneratesWhenClickingMine()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine*
+  name: BufferPhase_RegeneratesWhenClickingMine
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegeneratesWhenClickingMine_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine
+  nameWithType: GridSessionTests.BufferPhase_RegeneratesWhenClickingMine
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles
+  name: BufferPhase_RegenerationPreservesRevealedTiles()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegenerationPreservesRevealedTiles
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles()
+  nameWithType: GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles*
+  name: BufferPhase_RegenerationPreservesRevealedTiles
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegenerationPreservesRevealedTiles_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles
+  nameWithType: GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors
+  name: FloodFill_EmptyTileRevealsNeighbors()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_EmptyTileRevealsNeighbors
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors()
+  nameWithType: GridSessionTests.FloodFill_EmptyTileRevealsNeighbors()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors*
+  name: FloodFill_EmptyTileRevealsNeighbors
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_EmptyTileRevealsNeighbors_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors
+  nameWithType: GridSessionTests.FloodFill_EmptyTileRevealsNeighbors
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries
+  name: FloodFill_HandlesBoundaries()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_HandlesBoundaries
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries()
+  nameWithType: GridSessionTests.FloodFill_HandlesBoundaries()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries*
+  name: FloodFill_HandlesBoundaries
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_HandlesBoundaries_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries
+  nameWithType: GridSessionTests.FloodFill_HandlesBoundaries
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles
+  name: FloodFill_StopsAtNumberedTiles()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_StopsAtNumberedTiles
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles()
+  nameWithType: GridSessionTests.FloodFill_StopsAtNumberedTiles()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles*
+  name: FloodFill_StopsAtNumberedTiles
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_StopsAtNumberedTiles_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles
+  nameWithType: GridSessionTests.FloodFill_StopsAtNumberedTiles
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect
+  name: GridMap_AdjacentCounts_AreCorrect()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridMap_AdjacentCounts_AreCorrect
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect()
+  nameWithType: GridSessionTests.GridMap_AdjacentCounts_AreCorrect()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect*
+  name: GridMap_AdjacentCounts_AreCorrect
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridMap_AdjacentCounts_AreCorrect_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect
+  nameWithType: GridSessionTests.GridMap_AdjacentCounts_AreCorrect
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal
+  name: GridUpdated_Event_Fires_OnReveal()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridUpdated_Event_Fires_OnReveal
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal()
+  nameWithType: GridSessionTests.GridUpdated_Event_Fires_OnReveal()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal*
+  name: GridUpdated_Event_Fires_OnReveal
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridUpdated_Event_Fires_OnReveal_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal
+  nameWithType: GridSessionTests.GridUpdated_Event_Fires_OnReveal
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works
+  name: HighMineDensity_80Percent_Works()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_HighMineDensity_80Percent_Works
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works()
+  nameWithType: GridSessionTests.HighMineDensity_80Percent_Works()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works*
+  name: HighMineDensity_80Percent_Works
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_HighMineDensity_80Percent_Works_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works
+  nameWithType: GridSessionTests.HighMineDensity_80Percent_Works
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works
+  name: LargeGrid_50x50_Works()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_LargeGrid_50x50_Works
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works()
+  nameWithType: GridSessionTests.LargeGrid_50x50_Works()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works*
+  name: LargeGrid_50x50_Works
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_LargeGrid_50x50_Works_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works
+  nameWithType: GridSessionTests.LargeGrid_50x50_Works
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+  name: RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed()
+  nameWithType: GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed*
+  name: RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+  nameWithType: GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine
+  name: RevealGrid_HitMine_ReturnsHitMine()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_HitMine_ReturnsHitMine
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine()
+  nameWithType: GridSessionTests.RevealGrid_HitMine_ReturnsHitMine()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine*
+  name: RevealGrid_HitMine_ReturnsHitMine
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_HitMine_ReturnsHitMine_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine
+  nameWithType: GridSessionTests.RevealGrid_HitMine_ReturnsHitMine
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp
+  name: SetUp()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SetUp
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp()
+  nameWithType: GridSessionTests.SetUp()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp*
+  name: SetUp
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SetUp_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp
+  nameWithType: GridSessionTests.SetUp
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works
+  name: SmallGrid_3x3_Works()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SmallGrid_3x3_Works
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works()
+  nameWithType: GridSessionTests.SmallGrid_3x3_Works()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works*
+  name: SmallGrid_3x3_Works
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SmallGrid_3x3_Works_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works
+  nameWithType: GridSessionTests.SmallGrid_3x3_Works
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works
+  name: ZeroMines_Grid_Works()
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_ZeroMines_Grid_Works
+  commentId: M:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works()
+  nameWithType: GridSessionTests.ZeroMines_Grid_Works()
+- uid: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works*
+  name: ZeroMines_Grid_Works
+  href: api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html#CatSweeper_Tests_Stage_StageGrid_GridSessionTests_ZeroMines_Grid_Works_
+  commentId: Overload:CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works
+  nameWithType: GridSessionTests.ZeroMines_Grid_Works
+- uid: CatSweeper.Tests.Util.TestHelpers
+  name: CatSweeper.Tests.Util.TestHelpers
+  href: api/CatSweeper.Tests.Util.TestHelpers.html
+  commentId: N:CatSweeper.Tests.Util.TestHelpers
+  fullName: CatSweeper.Tests.Util.TestHelpers
+  nameWithType: CatSweeper.Tests.Util.TestHelpers
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig
+  name: MockStageConfig
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html
+  commentId: T:CatSweeper.Tests.Util.TestHelpers.MockStageConfig
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig
+  nameWithType: MockStageConfig
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic(System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{CatSweeper.Info.StageInfo.MineSetting})
+  name: CreateBasic(int, int, int, List<MineSetting>)
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateBasic_System_Int32_System_Int32_System_Int32_System_Collections_Generic_List_CatSweeper_Info_StageInfo_MineSetting__
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic(System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{CatSweeper.Info.StageInfo.MineSetting})
+  name.vb: CreateBasic(Integer, Integer, Integer, List(Of MineSetting))
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic(int, int, int, System.Collections.Generic.List<CatSweeper.Info.StageInfo.MineSetting>)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic(Integer, Integer, Integer, System.Collections.Generic.List(Of CatSweeper.Info.StageInfo.MineSetting))
+  nameWithType: MockStageConfig.CreateBasic(int, int, int, List<StageInfo.MineSetting>)
+  nameWithType.vb: MockStageConfig.CreateBasic(Integer, Integer, Integer, List(Of StageInfo.MineSetting))
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic*
+  name: CreateBasic
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateBasic_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateBasic
+  nameWithType: MockStageConfig.CreateBasic
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateEmpty10x10
+  name: CreateEmpty10x10()
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateEmpty10x10
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateEmpty10x10
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateEmpty10x10()
+  nameWithType: MockStageConfig.CreateEmpty10x10()
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateEmpty10x10*
+  name: CreateEmpty10x10
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateEmpty10x10_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateEmpty10x10
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateEmpty10x10
+  nameWithType: MockStageConfig.CreateEmpty10x10
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20(System.Int32,System.Int32)
+  name: CreateLarge20x20(int, int)
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateLarge20x20_System_Int32_System_Int32_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20(System.Int32,System.Int32)
+  name.vb: CreateLarge20x20(Integer, Integer)
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20(int, int)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20(Integer, Integer)
+  nameWithType: MockStageConfig.CreateLarge20x20(int, int)
+  nameWithType.vb: MockStageConfig.CreateLarge20x20(Integer, Integer)
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20*
+  name: CreateLarge20x20
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateLarge20x20_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateLarge20x20
+  nameWithType: MockStageConfig.CreateLarge20x20
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5(System.Int32,System.Int32)
+  name: CreateSmall5x5(int, int)
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateSmall5x5_System_Int32_System_Int32_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5(System.Int32,System.Int32)
+  name.vb: CreateSmall5x5(Integer, Integer)
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5(int, int)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5(Integer, Integer)
+  nameWithType: MockStageConfig.CreateSmall5x5(int, int)
+  nameWithType.vb: MockStageConfig.CreateSmall5x5(Integer, Integer)
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5*
+  name: CreateSmall5x5
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateSmall5x5_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateSmall5x5
+  nameWithType: MockStageConfig.CreateSmall5x5
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name: CreateWithMines(int, int, int, int, int)
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateWithMines_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: CreateWithMines(Integer, Integer, Integer, Integer, Integer)
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines(int, int, int, int, int)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines(Integer, Integer, Integer, Integer, Integer)
+  nameWithType: MockStageConfig.CreateWithMines(int, int, int, int, int)
+  nameWithType.vb: MockStageConfig.CreateWithMines(Integer, Integer, Integer, Integer, Integer)
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines*
+  name: CreateWithMines
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateWithMines_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMines
+  nameWithType: MockStageConfig.CreateWithMines
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Int32)
+  name: CreateWithMultipleMineTypes(int, int, Dictionary<int, int>, int)
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateWithMultipleMineTypes_System_Int32_System_Int32_System_Collections_Generic_Dictionary_System_Int32_System_Int32__System_Int32_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes(System.Int32,System.Int32,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Int32)
+  name.vb: CreateWithMultipleMineTypes(Integer, Integer, Dictionary(Of Integer, Integer), Integer)
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes(int, int, System.Collections.Generic.Dictionary<int, int>, int)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes(Integer, Integer, System.Collections.Generic.Dictionary(Of Integer, Integer), Integer)
+  nameWithType: MockStageConfig.CreateWithMultipleMineTypes(int, int, Dictionary<int, int>, int)
+  nameWithType.vb: MockStageConfig.CreateWithMultipleMineTypes(Integer, Integer, Dictionary(Of Integer, Integer), Integer)
+- uid: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes*
+  name: CreateWithMultipleMineTypes
+  href: api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html#CatSweeper_Tests_Util_TestHelpers_MockStageConfig_CreateWithMultipleMineTypes_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.MockStageConfig.CreateWithMultipleMineTypes
+  nameWithType: MockStageConfig.CreateWithMultipleMineTypes
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger
+  name: TestLogger
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html
+  commentId: T:CatSweeper.Tests.Util.TestHelpers.TestLogger
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger
+  nameWithType: TestLogger
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset(System.Boolean,System.Object)
+  name: Asset(bool, object?)
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_Asset_System_Boolean_System_Object_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset(System.Boolean,System.Object)
+  name.vb: Asset(Boolean, Object)
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset(bool, object?)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset(Boolean, Object)
+  nameWithType: TestLogger.Asset(bool, object?)
+  nameWithType.vb: TestLogger.Asset(Boolean, Object)
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset*
+  name: Asset
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_Asset_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.Asset
+  nameWithType: TestLogger.Asset
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug(System.String,System.Object)
+  name: LogDebug(string, object?)
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogDebug_System_String_System_Object_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug(System.String,System.Object)
+  name.vb: LogDebug(String, Object)
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug(string, object?)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug(String, Object)
+  nameWithType: TestLogger.LogDebug(string, object?)
+  nameWithType.vb: TestLogger.LogDebug(String, Object)
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug*
+  name: LogDebug
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogDebug_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogDebug
+  nameWithType: TestLogger.LogDebug
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError(System.String,System.Object)
+  name: LogError(string, object?)
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogError_System_String_System_Object_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError(System.String,System.Object)
+  name.vb: LogError(String, Object)
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError(string, object?)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError(String, Object)
+  nameWithType: TestLogger.LogError(string, object?)
+  nameWithType.vb: TestLogger.LogError(String, Object)
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError*
+  name: LogError
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogError_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogError
+  nameWithType: TestLogger.LogError
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException(System.Exception,System.Object)
+  name: LogException(Exception, object?)
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogException_System_Exception_System_Object_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException(System.Exception,System.Object)
+  name.vb: LogException(Exception, Object)
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException(System.Exception, object?)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException(System.Exception, Object)
+  nameWithType: TestLogger.LogException(Exception, object?)
+  nameWithType.vb: TestLogger.LogException(Exception, Object)
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException*
+  name: LogException
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogException_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogException
+  nameWithType: TestLogger.LogException
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo(System.String,System.Object)
+  name: LogInfo(string, object?)
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogInfo_System_String_System_Object_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo(System.String,System.Object)
+  name.vb: LogInfo(String, Object)
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo(string, object?)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo(String, Object)
+  nameWithType: TestLogger.LogInfo(string, object?)
+  nameWithType.vb: TestLogger.LogInfo(String, Object)
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo*
+  name: LogInfo
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogInfo_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogInfo
+  nameWithType: TestLogger.LogInfo
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning(System.String,System.Object)
+  name: LogWarning(string, object?)
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogWarning_System_String_System_Object_
+  commentId: M:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning(System.String,System.Object)
+  name.vb: LogWarning(String, Object)
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning(string, object?)
+  fullName.vb: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning(String, Object)
+  nameWithType: TestLogger.LogWarning(string, object?)
+  nameWithType.vb: TestLogger.LogWarning(String, Object)
+- uid: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning*
+  name: LogWarning
+  href: api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html#CatSweeper_Tests_Util_TestHelpers_TestLogger_LogWarning_
+  commentId: Overload:CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning
+  isSpec: "True"
+  fullName: CatSweeper.Tests.Util.TestHelpers.TestLogger.LogWarning
+  nameWithType: TestLogger.LogWarning
 - uid: CatSweeper.Util
   name: CatSweeper.Util
   href: api/CatSweeper.Util.html
@@ -2524,6 +3920,89 @@ references:
   isSpec: "True"
   fullName: CatSweeper.Util.ExportUtil.MarkReadOnly
   nameWithType: ExportUtil.MarkReadOnly
+- uid: CatSweeper.Util.GameDebugger_DISABLED
+  name: GameDebugger_DISABLED
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html
+  commentId: T:CatSweeper.Util.GameDebugger_DISABLED
+  fullName: CatSweeper.Util.GameDebugger_DISABLED
+  nameWithType: GameDebugger_DISABLED
+- uid: CatSweeper.Util.GameDebugger_DISABLED.IsAvailable
+  name: IsAvailable
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_IsAvailable
+  commentId: P:CatSweeper.Util.GameDebugger_DISABLED.IsAvailable
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.IsAvailable
+  nameWithType: GameDebugger_DISABLED.IsAvailable
+- uid: CatSweeper.Util.GameDebugger_DISABLED.IsAvailable*
+  name: IsAvailable
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_IsAvailable_
+  commentId: Overload:CatSweeper.Util.GameDebugger_DISABLED.IsAvailable
+  isSpec: "True"
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.IsAvailable
+  nameWithType: GameDebugger_DISABLED.IsAvailable
+- uid: CatSweeper.Util.GameDebugger_DISABLED.Log(System.String,System.String,Godot.Variant)
+  name: Log(string, string, Variant)
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_Log_System_String_System_String_Godot_Variant_
+  commentId: M:CatSweeper.Util.GameDebugger_DISABLED.Log(System.String,System.String,Godot.Variant)
+  name.vb: Log(String, String, Variant)
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.Log(string, string, Godot.Variant)
+  fullName.vb: CatSweeper.Util.GameDebugger_DISABLED.Log(String, String, Godot.Variant)
+  nameWithType: GameDebugger_DISABLED.Log(string, string, Variant)
+  nameWithType.vb: GameDebugger_DISABLED.Log(String, String, Variant)
+- uid: CatSweeper.Util.GameDebugger_DISABLED.Log*
+  name: Log
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_Log_
+  commentId: Overload:CatSweeper.Util.GameDebugger_DISABLED.Log
+  isSpec: "True"
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.Log
+  nameWithType: GameDebugger_DISABLED.Log
+- uid: CatSweeper.Util.GameDebugger_DISABLED.LogDict(System.String,System.String,Godot.Collections.Dictionary)
+  name: LogDict(string, string, Dictionary)
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_LogDict_System_String_System_String_Godot_Collections_Dictionary_
+  commentId: M:CatSweeper.Util.GameDebugger_DISABLED.LogDict(System.String,System.String,Godot.Collections.Dictionary)
+  name.vb: LogDict(String, String, Dictionary)
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.LogDict(string, string, Godot.Collections.Dictionary)
+  fullName.vb: CatSweeper.Util.GameDebugger_DISABLED.LogDict(String, String, Godot.Collections.Dictionary)
+  nameWithType: GameDebugger_DISABLED.LogDict(string, string, Dictionary)
+  nameWithType.vb: GameDebugger_DISABLED.LogDict(String, String, Dictionary)
+- uid: CatSweeper.Util.GameDebugger_DISABLED.LogDict*
+  name: LogDict
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_LogDict_
+  commentId: Overload:CatSweeper.Util.GameDebugger_DISABLED.LogDict
+  isSpec: "True"
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.LogDict
+  nameWithType: GameDebugger_DISABLED.LogDict
+- uid: CatSweeper.Util.GameDebugger_DISABLED.LogSimple(System.String,System.String,System.ValueTuple{System.String,Godot.Variant}[])
+  name: LogSimple(string, string, params (string key, Variant value)[])
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_LogSimple_System_String_System_String_System_ValueTuple_System_String_Godot_Variant____
+  commentId: M:CatSweeper.Util.GameDebugger_DISABLED.LogSimple(System.String,System.String,System.ValueTuple{System.String,Godot.Variant}[])
+  name.vb: LogSimple(String, String, ParamArray (key As String, value As Variant)())
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.LogSimple(string, string, params (string key, Godot.Variant value)[])
+  fullName.vb: CatSweeper.Util.GameDebugger_DISABLED.LogSimple(String, String, ParamArray (key As String, value As Godot.Variant)())
+  nameWithType: GameDebugger_DISABLED.LogSimple(string, string, params (string key, Variant value)[])
+  nameWithType.vb: GameDebugger_DISABLED.LogSimple(String, String, ParamArray (key As String, value As Variant)())
+- uid: CatSweeper.Util.GameDebugger_DISABLED.LogSimple*
+  name: LogSimple
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_LogSimple_
+  commentId: Overload:CatSweeper.Util.GameDebugger_DISABLED.LogSimple
+  isSpec: "True"
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.LogSimple
+  nameWithType: GameDebugger_DISABLED.LogSimple
+- uid: CatSweeper.Util.GameDebugger_DISABLED.SendAction(System.String,System.String,Godot.Variant)
+  name: SendAction(string, string, Variant)
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_SendAction_System_String_System_String_Godot_Variant_
+  commentId: M:CatSweeper.Util.GameDebugger_DISABLED.SendAction(System.String,System.String,Godot.Variant)
+  name.vb: SendAction(String, String, Variant)
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.SendAction(string, string, Godot.Variant)
+  fullName.vb: CatSweeper.Util.GameDebugger_DISABLED.SendAction(String, String, Godot.Variant)
+  nameWithType: GameDebugger_DISABLED.SendAction(string, string, Variant)
+  nameWithType.vb: GameDebugger_DISABLED.SendAction(String, String, Variant)
+- uid: CatSweeper.Util.GameDebugger_DISABLED.SendAction*
+  name: SendAction
+  href: api/CatSweeper.Util.GameDebugger_DISABLED.html#CatSweeper_Util_GameDebugger_DISABLED_SendAction_
+  commentId: Overload:CatSweeper.Util.GameDebugger_DISABLED.SendAction
+  isSpec: "True"
+  fullName: CatSweeper.Util.GameDebugger_DISABLED.SendAction
+  nameWithType: GameDebugger_DISABLED.SendAction
 - uid: CatSweeper.Util.InfoUtil
   name: InfoUtil
   href: api/CatSweeper.Util.InfoUtil.html
@@ -2649,11 +4128,11 @@ references:
   commentId: F:cfGodotEngine.Asset.AsyncResourceLoader.PropertyName.progressArray
   fullName: cfGodotEngine.Asset.AsyncResourceLoader.PropertyName.progressArray
   nameWithType: AsyncResourceLoader.PropertyName.progressArray
-- uid: cfGodotEngine.Asset.AsyncResourceLoader.SetLogger(cfEngine.Logging.ILogger)
+- uid: cfGodotEngine.Asset.AsyncResourceLoader.SetLogger(cfEngine.ILogger)
   name: SetLogger(ILogger)
-  href: api/cfGodotEngine.Asset.AsyncResourceLoader.html#cfGodotEngine_Asset_AsyncResourceLoader_SetLogger_cfEngine_Logging_ILogger_
-  commentId: M:cfGodotEngine.Asset.AsyncResourceLoader.SetLogger(cfEngine.Logging.ILogger)
-  fullName: cfGodotEngine.Asset.AsyncResourceLoader.SetLogger(cfEngine.Logging.ILogger)
+  href: api/cfGodotEngine.Asset.AsyncResourceLoader.html#cfGodotEngine_Asset_AsyncResourceLoader_SetLogger_cfEngine_ILogger_
+  commentId: M:cfGodotEngine.Asset.AsyncResourceLoader.SetLogger(cfEngine.ILogger)
+  fullName: cfGodotEngine.Asset.AsyncResourceLoader.SetLogger(cfEngine.ILogger)
   nameWithType: AsyncResourceLoader.SetLogger(ILogger)
 - uid: cfGodotEngine.Asset.AsyncResourceLoader.SetLogger*
   name: SetLogger
@@ -3886,6 +5365,25 @@ references:
   commentId: T:cfGodotEngine.Core.GameDomain
   fullName: cfGodotEngine.Core.GameDomain
   nameWithType: GameDomain
+- uid: cfGodotEngine.Core.GameDomain.#ctor
+  name: GameDomain()
+  href: api/cfGodotEngine.Core.GameDomain.html#cfGodotEngine_Core_GameDomain__ctor
+  commentId: M:cfGodotEngine.Core.GameDomain.#ctor
+  name.vb: New()
+  fullName: cfGodotEngine.Core.GameDomain.GameDomain()
+  fullName.vb: cfGodotEngine.Core.GameDomain.New()
+  nameWithType: GameDomain.GameDomain()
+  nameWithType.vb: GameDomain.New()
+- uid: cfGodotEngine.Core.GameDomain.#ctor*
+  name: GameDomain
+  href: api/cfGodotEngine.Core.GameDomain.html#cfGodotEngine_Core_GameDomain__ctor_
+  commentId: Overload:cfGodotEngine.Core.GameDomain.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: cfGodotEngine.Core.GameDomain.GameDomain
+  fullName.vb: cfGodotEngine.Core.GameDomain.New
+  nameWithType: GameDomain.GameDomain
+  nameWithType.vb: GameDomain.New
 - uid: cfGodotEngine.Core.GameDomain.HandleException(System.Exception)
   name: HandleException(Exception)
   href: api/cfGodotEngine.Core.GameDomain.html#cfGodotEngine_Core_GameDomain_HandleException_System_Exception_
@@ -4013,13 +5511,13 @@ references:
   commentId: T:cfGodotEngine.GoogleDrive.AssetDirectFileMirror
   fullName: cfGodotEngine.GoogleDrive.AssetDirectFileMirror
   nameWithType: AssetDirectFileMirror
-- uid: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.#ctor(cfEngine.Logging.ILogger,System.String)
+- uid: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.#ctor(cfEngine.ILogger,System.String)
   name: AssetDirectFileMirror(ILogger, string)
-  href: api/cfGodotEngine.GoogleDrive.AssetDirectFileMirror.html#cfGodotEngine_GoogleDrive_AssetDirectFileMirror__ctor_cfEngine_Logging_ILogger_System_String_
-  commentId: M:cfGodotEngine.GoogleDrive.AssetDirectFileMirror.#ctor(cfEngine.Logging.ILogger,System.String)
+  href: api/cfGodotEngine.GoogleDrive.AssetDirectFileMirror.html#cfGodotEngine_GoogleDrive_AssetDirectFileMirror__ctor_cfEngine_ILogger_System_String_
+  commentId: M:cfGodotEngine.GoogleDrive.AssetDirectFileMirror.#ctor(cfEngine.ILogger,System.String)
   name.vb: New(ILogger, String)
-  fullName: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.AssetDirectFileMirror(cfEngine.Logging.ILogger, string)
-  fullName.vb: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.New(cfEngine.Logging.ILogger, String)
+  fullName: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.AssetDirectFileMirror(cfEngine.ILogger, string)
+  fullName.vb: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.New(cfEngine.ILogger, String)
   nameWithType: AssetDirectFileMirror.AssetDirectFileMirror(ILogger, string)
   nameWithType.vb: AssetDirectFileMirror.New(ILogger, String)
 - uid: cfGodotEngine.GoogleDrive.AssetDirectFileMirror.#ctor*
@@ -4067,13 +5565,13 @@ references:
   commentId: T:cfGodotEngine.GoogleDrive.ChangeHandler
   fullName: cfGodotEngine.GoogleDrive.ChangeHandler
   nameWithType: ChangeHandler
-- uid: cfGodotEngine.GoogleDrive.ChangeHandler.#ctor(cfEngine.Logging.ILogger)
+- uid: cfGodotEngine.GoogleDrive.ChangeHandler.#ctor(cfEngine.ILogger)
   name: ChangeHandler(ILogger)
-  href: api/cfGodotEngine.GoogleDrive.ChangeHandler.html#cfGodotEngine_GoogleDrive_ChangeHandler__ctor_cfEngine_Logging_ILogger_
-  commentId: M:cfGodotEngine.GoogleDrive.ChangeHandler.#ctor(cfEngine.Logging.ILogger)
+  href: api/cfGodotEngine.GoogleDrive.ChangeHandler.html#cfGodotEngine_GoogleDrive_ChangeHandler__ctor_cfEngine_ILogger_
+  commentId: M:cfGodotEngine.GoogleDrive.ChangeHandler.#ctor(cfEngine.ILogger)
   name.vb: New(ILogger)
-  fullName: cfGodotEngine.GoogleDrive.ChangeHandler.ChangeHandler(cfEngine.Logging.ILogger)
-  fullName.vb: cfGodotEngine.GoogleDrive.ChangeHandler.New(cfEngine.Logging.ILogger)
+  fullName: cfGodotEngine.GoogleDrive.ChangeHandler.ChangeHandler(cfEngine.ILogger)
+  fullName.vb: cfGodotEngine.GoogleDrive.ChangeHandler.New(cfEngine.ILogger)
   nameWithType: ChangeHandler.ChangeHandler(ILogger)
   nameWithType.vb: ChangeHandler.New(ILogger)
 - uid: cfGodotEngine.GoogleDrive.ChangeHandler.#ctor*
@@ -4208,13 +5706,13 @@ references:
   commentId: T:cfGodotEngine.GoogleDrive.DriveMirror
   fullName: cfGodotEngine.GoogleDrive.DriveMirror
   nameWithType: DriveMirror
-- uid: cfGodotEngine.GoogleDrive.DriveMirror.#ctor(cfGodotEngine.GoogleDrive.IFileMirrorHandler,cfEngine.Logging.ILogger)
+- uid: cfGodotEngine.GoogleDrive.DriveMirror.#ctor(cfGodotEngine.GoogleDrive.IFileMirrorHandler,cfEngine.ILogger)
   name: DriveMirror(IFileMirrorHandler, ILogger)
-  href: api/cfGodotEngine.GoogleDrive.DriveMirror.html#cfGodotEngine_GoogleDrive_DriveMirror__ctor_cfGodotEngine_GoogleDrive_IFileMirrorHandler_cfEngine_Logging_ILogger_
-  commentId: M:cfGodotEngine.GoogleDrive.DriveMirror.#ctor(cfGodotEngine.GoogleDrive.IFileMirrorHandler,cfEngine.Logging.ILogger)
+  href: api/cfGodotEngine.GoogleDrive.DriveMirror.html#cfGodotEngine_GoogleDrive_DriveMirror__ctor_cfGodotEngine_GoogleDrive_IFileMirrorHandler_cfEngine_ILogger_
+  commentId: M:cfGodotEngine.GoogleDrive.DriveMirror.#ctor(cfGodotEngine.GoogleDrive.IFileMirrorHandler,cfEngine.ILogger)
   name.vb: New(IFileMirrorHandler, ILogger)
-  fullName: cfGodotEngine.GoogleDrive.DriveMirror.DriveMirror(cfGodotEngine.GoogleDrive.IFileMirrorHandler, cfEngine.Logging.ILogger)
-  fullName.vb: cfGodotEngine.GoogleDrive.DriveMirror.New(cfGodotEngine.GoogleDrive.IFileMirrorHandler, cfEngine.Logging.ILogger)
+  fullName: cfGodotEngine.GoogleDrive.DriveMirror.DriveMirror(cfGodotEngine.GoogleDrive.IFileMirrorHandler, cfEngine.ILogger)
+  fullName.vb: cfGodotEngine.GoogleDrive.DriveMirror.New(cfGodotEngine.GoogleDrive.IFileMirrorHandler, cfEngine.ILogger)
   nameWithType: DriveMirror.DriveMirror(IFileMirrorHandler, ILogger)
   nameWithType.vb: DriveMirror.New(IFileMirrorHandler, ILogger)
 - uid: cfGodotEngine.GoogleDrive.DriveMirror.#ctor*
@@ -4670,13 +6168,13 @@ references:
   commentId: T:cfGodotEngine.GoogleDrive.FolderMimeHandler
   fullName: cfGodotEngine.GoogleDrive.FolderMimeHandler
   nameWithType: FolderMimeHandler
-- uid: cfGodotEngine.GoogleDrive.FolderMimeHandler.#ctor(cfEngine.Logging.ILogger,System.String)
+- uid: cfGodotEngine.GoogleDrive.FolderMimeHandler.#ctor(cfEngine.ILogger,System.String)
   name: FolderMimeHandler(ILogger, string)
-  href: api/cfGodotEngine.GoogleDrive.FolderMimeHandler.html#cfGodotEngine_GoogleDrive_FolderMimeHandler__ctor_cfEngine_Logging_ILogger_System_String_
-  commentId: M:cfGodotEngine.GoogleDrive.FolderMimeHandler.#ctor(cfEngine.Logging.ILogger,System.String)
+  href: api/cfGodotEngine.GoogleDrive.FolderMimeHandler.html#cfGodotEngine_GoogleDrive_FolderMimeHandler__ctor_cfEngine_ILogger_System_String_
+  commentId: M:cfGodotEngine.GoogleDrive.FolderMimeHandler.#ctor(cfEngine.ILogger,System.String)
   name.vb: New(ILogger, String)
-  fullName: cfGodotEngine.GoogleDrive.FolderMimeHandler.FolderMimeHandler(cfEngine.Logging.ILogger, string)
-  fullName.vb: cfGodotEngine.GoogleDrive.FolderMimeHandler.New(cfEngine.Logging.ILogger, String)
+  fullName: cfGodotEngine.GoogleDrive.FolderMimeHandler.FolderMimeHandler(cfEngine.ILogger, string)
+  fullName.vb: cfGodotEngine.GoogleDrive.FolderMimeHandler.New(cfEngine.ILogger, String)
   nameWithType: FolderMimeHandler.FolderMimeHandler(ILogger, string)
   nameWithType.vb: FolderMimeHandler.New(ILogger, String)
 - uid: cfGodotEngine.GoogleDrive.FolderMimeHandler.#ctor*
@@ -5496,13 +6994,13 @@ references:
   fullName.vb: cfGodotEngine.SceneManagement.GodotSceneManager.New()
   nameWithType: GodotSceneManager.GodotSceneManager()
   nameWithType.vb: GodotSceneManager.New()
-- uid: cfGodotEngine.SceneManagement.GodotSceneManager.#ctor(cfEngine.Logging.ILogger)
+- uid: cfGodotEngine.SceneManagement.GodotSceneManager.#ctor(cfEngine.ILogger)
   name: GodotSceneManager(ILogger)
-  href: api/cfGodotEngine.SceneManagement.GodotSceneManager.html#cfGodotEngine_SceneManagement_GodotSceneManager__ctor_cfEngine_Logging_ILogger_
-  commentId: M:cfGodotEngine.SceneManagement.GodotSceneManager.#ctor(cfEngine.Logging.ILogger)
+  href: api/cfGodotEngine.SceneManagement.GodotSceneManager.html#cfGodotEngine_SceneManagement_GodotSceneManager__ctor_cfEngine_ILogger_
+  commentId: M:cfGodotEngine.SceneManagement.GodotSceneManager.#ctor(cfEngine.ILogger)
   name.vb: New(ILogger)
-  fullName: cfGodotEngine.SceneManagement.GodotSceneManager.GodotSceneManager(cfEngine.Logging.ILogger)
-  fullName.vb: cfGodotEngine.SceneManagement.GodotSceneManager.New(cfEngine.Logging.ILogger)
+  fullName: cfGodotEngine.SceneManagement.GodotSceneManager.GodotSceneManager(cfEngine.ILogger)
+  fullName.vb: cfGodotEngine.SceneManagement.GodotSceneManager.New(cfEngine.ILogger)
   nameWithType: GodotSceneManager.GodotSceneManager(ILogger)
   nameWithType.vb: GodotSceneManager.New(ILogger)
 - uid: cfGodotEngine.SceneManagement.GodotSceneManager.#ctor*
@@ -5857,6 +7355,51 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Tool.AnimationPlayEndRecyclable2D._Ready
   nameWithType: AnimationPlayEndRecyclable2D._Ready
+- uid: cfGodotEngine.Tool.AssemblyCleanup
+  name: AssemblyCleanup
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html
+  commentId: T:cfGodotEngine.Tool.AssemblyCleanup
+  fullName: cfGodotEngine.Tool.AssemblyCleanup
+  nameWithType: AssemblyCleanup
+- uid: cfGodotEngine.Tool.AssemblyCleanup.Cleanup
+  name: Cleanup()
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html#cfGodotEngine_Tool_AssemblyCleanup_Cleanup
+  commentId: M:cfGodotEngine.Tool.AssemblyCleanup.Cleanup
+  fullName: cfGodotEngine.Tool.AssemblyCleanup.Cleanup()
+  nameWithType: AssemblyCleanup.Cleanup()
+- uid: cfGodotEngine.Tool.AssemblyCleanup.Cleanup*
+  name: Cleanup
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html#cfGodotEngine_Tool_AssemblyCleanup_Cleanup_
+  commentId: Overload:cfGodotEngine.Tool.AssemblyCleanup.Cleanup
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AssemblyCleanup.Cleanup
+  nameWithType: AssemblyCleanup.Cleanup
+- uid: cfGodotEngine.Tool.AssemblyCleanup.DiagnosticsEnabled
+  name: DiagnosticsEnabled
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html#cfGodotEngine_Tool_AssemblyCleanup_DiagnosticsEnabled
+  commentId: P:cfGodotEngine.Tool.AssemblyCleanup.DiagnosticsEnabled
+  fullName: cfGodotEngine.Tool.AssemblyCleanup.DiagnosticsEnabled
+  nameWithType: AssemblyCleanup.DiagnosticsEnabled
+- uid: cfGodotEngine.Tool.AssemblyCleanup.DiagnosticsEnabled*
+  name: DiagnosticsEnabled
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html#cfGodotEngine_Tool_AssemblyCleanup_DiagnosticsEnabled_
+  commentId: Overload:cfGodotEngine.Tool.AssemblyCleanup.DiagnosticsEnabled
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AssemblyCleanup.DiagnosticsEnabled
+  nameWithType: AssemblyCleanup.DiagnosticsEnabled
+- uid: cfGodotEngine.Tool.AssemblyCleanup.Reset
+  name: Reset()
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html#cfGodotEngine_Tool_AssemblyCleanup_Reset
+  commentId: M:cfGodotEngine.Tool.AssemblyCleanup.Reset
+  fullName: cfGodotEngine.Tool.AssemblyCleanup.Reset()
+  nameWithType: AssemblyCleanup.Reset()
+- uid: cfGodotEngine.Tool.AssemblyCleanup.Reset*
+  name: Reset
+  href: api/cfGodotEngine.Tool.AssemblyCleanup.html#cfGodotEngine_Tool_AssemblyCleanup_Reset_
+  commentId: Overload:cfGodotEngine.Tool.AssemblyCleanup.Reset
+  isSpec: "True"
+  fullName: cfGodotEngine.Tool.AssemblyCleanup.Reset
+  nameWithType: AssemblyCleanup.Reset
 - uid: cfGodotEngine.Tool.CompositeConditionNode
   name: CompositeConditionNode
   href: api/cfGodotEngine.Tool.CompositeConditionNode.html

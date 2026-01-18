@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Dynamic Buffer Size in WsServer and WsClient | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Dynamic Buffer Size in WsServer and WsClient | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/config.css">
+      <link rel="stylesheet" href="styles/singulink.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="index.html">
+              <img src="logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="index.html">
+                          <img src="logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Documentation/WsConnect-Dynamic-Buffer.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="dynamic-buffer-size-in-wsserver-and-wsclient">Dynamic Buffer Size in WsServer and WsClient</h1>
+
+<h2 id="overview">Overview</h2>
+<p>Both <code>WsServer</code> and <code>WsClient</code> now use <strong>dynamic buffering</strong> to handle WebSocket messages of any size efficiently.</p>
+<h2 id="how-it-works">How It Works</h2>
+<h3 id="previous-implementation-fixed-buffer">Previous Implementation (Fixed Buffer)</h3>
+<pre><code class="lang-csharp">// Old approach - limited to bufferSize bytes
+var buffer = new byte[bufferSize];
+var result = await ws.ReceiveAsync(buffer, token);
+// If message &gt; bufferSize, it would be truncated!
+</code></pre>
+<h3 id="new-implementation-dynamic-buffer">New Implementation (Dynamic Buffer)</h3>
+<pre><code class="lang-csharp">// New approach - handles messages of any size
+var chunkBuffer = new byte[bufferSize];  // Fixed chunk size for reading
+var messageBuffer = new List&lt;byte&gt;();    // Dynamic accumulator
+
+do {
+    result = await ws.ReceiveAsync(new ArraySegment&lt;byte&gt;(chunkBuffer), token);
+    
+    // Append chunk to message buffer
+    for (int i = 0; i &lt; result.Count; i++) {
+        messageBuffer.Add(chunkBuffer[i]);
+    }
+} while (!result.EndOfMessage);  // Keep reading until complete message
+
+var completeMessage = messageBuffer.ToArray();
+</code></pre>
+<h2 id="key-improvements">Key Improvements</h2>
+<h3 id="1-handles-large-messages">1. <strong>Handles Large Messages</strong></h3>
+<ul>
+<li>Messages larger than the initial <code>bufferSize</code> are now fully received</li>
+<li>No data loss or truncation</li>
+<li>Memory grows dynamically as needed</li>
+</ul>
+<h3 id="2-efficient-for-small-messages">2. <strong>Efficient for Small Messages</strong></h3>
+<ul>
+<li>Small messages don't waste memory</li>
+<li>Only allocates what's needed for the actual message size</li>
+</ul>
+<h3 id="3-chunk-based-reading">3. <strong>Chunk-Based Reading</strong></h3>
+<ul>
+<li>Reads data in fixed-size chunks (configurable via constructor)</li>
+<li>Default chunk size: 1024 bytes</li>
+<li>Can be adjusted based on your typical message size</li>
+</ul>
+<h3 id="4-endofmessage-detection">4. <strong>EndOfMessage Detection</strong></h3>
+<ul>
+<li>Uses WebSocket's built-in <code>EndOfMessage</code> flag</li>
+<li>Ensures complete messages are received before processing</li>
+<li>Prevents partial message handling</li>
+</ul>
+<h2 id="configuration">Configuration</h2>
+<p>The <code>bufferSize</code> parameter now represents the <strong>chunk size</strong> for reading:</p>
+<pre><code class="lang-csharp">// Small messages (e.g., JSON commands)
+var server = new WsServer(&quot;http://localhost:8080/&quot;, bufferSize: 1024);
+
+// Large messages (e.g., file transfers)
+var server = new WsServer(&quot;http://localhost:8080/&quot;, bufferSize: 8192);
+
+// Custom chunk size
+var server = new WsServer(&quot;http://localhost:8080/&quot;, bufferSize: 4096);
+</code></pre>
+<h3 id="choosing-the-right-chunk-size">Choosing the Right Chunk Size</h3>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>Recommended Chunk Size</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JSON messages (&lt; 10KB)</td>
+<td>1024 - 2048 bytes</td>
+<td>Minimizes memory overhead</td>
+</tr>
+<tr>
+<td>Binary data (10KB - 100KB)</td>
+<td>4096 - 8192 bytes</td>
+<td>Balances throughput and memory</td>
+</tr>
+<tr>
+<td>File transfers (&gt; 100KB)</td>
+<td>8192 - 16384 bytes</td>
+<td>Maximizes throughput</td>
+</tr>
+</tbody>
+</table>
+<h2 id="memory-characteristics">Memory Characteristics</h2>
+<h3 id="memory-usage-pattern">Memory Usage Pattern</h3>
+<pre><code>Message Size: 5KB, Chunk Size: 1024 bytes
+
+Iteration 1: chunkBuffer[1024] + messageBuffer[1024]     = ~2KB
+Iteration 2: chunkBuffer[1024] + messageBuffer[2048]     = ~3KB
+Iteration 3: chunkBuffer[1024] + messageBuffer[3072]     = ~4KB
+Iteration 4: chunkBuffer[1024] + messageBuffer[4096]     = ~5KB
+Iteration 5: chunkBuffer[1024] + messageBuffer[5120]     = ~6KB (final)
+
+Peak Memory: ~6KB (vs fixed 5KB for exact-size buffer)
+</code></pre>
+<h3 id="memory-trade-offs">Memory Trade-offs</h3>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>✅ No message size limits</li>
+<li>✅ Adapts to actual message sizes</li>
+<li>✅ Small overhead per message</li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>⚠️ Slight memory overhead from <code>List&lt;byte&gt;</code> growth</li>
+<li>⚠️ Some GC pressure from intermediate allocations</li>
+</ul>
+<h2 id="performance-optimization-tips">Performance Optimization Tips</h2>
+<h3 id="1-reuse-message-buffer-advanced">1. <strong>Reuse Message Buffer</strong> (Advanced)</h3>
+<p>If you're processing many messages, consider using <code>ArrayPool</code>:</p>
+<pre><code class="lang-csharp">private async Task ReceiveMessagesAsync(WebSocket ws, CancellationToken token)
+{
+    var chunkBuffer = ArrayPool&lt;byte&gt;.Shared.Rent(bufferSize);
+    var messageBuffer = new List&lt;byte&gt;(bufferSize);
+
+    try {
+        while (ws.State == WebSocketState.Open) {
+            messageBuffer.Clear();
+            WebSocketReceiveResult result;
+            
+            do {
+                result = await ws.ReceiveAsync(
+                    new ArraySegment&lt;byte&gt;(chunkBuffer, 0, bufferSize), token);
+                messageBuffer.AddRange(
+                    new ArraySegment&lt;byte&gt;(chunkBuffer, 0, result.Count));
+            } while (!result.EndOfMessage);
+            
+            // Process messageBuffer...
+        }
+    } finally {
+        ArrayPool&lt;byte&gt;.Shared.Return(chunkBuffer);
+    }
+}
+</code></pre>
+<h3 id="2-pre-allocate-message-buffer">2. <strong>Pre-allocate Message Buffer</strong></h3>
+<p>If you know the typical message size:</p>
+<pre><code class="lang-csharp">var messageBuffer = new List&lt;byte&gt;(expectedMessageSize);
+</code></pre>
+<h3 id="3-adjust-chunk-size-based-on-network">3. <strong>Adjust Chunk Size Based on Network</strong></h3>
+<ul>
+<li><strong>Local network (low latency):</strong> Smaller chunks (1-2KB)</li>
+<li><strong>Internet (higher latency):</strong> Larger chunks (4-8KB)</li>
+</ul>
+<h2 id="example-usage">Example Usage</h2>
+<h3 id="sending-large-messages">Sending Large Messages</h3>
+<pre><code class="lang-csharp">// Server can now receive messages of any size
+var largeData = new byte[1024 * 1024]; // 1MB
+await client.SendAsync(largeData, SocketMessage.Type.Binary);
+// Server will receive it in chunks and reassemble
+</code></pre>
+<h3 id="receiving-messages">Receiving Messages</h3>
+<pre><code class="lang-csharp">// Client receives complete message regardless of size
+var message = await client.Receive();
+Console.WriteLine($&quot;Received {message.data.Length} bytes&quot;);
+</code></pre>
+<h2 id="testing">Testing</h2>
+<h3 id="test-case-large-message">Test Case: Large Message</h3>
+<pre><code class="lang-csharp">[Test]
+public async Task TestLargeMessage()
+{
+    var server = new WsServer(&quot;http://localhost:8080/&quot;, bufferSize: 1024);
+    server.Start();
+    
+    var client = new WsClient(&quot;ws://localhost:8080&quot;, bufferSize: 1024);
+    await client.Connect();
+    
+    // Send 100KB message with 1KB chunks
+    var largeMessage = new byte[100 * 1024];
+    new Random().NextBytes(largeMessage);
+    
+    await client.Send(largeMessage);
+    
+    // Should receive complete message
+    var received = await server.Receive();
+    Assert.Equal(100 * 1024, received.data.Length);
+}
+</code></pre>
+<h2 id="migration-guide">Migration Guide</h2>
+<p>No code changes required! The API remains the same:</p>
+<pre><code class="lang-csharp">// Old code still works
+var server = new WsServer(&quot;http://localhost:8080/&quot;);
+server.OnMessageReceived += (client, msg) =&gt; {
+    Console.WriteLine($&quot;Received: {msg.data.Length} bytes&quot;);
+};
+
+// Messages of any size are now handled automatically
+</code></pre>
+<h2 id="compatibility">Compatibility</h2>
+<ul>
+<li>✅ Backward compatible with existing code</li>
+<li>✅ Works with all WebSocket message types (Text, Binary)</li>
+<li>✅ Handles fragmented messages transparently</li>
+<li>✅ No breaking changes to public API</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>The dynamic buffer implementation provides:</p>
+<ol>
+<li><strong>Unlimited message size support</strong></li>
+<li><strong>Memory efficiency for small messages</strong></li>
+<li><strong>Configurable chunk size for performance tuning</strong></li>
+<li><strong>Zero breaking changes to existing code</strong></li>
+</ol>
+<p>Your WebSocket connections can now handle messages of any size without modification!</p>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="styles/docfx.js"></script>
+        <script type="text/javascript" src="styles/main.js"></script>
+        <script type="text/javascript" src="styles/singulink.js"></script>    </body>
+</html>

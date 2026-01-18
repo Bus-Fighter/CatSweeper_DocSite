@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class GridSessionTests | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class GridSessionTests | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests">
+
+
+
+  <h1 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests" class="text-break">Class GridSessionTests</h1>
+  <div class="markdown level0 summary"><p>Unit tests for GridSession - pure C# grid logic.
+Tests buffer phase, flood-fill, mine regeneration, and grid state.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">GridSessionTests</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CatSweeper.html">CatSweeper</a>.<a class="xref" href="CatSweeper.Tests.html">Tests</a>.<a class="xref" href="CatSweeper.Tests.Stage.html">Stage</a>.<a class="xref" href="CatSweeper.Tests.Stage.StageGrid.html">StageGrid</a></h6>
+  <h6><strong>Assembly</strong>: CatSweeper.dll</h6>
+  <h5 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestFixture]
+public class GridSessionTests</code></pre>
+  </div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_AfterBufferCount_NoMoreRegeneration.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L138">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_AfterBufferCount_NoMoreRegeneration_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_AfterBufferCount_NoMoreRegeneration" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_AfterBufferCount_NoMoreRegeneration">BufferPhase_AfterBufferCount_NoMoreRegeneration()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void BufferPhase_AfterBufferCount_NoMoreRegeneration()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_ExcludesNeighborsFromMines.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L108">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_ExcludesNeighborsFromMines_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_ExcludesNeighborsFromMines" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_ExcludesNeighborsFromMines">BufferPhase_ExcludesNeighborsFromMines()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void BufferPhase_ExcludesNeighborsFromMines()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_FirstClickNeverHitsMine.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L32">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_FirstClickNeverHitsMine_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_FirstClickNeverHitsMine" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_FirstClickNeverHitsMine">BufferPhase_FirstClickNeverHitsMine()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void BufferPhase_FirstClickNeverHitsMine()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_MultipleClicks_AllSafe.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L53">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_MultipleClicks_AllSafe_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_MultipleClicks_AllSafe" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_MultipleClicks_AllSafe">BufferPhase_MultipleClicks_AllSafe()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void BufferPhase_MultipleClicks_AllSafe()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegeneratesWhenClickingMine.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L80">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegeneratesWhenClickingMine_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegeneratesWhenClickingMine" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegeneratesWhenClickingMine">BufferPhase_RegeneratesWhenClickingMine()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void BufferPhase_RegeneratesWhenClickingMine()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegenerationPreservesRevealedTiles.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L163">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegenerationPreservesRevealedTiles_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_BufferPhase_RegenerationPreservesRevealedTiles" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.BufferPhase_RegenerationPreservesRevealedTiles">BufferPhase_RegenerationPreservesRevealedTiles()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void BufferPhase_RegenerationPreservesRevealedTiles()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_EmptyTileRevealsNeighbors.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L200">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_EmptyTileRevealsNeighbors_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_EmptyTileRevealsNeighbors" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_EmptyTileRevealsNeighbors">FloodFill_EmptyTileRevealsNeighbors()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void FloodFill_EmptyTileRevealsNeighbors()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_HandlesBoundaries.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L272">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_HandlesBoundaries_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_HandlesBoundaries" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_HandlesBoundaries">FloodFill_HandlesBoundaries()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void FloodFill_HandlesBoundaries()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_StopsAtNumberedTiles.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L218">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_StopsAtNumberedTiles_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_FloodFill_StopsAtNumberedTiles" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.FloodFill_StopsAtNumberedTiles">FloodFill_StopsAtNumberedTiles()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void FloodFill_StopsAtNumberedTiles()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridMap_AdjacentCounts_AreCorrect.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L346">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridMap_AdjacentCounts_AreCorrect_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridMap_AdjacentCounts_AreCorrect" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridMap_AdjacentCounts_AreCorrect">GridMap_AdjacentCounts_AreCorrect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void GridMap_AdjacentCounts_AreCorrect()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridUpdated_Event_Fires_OnReveal.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L399">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridUpdated_Event_Fires_OnReveal_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_GridUpdated_Event_Fires_OnReveal" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.GridUpdated_Event_Fires_OnReveal">GridUpdated_Event_Fires_OnReveal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void GridUpdated_Event_Fires_OnReveal()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_HighMineDensity_80Percent_Works.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L449">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_HighMineDensity_80Percent_Works_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_HighMineDensity_80Percent_Works" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.HighMineDensity_80Percent_Works">HighMineDensity_80Percent_Works()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void HighMineDensity_80Percent_Works()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_LargeGrid_50x50_Works.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L438">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_LargeGrid_50x50_Works_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_LargeGrid_50x50_Works" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.LargeGrid_50x50_Works">LargeGrid_50x50_Works()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void LargeGrid_50x50_Works()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L293">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed">RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void RevealGrid_AlreadyRevealed_ReturnsAlreadyRevealed()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_HitMine_ReturnsHitMine.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L311">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_HitMine_ReturnsHitMine_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_RevealGrid_HitMine_ReturnsHitMine" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.RevealGrid_HitMine_ReturnsHitMine">RevealGrid_HitMine_ReturnsHitMine()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void RevealGrid_HitMine_ReturnsHitMine()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SetUp.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L20">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SetUp_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SetUp" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SetUp">SetUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SetUp]
+public void SetUp()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SmallGrid_3x3_Works.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L427">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SmallGrid_3x3_Works_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_SmallGrid_3x3_Works" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.SmallGrid_3x3_Works">SmallGrid_3x3_Works()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void SmallGrid_3x3_Works()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Tests_Stage_StageGrid_GridSessionTests_ZeroMines_Grid_Works.md&amp;value=---%0Auid%3A%20CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Tests/CatSweeper.Tests/Stage/StageGrid/GridSessionTests.cs/#L469">View Source</a>
+  </span>
+  <a id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_ZeroMines_Grid_Works_" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works*"></a>
+  <h4 id="CatSweeper_Tests_Stage_StageGrid_GridSessionTests_ZeroMines_Grid_Works" data-uid="CatSweeper.Tests.Stage.StageGrid.GridSessionTests.ZeroMines_Grid_Works">ZeroMines_Grid_Works()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void ZeroMines_Grid_Works()</code></pre>
+  </div>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>

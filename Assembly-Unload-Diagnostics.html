@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Assembly Unload Diagnostics Guide | CatSweeper Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Assembly Unload Diagnostics Guide | CatSweeper Documentation ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles/config.css">
+      <link rel="stylesheet" href="styles/singulink.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <!-- Header required for docfx anchor scroll to work -->
+        <header id="head"></header>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="index.html">
+              <img src="logo.svg" alt="CatSweeper" class="logomark">
+              <span class="brand-title">CatSweeper</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="index.html">
+                          <img src="logo.svg" alt="CatSweeper" class="logomark">
+                          <span class="brand-title">CatSweeper</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+                </div>
+                <div class="footer">
+  <strong>Bus Fighter Love Cat 🥰</strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div class="contribution">
+                               <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Documentation/Assembly-Unload-Diagnostics.md/#L1" class="contribution-link">Edit this page</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="">
+<h1 id="assembly-unload-diagnostics-guide">Assembly Unload Diagnostics Guide</h1>
+
+<p>Based on <a href="https://learn.microsoft.com/en-us/dotnet/standard/assembly/unloadability">Microsoft Documentation: How to use and debug assembly unloadability in .NET</a></p>
+<h2 id="problem">Problem</h2>
+<p>Godot C# hot-reload fails with:</p>
+<pre><code>ERROR: modules/mono/mono_gd/gd_mono.cpp:791 - .NET: Failed to unload assemblies.
+</code></pre>
+<p>This happens when references prevent the CLR from unloading the assembly.</p>
+<h2 id="installation">Installation</h2>
+<p>The plugin is located at <code>addons/AssemblyUnloadDiagnostics/</code>.</p>
+<ol>
+<li>Open <strong>Project → Project Settings → Plugins</strong></li>
+<li>Find &quot;Assembly Unload Diagnostics&quot; and enable it</li>
+<li>Two buttons will appear in the editor toolbar:
+<ul>
+<li><strong>🔍 Quick</strong> - Fast check for common blockers</li>
+<li><strong>🔬 Full</strong> - Complete diagnostic scan</li>
+</ul>
+</li>
+</ol>
+<h2 id="diagnostic-tools">Diagnostic Tools</h2>
+<h3 id="1-diagnostics-static-class">1. Diagnostics (Static Class)</h3>
+<p>Static utility class that analyzes your code for common unload blockers.</p>
+<h4 id="quick-check-automatic">Quick Check (Automatic)</h4>
+<p>Runs automatically when the plugin unloads (e.g., before rebuild):</p>
+<pre><code class="lang-csharp">using AssemblyUnloadDiagnostics;
+
+// Manual quick check
+Diagnostics.QuickCheck();
+</code></pre>
+<h4 id="manual-full-diagnostics">Manual Full Diagnostics</h4>
+<pre><code class="lang-csharp">using AssemblyUnloadDiagnostics;
+
+// Run complete diagnostics
+Diagnostics.RunFullDiagnostics();
+
+// Or individual checks:
+Diagnostics.ListLoadedAssemblies();
+Diagnostics.TestUnloadability();
+Diagnostics.QuickCheck();
+</code></pre>
+<h4 id="configure-assembly-patterns">Configure Assembly Patterns</h4>
+<pre><code class="lang-csharp">// Add your own assembly patterns to check
+Diagnostics.AssemblyPatterns.Add(&quot;MyCustomAssembly&quot;);
+</code></pre>
+<h3 id="2-referencetracker">2. ReferenceTracker</h3>
+<p>Track specific objects to verify they get garbage collected.</p>
+<pre><code class="lang-csharp">using AssemblyUnloadDiagnostics;
+
+// Track objects you suspect might cause issues
+public class MyClass : IDisposable
+{
+    public MyClass()
+    {
+        ReferenceTracker.Track(&quot;MyClass.instance&quot;, this);
+        
+        // Or use extension method:
+        _myObject = new SomeObject().TrackForUnload(&quot;MyObject&quot;);
+    }
+    
+    public void Dispose()
+    {
+        ReferenceTracker.Untrack(&quot;MyClass.instance&quot;);
+    }
+}
+
+// Check which objects are still alive after GC
+ReferenceTracker.CheckAliveReferences();
+</code></pre>
+<h3 id="3-toolbar-buttons">3. Toolbar Buttons</h3>
+<ul>
+<li><strong>🔍 Quick</strong> - Runs <code>QuickCheck()</code> and <code>ReferenceTracker.CheckAliveReferences()</code></li>
+<li><strong>🔬 Full</strong> - Runs all diagnostics including assembly listing and unloadability test</li>
+</ul>
+<h2 id="common-blockers">Common Blockers</h2>
+<h3 id="1-static-fields-with-object-references">1. Static Fields with Object References</h3>
+<pre><code class="lang-csharp">// ❌ BAD - holds reference preventing unload
+private static MyService _instance;
+
+// ✅ GOOD - clear on cleanup
+public static void Clear() =&gt; _instance = null;
+</code></pre>
+<h3 id="2-event-subscriptions-not-unsubscribed">2. Event Subscriptions Not Unsubscribed</h3>
+<pre><code class="lang-csharp">// ❌ BAD
+SomeEvent += MyHandler;
+
+// ✅ GOOD
+public void Dispose()
+{
+    SomeEvent -= MyHandler;
+}
+</code></pre>
+<h3 id="3-lambda-captures">3. Lambda Captures</h3>
+<pre><code class="lang-csharp">// ❌ BAD - captures 'this' implicitly
+someCollection.Where(x =&gt; x.Value == this.MyValue);
+
+// ✅ GOOD - static lambda, no capture
+someCollection.Where(static x =&gt; x.Value &gt; 0);
+</code></pre>
+<h3 id="4-async-operations-not-completed">4. Async Operations Not Completed</h3>
+<pre><code class="lang-csharp">// ❌ BAD - async task may still hold references
+async void StartSomething()
+{
+    await SomeAsyncWork(); // If not completed, holds references
+}
+
+// ✅ GOOD - ensure async work completes or is cancelled
+await _cancellationTokenSource.CancelAsync();
+</code></pre>
+<h3 id="5-timers-and-threads">5. Timers and Threads</h3>
+<pre><code class="lang-csharp">// ❌ BAD - timer holds callback reference
+_timer = new Timer(_ =&gt; DoWork(), null, 0, 1000);
+
+// ✅ GOOD - dispose timer
+public void Dispose()
+{
+    _timer?.Dispose();
+}
+</code></pre>
+<h2 id="debugging-workflow">Debugging Workflow</h2>
+<ol>
+<li><p><strong>Enable diagnostics:</strong></p>
+<pre><code class="lang-csharp">AssemblyCleanup.DiagnosticsEnabled = true;
+</code></pre>
+</li>
+<li><p><strong>Track suspicious objects:</strong></p>
+<pre><code class="lang-csharp">ReferenceTracker.Track(&quot;StageSession&quot;, stageSession);
+</code></pre>
+</li>
+<li><p><strong>Build and watch console output:</strong></p>
+<ul>
+<li>Look for <code>⚠ ALIVE:</code> messages - these are potential blockers</li>
+<li>Look for <code>[STATIC]</code> and <code>[DELEGATE]</code> warnings</li>
+</ul>
+</li>
+<li><p><strong>Fix identified issues:</strong></p>
+<ul>
+<li>Clear static references</li>
+<li>Unsubscribe from events</li>
+<li>Dispose resources</li>
+<li>Use static lambdas where possible</li>
+</ul>
+</li>
+<li><p><strong>Verify fix:</strong></p>
+<ul>
+<li>Rebuild and check if unload succeeds</li>
+<li>Check <code>✓ COLLECTED:</code> messages</li>
+</ul>
+</li>
+</ol>
+<h2 id="example-output">Example Output</h2>
+<pre><code>╔══════════════════════════════════════════════════════════════╗
+║        ASSEMBLY UNLOAD DIAGNOSTICS                          ║
+╚══════════════════════════════════════════════════════════════╝
+
+[1] Checking Static Fields...
+  [OBJECT] GameDebugger._instance: GameDebugger
+  ⚠ [DELEGATE] StageSession._OnGridUpdated holds delegate: Dispatch
+    └─ Target: StageController (prevents unload!)
+
+[2] Checking Event Subscriptions...
+  ⚠ [EVENT] SomeService.OnUpdate has 2 subscribers
+    └─ Subscriber: StageController.HandleUpdate
+
+══════════════════════════════════════════════════════════════
+Total potential blockers found: 2
+══════════════════════════════════════════════════════════════
+</code></pre>
+<h2 id="workarounds">Workarounds</h2>
+<p>If you can't find the blocker, you can:</p>
+<ol>
+<li><p><strong>Disable hot-reload</strong> in <code>.csproj</code>:</p>
+<pre><code class="lang-xml">&lt;PropertyGroup&gt;
+    &lt;GodotDisableHotReload&gt;true&lt;/GodotDisableHotReload&gt;
+&lt;/PropertyGroup&gt;
+</code></pre>
+</li>
+<li><p><strong>Disable in Editor Settings:</strong>
+Editor → Editor Settings → Dotnet → Editor → Reload Assemblies On Build → false</p>
+</li>
+<li><p><strong>Restart editor</strong> after each rebuild (safest option)</p>
+</li>
+</ol>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/standard/assembly/unloadability">Microsoft: Assembly Unloadability</a></li>
+<li><a href="https://github.com/godotengine/godot/issues/78513">Godot Issue #78513</a></li>
+<li><a href="https://learn.microsoft.com/en-us/dotnet/core/dependency-loading/understanding-assemblyloadcontext">.NET AssemblyLoadContext</a></li>
+</ul>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; Bus Fighter. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="styles/docfx.js"></script>
+        <script type="text/javascript" src="styles/main.js"></script>
+        <script type="text/javascript" src="styles/singulink.js"></script>    </body>
+</html>

@@ -104,6 +104,26 @@
     <h3 id="classes">
 Classes
 </h3>
+      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.html">GridRevealResult</a></h5>
+      <section><p>Result of a grid reveal operation (Rust-style discriminated union).
+Use pattern matching: if (result is GridRevealResult.Revealed r) { ... }</p>
+</section>
+      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html">GridRevealResult.AlreadyRevealed</a></h5>
+      <section><p>Tile was already revealed - no action taken.</p>
+</section>
+      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.BufferRegenerated.html">GridRevealResult.BufferRegenerated</a></h5>
+      <section><p>Buffer phase - grid was regenerated to ensure safety.</p>
+</section>
+      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.HitMine.html">GridRevealResult.HitMine</a></h5>
+      <section><p>Hit a mine (cat) - may cause damage based on player level.</p>
+</section>
+      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.Revealed.html">GridRevealResult.Revealed</a></h5>
+      <section><p>Successfully revealed tile(s), possibly via flood-fill.</p>
+</section>
+      <h5><a class="xref" href="CatSweeper.Stage.GridSession.html">GridSession</a></h5>
+      <section><p>Manages grid state and reveal logic for a single stage.
+Pure C# class - fully testable without Godot dependencies.</p>
+</section>
       <h5><a class="xref" href="CatSweeper.Stage.HiddenStageGrid.html">HiddenStageGrid</a></h5>
       <section></section>
       <h5><a class="xref" href="CatSweeper.Stage.HiddenStageGrid.MethodName.html">HiddenStageGrid.MethodName</a></h5>
@@ -117,6 +137,9 @@ Classes
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.MineGridMap.html">MineGridMap</a></h5>
       <section></section>
+      <h5><a class="xref" href="CatSweeper.Stage.MineTypeConfig.html">MineTypeConfig</a></h5>
+      <section><p>Configuration for a specific mine type to be placed in the grid.</p>
+</section>
       <h5><a class="xref" href="CatSweeper.Stage.StageCamera.html">StageCamera</a></h5>
       <section></section>
       <h5><a class="xref" href="CatSweeper.Stage.StageCamera.MethodName.html">StageCamera.MethodName</a></h5>
@@ -150,16 +173,13 @@ Classes
       <h5><a class="xref" href="CatSweeper.Stage.StageGrid.SignalName.html">StageGrid.SignalName</a></h5>
       <section><p>Cached StringNames for the signals contained in this class, for fast lookup.</p>
 </section>
-      <h5><a class="xref" href="CatSweeper.Stage.StageGridData.html">StageGridData</a></h5>
-      <section></section>
-      <h5><a class="xref" href="CatSweeper.Stage.StageGridData.MethodName.html">StageGridData.MethodName</a></h5>
-      <section><p>Cached StringNames for the methods contained in this class, for fast lookup.</p>
+      <h5><a class="xref" href="CatSweeper.Stage.StageGridGenerationConfig.html">StageGridGenerationConfig</a></h5>
+      <section><p>Configuration for stage grid generation with mine placement.</p>
 </section>
-      <h5><a class="xref" href="CatSweeper.Stage.StageGridData.PropertyName.html">StageGridData.PropertyName</a></h5>
-      <section><p>Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>
-</section>
-      <h5><a class="xref" href="CatSweeper.Stage.StageGridData.SignalName.html">StageGridData.SignalName</a></h5>
-      <section><p>Cached StringNames for the signals contained in this class, for fast lookup.</p>
+      <h5><a class="xref" href="CatSweeper.Stage.StageGridMapGenerator.html">StageGridMapGenerator</a></h5>
+      <section><p>Grid map generator for CatSweeper stages.
+Handles mine placement with buffer system (forbidden positions).
+Pure C# logic - no Godot dependencies for testability.</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.StageMap.html">StageMap</a></h5>
       <section></section>
@@ -177,12 +197,19 @@ Classes
       <h5><a class="xref" href="CatSweeper.Stage.StageServiceModel.html">StageServiceModel</a></h5>
       <section></section>
       <h5><a class="xref" href="CatSweeper.Stage.StageSession.html">StageSession</a></h5>
-      <section></section>
+      <section><p>Orchestrates stage gameplay including grid management, player state, and stage lifecycle.
+Delegates grid operations to GridSession.</p>
+</section>
     <h3 id="structs">
 Structs
 </h3>
       <h5><a class="xref" href="CatSweeper.Stage.StageConfigData.html">StageConfigData</a></h5>
       <section></section>
+      <h5><a class="xref" href="CatSweeper.Stage.StageGridData.html">StageGridData</a></h5>
+      <section><p>Pure C# data container for grid cell state.
+No Godot dependencies - fully unit testable.
+Uses struct value semantics - no pooling or disposal needed.</p>
+</section>
       <h5><a class="xref" href="CatSweeper.Stage.StageGridMineData.html">StageGridMineData</a></h5>
       <section></section>
       <h5><a class="xref" href="CatSweeper.Stage.StageParam.html">StageParam</a></h5>
