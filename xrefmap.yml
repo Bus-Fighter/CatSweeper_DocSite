@@ -3041,6 +3041,19 @@ references:
   fullName.vb: CatSweeper.Stage.StageSession.New
   nameWithType: StageSession.StageSession
   nameWithType.vb: StageSession.New
+- uid: CatSweeper.Stage.StageSession.Dispose
+  name: Dispose()
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_Dispose
+  commentId: M:CatSweeper.Stage.StageSession.Dispose
+  fullName: CatSweeper.Stage.StageSession.Dispose()
+  nameWithType: StageSession.Dispose()
+- uid: CatSweeper.Stage.StageSession.Dispose*
+  name: Dispose
+  href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_Dispose_
+  commentId: Overload:CatSweeper.Stage.StageSession.Dispose
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageSession.Dispose
+  nameWithType: StageSession.Dispose
 - uid: CatSweeper.Stage.StageSession.Initialize
   name: Initialize()
   href: api/CatSweeper.Stage.StageSession.html#CatSweeper_Stage_StageSession_Initialize
