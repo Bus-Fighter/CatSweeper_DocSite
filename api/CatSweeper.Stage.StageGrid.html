@@ -675,9 +675,6 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">Node._Process(double)</a>
     </div>
     <div>
-      <span class="xref">Node._Ready()</span>
-    </div>
-    <div>
       <span class="xref">Node._ShortcutInput(InputEvent)</span>
     </div>
     <div>
@@ -1357,7 +1354,7 @@ public class StageGrid : Node2D, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGrid_SetData_CatSweeper_Stage_StageGridData_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGrid.SetData(CatSweeper.Stage.StageGridData)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGrid.cs/#L14">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGrid.cs/#L25">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGrid_SetData_" data-uid="CatSweeper.Stage.StageGrid.SetData*"></a>
   <h4 id="CatSweeper_Stage_StageGrid_SetData_CatSweeper_Stage_StageGridData_" data-uid="CatSweeper.Stage.StageGrid.SetData(CatSweeper.Stage.StageGridData)">SetData(StageGridData)</h4>
@@ -1384,6 +1381,27 @@ public class StageGrid : Node2D, IDisposable</code></pre>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGrid__Ready.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGrid._Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGrid.cs/#L14">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageGrid__Ready_" data-uid="CatSweeper.Stage.StageGrid._Ready*"></a>
+  <h4 id="CatSweeper_Stage_StageGrid__Ready" data-uid="CatSweeper.Stage.StageGrid._Ready">_Ready()</h4>
+  <div class="markdown level1 summary"><p>Called when the node is "ready", i.e. when both the node and its children have entered the scene tree. If the node has children, their <span class="xref">Godot.Node._Ready()</span> callbacks get triggered first, and the parent node will receive the ready notification afterwards.</p>
+<p>Corresponds to the <span class="xref">Godot.Node.NotificationReady</span> notification in <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">_Notification(int)</a>. See also the <code>@onready</code> annotation for variables.</p>
+<p>Usually used for initialization. For even earlier initialization, <span class="xref">Godot.GodotObject.GodotObject()</span> may be used. See also <span class="xref">Godot.Node._EnterTree()</span>.</p>
+<p><b>Note:</b> This method may be called only once for each node. After removing a node from the scene tree and adding it again, <span class="xref">Godot.Node._Ready()</span> will <b>not</b> be called a second time. This can be bypassed by requesting another call with <span class="xref">Godot.Node.RequestReady()</span>, which may be called anywhere before adding the node again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void _Ready()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Godot.Node._Ready()</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>

@@ -2469,6 +2469,12 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.MethodName
   fullName: CatSweeper.Stage.StageGrid.MethodName
   nameWithType: StageGrid.MethodName
+- uid: CatSweeper.Stage.StageGrid.MethodName._Ready
+  name: _Ready
+  href: api/CatSweeper.Stage.StageGrid.MethodName.html#CatSweeper_Stage_StageGrid_MethodName__Ready
+  commentId: F:CatSweeper.Stage.StageGrid.MethodName._Ready
+  fullName: CatSweeper.Stage.StageGrid.MethodName._Ready
+  nameWithType: StageGrid.MethodName._Ready
 - uid: CatSweeper.Stage.StageGrid.PropertyName
   name: StageGrid.PropertyName
   href: api/CatSweeper.Stage.StageGrid.PropertyName.html
@@ -2512,6 +2518,19 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.SignalName
   fullName: CatSweeper.Stage.StageGrid.SignalName
   nameWithType: StageGrid.SignalName
+- uid: CatSweeper.Stage.StageGrid._Ready
+  name: _Ready()
+  href: api/CatSweeper.Stage.StageGrid.html#CatSweeper_Stage_StageGrid__Ready
+  commentId: M:CatSweeper.Stage.StageGrid._Ready
+  fullName: CatSweeper.Stage.StageGrid._Ready()
+  nameWithType: StageGrid._Ready()
+- uid: CatSweeper.Stage.StageGrid._Ready*
+  name: _Ready
+  href: api/CatSweeper.Stage.StageGrid.html#CatSweeper_Stage_StageGrid__Ready_
+  commentId: Overload:CatSweeper.Stage.StageGrid._Ready
+  isSpec: "True"
+  fullName: CatSweeper.Stage.StageGrid._Ready
+  nameWithType: StageGrid._Ready
 - uid: CatSweeper.Stage.StageGridData
   name: StageGridData
   href: api/CatSweeper.Stage.StageGridData.html
