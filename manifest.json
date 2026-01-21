@@ -2032,6 +2032,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.GodotSignalDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.GodotSignalDispatcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.GodotSignalDispatcher",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.GodotSignalDispatcher.yml\" sourcestartlinenumber=\"1\">Godot implementation of ISignalDispatcher using Godot's signal system.\nUsed by default in all Binder nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Binding.IBindingSource.yml",
       "output": {
         ".html": {
@@ -2043,6 +2057,20 @@
       "IsMRef": true,
       "Title": "cfGodotEngine.Binding.IBindingSource",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.ISignalDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.ISignalDispatcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.ISignalDispatcher",
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.ISignalDispatcher.yml\" sourcestartlinenumber=\"1\">Abstraction for signal dispatching, allowing binding system to work without direct Godot dependencies.\nEnables unit testing and cross-platform reuse.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2196,7 +2224,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "cfGodotEngine.Binding.SinglePropertyBinder<T>",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"1\">Binder for binding to a <xref href=\"cfEngine.DataStructure.IPropertyMap\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601._bindingName\" data-throw-if-not-resolved=\"false\"></xref>\nWhen property updated, signal <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnPropertyChanged(%600)\" data-throw-if-not-resolved=\"false\"></xref> will be emitted, and <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> will be called.\nFor inherited member,</p>\n<ol sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"4\">\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"4\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnBindingValueChanged(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom handling for the <typeparam name=\"T\"></typeparam> value</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"5\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.ParseValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> for adding parsing from object to <typeparam name=\"T\"></typeparam></li>\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"6\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.ValidateValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom validation for the object value</li>\n</ol>\n"
+      "Summary": "<p sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"1\">Binder for binding to a <xref href=\"cfEngine.DataStructure.IPropertyMap\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601._bindingName\" data-throw-if-not-resolved=\"false\"></xref>\nWhen property updated, signal will be dispatched via <xref href=\"cfGodotEngine.Binding.ISignalDispatcher\" data-throw-if-not-resolved=\"false\"></xref>.\nFor inherited member,</p>\n<ol sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"4\">\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"4\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.OnPropertyChanged(%600)\" data-throw-if-not-resolved=\"false\"></xref> to add custom handling for the <typeparam name=\"T\"></typeparam> value</li>\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"5\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.ParseValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> for adding parsing from object to <typeparam name=\"T\"></typeparam></li>\n<li sourcefile=\"api/cfGodotEngine.Binding.SinglePropertyBinder-1.yml\" sourcestartlinenumber=\"6\">override the <xref href=\"cfGodotEngine.Binding.SinglePropertyBinder%601.ValidateValue(System.Object)\" data-throw-if-not-resolved=\"false\"></xref> to add custom validation for the object value</li>\n</ol>\n"
     },
     {
       "type": "ManagedReference",
