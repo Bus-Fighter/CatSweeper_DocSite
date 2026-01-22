@@ -1892,6 +1892,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/cfGodotEngine.Binding.BindingAccessibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cfGodotEngine.Binding.BindingAccessibility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "cfGodotEngine.Binding.BindingAccessibility",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/cfGodotEngine.Binding.BindingNameDrawer.MethodName.yml",
       "output": {
         ".html": {

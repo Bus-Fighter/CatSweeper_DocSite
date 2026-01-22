@@ -2469,12 +2469,6 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.MethodName
   fullName: CatSweeper.Stage.StageGrid.MethodName
   nameWithType: StageGrid.MethodName
-- uid: CatSweeper.Stage.StageGrid.MethodName._Ready
-  name: _Ready
-  href: api/CatSweeper.Stage.StageGrid.MethodName.html#CatSweeper_Stage_StageGrid_MethodName__Ready
-  commentId: F:CatSweeper.Stage.StageGrid.MethodName._Ready
-  fullName: CatSweeper.Stage.StageGrid.MethodName._Ready
-  nameWithType: StageGrid.MethodName._Ready
 - uid: CatSweeper.Stage.StageGrid.PropertyName
   name: StageGrid.PropertyName
   href: api/CatSweeper.Stage.StageGrid.PropertyName.html
@@ -2518,19 +2512,6 @@ references:
   commentId: T:CatSweeper.Stage.StageGrid.SignalName
   fullName: CatSweeper.Stage.StageGrid.SignalName
   nameWithType: StageGrid.SignalName
-- uid: CatSweeper.Stage.StageGrid._Ready
-  name: _Ready()
-  href: api/CatSweeper.Stage.StageGrid.html#CatSweeper_Stage_StageGrid__Ready
-  commentId: M:CatSweeper.Stage.StageGrid._Ready
-  fullName: CatSweeper.Stage.StageGrid._Ready()
-  nameWithType: StageGrid._Ready()
-- uid: CatSweeper.Stage.StageGrid._Ready*
-  name: _Ready
-  href: api/CatSweeper.Stage.StageGrid.html#CatSweeper_Stage_StageGrid__Ready_
-  commentId: Overload:CatSweeper.Stage.StageGrid._Ready
-  isSpec: "True"
-  fullName: CatSweeper.Stage.StageGrid._Ready
-  nameWithType: StageGrid._Ready
 - uid: CatSweeper.Stage.StageGridData
   name: StageGridData
   href: api/CatSweeper.Stage.StageGridData.html
@@ -4358,6 +4339,12 @@ references:
   commentId: T:cfGodotEngine.Binding.Binder.MethodName
   fullName: cfGodotEngine.Binding.Binder.MethodName
   nameWithType: Binder.MethodName
+- uid: cfGodotEngine.Binding.Binder.MethodName.OnBindingValueChanged
+  name: OnBindingValueChanged
+  href: api/cfGodotEngine.Binding.Binder.MethodName.html#cfGodotEngine_Binding_Binder_MethodName_OnBindingValueChanged
+  commentId: F:cfGodotEngine.Binding.Binder.MethodName.OnBindingValueChanged
+  fullName: cfGodotEngine.Binding.Binder.MethodName.OnBindingValueChanged
+  nameWithType: Binder.MethodName.OnBindingValueChanged
 - uid: cfGodotEngine.Binding.Binder.MethodName._Ready
   name: _Ready
   href: api/cfGodotEngine.Binding.Binder.MethodName.html#cfGodotEngine_Binding_Binder_MethodName__Ready
@@ -4377,15 +4364,15 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Binding.Binder.OnBindingRestored
   nameWithType: Binder.OnBindingRestored
-- uid: cfGodotEngine.Binding.Binder.OnBindingValueChanged(System.String,System.Object)
-  name: OnBindingValueChanged(string, object)
-  href: api/cfGodotEngine.Binding.Binder.html#cfGodotEngine_Binding_Binder_OnBindingValueChanged_System_String_System_Object_
-  commentId: M:cfGodotEngine.Binding.Binder.OnBindingValueChanged(System.String,System.Object)
-  name.vb: OnBindingValueChanged(String, Object)
-  fullName: cfGodotEngine.Binding.Binder.OnBindingValueChanged(string, object)
-  fullName.vb: cfGodotEngine.Binding.Binder.OnBindingValueChanged(String, Object)
-  nameWithType: Binder.OnBindingValueChanged(string, object)
-  nameWithType.vb: Binder.OnBindingValueChanged(String, Object)
+- uid: cfGodotEngine.Binding.Binder.OnBindingValueChanged(System.String)
+  name: OnBindingValueChanged(string)
+  href: api/cfGodotEngine.Binding.Binder.html#cfGodotEngine_Binding_Binder_OnBindingValueChanged_System_String_
+  commentId: M:cfGodotEngine.Binding.Binder.OnBindingValueChanged(System.String)
+  name.vb: OnBindingValueChanged(String)
+  fullName: cfGodotEngine.Binding.Binder.OnBindingValueChanged(string)
+  fullName.vb: cfGodotEngine.Binding.Binder.OnBindingValueChanged(String)
+  nameWithType: Binder.OnBindingValueChanged(string)
+  nameWithType.vb: Binder.OnBindingValueChanged(String)
 - uid: cfGodotEngine.Binding.Binder.OnBindingValueChanged*
   name: OnBindingValueChanged
   href: api/cfGodotEngine.Binding.Binder.html#cfGodotEngine_Binding_Binder_OnBindingValueChanged_
@@ -4418,6 +4405,36 @@ references:
   isSpec: "True"
   fullName: cfGodotEngine.Binding.Binder._Ready
   nameWithType: Binder._Ready
+- uid: cfGodotEngine.Binding.BindingAccessibility
+  name: BindingAccessibility
+  href: api/cfGodotEngine.Binding.BindingAccessibility.html
+  commentId: T:cfGodotEngine.Binding.BindingAccessibility
+  fullName: cfGodotEngine.Binding.BindingAccessibility
+  nameWithType: BindingAccessibility
+- uid: cfGodotEngine.Binding.BindingAccessibility.Internal
+  name: Internal
+  href: api/cfGodotEngine.Binding.BindingAccessibility.html#cfGodotEngine_Binding_BindingAccessibility_Internal
+  commentId: F:cfGodotEngine.Binding.BindingAccessibility.Internal
+  fullName: cfGodotEngine.Binding.BindingAccessibility.Internal
+  nameWithType: BindingAccessibility.Internal
+- uid: cfGodotEngine.Binding.BindingAccessibility.Private
+  name: Private
+  href: api/cfGodotEngine.Binding.BindingAccessibility.html#cfGodotEngine_Binding_BindingAccessibility_Private
+  commentId: F:cfGodotEngine.Binding.BindingAccessibility.Private
+  fullName: cfGodotEngine.Binding.BindingAccessibility.Private
+  nameWithType: BindingAccessibility.Private
+- uid: cfGodotEngine.Binding.BindingAccessibility.Protected
+  name: Protected
+  href: api/cfGodotEngine.Binding.BindingAccessibility.html#cfGodotEngine_Binding_BindingAccessibility_Protected
+  commentId: F:cfGodotEngine.Binding.BindingAccessibility.Protected
+  fullName: cfGodotEngine.Binding.BindingAccessibility.Protected
+  nameWithType: BindingAccessibility.Protected
+- uid: cfGodotEngine.Binding.BindingAccessibility.Public
+  name: Public
+  href: api/cfGodotEngine.Binding.BindingAccessibility.html#cfGodotEngine_Binding_BindingAccessibility_Public
+  commentId: F:cfGodotEngine.Binding.BindingAccessibility.Public
+  fullName: cfGodotEngine.Binding.BindingAccessibility.Public
+  nameWithType: BindingAccessibility.Public
 - uid: cfGodotEngine.Binding.BindingNameDrawer
   name: BindingNameDrawer
   href: api/cfGodotEngine.Binding.BindingNameDrawer.html
@@ -4951,15 +4968,15 @@ references:
   commentId: T:cfGodotEngine.Binding.PropertyBindingAttribute
   fullName: cfGodotEngine.Binding.PropertyBindingAttribute
   nameWithType: PropertyBindingAttribute
-- uid: cfGodotEngine.Binding.PropertyBindingAttribute.#ctor(System.String)
-  name: PropertyBindingAttribute(string)
-  href: api/cfGodotEngine.Binding.PropertyBindingAttribute.html#cfGodotEngine_Binding_PropertyBindingAttribute__ctor_System_String_
-  commentId: M:cfGodotEngine.Binding.PropertyBindingAttribute.#ctor(System.String)
-  name.vb: New(String)
-  fullName: cfGodotEngine.Binding.PropertyBindingAttribute.PropertyBindingAttribute(string)
-  fullName.vb: cfGodotEngine.Binding.PropertyBindingAttribute.New(String)
-  nameWithType: PropertyBindingAttribute.PropertyBindingAttribute(string)
-  nameWithType.vb: PropertyBindingAttribute.New(String)
+- uid: cfGodotEngine.Binding.PropertyBindingAttribute.#ctor(System.String,cfGodotEngine.Binding.BindingAccessibility)
+  name: PropertyBindingAttribute(string, BindingAccessibility)
+  href: api/cfGodotEngine.Binding.PropertyBindingAttribute.html#cfGodotEngine_Binding_PropertyBindingAttribute__ctor_System_String_cfGodotEngine_Binding_BindingAccessibility_
+  commentId: M:cfGodotEngine.Binding.PropertyBindingAttribute.#ctor(System.String,cfGodotEngine.Binding.BindingAccessibility)
+  name.vb: New(String, BindingAccessibility)
+  fullName: cfGodotEngine.Binding.PropertyBindingAttribute.PropertyBindingAttribute(string, cfGodotEngine.Binding.BindingAccessibility)
+  fullName.vb: cfGodotEngine.Binding.PropertyBindingAttribute.New(String, cfGodotEngine.Binding.BindingAccessibility)
+  nameWithType: PropertyBindingAttribute.PropertyBindingAttribute(string, BindingAccessibility)
+  nameWithType.vb: PropertyBindingAttribute.New(String, BindingAccessibility)
 - uid: cfGodotEngine.Binding.PropertyBindingAttribute.#ctor*
   name: PropertyBindingAttribute
   href: api/cfGodotEngine.Binding.PropertyBindingAttribute.html#cfGodotEngine_Binding_PropertyBindingAttribute__ctor_
@@ -4970,6 +4987,12 @@ references:
   fullName.vb: cfGodotEngine.Binding.PropertyBindingAttribute.New
   nameWithType: PropertyBindingAttribute.PropertyBindingAttribute
   nameWithType.vb: PropertyBindingAttribute.New
+- uid: cfGodotEngine.Binding.PropertyBindingAttribute.accessibility
+  name: accessibility
+  href: api/cfGodotEngine.Binding.PropertyBindingAttribute.html#cfGodotEngine_Binding_PropertyBindingAttribute_accessibility
+  commentId: F:cfGodotEngine.Binding.PropertyBindingAttribute.accessibility
+  fullName: cfGodotEngine.Binding.PropertyBindingAttribute.accessibility
+  nameWithType: PropertyBindingAttribute.accessibility
 - uid: cfGodotEngine.Binding.PropertyBindingAttribute.name
   name: name
   href: api/cfGodotEngine.Binding.PropertyBindingAttribute.html#cfGodotEngine_Binding_PropertyBindingAttribute_name
@@ -5036,6 +5059,14 @@ references:
   fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).MethodName.GetSignalName
   nameWithType: SinglePropertyBinder<T>.MethodName.GetSignalName
   nameWithType.vb: SinglePropertyBinder(Of T).MethodName.GetSignalName
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName.OnBindingValueChanged
+  name: OnBindingValueChanged
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.html#cfGodotEngine_Binding_SinglePropertyBinder_1_MethodName_OnBindingValueChanged
+  commentId: F:cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName.OnBindingValueChanged
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.MethodName.OnBindingValueChanged
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).MethodName.OnBindingValueChanged
+  nameWithType: SinglePropertyBinder<T>.MethodName.OnBindingValueChanged
+  nameWithType.vb: SinglePropertyBinder(Of T).MethodName.OnBindingValueChanged
 - uid: cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName._Ready
   name: _Ready
   href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.html#cfGodotEngine_Binding_SinglePropertyBinder_1_MethodName__Ready
@@ -5061,15 +5092,15 @@ references:
   fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingRestored
   nameWithType: SinglePropertyBinder<T>.OnBindingRestored
   nameWithType.vb: SinglePropertyBinder(Of T).OnBindingRestored
-- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged(System.String,System.Object)
-  name: OnBindingValueChanged(string, object)
-  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingValueChanged_System_String_System_Object_
-  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged(System.String,System.Object)
-  name.vb: OnBindingValueChanged(String, Object)
-  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnBindingValueChanged(string, object)
-  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingValueChanged(String, Object)
-  nameWithType: SinglePropertyBinder<T>.OnBindingValueChanged(string, object)
-  nameWithType.vb: SinglePropertyBinder(Of T).OnBindingValueChanged(String, Object)
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged(System.String)
+  name: OnBindingValueChanged(string)
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingValueChanged_System_String_
+  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged(System.String)
+  name.vb: OnBindingValueChanged(String)
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.OnBindingValueChanged(string)
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).OnBindingValueChanged(String)
+  nameWithType: SinglePropertyBinder<T>.OnBindingValueChanged(string)
+  nameWithType.vb: SinglePropertyBinder(Of T).OnBindingValueChanged(String)
 - uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingValueChanged*
   name: OnBindingValueChanged
   href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingValueChanged_
