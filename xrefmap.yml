@@ -4721,15 +4721,15 @@ references:
   commentId: T:cfGodotEngine.Binding.GodotSignalDispatcher
   fullName: cfGodotEngine.Binding.GodotSignalDispatcher
   nameWithType: GodotSignalDispatcher
-- uid: cfGodotEngine.Binding.GodotSignalDispatcher.#ctor(Godot.Node,System.String)
-  name: GodotSignalDispatcher(Node, string)
-  href: api/cfGodotEngine.Binding.GodotSignalDispatcher.html#cfGodotEngine_Binding_GodotSignalDispatcher__ctor_Godot_Node_System_String_
-  commentId: M:cfGodotEngine.Binding.GodotSignalDispatcher.#ctor(Godot.Node,System.String)
-  name.vb: New(Node, String)
-  fullName: cfGodotEngine.Binding.GodotSignalDispatcher.GodotSignalDispatcher(Godot.Node, string)
-  fullName.vb: cfGodotEngine.Binding.GodotSignalDispatcher.New(Godot.Node, String)
-  nameWithType: GodotSignalDispatcher.GodotSignalDispatcher(Node, string)
-  nameWithType.vb: GodotSignalDispatcher.New(Node, String)
+- uid: cfGodotEngine.Binding.GodotSignalDispatcher.#ctor(Godot.Node)
+  name: GodotSignalDispatcher(Node)
+  href: api/cfGodotEngine.Binding.GodotSignalDispatcher.html#cfGodotEngine_Binding_GodotSignalDispatcher__ctor_Godot_Node_
+  commentId: M:cfGodotEngine.Binding.GodotSignalDispatcher.#ctor(Godot.Node)
+  name.vb: New(Node)
+  fullName: cfGodotEngine.Binding.GodotSignalDispatcher.GodotSignalDispatcher(Godot.Node)
+  fullName.vb: cfGodotEngine.Binding.GodotSignalDispatcher.New(Godot.Node)
+  nameWithType: GodotSignalDispatcher.GodotSignalDispatcher(Node)
+  nameWithType.vb: GodotSignalDispatcher.New(Node)
 - uid: cfGodotEngine.Binding.GodotSignalDispatcher.#ctor*
   name: GodotSignalDispatcher
   href: api/cfGodotEngine.Binding.GodotSignalDispatcher.html#cfGodotEngine_Binding_GodotSignalDispatcher__ctor_
@@ -5067,14 +5067,6 @@ references:
   fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).MethodName.OnBindingValueChanged
   nameWithType: SinglePropertyBinder<T>.MethodName.OnBindingValueChanged
   nameWithType.vb: SinglePropertyBinder(Of T).MethodName.OnBindingValueChanged
-- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName._Ready
-  name: _Ready
-  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.MethodName.html#cfGodotEngine_Binding_SinglePropertyBinder_1_MethodName__Ready
-  commentId: F:cfGodotEngine.Binding.SinglePropertyBinder`1.MethodName._Ready
-  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.MethodName._Ready
-  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).MethodName._Ready
-  nameWithType: SinglePropertyBinder<T>.MethodName._Ready
-  nameWithType.vb: SinglePropertyBinder(Of T).MethodName._Ready
 - uid: cfGodotEngine.Binding.SinglePropertyBinder`1.OnBindingRestored(cfEngine.DataStructure.IPropertyMap)
   name: OnBindingRestored(IPropertyMap)
   href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_OnBindingRestored_cfEngine_DataStructure_IPropertyMap_
@@ -5162,6 +5154,23 @@ references:
   fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).PropertyName._bindingName
   nameWithType: SinglePropertyBinder<T>.PropertyName._bindingName
   nameWithType.vb: SinglePropertyBinder(Of T).PropertyName._bindingName
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.SignalDispatcher
+  name: SignalDispatcher
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_SignalDispatcher
+  commentId: P:cfGodotEngine.Binding.SinglePropertyBinder`1.SignalDispatcher
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.SignalDispatcher
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).SignalDispatcher
+  nameWithType: SinglePropertyBinder<T>.SignalDispatcher
+  nameWithType.vb: SinglePropertyBinder(Of T).SignalDispatcher
+- uid: cfGodotEngine.Binding.SinglePropertyBinder`1.SignalDispatcher*
+  name: SignalDispatcher
+  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1_SignalDispatcher_
+  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1.SignalDispatcher
+  isSpec: "True"
+  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>.SignalDispatcher
+  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).SignalDispatcher
+  nameWithType: SinglePropertyBinder<T>.SignalDispatcher
+  nameWithType.vb: SinglePropertyBinder(Of T).SignalDispatcher
 - uid: cfGodotEngine.Binding.SinglePropertyBinder`1.SignalName
   name: SinglePropertyBinder<T>.SignalName
   href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.SignalName.html
@@ -5189,23 +5198,6 @@ references:
   fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T).ValidateValue
   nameWithType: SinglePropertyBinder<T>.ValidateValue
   nameWithType.vb: SinglePropertyBinder(Of T).ValidateValue
-- uid: cfGodotEngine.Binding.SinglePropertyBinder`1._Ready
-  name: _Ready()
-  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1__Ready
-  commentId: M:cfGodotEngine.Binding.SinglePropertyBinder`1._Ready
-  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>._Ready()
-  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T)._Ready()
-  nameWithType: SinglePropertyBinder<T>._Ready()
-  nameWithType.vb: SinglePropertyBinder(Of T)._Ready()
-- uid: cfGodotEngine.Binding.SinglePropertyBinder`1._Ready*
-  name: _Ready
-  href: api/cfGodotEngine.Binding.SinglePropertyBinder-1.html#cfGodotEngine_Binding_SinglePropertyBinder_1__Ready_
-  commentId: Overload:cfGodotEngine.Binding.SinglePropertyBinder`1._Ready
-  isSpec: "True"
-  fullName: cfGodotEngine.Binding.SinglePropertyBinder<T>._Ready
-  fullName.vb: cfGodotEngine.Binding.SinglePropertyBinder(Of T)._Ready
-  nameWithType: SinglePropertyBinder<T>._Ready
-  nameWithType.vb: SinglePropertyBinder(Of T)._Ready
 - uid: cfGodotEngine.Binding.StringBinder
   name: StringBinder
   href: api/cfGodotEngine.Binding.StringBinder.html
