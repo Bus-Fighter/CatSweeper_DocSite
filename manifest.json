@@ -1024,6 +1024,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.Player.PlayerHealthSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.Player.PlayerHealthSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.Player.PlayerHealthSystem",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.Player.PlayerHealthSystem.yml\" sourcestartlinenumber=\"1\">Manages player HP (health points) during a stage.\nHandles HP loss and game over detection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.Player.PlayerProgressionSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.Player.PlayerProgressionSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.Player.PlayerProgressionSystem",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.Player.PlayerProgressionSystem.yml\" sourcestartlinenumber=\"1\">Manages player level and EXP progression during a stage.\nHandles level-up logic and dynamic level table calculation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.Player.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.Player",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.StageCamera.MethodName.yml",
       "output": {
         ".html": {
