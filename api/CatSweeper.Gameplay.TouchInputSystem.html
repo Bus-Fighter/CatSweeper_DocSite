@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="CatSweeper.Gameplay.TouchInputSystem">
@@ -220,6 +219,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -248,6 +250,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -793,7 +801,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -981,7 +989,7 @@
   <h5 id="CatSweeper_Gameplay_TouchInputSystem_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[GlobalClass]
-[ScriptPath(&quot;res://Script/Gameplay/TouchInputSystem.cs&quot;)]
+[ScriptPath(&quot;res://Scripts/Gameplay/TouchInputSystem.cs&quot;)]
 public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
   </div>
   <h3 id="constructors">Constructors
@@ -991,7 +999,7 @@ public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem__ctor.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Gameplay/TouchInputSystem.cs/#L13">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Gameplay/TouchInputSystem.cs/#L13">View Source</a>
   </span>
   <a id="CatSweeper_Gameplay_TouchInputSystem__ctor_" data-uid="CatSweeper.Gameplay.TouchInputSystem.#ctor*"></a>
   <h4 id="CatSweeper_Gameplay_TouchInputSystem__ctor" data-uid="CatSweeper.Gameplay.TouchInputSystem.#ctor">TouchInputSystem()</h4>
@@ -1008,7 +1016,7 @@ public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem_RegisterMotion_CatSweeper_Gameplay_IInputMotionListener_.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Gameplay/TouchInputSystem.cs/#L63">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Gameplay/TouchInputSystem.cs/#L63">View Source</a>
   </span>
   <a id="CatSweeper_Gameplay_TouchInputSystem_RegisterMotion_" data-uid="CatSweeper.Gameplay.TouchInputSystem.RegisterMotion*"></a>
   <h4 id="CatSweeper_Gameplay_TouchInputSystem_RegisterMotion_CatSweeper_Gameplay_IInputMotionListener_" data-uid="CatSweeper.Gameplay.TouchInputSystem.RegisterMotion(CatSweeper.Gameplay.IInputMotionListener)">RegisterMotion(IInputMotionListener)</h4>
@@ -1040,7 +1048,7 @@ public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem_RegisterTouch_CatSweeper_Gameplay_IInputTouchListener_.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Gameplay/TouchInputSystem.cs/#L64">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Gameplay/TouchInputSystem.cs/#L64">View Source</a>
   </span>
   <a id="CatSweeper_Gameplay_TouchInputSystem_RegisterTouch_" data-uid="CatSweeper.Gameplay.TouchInputSystem.RegisterTouch*"></a>
   <h4 id="CatSweeper_Gameplay_TouchInputSystem_RegisterTouch_CatSweeper_Gameplay_IInputTouchListener_" data-uid="CatSweeper.Gameplay.TouchInputSystem.RegisterTouch(CatSweeper.Gameplay.IInputTouchListener)">RegisterTouch(IInputTouchListener)</h4>
@@ -1072,7 +1080,7 @@ public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem_UnregisterMotion_CatSweeper_Gameplay_IInputMotionListener_.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Gameplay/TouchInputSystem.cs/#L65">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Gameplay/TouchInputSystem.cs/#L65">View Source</a>
   </span>
   <a id="CatSweeper_Gameplay_TouchInputSystem_UnregisterMotion_" data-uid="CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion*"></a>
   <h4 id="CatSweeper_Gameplay_TouchInputSystem_UnregisterMotion_CatSweeper_Gameplay_IInputMotionListener_" data-uid="CatSweeper.Gameplay.TouchInputSystem.UnregisterMotion(CatSweeper.Gameplay.IInputMotionListener)">UnregisterMotion(IInputMotionListener)</h4>
@@ -1104,7 +1112,7 @@ public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem_UnregisterTouch_CatSweeper_Gameplay_IInputTouchListener_.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Gameplay/TouchInputSystem.cs/#L66">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Gameplay/TouchInputSystem.cs/#L66">View Source</a>
   </span>
   <a id="CatSweeper_Gameplay_TouchInputSystem_UnregisterTouch_" data-uid="CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch*"></a>
   <h4 id="CatSweeper_Gameplay_TouchInputSystem_UnregisterTouch_CatSweeper_Gameplay_IInputTouchListener_" data-uid="CatSweeper.Gameplay.TouchInputSystem.UnregisterTouch(CatSweeper.Gameplay.IInputTouchListener)">UnregisterTouch(IInputTouchListener)</h4>
@@ -1136,7 +1144,7 @@ public class TouchInputSystem : Node, IDisposable, IInputSystem</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Gameplay_TouchInputSystem__Input_Godot_InputEvent_.md&amp;value=---%0Auid%3A%20CatSweeper.Gameplay.TouchInputSystem._Input(Godot.InputEvent)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Gameplay/TouchInputSystem.cs/#L18">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Gameplay/TouchInputSystem.cs/#L18">View Source</a>
   </span>
   <a id="CatSweeper_Gameplay_TouchInputSystem__Input_" data-uid="CatSweeper.Gameplay.TouchInputSystem._Input*"></a>
   <h4 id="CatSweeper_Gameplay_TouchInputSystem__Input_Godot_InputEvent_" data-uid="CatSweeper.Gameplay.TouchInputSystem._Input(Godot.InputEvent)">_Input(InputEvent)</h4>

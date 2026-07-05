@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="cfGodotEngine.UI.SearchableOptionDropdown">
@@ -164,13 +163,22 @@
       <span class="xref">Control._GetAccessibilityContainerName(Node)</span>
     </div>
     <div>
+      <span class="xref">Control._GetCursorShape(Vector2)</span>
+    </div>
+    <div>
       <span class="xref">Control._GetDragData(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">Control._GetMaximumSize()</span>
     </div>
     <div>
       <span class="xref">Control._GetMinimumSize()</span>
     </div>
     <div>
       <span class="xref">Control._GetTooltip(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">Control._GetTooltipAutoTranslateModeAt(Vector2)</span>
     </div>
     <div>
       <span class="xref">Control._GuiInput(InputEvent)</span>
@@ -188,10 +196,19 @@
       <span class="xref">Control.AcceptEvent()</span>
     </div>
     <div>
+      <span class="xref">Control.GetMaximumSize()</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetCombinedMaximumSize()</span>
+    </div>
+    <div>
       <span class="xref">Control.GetMinimumSize()</span>
     </div>
     <div>
       <span class="xref">Control.GetCombinedMinimumSize()</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetBoundMinimumSize()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Control.SetAnchorsPreset(Control.LayoutPreset, bool)</a>
@@ -233,6 +250,9 @@
       <span class="xref">Control.GetEnd()</span>
     </div>
     <div>
+      <span class="xref">Control.GetCombinedPivotOffset()</span>
+    </div>
+    <div>
       <span class="xref">Control.GetParentAreaSize()</span>
     </div>
     <div>
@@ -248,10 +268,10 @@
       <span class="xref">Control.GetFocusModeWithOverride()</span>
     </div>
     <div>
-      <span class="xref">Control.HasFocus()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Control.HasFocus(bool)</a>
     </div>
     <div>
-      <span class="xref">Control.GrabFocus()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Control.GrabFocus(bool)</a>
     </div>
     <div>
       <span class="xref">Control.ReleaseFocus()</span>
@@ -407,6 +427,9 @@
       <span class="xref">Control.WarpMouse(Vector2)</span>
     </div>
     <div>
+      <span class="xref">Control.UpdateMaximumSize()</span>
+    </div>
+    <div>
       <span class="xref">Control.UpdateMinimumSize()</span>
     </div>
     <div>
@@ -434,6 +457,9 @@
       <span class="xref">Control.EmitSignalSizeFlagsChanged()</span>
     </div>
     <div>
+      <span class="xref">Control.EmitSignalMaximumSizeChanged()</span>
+    </div>
+    <div>
       <span class="xref">Control.EmitSignalMinimumSizeChanged()</span>
     </div>
     <div>
@@ -449,13 +475,16 @@
       <span class="xref">Control.HasGodotClassSignal(in godot_string_name)</span>
     </div>
     <div>
-      <span class="xref">Control.ClipContents</span>
-    </div>
-    <div>
       <span class="xref">Control.CustomMinimumSize</span>
     </div>
     <div>
-      <span class="xref">Control.LayoutDirection</span>
+      <span class="xref">Control.CustomMaximumSize</span>
+    </div>
+    <div>
+      <span class="xref">Control.PropagateMaximumSize</span>
+    </div>
+    <div>
+      <span class="xref">Control.ClipContents</span>
     </div>
     <div>
       <span class="xref">Control.AnchorLeft</span>
@@ -509,6 +538,9 @@
       <span class="xref">Control.PivotOffset</span>
     </div>
     <div>
+      <span class="xref">Control.PivotOffsetRatio</span>
+    </div>
+    <div>
       <span class="xref">Control.SizeFlagsHorizontal</span>
     </div>
     <div>
@@ -518,7 +550,37 @@
       <span class="xref">Control.SizeFlagsStretchRatio</span>
     </div>
     <div>
+      <span class="xref">Control.OffsetTransformEnabled</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPosition</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPositionRatio</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformScale</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformRotation</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPivot</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPivotRatio</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformVisualOnly</span>
+    </div>
+    <div>
       <span class="xref">Control.LocalizeNumeralSystem</span>
+    </div>
+    <div>
+      <span class="xref">Control.LayoutDirection</span>
+    </div>
+    <div>
+      <span class="xref">Control.TranslationContext</span>
     </div>
     <div>
       <span class="xref">Control.AutoTranslate</span>
@@ -617,6 +679,9 @@
       <span class="xref">Control.SizeFlagsChanged</span>
     </div>
     <div>
+      <span class="xref">Control.MaximumSizeChanged</span>
+    </div>
+    <div>
       <span class="xref">Control.MinimumSizeChanged</span>
     </div>
     <div>
@@ -683,6 +748,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">CanvasItem.DrawPolylineColors(ReadOnlySpan&lt;Vector2&gt;, ReadOnlySpan&lt;Color&gt;, float, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipseArc(Vector2, float, float, float, float, int, Color, float, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawArc(Vector2, float, float, float, int, Color, float, bool)</a>
     </div>
     <div>
@@ -702,6 +770,9 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawCircle(Vector2, float, Color, bool, float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipse(Vector2, float, float, Color, bool, float, bool)</a>
     </div>
     <div>
       <span class="xref">CanvasItem.DrawTexture(Texture2D, Vector2, Color?)</span>
@@ -875,6 +946,9 @@
       <span class="xref">CanvasItem.ClipChildren</span>
     </div>
     <div>
+      <span class="xref">CanvasItem.OversamplingWithScale</span>
+    </div>
+    <div>
       <span class="xref">CanvasItem.LightMask</span>
     </div>
     <div>
@@ -1016,6 +1090,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -1044,6 +1121,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -1583,7 +1666,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -1778,10 +1861,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown__ctor.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown__ctor.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L49">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L49">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown__ctor_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.#ctor*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown__ctor" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.#ctor">SearchableOptionDropdown()</h4>
@@ -1795,10 +1878,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_dropDownStyle.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.dropDownStyle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_dropDownStyle.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.dropDownStyle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L19">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L19">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_dropDownStyle_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.dropDownStyle*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_dropDownStyle" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.dropDownStyle">dropDownStyle</h4>
@@ -1825,10 +1908,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_dropdownSize.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.dropdownSize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_dropdownSize.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.dropdownSize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L13">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L13">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_dropdownSize_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.dropdownSize*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_dropdownSize" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.dropdownSize">dropdownSize</h4>
@@ -1855,10 +1938,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_placeHolderText.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.placeHolderText%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_placeHolderText.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.placeHolderText%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L27">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L27">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_placeHolderText_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.placeHolderText*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_placeHolderText" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.placeHolderText">placeHolderText</h4>
@@ -1887,10 +1970,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_AddItem_System_String_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.AddItem(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_AddItem_System_String_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.AddItem(System.String%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L103">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L103">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_AddItem_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.AddItem*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_AddItem_System_String_System_String_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.AddItem(System.String,System.String)">AddItem(string, string)</h4>
@@ -1924,10 +2007,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_Clear.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_Clear.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L97">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L97">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_Clear_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.Clear*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_Clear" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.Clear">Clear()</h4>
@@ -1939,10 +2022,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_ClearItems.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.ClearItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_ClearItems.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.ClearItems%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L91">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L91">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_ClearItems_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.ClearItems*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_ClearItems" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.ClearItems">ClearItems()</h4>
@@ -1954,10 +2037,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_Deselect.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.Deselect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_Deselect.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.Deselect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L134">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L139">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_Deselect_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.Deselect*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_Deselect" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.Deselect">Deselect()</h4>
@@ -1969,10 +2052,57 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_Select_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.Select(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_HasItem_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.HasItem(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L120">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L111">View Source</a>
+  </span>
+  <a id="cfGodotEngine_UI_SearchableOptionDropdown_HasItem_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.HasItem*"></a>
+  <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_HasItem_System_String_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.HasItem(System.String)">HasItem(string)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasItem(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_Select_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.Select(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L125">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_Select_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.Select*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_Select_System_String_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.Select(System.String)">Select(string)</h4>
@@ -2001,10 +2131,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_SetItems_System_Collections_Generic_IEnumerable_System_ValueTuple_System_String_System_String___.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.SetItems(System.Collections.Generic.IEnumerable%7BSystem.ValueTuple%7BSystem.String%2CSystem.String%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_SetItems_System_Collections_Generic_IEnumerable_System_ValueTuple_System_String_System_String___.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.SetItems(System.Collections.Generic.IEnumerable%7BSystem.ValueTuple%7BSystem.String%2CSystem.String%7D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L111">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L116">View Source</a>
   </span>
   <a id="cfGodotEngine_UI_SearchableOptionDropdown_SetItems_" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.SetItems*"></a>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_SetItems_System_Collections_Generic_IEnumerable_System_ValueTuple_System_String_System_String___" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.SetItems(System.Collections.Generic.IEnumerable{System.ValueTuple{System.String,System.String}})">SetItems(IEnumerable&lt;(string id, string displayText)&gt;)</h4>
@@ -2035,10 +2165,10 @@ public class SearchableOptionDropdown : Control, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_OnSelected.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.OnSelected%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_UI_SearchableOptionDropdown_OnSelected.md&amp;value=---%0Auid%3A%20cfGodotEngine.UI.SearchableOptionDropdown.OnSelected%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/ui/control/SearchableOptionDropdown.cs/#L39">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/ui/control/SearchableOptionDropdown.cs/#L39">View Source</a>
   </span>
   <h4 id="cfGodotEngine_UI_SearchableOptionDropdown_OnSelected" data-uid="cfGodotEngine.UI.SearchableOptionDropdown.OnSelected">OnSelected</h4>
   <div class="markdown level1 summary"></div>

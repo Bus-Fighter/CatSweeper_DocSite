@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageMap.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageMap%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="CatSweeper.Stage.StageMap">
@@ -396,6 +395,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">CanvasItem.DrawPolylineColors(ReadOnlySpan&lt;Vector2&gt;, ReadOnlySpan&lt;Color&gt;, float, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipseArc(Vector2, float, float, float, float, int, Color, float, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawArc(Vector2, float, float, float, int, Color, float, bool)</a>
     </div>
     <div>
@@ -415,6 +417,9 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawCircle(Vector2, float, Color, bool, float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipse(Vector2, float, float, Color, bool, float, bool)</a>
     </div>
     <div>
       <span class="xref">CanvasItem.DrawTexture(Texture2D, Vector2, Color?)</span>
@@ -588,6 +593,9 @@
       <span class="xref">CanvasItem.ClipChildren</span>
     </div>
     <div>
+      <span class="xref">CanvasItem.OversamplingWithScale</span>
+    </div>
+    <div>
       <span class="xref">CanvasItem.LightMask</span>
     </div>
     <div>
@@ -729,6 +737,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -757,6 +768,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -1296,7 +1313,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -1485,7 +1502,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tool]
 [GlobalClass]
-[ScriptPath(&quot;res://Script/Stage/StageMap.cs&quot;)]
+[ScriptPath(&quot;res://Scripts/Stage/StageMap.cs&quot;)]
 public class StageMap : TileMapLayer, IDisposable</code></pre>
   </div>
   <h3 id="methods">Methods
@@ -1495,7 +1512,7 @@ public class StageMap : TileMapLayer, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageMap_Clear.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageMap.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageMap.cs/#L98">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageMap.cs/#L98">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageMap_Clear_" data-uid="CatSweeper.Stage.StageMap.Clear*"></a>
   <h4 id="CatSweeper_Stage_StageMap_Clear" data-uid="CatSweeper.Stage.StageMap.Clear">Clear()</h4>
@@ -1510,7 +1527,7 @@ public class StageMap : TileMapLayer, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageMap_GetGrid_Godot_Vector2I_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageMap.GetGrid(Godot.Vector2I)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageMap.cs/#L59">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageMap.cs/#L59">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageMap_GetGrid_" data-uid="CatSweeper.Stage.StageMap.GetGrid*"></a>
   <h4 id="CatSweeper_Stage_StageMap_GetGrid_Godot_Vector2I_" data-uid="CatSweeper.Stage.StageMap.GetGrid(Godot.Vector2I)">GetGrid(Vector2I)</h4>
@@ -1557,7 +1574,7 @@ public class StageMap : TileMapLayer, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageMap_GetGridPositions.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageMap.GetGridPositions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageMap.cs/#L65">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageMap.cs/#L65">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageMap_GetGridPositions_" data-uid="CatSweeper.Stage.StageMap.GetGridPositions*"></a>
   <h4 id="CatSweeper_Stage_StageMap_GetGridPositions" data-uid="CatSweeper.Stage.StageMap.GetGridPositions">GetGridPositions()</h4>
@@ -1587,7 +1604,7 @@ public class StageMap : TileMapLayer, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageMap_InitializeMap_cfEngine_DataStructure_IReadOnlyGridMap_CatSweeper_Stage_StageGridData__.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageMap.InitializeMap(cfEngine.DataStructure.IReadOnlyGridMap%7BCatSweeper.Stage.StageGridData%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageMap.cs/#L23">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageMap.cs/#L23">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageMap_InitializeMap_" data-uid="CatSweeper.Stage.StageMap.InitializeMap*"></a>
   <h4 id="CatSweeper_Stage_StageMap_InitializeMap_cfEngine_DataStructure_IReadOnlyGridMap_CatSweeper_Stage_StageGridData__" data-uid="CatSweeper.Stage.StageMap.InitializeMap(cfEngine.DataStructure.IReadOnlyGridMap{CatSweeper.Stage.StageGridData})">InitializeMap(IReadOnlyGridMap&lt;StageGridData&gt;)</h4>
@@ -1619,7 +1636,7 @@ public class StageMap : TileMapLayer, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageMap_UpdateGrid_Godot_Vector2I_CatSweeper_Stage_StageGridData_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageMap.UpdateGrid(Godot.Vector2I%2CCatSweeper.Stage.StageGridData)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageMap.cs/#L34">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageMap.cs/#L34">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageMap_UpdateGrid_" data-uid="CatSweeper.Stage.StageMap.UpdateGrid*"></a>
   <h4 id="CatSweeper_Stage_StageMap_UpdateGrid_Godot_Vector2I_CatSweeper_Stage_StageGridData_" data-uid="CatSweeper.Stage.StageMap.UpdateGrid(Godot.Vector2I,CatSweeper.Stage.StageGridData)">UpdateGrid(Vector2I, StageGridData)</h4>

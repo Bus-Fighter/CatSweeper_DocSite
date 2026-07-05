@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="cfGodotEngine.Tool.ConditionNode">
@@ -221,6 +220,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -249,6 +251,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -797,7 +805,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -993,10 +1001,10 @@ public class ConditionNode : Node, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_OnFulfilled.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.OnFulfilled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_OnFulfilled.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.OnFulfilled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/ConditionNode.cs/#L15">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/Condition/ConditionNode.cs/#L15">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_ConditionNode_OnFulfilled_" data-uid="cfGodotEngine.Tool.ConditionNode.OnFulfilled*"></a>
   <h4 id="cfGodotEngine_Tool_ConditionNode_OnFulfilled" data-uid="cfGodotEngine.Tool.ConditionNode.OnFulfilled">OnFulfilled</h4>
@@ -1023,10 +1031,10 @@ public class ConditionNode : Node, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_isFulfilled.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.isFulfilled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_isFulfilled.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.isFulfilled%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/ConditionNode.cs/#L13">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/Condition/ConditionNode.cs/#L13">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_ConditionNode_isFulfilled_" data-uid="cfGodotEngine.Tool.ConditionNode.isFulfilled*"></a>
   <h4 id="cfGodotEngine_Tool_ConditionNode_isFulfilled" data-uid="cfGodotEngine.Tool.ConditionNode.isFulfilled">isFulfilled</h4>
@@ -1053,13 +1061,8 @@ public class ConditionNode : Node, IDisposable</code></pre>
   </table>
   <h3 id="methods">Methods
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_EmitSignalOnConditionUpdated_System_Boolean_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.EmitSignalOnConditionUpdated(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/cfGodotEngine.Tool.ConditionNode_ScriptSignals.generated.cs/#L37">View Source</a>
-  </span>
+
+
   <a id="cfGodotEngine_Tool_ConditionNode_EmitSignalOnConditionUpdated_" data-uid="cfGodotEngine.Tool.ConditionNode.EmitSignalOnConditionUpdated*"></a>
   <h4 id="cfGodotEngine_Tool_ConditionNode_EmitSignalOnConditionUpdated_System_Boolean_" data-uid="cfGodotEngine.Tool.ConditionNode.EmitSignalOnConditionUpdated(System.Boolean)">EmitSignalOnConditionUpdated(bool)</h4>
   <div class="markdown level1 summary"></div>
@@ -1087,10 +1090,10 @@ public class ConditionNode : Node, IDisposable</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_Fulfill.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.Fulfill%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_Fulfill.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.Fulfill%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/ConditionNode.cs/#L20">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/Condition/ConditionNode.cs/#L20">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_ConditionNode_Fulfill_" data-uid="cfGodotEngine.Tool.ConditionNode.Fulfill*"></a>
   <h4 id="cfGodotEngine_Tool_ConditionNode_Fulfill" data-uid="cfGodotEngine.Tool.ConditionNode.Fulfill">Fulfill()</h4>
@@ -1102,10 +1105,10 @@ public class ConditionNode : Node, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.GetConfigurationWarnings(System.Collections.Generic.IList%7BSystem.String%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.GetConfigurationWarnings(System.Collections.Generic.IList%7BSystem.String%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/Condition/ConditionNode.cs/#L33">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/Condition/ConditionNode.cs/#L33">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_ConditionNode_GetConfigurationWarnings_" data-uid="cfGodotEngine.Tool.ConditionNode.GetConfigurationWarnings*"></a>
   <h4 id="cfGodotEngine_Tool_ConditionNode_GetConfigurationWarnings_System_Collections_Generic_IList_System_String__" data-uid="cfGodotEngine.Tool.ConditionNode.GetConfigurationWarnings(System.Collections.Generic.IList{System.String})">GetConfigurationWarnings(IList&lt;string&gt;)</h4>
@@ -1135,13 +1138,8 @@ public virtual void GetConfigurationWarnings(IList&lt;string&gt; warnings)</code
   </table>
   <h3 id="events">Events
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_ConditionNode_OnConditionUpdated.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.ConditionNode.OnConditionUpdated%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/cfGodotEngine.Tool.ConditionNode_ScriptSignals.generated.cs/#L33">View Source</a>
-  </span>
+
+
   <h4 id="cfGodotEngine_Tool_ConditionNode_OnConditionUpdated" data-uid="cfGodotEngine.Tool.ConditionNode.OnConditionUpdated">OnConditionUpdated</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>

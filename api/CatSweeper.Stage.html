@@ -104,15 +104,22 @@
     <h3 id="classes">
 Classes
 </h3>
+      <h5><a class="xref" href="CatSweeper.Stage.GridAlgorithms.html">GridAlgorithms</a></h5>
+      <section><p>Pure C# grid algorithms used by stage gameplay.</p>
+</section>
       <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.html">GridRevealResult</a></h5>
-      <section><p>Result of a grid reveal operation (Rust-style discriminated union).
-Use pattern matching: if (result is GridRevealResult.Revealed r) { ... }</p>
+      <section><p>Result of a grid reveal operation .
+Use pattern matching: if (result is GridRevealResult.Revealed r)</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.AlreadyRevealed.html">GridRevealResult.AlreadyRevealed</a></h5>
       <section><p>Tile was already revealed - no action taken.</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.HitMine.html">GridRevealResult.HitMine</a></h5>
-      <section><p>Hit a mine (cat) - may cause damage based on player level.</p>
+      <section><p>Hit a mine (cat) - may cause damage based on player level.
+The mine is removed from the grid and surrounding numbers are updated.</p>
+</section>
+      <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.OutOfBounds.html">GridRevealResult.OutOfBounds</a></h5>
+      <section><p>Requested position is outside the grid bounds.</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.GridRevealResult.Revealed.html">GridRevealResult.Revealed</a></h5>
       <section><p>Successfully revealed tile(s), possibly via flood-fill.</p>
@@ -132,8 +139,6 @@ Pure C# class - fully testable without Godot dependencies.</p>
       <h5><a class="xref" href="CatSweeper.Stage.HiddenStageGrid.SignalName.html">HiddenStageGrid.SignalName</a></h5>
       <section><p>Cached StringNames for the signals contained in this class, for fast lookup.</p>
 </section>
-      <h5><a class="xref" href="CatSweeper.Stage.MineGridMap.html">MineGridMap</a></h5>
-      <section></section>
       <h5><a class="xref" href="CatSweeper.Stage.MineTypeConfig.html">MineTypeConfig</a></h5>
       <section><p>Configuration for a specific mine type to be placed in the grid.</p>
 </section>
@@ -173,9 +178,12 @@ Pure C# class - fully testable without Godot dependencies.</p>
       <h5><a class="xref" href="CatSweeper.Stage.StageGridGenerationConfig.html">StageGridGenerationConfig</a></h5>
       <section><p>Configuration for stage grid generation with mine placement.</p>
 </section>
+      <h5><a class="xref" href="CatSweeper.Stage.StageGridMap.html">StageGridMap</a></h5>
+      <section></section>
       <h5><a class="xref" href="CatSweeper.Stage.StageGridMapGenerator.html">StageGridMapGenerator</a></h5>
       <section><p>Grid map generator for CatSweeper stages.
-Handles random mine placement.
+Handles random mine placement and guarantees the board is logically solvable
+without guessing by rejecting and regenerating unsolvable boards.
 Pure C# logic - no Godot dependencies for testability.</p>
 </section>
       <h5><a class="xref" href="CatSweeper.Stage.StageMap.html">StageMap</a></h5>

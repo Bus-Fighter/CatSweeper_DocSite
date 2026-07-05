@@ -101,7 +101,8 @@
 
 
   <h1 id="CatSweeper_Stage_GridRevealResult_HitMine" data-uid="CatSweeper.Stage.GridRevealResult.HitMine" class="text-break">Class GridRevealResult.HitMine</h1>
-  <div class="markdown level0 summary"><p>Hit a mine (cat) - may cause damage based on player level.</p>
+  <div class="markdown level0 summary"><p>Hit a mine (cat) - may cause damage based on player level.
+The mine is removed from the grid and surrounding numbers are updated.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -149,19 +150,20 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_GridRevealResult_HitMine__ctor_Godot_Vector2I_CatSweeper_Info_MineInfo_System_Boolean_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.GridRevealResult.HitMine.%23ctor(Godot.Vector2I%2CCatSweeper.Info.MineInfo%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_GridRevealResult_HitMine__ctor_Godot_Vector2I_CatSweeper_Info_MineInfo_System_Boolean_System_Int32_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.GridRevealResult.HitMine.%23ctor(Godot.Vector2I%2CCatSweeper.Info.MineInfo%2CSystem.Boolean%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/GridSession.cs/#L32">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/GridSession.cs/#L36">View Source</a>
   </span>
   <a id="CatSweeper_Stage_GridRevealResult_HitMine__ctor_" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.#ctor*"></a>
-  <h4 id="CatSweeper_Stage_GridRevealResult_HitMine__ctor_Godot_Vector2I_CatSweeper_Info_MineInfo_System_Boolean_" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.#ctor(Godot.Vector2I,CatSweeper.Info.MineInfo,System.Boolean)">HitMine(Vector2I, MineInfo, bool)</h4>
-  <div class="markdown level1 summary"><p>Hit a mine (cat) - may cause damage based on player level.</p>
+  <h4 id="CatSweeper_Stage_GridRevealResult_HitMine__ctor_Godot_Vector2I_CatSweeper_Info_MineInfo_System_Boolean_System_Int32_" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.#ctor(Godot.Vector2I,CatSweeper.Info.MineInfo,System.Boolean,System.Int32)">HitMine(Vector2I, MineInfo, bool, int)</h4>
+  <div class="markdown level1 summary"><p>Hit a mine (cat) - may cause damage based on player level.
+The mine is removed from the grid and surrounding numbers are updated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HitMine(Vector2I Position, MineInfo MineInfo, bool WillCauseDamage)</code></pre>
+    <pre><code class="lang-csharp hljs">public HitMine(Vector2I Position, MineInfo MineInfo, bool WillCauseDamage, int TilesRevealed = 1)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -188,6 +190,11 @@
         <td><span class="parametername">WillCauseDamage</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">TilesRevealed</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
@@ -197,7 +204,7 @@
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_GridRevealResult_HitMine_MineInfo.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.GridRevealResult.HitMine.MineInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/GridSession.cs/#L32">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/GridSession.cs/#L36">View Source</a>
   </span>
   <a id="CatSweeper_Stage_GridRevealResult_HitMine_MineInfo_" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.MineInfo*"></a>
   <h4 id="CatSweeper_Stage_GridRevealResult_HitMine_MineInfo" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.MineInfo">MineInfo</h4>
@@ -224,10 +231,40 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_GridRevealResult_HitMine_TilesRevealed.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.GridRevealResult.HitMine.TilesRevealed%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/GridSession.cs/#L36">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_GridRevealResult_HitMine_TilesRevealed_" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.TilesRevealed*"></a>
+  <h4 id="CatSweeper_Stage_GridRevealResult_HitMine_TilesRevealed" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.TilesRevealed">TilesRevealed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TilesRevealed { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_GridRevealResult_HitMine_WillCauseDamage.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/GridSession.cs/#L32">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/GridSession.cs/#L36">View Source</a>
   </span>
   <a id="CatSweeper_Stage_GridRevealResult_HitMine_WillCauseDamage_" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage*"></a>
   <h4 id="CatSweeper_Stage_GridRevealResult_HitMine_WillCauseDamage" data-uid="CatSweeper.Stage.GridRevealResult.HitMine.WillCauseDamage">WillCauseDamage</h4>

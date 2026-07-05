@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D">
@@ -259,6 +258,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">CanvasItem.DrawPolylineColors(ReadOnlySpan&lt;Vector2&gt;, ReadOnlySpan&lt;Color&gt;, float, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipseArc(Vector2, float, float, float, float, int, Color, float, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawArc(Vector2, float, float, float, int, Color, float, bool)</a>
     </div>
     <div>
@@ -278,6 +280,9 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawCircle(Vector2, float, Color, bool, float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipse(Vector2, float, float, Color, bool, float, bool)</a>
     </div>
     <div>
       <span class="xref">CanvasItem.DrawTexture(Texture2D, Vector2, Color?)</span>
@@ -451,6 +456,9 @@
       <span class="xref">CanvasItem.ClipChildren</span>
     </div>
     <div>
+      <span class="xref">CanvasItem.OversamplingWithScale</span>
+    </div>
+    <div>
       <span class="xref">CanvasItem.LightMask</span>
     </div>
     <div>
@@ -592,6 +600,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -620,6 +631,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -1159,7 +1176,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -1355,10 +1372,10 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Clear.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Clear.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Clear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L31">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L31">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_SimpleRecyclable2D_Clear_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Clear*"></a>
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_Clear" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Clear">Clear()</h4>
@@ -1368,13 +1385,8 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual void Clear()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/cfGodotEngine.Tool.SimpleRecyclable2D_ScriptSignals.generated.cs/#L52">View Source</a>
-  </span>
+
+
   <a id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear*"></a>
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnClear" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnClear">EmitSignalOnClear()</h4>
   <div class="markdown level1 summary"></div>
@@ -1383,13 +1395,8 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected void EmitSignalOnClear()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/cfGodotEngine.Tool.SimpleRecyclable2D_ScriptSignals.generated.cs/#L42">View Source</a>
-  </span>
+
+
   <a id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize*"></a>
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_EmitSignalOnInitialize" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.EmitSignalOnInitialize">EmitSignalOnInitialize()</h4>
   <div class="markdown level1 summary"></div>
@@ -1400,10 +1407,10 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Initialize.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Initialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Initialize.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Initialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L20">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L20">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_SimpleRecyclable2D_Initialize_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Initialize*"></a>
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_Initialize" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Initialize">Initialize()</h4>
@@ -1415,10 +1422,10 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Recycle.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Recycle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_Recycle.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.Recycle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L25">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L25">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_SimpleRecyclable2D_Recycle_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Recycle*"></a>
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_Recycle" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.Recycle">Recycle()</h4>
@@ -1430,10 +1437,10 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool%7BcfGodotEngine.Tool.SimpleRecyclable2D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool%7BcfGodotEngine.Tool.SimpleRecyclable2D%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L15">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/tool/ObjectSpawner/Recyclable/SimpleRecyclable2D.cs/#L15">View Source</a>
   </span>
   <a id="cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.SetPool*"></a>
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_SetPool_cfEngine_Pooling_ObjectPool_cfGodotEngine_Tool_SimpleRecyclable2D__" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.SetPool(cfEngine.Pooling.ObjectPool{cfGodotEngine.Tool.SimpleRecyclable2D})">SetPool(ObjectPool&lt;SimpleRecyclable2D&gt;)</h4>
@@ -1462,13 +1469,8 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
   </table>
   <h3 id="events">Events
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_OnClear.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.OnClear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/cfGodotEngine.Tool.SimpleRecyclable2D_ScriptSignals.generated.cs/#L48">View Source</a>
-  </span>
+
+
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_OnClear" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.OnClear">OnClear</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1491,13 +1493,8 @@ public class SimpleRecyclable2D : Node2D, IDisposable</code></pre>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Tool_SimpleRecyclable2D_OnInitialize.md&amp;value=---%0Auid%3A%20cfGodotEngine.Tool.SimpleRecyclable2D.OnInitialize%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/cfGodotEngine.Tool.SimpleRecyclable2D_ScriptSignals.generated.cs/#L38">View Source</a>
-  </span>
+
+
   <h4 id="cfGodotEngine_Tool_SimpleRecyclable2D_OnInitialize" data-uid="cfGodotEngine.Tool.SimpleRecyclable2D.OnInitialize">OnInitialize</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>

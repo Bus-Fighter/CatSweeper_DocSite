@@ -102,7 +102,8 @@
 
   <h1 id="CatSweeper_Stage_StageGridMapGenerator" data-uid="CatSweeper.Stage.StageGridMapGenerator" class="text-break">Class StageGridMapGenerator</h1>
   <div class="markdown level0 summary"><p>Grid map generator for CatSweeper stages.
-Handles random mine placement.
+Handles random mine placement and guarantees the board is logically solvable
+without guessing by rejecting and regenerating unsolvable boards.
 Pure C# logic - no Godot dependencies for testability.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -152,7 +153,7 @@ Pure C# logic - no Godot dependencies for testability.</p>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Stage_StageGridGenerationConfig_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition%2CCatSweeper.Stage.StageGridGenerationConfig)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L49">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/StageGridMapGenerator.cs/#L115">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_" data-uid="CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid*"></a>
   <h4 id="CatSweeper_Stage_StageGridMapGenerator_CanGenerateOnGrid_CatSweeper_Core_GridGeneration_GridPosition_CatSweeper_Stage_StageGridGenerationConfig_" data-uid="CatSweeper.Stage.StageGridMapGenerator.CanGenerateOnGrid(CatSweeper.Core.GridGeneration.GridPosition,CatSweeper.Stage.StageGridGenerationConfig)">CanGenerateOnGrid(GridPosition, StageGridGenerationConfig)</h4>
@@ -210,12 +211,13 @@ Implementations may need to convert to cfEngine.DataStructure.GridPosition (3D g
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/StageGridMapGenerator.cs/#L20">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/StageGridMapGenerator.cs/#L27">View Source</a>
   </span>
   <a id="CatSweeper_Stage_StageGridMapGenerator_Generate_" data-uid="CatSweeper.Stage.StageGridMapGenerator.Generate*"></a>
   <h4 id="CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_" data-uid="CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig)">Generate(StageGridGenerationConfig)</h4>
-  <div class="markdown level1 summary"><p>Generate a new grid map using the provided configuration.
-Uses internal state (e.g., forbidden positions) during generation.</p>
+  <div class="markdown level1 summary"><p>Generates a grid using default no-guess settings.
+Required by IGridMapGenerator; for production use prefer the overload that
+accepts NoGuessConfig, IDangerRule and PlayerSnapshot.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -235,8 +237,7 @@ Uses internal state (e.g., forbidden positions) during generation.</p>
       <tr>
         <td><a class="xref" href="CatSweeper.Stage.StageGridGenerationConfig.html">StageGridGenerationConfig</a></td>
         <td><span class="parametername">config</span></td>
-        <td><p>Generation configuration</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -251,8 +252,71 @@ Uses internal state (e.g., forbidden positions) during generation.</p>
     <tbody>
       <tr>
         <td><span class="xref">Res</span>&lt;<span class="xref">GridMap</span>&lt;<a class="xref" href="CatSweeper.Stage.StageGridData.html">StageGridData</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</td>
-        <td><p>Result containing generated GridMap or error</p>
-</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_CatSweeper_Stage_NoGuess_NoGuessConfig_CatSweeper_Stage_NoGuess_IDangerRule_CatSweeper_Stage_NoGuess_PlayerSnapshot_.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig%2CCatSweeper.Stage.NoGuess.NoGuessConfig%2CCatSweeper.Stage.NoGuess.IDangerRule%2CCatSweeper.Stage.NoGuess.PlayerSnapshot)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/StageGridMapGenerator.cs/#L40">View Source</a>
+  </span>
+  <a id="CatSweeper_Stage_StageGridMapGenerator_Generate_" data-uid="CatSweeper.Stage.StageGridMapGenerator.Generate*"></a>
+  <h4 id="CatSweeper_Stage_StageGridMapGenerator_Generate_CatSweeper_Stage_StageGridGenerationConfig_CatSweeper_Stage_NoGuess_NoGuessConfig_CatSweeper_Stage_NoGuess_IDangerRule_CatSweeper_Stage_NoGuess_PlayerSnapshot_" data-uid="CatSweeper.Stage.StageGridMapGenerator.Generate(CatSweeper.Stage.StageGridGenerationConfig,CatSweeper.Stage.NoGuess.NoGuessConfig,CatSweeper.Stage.NoGuess.IDangerRule,CatSweeper.Stage.NoGuess.PlayerSnapshot)">Generate(StageGridGenerationConfig, NoGuessConfig, IDangerRule, PlayerSnapshot)</h4>
+  <div class="markdown level1 summary"><p>Generates a grid, retrying until the no-guess solver accepts the board.
+The returned board has neighbor counts computed and the safe-cell indicator marked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Res&lt;GridMap&lt;StageGridData&gt;, Exception&gt; Generate(StageGridGenerationConfig config, NoGuessConfig noGuessConfig, IDangerRule dangerRule, PlayerSnapshot initialPlayer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CatSweeper.Stage.StageGridGenerationConfig.html">StageGridGenerationConfig</a></td>
+        <td><span class="parametername">config</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatSweeper.Stage.NoGuess.NoGuessConfig.html">NoGuessConfig</a></td>
+        <td><span class="parametername">noGuessConfig</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatSweeper.Stage.NoGuess.IDangerRule.html">IDangerRule</a></td>
+        <td><span class="parametername">dangerRule</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="CatSweeper.Stage.NoGuess.PlayerSnapshot.html">PlayerSnapshot</a></td>
+        <td><span class="parametername">initialPlayer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Res</span>&lt;<span class="xref">GridMap</span>&lt;<a class="xref" href="CatSweeper.Stage.StageGridData.html">StageGridData</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

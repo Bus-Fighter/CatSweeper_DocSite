@@ -296,6 +296,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Core.GameEntryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Core.GameEntryExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Core.GameEntryExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Core.GameState.yml",
       "output": {
         ".html": {
@@ -772,6 +786,174 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoAuthoringSourceKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoAuthoringSourceKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoAuthoringSourceKind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoPipelineCommands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoPipelineCommands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoPipelineCommands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoPipelineTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoPipelineTool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoPipelineTool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoRemoteSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoRemoteSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoRemoteSource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoSourceCatalogDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoSourceCatalogDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoSourceCatalogDocument",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoSourceCatalogEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoSourceCatalogEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoSourceCatalogEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.InfoSourceCatalogLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.InfoSourceCatalogLoader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.InfoSourceCatalogLoader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.RemoteInfoPullEntryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.RemoteInfoPullEntryResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.RemoteInfoPullEntryResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.RemoteInfoPullResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.RemoteInfoPullResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.RemoteInfoPullResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.RemoteInfoPuller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.RemoteInfoPuller.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline.RemoteInfoPuller",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Info.Pipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Info.Pipeline.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Info.Pipeline",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Info.StageInfo.MineSetting.yml",
       "output": {
         ".html": {
@@ -856,6 +1038,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridAlgorithms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridAlgorithms",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridAlgorithms.yml\" sourcestartlinenumber=\"1\">Pure C# grid algorithms used by stage gameplay.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.AlreadyRevealed.yml",
       "output": {
         ".html": {
@@ -880,7 +1076,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.GridRevealResult.HitMine",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.HitMine.yml\" sourcestartlinenumber=\"1\">Hit a mine (cat) - may cause damage based on player level.</p>\n"
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.HitMine.yml\" sourcestartlinenumber=\"1\">Hit a mine (cat) - may cause damage based on player level.\nThe mine is removed from the grid and surrounding numbers are updated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.GridRevealResult.OutOfBounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.GridRevealResult.OutOfBounds.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.GridRevealResult.OutOfBounds",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.OutOfBounds.yml\" sourcestartlinenumber=\"1\">Requested position is outside the grid bounds.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -908,7 +1118,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.GridRevealResult",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.yml\" sourcestartlinenumber=\"1\">Result of a grid reveal operation (Rust-style discriminated union).\nUse pattern matching: if (result is GridRevealResult.Revealed r) { ... }</p>\n"
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.GridRevealResult.yml\" sourcestartlinenumber=\"1\">Result of a grid reveal operation .\nUse pattern matching: if (result is GridRevealResult.Revealed r)</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -996,20 +1206,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Stage.MineGridMap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Stage.MineGridMap.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Stage.MineGridMap",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.MineTypeConfig.yml",
       "output": {
         ".html": {
@@ -1021,6 +1217,104 @@
       "IsMRef": true,
       "Title": "CatSweeper.Stage.MineTypeConfig",
       "Summary": "<p sourcefile=\"api/CatSweeper.Stage.MineTypeConfig.yml\" sourcestartlinenumber=\"1\">Configuration for a specific mine type to be placed in the grid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.IDangerRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.IDangerRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess.IDangerRule",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.NoGuess.IDangerRule.yml\" sourcestartlinenumber=\"1\">Configurable rule that decides whether a particular mine is dangerous to the\nplayer in their current state. Keeping this behind an interface lets designers\nreview and swap catch semantics without touching the solver.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.LevelThresholdDangerRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.LevelThresholdDangerRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess.LevelThresholdDangerRule",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.NoGuess.LevelThresholdDangerRule.yml\" sourcestartlinenumber=\"1\">Default danger rule: a mine is dangerous when its level exceeds the player's\ncurrent level. This matches the existing catch rule where cats at or below the\nplayer's level are safe to catch, and higher-level cats cost HP.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.NoGuessConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.NoGuessConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess.NoGuessConfig",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.NoGuess.NoGuessConfig.yml\" sourcestartlinenumber=\"1\">Tunables for the no-guess grid generator. Values are read from GameSettingInfo\nat runtime and can be overridden in tests.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.NoGuessSolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.NoGuessSolver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess.NoGuessSolver",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.NoGuess.NoGuessSolver.yml\" sourcestartlinenumber=\"1\">Verifies that a generated stage grid is logically solvable without guessing.</p>\n<p sourcefile=\"api/CatSweeper.Stage.NoGuess.NoGuessSolver.yml\" sourcestartlinenumber=\"3\">The solver is rule-agnostic: it enumerates all level assignments consistent\nwith the revealed clue sums, and asks the injected IDangerRule whether each\nhypothetical mine would be dangerous to the player. A board is rejected when\na hidden cell's safe/dangerous verdict varies across valid assignments.</p>\n<p sourcefile=\"api/CatSweeper.Stage.NoGuess.NoGuessSolver.yml\" sourcestartlinenumber=\"8\">Single-level stages use a fast boolean shortcut (level sums reduce to counts).\nMulti-level stages use integer-domain constraint propagation with bounds\nconsistency and capped per-constraint tuple enumeration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.PlayerSnapshot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.PlayerSnapshot.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess.PlayerSnapshot",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.NoGuess.PlayerSnapshot.yml\" sourcestartlinenumber=\"1\">Minimal snapshot of the player state used by the no-guess solver.\nThe solver verifies solvability from the initial state (level 1, starting HP).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.VerifyResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.VerifyResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess.VerifyResult",
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.NoGuess.VerifyResult.yml\" sourcestartlinenumber=\"1\">Result of verifying a board with the no-guess solver.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.NoGuess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.NoGuess.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.NoGuess",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1290,6 +1584,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Stage.StageGridMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Stage.StageGridMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Stage.StageGridMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Stage.StageGridMapGenerator.yml",
       "output": {
         ".html": {
@@ -1300,7 +1608,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Stage.StageGridMapGenerator",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridMapGenerator.yml\" sourcestartlinenumber=\"1\">Grid map generator for CatSweeper stages.\nHandles random mine placement.\nPure C# logic - no Godot dependencies for testability.</p>\n"
+      "Summary": "<p sourcefile=\"api/CatSweeper.Stage.StageGridMapGenerator.yml\" sourcestartlinenumber=\"1\">Grid map generator for CatSweeper stages.\nHandles random mine placement and guarantees the board is logically solvable\nwithout guessing by rejecting and regenerating unsolvable boards.\nPure C# logic - no Godot dependencies for testability.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1458,90 +1766,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Stage.StageGrid.GridSessionIntegrationTests.yml\" sourcestartlinenumber=\"1\">Black-box integration tests simulating real gameplay scenarios.\nTests complete player flows using realistic game data and configurations.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Tests.Stage.StageGrid.GridSessionTests",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Stage.StageGrid.GridSessionTests.yml\" sourcestartlinenumber=\"1\">Unit tests for GridSession - pure C# grid logic.\nTests buffer phase, flood-fill, mine regeneration, and grid state.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Tests.Stage.StageGrid.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Tests.Stage.StageGrid.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Tests.Stage.StageGrid",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Tests.Util.TestHelpers.MockStageConfig",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Util.TestHelpers.MockStageConfig.yml\" sourcestartlinenumber=\"1\">Helper class to create mock StageConfigData for testing.\nProvides fluent API for building test configurations.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Tests.Util.TestHelpers.TestLogger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Tests.Util.TestHelpers.TestLogger.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Tests.Util.TestHelpers.TestLogger",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Tests.Util.TestHelpers.TestLogger.yml\" sourcestartlinenumber=\"1\">Simple console logger for unit tests that doesn't depend on Godot.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CatSweeper.Tests.Util.TestHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CatSweeper.Tests.Util.TestHelpers.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "CatSweeper.Tests.Util.TestHelpers",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/CatSweeper.Util.ExportUtil.yml",
       "output": {
         ".html": {
@@ -1566,7 +1790,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Util.GameDebugger_DISABLED",
-      "Summary": "<p sourcefile=\"api/CatSweeper.Util.GameDebugger_DISABLED.yml\" sourcestartlinenumber=\"1\">DISABLED - Will be implemented in a later milestone.\nStatic wrapper for Rust GameDebugger. Provides easy access to editor debugging tools.\nThread-safe and null-safe - gracefully handles when editor plugin not loaded.</p>\n"
+      "Summary": "<p sourcefile=\"api/CatSweeper.Util.GameDebugger_DISABLED.yml\" sourcestartlinenumber=\"1\">DISABLED - Will be implemented in a later milestone.\nStatic wrapper for editor debugging tools.\nThread-safe and null-safe - gracefully handles when editor plugin not loaded.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1594,6 +1818,20 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "CatSweeper.Util.Node2DUtil",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CatSweeper.Util.SingleStringToStringArrayConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CatSweeper.Util.SingleStringToStringArrayConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CatSweeper.Util.SingleStringToStringArrayConverter",
       "Summary": null
     },
     {
@@ -2676,394 +2914,58 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.AssetDirectFileMirror.yml",
+      "source_relative_path": "api/cfGodotEngine.GoogleSheets.GoogleSheetUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.AssetDirectFileMirror.html"
+          "relative_path": "api/cfGodotEngine.GoogleSheets.GoogleSheetUtil.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.AssetDirectFileMirror",
+      "Title": "cfGodotEngine.GoogleSheets.GoogleSheetUtil",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.ChangeHandler.yml",
+      "source_relative_path": "api/cfGodotEngine.GoogleSheets.GoogleSheetValuesHttpClient.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.ChangeHandler.html"
+          "relative_path": "api/cfGodotEngine.GoogleSheets.GoogleSheetValuesHttpClient.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.ChangeHandler",
+      "Title": "cfGodotEngine.GoogleSheets.GoogleSheetValuesHttpClient",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.ChangeInfo.yml",
+      "source_relative_path": "api/cfGodotEngine.GoogleSheets.IGoogleSheetValuesClient.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.ChangeInfo.html"
+          "relative_path": "api/cfGodotEngine.GoogleSheets.IGoogleSheetValuesClient.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.ChangeInfo",
+      "Title": "cfGodotEngine.GoogleSheets.IGoogleSheetValuesClient",
       "Summary": null
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.ChangeType.yml",
+      "source_relative_path": "api/cfGodotEngine.GoogleSheets.yml",
       "output": {
         ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.ChangeType.html"
+          "relative_path": "api/cfGodotEngine.GoogleSheets.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.ChangeType",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirror.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirror.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.DriveMirror",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.DriveMirrorSetting.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.DriveMirrorSetting.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.DriveMirrorSetting.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.DriveMirrorSetting.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.DriveMirrorSetting",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.DriveUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.DriveUtil.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.DriveUtil",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.FileHandler.DownloadRequest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.FileHandler.DownloadRequest.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.FileHandler.DownloadRequest",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.FileHandler.FileItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.FileHandler.FileItem.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.FileHandler.FileItem",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.FileHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.FileHandler.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.FileHandler",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.FileType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.FileType.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.FileType",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.FolderMimeHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.FolderMimeHandler.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.FolderMimeHandler",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.IChangeHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.IChangeHandler.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.IChangeHandler",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.IFileMirrorHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.IFileMirrorHandler.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.IFileMirrorHandler",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.RefreshRequest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.RefreshRequest.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.RefreshRequest",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.RefreshResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.RefreshResult.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.RefreshResult",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.RefreshStatus.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.RefreshStatus.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.RefreshStatus",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.MethodName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.MethodName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.SettingItem.MethodName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.GoogleDrive.SettingItem.MethodName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the methods contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.PropertyName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.PropertyName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.SettingItem.PropertyName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.GoogleDrive.SettingItem.PropertyName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the properties and fields contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.SignalName.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.SignalName.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.SettingItem.SignalName",
-      "Summary": "<p sourcefile=\"api/cfGodotEngine.GoogleDrive.SettingItem.SignalName.yml\" sourcestartlinenumber=\"1\">Cached StringNames for the signals contained in this class, for fast lookup.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.SettingItem.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.SettingItem",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.SheetFileHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.SheetFileHandler.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.SheetFileHandler",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.UrlInfo.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.UrlInfo.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive.UrlInfo",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.GoogleDrive.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.GoogleDrive.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.GoogleDrive",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/cfGodotEngine.Info.ExcelJsonLoader-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/cfGodotEngine.Info.ExcelJsonLoader-1.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "cfGodotEngine.Info.ExcelJsonLoader<TInfo>",
+      "Title": "cfGodotEngine.GoogleSheets",
       "Summary": null
     },
     {

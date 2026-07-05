@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_HiddenStageGrid.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.HiddenStageGrid%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="CatSweeper.Stage.HiddenStageGrid">
@@ -261,6 +260,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">CanvasItem.DrawPolylineColors(ReadOnlySpan&lt;Vector2&gt;, ReadOnlySpan&lt;Color&gt;, float, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipseArc(Vector2, float, float, float, float, int, Color, float, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawArc(Vector2, float, float, float, int, Color, float, bool)</a>
     </div>
     <div>
@@ -280,6 +282,9 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawCircle(Vector2, float, Color, bool, float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipse(Vector2, float, float, Color, bool, float, bool)</a>
     </div>
     <div>
       <span class="xref">CanvasItem.DrawTexture(Texture2D, Vector2, Color?)</span>
@@ -453,6 +458,9 @@
       <span class="xref">CanvasItem.ClipChildren</span>
     </div>
     <div>
+      <span class="xref">CanvasItem.OversamplingWithScale</span>
+    </div>
+    <div>
       <span class="xref">CanvasItem.LightMask</span>
     </div>
     <div>
@@ -594,6 +602,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -622,6 +633,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -1161,7 +1178,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -1350,18 +1367,13 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Tool]
 [GlobalClass]
-[ScriptPath(&quot;res://Script/Stage/StageGrid/HiddenStageGrid.cs&quot;)]
+[ScriptPath(&quot;res://Scripts/Stage/StageGrid/HiddenStageGrid.cs&quot;)]
 public class HiddenStageGrid : StageGrid, IDisposable</code></pre>
   </div>
   <h3 id="methods">Methods
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_HiddenStageGrid_EmitSignalOnReveal.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/CatSweeper.Stage.HiddenStageGrid_ScriptSignals.generated.cs/#L37">View Source</a>
-  </span>
+
+
   <a id="CatSweeper_Stage_HiddenStageGrid_EmitSignalOnReveal_" data-uid="CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal*"></a>
   <h4 id="CatSweeper_Stage_HiddenStageGrid_EmitSignalOnReveal" data-uid="CatSweeper.Stage.HiddenStageGrid.EmitSignalOnReveal">EmitSignalOnReveal()</h4>
   <div class="markdown level1 summary"></div>
@@ -1375,7 +1387,7 @@ public class HiddenStageGrid : StageGrid, IDisposable</code></pre>
     <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_HiddenStageGrid_Reveal.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.HiddenStageGrid.Reveal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Script/Stage/StageGrid/HiddenStageGrid.cs/#L12">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/Scripts/Stage/StageGrid/HiddenStageGrid.cs/#L12">View Source</a>
   </span>
   <a id="CatSweeper_Stage_HiddenStageGrid_Reveal_" data-uid="CatSweeper.Stage.HiddenStageGrid.Reveal*"></a>
   <h4 id="CatSweeper_Stage_HiddenStageGrid_Reveal" data-uid="CatSweeper.Stage.HiddenStageGrid.Reveal">Reveal()</h4>
@@ -1387,13 +1399,8 @@ public class HiddenStageGrid : StageGrid, IDisposable</code></pre>
   </div>
   <h3 id="events">Events
 </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=CatSweeper_Stage_HiddenStageGrid_OnReveal.md&amp;value=---%0Auid%3A%20CatSweeper.Stage.HiddenStageGrid.OnReveal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/.godot/mono/temp/obj/Release/generated/Godot.SourceGenerators/Godot.SourceGenerators.ScriptSignalsGenerator/CatSweeper.Stage.HiddenStageGrid_ScriptSignals.generated.cs/#L33">View Source</a>
-  </span>
+
+
   <h4 id="CatSweeper_Stage_HiddenStageGrid_OnReveal" data-uid="CatSweeper.Stage.HiddenStageGrid.OnReveal">OnReveal</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>

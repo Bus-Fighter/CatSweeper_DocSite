@@ -93,7 +93,6 @@
                         </div>
 
                          <div class="contribution">
-                               <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                          </div>
 
                     <article class="content wrap" id="_content" data-uid="cfGodotEngine.Binding.BindingNameDrawer">
@@ -320,6 +319,9 @@
       <span class="xref">Container.EmitSignalSortChildren()</span>
     </div>
     <div>
+      <span class="xref">Container.AccessibilityRegion</span>
+    </div>
+    <div>
       <span class="xref">Container.PreSortChildren</span>
     </div>
     <div>
@@ -371,13 +373,22 @@
       <span class="xref">Control._GetAccessibilityContainerName(Node)</span>
     </div>
     <div>
+      <span class="xref">Control._GetCursorShape(Vector2)</span>
+    </div>
+    <div>
       <span class="xref">Control._GetDragData(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">Control._GetMaximumSize()</span>
     </div>
     <div>
       <span class="xref">Control._GetMinimumSize()</span>
     </div>
     <div>
       <span class="xref">Control._GetTooltip(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">Control._GetTooltipAutoTranslateModeAt(Vector2)</span>
     </div>
     <div>
       <span class="xref">Control._GuiInput(InputEvent)</span>
@@ -395,10 +406,19 @@
       <span class="xref">Control.AcceptEvent()</span>
     </div>
     <div>
+      <span class="xref">Control.GetMaximumSize()</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetCombinedMaximumSize()</span>
+    </div>
+    <div>
       <span class="xref">Control.GetMinimumSize()</span>
     </div>
     <div>
       <span class="xref">Control.GetCombinedMinimumSize()</span>
+    </div>
+    <div>
+      <span class="xref">Control.GetBoundMinimumSize()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Control.SetAnchorsPreset(Control.LayoutPreset, bool)</a>
@@ -440,6 +460,9 @@
       <span class="xref">Control.GetEnd()</span>
     </div>
     <div>
+      <span class="xref">Control.GetCombinedPivotOffset()</span>
+    </div>
+    <div>
       <span class="xref">Control.GetParentAreaSize()</span>
     </div>
     <div>
@@ -455,10 +478,10 @@
       <span class="xref">Control.GetFocusModeWithOverride()</span>
     </div>
     <div>
-      <span class="xref">Control.HasFocus()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Control.HasFocus(bool)</a>
     </div>
     <div>
-      <span class="xref">Control.GrabFocus()</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Control.GrabFocus(bool)</a>
     </div>
     <div>
       <span class="xref">Control.ReleaseFocus()</span>
@@ -614,6 +637,9 @@
       <span class="xref">Control.WarpMouse(Vector2)</span>
     </div>
     <div>
+      <span class="xref">Control.UpdateMaximumSize()</span>
+    </div>
+    <div>
       <span class="xref">Control.UpdateMinimumSize()</span>
     </div>
     <div>
@@ -641,19 +667,25 @@
       <span class="xref">Control.EmitSignalSizeFlagsChanged()</span>
     </div>
     <div>
+      <span class="xref">Control.EmitSignalMaximumSizeChanged()</span>
+    </div>
+    <div>
       <span class="xref">Control.EmitSignalMinimumSizeChanged()</span>
     </div>
     <div>
       <span class="xref">Control.EmitSignalThemeChanged()</span>
     </div>
     <div>
-      <span class="xref">Control.ClipContents</span>
-    </div>
-    <div>
       <span class="xref">Control.CustomMinimumSize</span>
     </div>
     <div>
-      <span class="xref">Control.LayoutDirection</span>
+      <span class="xref">Control.CustomMaximumSize</span>
+    </div>
+    <div>
+      <span class="xref">Control.PropagateMaximumSize</span>
+    </div>
+    <div>
+      <span class="xref">Control.ClipContents</span>
     </div>
     <div>
       <span class="xref">Control.AnchorLeft</span>
@@ -707,6 +739,9 @@
       <span class="xref">Control.PivotOffset</span>
     </div>
     <div>
+      <span class="xref">Control.PivotOffsetRatio</span>
+    </div>
+    <div>
       <span class="xref">Control.SizeFlagsHorizontal</span>
     </div>
     <div>
@@ -716,7 +751,37 @@
       <span class="xref">Control.SizeFlagsStretchRatio</span>
     </div>
     <div>
+      <span class="xref">Control.OffsetTransformEnabled</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPosition</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPositionRatio</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformScale</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformRotation</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPivot</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformPivotRatio</span>
+    </div>
+    <div>
+      <span class="xref">Control.OffsetTransformVisualOnly</span>
+    </div>
+    <div>
       <span class="xref">Control.LocalizeNumeralSystem</span>
+    </div>
+    <div>
+      <span class="xref">Control.LayoutDirection</span>
+    </div>
+    <div>
+      <span class="xref">Control.TranslationContext</span>
     </div>
     <div>
       <span class="xref">Control.AutoTranslate</span>
@@ -815,6 +880,9 @@
       <span class="xref">Control.SizeFlagsChanged</span>
     </div>
     <div>
+      <span class="xref">Control.MaximumSizeChanged</span>
+    </div>
+    <div>
       <span class="xref">Control.MinimumSizeChanged</span>
     </div>
     <div>
@@ -881,6 +949,9 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlyspan-1">CanvasItem.DrawPolylineColors(ReadOnlySpan&lt;Vector2&gt;, ReadOnlySpan&lt;Color&gt;, float, bool)</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipseArc(Vector2, float, float, float, float, int, Color, float, bool)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawArc(Vector2, float, float, float, int, Color, float, bool)</a>
     </div>
     <div>
@@ -900,6 +971,9 @@
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawCircle(Vector2, float, Color, bool, float, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">CanvasItem.DrawEllipse(Vector2, float, float, Color, bool, float, bool)</a>
     </div>
     <div>
       <span class="xref">CanvasItem.DrawTexture(Texture2D, Vector2, Color?)</span>
@@ -1073,6 +1147,9 @@
       <span class="xref">CanvasItem.ClipChildren</span>
     </div>
     <div>
+      <span class="xref">CanvasItem.OversamplingWithScale</span>
+    </div>
+    <div>
       <span class="xref">CanvasItem.LightMask</span>
     </div>
     <div>
@@ -1214,6 +1291,9 @@
       <span class="xref">Node.NotificationWMPositionChanged</span>
     </div>
     <div>
+      <span class="xref">Node.NotificationWMOutputMaxLinearValueChanged</span>
+    </div>
+    <div>
       <span class="xref">Node.NotificationOsMemoryWarning</span>
     </div>
     <div>
@@ -1242,6 +1322,12 @@
     </div>
     <div>
       <span class="xref">Node.NotificationTextServerChanged</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeEntered</span>
+    </div>
+    <div>
+      <span class="xref">Node.NotificationApplicationPipModeExited</span>
     </div>
     <div>
       <span class="xref">Node.NotificationAccessibilityUpdate</span>
@@ -1775,7 +1861,7 @@
       <span class="xref">GodotObject.GetClass()</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">GodotObject.IsClass(string)</a>
+      <span class="xref">GodotObject.IsClass(StringName)</span>
     </div>
     <div>
       <span class="xref">GodotObject.Set(StringName, Variant)</span>
@@ -1969,10 +2055,10 @@ public class BindingNameDrawer : CustomPropertyDrawer, IDisposable</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer_OnPropertyUpdated_Godot_Variant_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer.OnPropertyUpdated(Godot.Variant)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer_OnPropertyUpdated_Godot_Variant_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer.OnPropertyUpdated(Godot.Variant)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/binding/BindingNameDrawer.cs/#L110">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/binding/BindingNameDrawer.cs/#L123">View Source</a>
   </span>
   <a id="cfGodotEngine_Binding_BindingNameDrawer_OnPropertyUpdated_" data-uid="cfGodotEngine.Binding.BindingNameDrawer.OnPropertyUpdated*"></a>
   <h4 id="cfGodotEngine_Binding_BindingNameDrawer_OnPropertyUpdated_Godot_Variant_" data-uid="cfGodotEngine.Binding.BindingNameDrawer.OnPropertyUpdated(Godot.Variant)">OnPropertyUpdated(Variant)</h4>
@@ -2003,10 +2089,10 @@ public class BindingNameDrawer : CustomPropertyDrawer, IDisposable</code></pre>
   <div><a class="xref" href="CustomPropertyDrawer.html#CustomPropertyDrawer_OnPropertyUpdated_Godot_Variant_">CustomPropertyDrawer.OnPropertyUpdated(Variant)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer__BuildNode_Godot_PropertyHint_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer._BuildNode(Godot.PropertyHint%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer__BuildNode_Godot_PropertyHint_System_String_.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer._BuildNode(Godot.PropertyHint%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/binding/BindingNameDrawer.cs/#L17">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/binding/BindingNameDrawer.cs/#L17">View Source</a>
   </span>
   <a id="cfGodotEngine_Binding_BindingNameDrawer__BuildNode_" data-uid="cfGodotEngine.Binding.BindingNameDrawer._BuildNode*"></a>
   <h4 id="cfGodotEngine_Binding_BindingNameDrawer__BuildNode_Godot_PropertyHint_System_String_" data-uid="cfGodotEngine.Binding.BindingNameDrawer._BuildNode(Godot.PropertyHint,System.String)">_BuildNode(PropertyHint, string)</h4>
@@ -2042,10 +2128,10 @@ public class BindingNameDrawer : CustomPropertyDrawer, IDisposable</code></pre>
   <div><a class="xref" href="CustomPropertyDrawer.html#CustomPropertyDrawer__BuildNode_Godot_PropertyHint_System_String_">CustomPropertyDrawer._BuildNode(PropertyHint, string)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer__ClearNode.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer._ClearNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer__ClearNode.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer._ClearNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/binding/BindingNameDrawer.cs/#L153">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/binding/BindingNameDrawer.cs/#L167">View Source</a>
   </span>
   <a id="cfGodotEngine_Binding_BindingNameDrawer__ClearNode_" data-uid="cfGodotEngine.Binding.BindingNameDrawer._ClearNode*"></a>
   <h4 id="cfGodotEngine_Binding_BindingNameDrawer__ClearNode" data-uid="cfGodotEngine.Binding.BindingNameDrawer._ClearNode">_ClearNode()</h4>
@@ -2059,10 +2145,10 @@ public class BindingNameDrawer : CustomPropertyDrawer, IDisposable</code></pre>
   <div><a class="xref" href="CustomPropertyDrawer.html#CustomPropertyDrawer__ClearNode">CustomPropertyDrawer._ClearNode()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/felixwongong/cfGodotEngine/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer__Ready.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer._Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/new/main/apiSpec/new?filename=cfGodotEngine_Binding_BindingNameDrawer__Ready.md&amp;value=---%0Auid%3A%20cfGodotEngine.Binding.BindingNameDrawer._Ready%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/felixwongong/cfGodotEngine/blob/main/binding/BindingNameDrawer.cs/#L77">View Source</a>
+    <a href="https://github.com/Bus-Fighter/CatSweeper/blob/main/cfGodotEngine/binding/BindingNameDrawer.cs/#L77">View Source</a>
   </span>
   <a id="cfGodotEngine_Binding_BindingNameDrawer__Ready_" data-uid="cfGodotEngine.Binding.BindingNameDrawer._Ready*"></a>
   <h4 id="cfGodotEngine_Binding_BindingNameDrawer__Ready" data-uid="cfGodotEngine.Binding.BindingNameDrawer._Ready">_Ready()</h4>
